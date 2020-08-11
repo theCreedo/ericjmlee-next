@@ -4,17 +4,14 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
 const name = 'Eric Lee'
-export const siteTitle = 'Eric Lee\'s Hub'
+export const siteTitle = 'ERIC LEE'
 
 export default function Layout({ children, home }) {
+    const tabs = ['Projects', 'Experience', 'Blog', 'About']
     return (
         <div className={styles.container}>
             <Head>
                 <link rel="icon" href="/favicon.ico" />
-                <meta
-                    name="description"
-                    content="Learn how to build a personal website using Next.js"
-                />
                 <meta
                     property="og:image"
                     content={`https://og-image.now.sh/${encodeURI(
@@ -25,6 +22,16 @@ export default function Layout({ children, home }) {
                 <meta name="twitter:card" content="summary_large_image" />
             </Head>
             <header className={styles.header}>
+                <div className={styles.nav}>
+                    {tabs.map((item) => {
+                        const href = '/' + item.toLowerCase()
+                        return (
+                            <div>
+                                <a>| <Link href={href}>{item}</Link> | </a>
+                            </div>
+                        )
+                    })}
+                </div>
                 {home ? (
                     <>
                         <img
