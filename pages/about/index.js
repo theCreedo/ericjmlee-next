@@ -13,9 +13,9 @@ export async function getStaticProps() {
     }
 }
 
-export default function Project({ allPostsData }) {
+export default function About({ allPostsData }) {
     return (
-        <Layout project>
+        <Layout about>
             <Head>
                 <title>{siteTitle}</title>
             </Head>

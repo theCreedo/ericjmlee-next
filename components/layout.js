@@ -6,7 +6,7 @@ import Link from 'next/link'
 const name = 'Eric Lee'
 export const siteTitle = 'ERIC LEE'
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, home, project, experience, blog, about, newsletter }) {
     const tabs = ['Projects', 'Experience', 'Blog', 'About']
     return (
         <div className={styles.container}>
@@ -31,6 +31,7 @@ export default function Layout({ children, home }) {
                             </div>
                         )
                     })}
+                    <a href="http://ericlee.substack.com/">| Newsletter |</a>
                 </div>
                 {home ? (
                     <>
@@ -43,15 +44,61 @@ export default function Layout({ children, home }) {
                     </>
                 ) : (
                         <>
-                            <Link href="/">
-                                <a>
-                                    <img
-                                        src="/images/profile.jpg"
-                                        className={`${styles.headerImage} ${utilStyles.borderCircle}`}
-                                        alt={name}
-                                    />
-                                </a>
-                            </Link>
+                            {project && (
+                                <Link href="/">
+                                    <a>
+                                        <img
+                                            src="/images/projects-profile.jpg"
+                                            className={`${styles.headerImage} ${utilStyles.borderCircle}`}
+                                            alt={name}
+                                        />
+                                    </a>
+                                </Link>
+                            )}
+                            {experience && (
+                                <Link href="/">
+                                    <a>
+                                        <img
+                                            src="/images/experience-profile.jpg"
+                                            className={`${styles.headerImage} ${utilStyles.borderCircle}`}
+                                            alt={name}
+                                        />
+                                    </a>
+                                </Link>
+                            )}
+                            {newsletter && (
+                                <Link href="/">
+                                    <a>
+                                        <img
+                                            src="/images/newsletter-profile.jpg"
+                                            className={`${styles.headerImage} ${utilStyles.borderCircle}`}
+                                            alt={name}
+                                        />
+                                    </a>
+                                </Link>
+                            )}
+                            {blog && (
+                                <Link href="/">
+                                    <a>
+                                        <img
+                                            src="/images/newsletter-profile.jpg"
+                                            className={`${styles.headerImage} ${utilStyles.borderCircle}`}
+                                            alt={name}
+                                        />
+                                    </a>
+                                </Link>
+                            )}
+                            {about && (
+                                <Link href="/">
+                                    <a>
+                                        <img
+                                            src="/images/about-profile.jpg"
+                                            className={`${styles.headerImage} ${utilStyles.borderCircle}`}
+                                            alt={name}
+                                        />
+                                    </a>
+                                </Link>
+                            )}
                             <h2 className={utilStyles.headingLg}>
                                 <Link href="/">
                                     <a className={utilStyles.colorInherit}>{name}</a>
