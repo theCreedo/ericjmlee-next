@@ -2,7 +2,6 @@ import Head from 'next/head'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
-import AppBar from '@material-ui/core/AppBar';
 
 
 const name = 'Eric Lee'
@@ -27,25 +26,25 @@ export default function Layout({ children, home, project, experience, blog, abou
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
             </Head>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="/">ERIC LEE</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        {tabs.map((item) => {
+                            const href = '/' + item.toLowerCase()
+                            return (
+                                <li class="nav-item">
+                                    <a class="nav-link"><Link href={href}><a>{item}</a></Link></a>
+                                </li>
+                            )
+                        })}
+                    </ul>
+                </div>
+            </nav>
             <header className={styles.header}>
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <a class="navbar-brand" href="/">ERIC LEE</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            {tabs.map((item) => {
-                                const href = '/' + item.toLowerCase()
-                                return (
-                                    <li class="nav-item">
-                                        <a class="nav-link"><Link href={href}><a>{item}</a></Link></a>
-                                    </li>
-                                )
-                            })}
-                        </ul>
-                    </div>
-                </nav>
                 {/* <div className={styles.nav}>
                     {tabs.map((item) => {
                         const href = '/' + item.toLowerCase()
