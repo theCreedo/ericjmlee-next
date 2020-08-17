@@ -7,7 +7,7 @@ const name = 'Eric Lee'
 export const siteTitle = 'ERIC LEE'
 
 export default function Layout({ children, home, project, experience, blog, about, newsletter }) {
-    const tabs = ['Projects', 'Experience', 'Blog', 'About']
+    const tabs = ['Experience', 'Projects', 'Blog', 'Newsletter', 'About']
     return (
         <div className={styles.container}>
             <Head>
