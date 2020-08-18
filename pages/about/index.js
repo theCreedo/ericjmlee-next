@@ -19,12 +19,10 @@ export default function About({ allPostsData }) {
             <Head>
                 <title>{siteTitle}</title>
             </Head>
-            <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+            <section className={`${utilStyles.divContainer} ${utilStyles.padding1px}`}>
                 <h2 className={utilStyles.headingLg}>About</h2>
-                <section className={utilStyles.headingMd}>
-                    <p>Hey there, Eric here!</p>
-                    <p>Dallas-born, Plano Suburb child with Taiwanese roots 🇹🇼, I have lived in Texas all my life, graduated from UT Austin🤘, and currently work as a software engineer @ <a href='https://www.retailmenot.com/'>RetailMeNot</a>.</p>
-                </section>
+                <p>Hey there, Eric here!</p>
+                <p>Dallas-born, Plano Suburb child with Taiwanese roots 🇹🇼, I have lived in Texas all my life, graduated from UT Austin🤘, and currently work as a software engineer @ <a href='https://www.retailmenot.com/'>RetailMeNot</a>.</p>
             </section>
         </Layout >
     )

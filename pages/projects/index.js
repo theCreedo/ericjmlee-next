@@ -20,7 +20,7 @@ export default function Project({ allProjectsData }) {
             <Head>
                 <title>{siteTitle}</title>
             </Head>
-            <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+            <section className={`${utilStyles.divContainer} ${utilStyles.padding1px}`}>
                 <h2 className={utilStyles.headingLg}>Projects</h2>
                 <p>I am obsessed with <b>writing</b>, <b>entrepreneurship</b>, and <b>coding</b>. I am also interested in marketing, branding, and UX.</p>
                 <ul className={utilStyles.list}>
