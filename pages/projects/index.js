@@ -2,18 +2,19 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Layout, { siteTitle } from '../../components/layout'
 import utilStyles from '../../styles/utils.module.css'
-import { getSortedPostsData } from '../../lib/posts'
+import { getSortedProjectsData } from '../../lib/projects'
+import Date from '../../components/date'
 
 export async function getStaticProps() {
-    const allPostsData = getSortedPostsData()
+    const allProjectsData = getSortedProjectsData()
     return {
         props: {
-            allPostsData
+            allProjectsData
         }
     }
 }
 
-export default function Project({ allPostsData }) {
+export default function Project({ allProjectsData }) {
     return (
         <Layout project>
             <Head>
@@ -23,14 +24,17 @@ export default function Project({ allPostsData }) {
                 <h2 className={utilStyles.headingLg}>Projects</h2>
                 <p>I am obsessed with <b>writing</b>, <b>entrepreneurship</b>, and <b>coding</b>. I am also interested in marketing, branding, and UX.</p>
                 <ul className={utilStyles.list}>
-                    {/* {allPostsData.map(({ id, date, title }) => (
+                    {allProjectsData.map(({ id, start_date, title }) => (
                         <li className={utilStyles.listItem} key={id}>
-                            <Link href="/posts/[id]" as={`/posts/${id}`}>
+                            <Link href="/projects/[id]" as={`/projects/${id}`}>
                                 <a>{title}</a>
                             </Link>
                             <br />
+                            <small className={utilStyles.lightText}>
+                                <Date dateString={start_date} />
+                            </small>
                         </li>
-                    ))} */}
+                    ))}
                 </ul>
             </section>
         </Layout >
