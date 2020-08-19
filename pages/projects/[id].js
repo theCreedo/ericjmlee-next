@@ -27,7 +27,7 @@ export default function Project({ projectData }) {
             <Head>
                 <title>{projectData.title}</title>
             </Head>
-            <article>
+            <article className={utilStyles.divContainer}>
                 <h1 className={utilStyles.headingXl}>{projectData.title}</h1>
                 <div className={utilStyles.lightText}>
                     <Date dateString={projectData.start_date} />
