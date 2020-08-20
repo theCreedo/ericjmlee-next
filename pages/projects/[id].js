@@ -1,5 +1,6 @@
 import Layout from '../../components/layout'
 import Date from '../../components/date'
+import Link from "next/link"
 import Head from 'next/head'
 import utilStyles from '../../styles/utils.module.css'
 import { getAllProjectIds, getProjectData } from '../../lib/projects'
@@ -33,6 +34,7 @@ export default function Project({ projectData }) {
                     <Date dateString={projectData.start_date} />
                 </div>
                 <div dangerouslySetInnerHTML={{ __html: projectData.contentHtml }} />
+                <Link href='/projects'><a>← Back to Projects</a></Link>
             </article>
         </Layout>
     )

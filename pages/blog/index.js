@@ -35,6 +35,7 @@ export default function Blog({ allPostsData }) {
                         </li>
                     ))}
                 </ul>
+                <Link href='/'><a>← Back to Home</a></Link>
             </section>
         </Layout >
     )

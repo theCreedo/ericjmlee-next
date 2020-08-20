@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from "next/link"
 import Layout, { siteTitle } from '../../components/layout'
 import utilStyles from '../../styles/utils.module.css'
 import { getSortedExperiencesData } from '../../lib/experiences'
@@ -32,6 +33,7 @@ export default function Experience({ allExperiencesData }) {
                         </li>
                     ))}
                 </ul>
+                <Link href='/'><a>← Back to Home</a></Link>
             </section>
         </Layout >
     )

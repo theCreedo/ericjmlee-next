@@ -23,6 +23,7 @@ export default function About({ allPostsData }) {
                 <h2 className={utilStyles.headingLg}>About</h2>
                 <p>Hey there, Eric here!</p>
                 <p>Dallas-born, Plano Suburb child with Taiwanese roots 🇹🇼, I have lived in Texas all my life, graduated from UT Austin🤘, and currently work as a software engineer @ <a href='https://www.retailmenot.com/'>RetailMeNot</a>.</p>
+                <Link href='/'><a>← Back to Home</a></Link>
             </section>
         </Layout >
     )
