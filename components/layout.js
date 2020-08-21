@@ -103,7 +103,7 @@ export default function Layout({ children, home, project, experience, blog, abou
                                 <Link href="/">
                                     <a>
                                         <img
-                                            src="/images/newsletter-profile.jpg"
+                                            src="/images/blog-profile.jpg"
                                             className={`${styles.headerImage} ${utilStyles.borderCircle}`}
                                             alt={name}
                                         />
