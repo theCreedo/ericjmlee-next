@@ -31,7 +31,7 @@ export default function Post({ postData }) {
             <article className={utilStyles.divContainer}>
                 <h1 className={utilStyles.headingXl}>{postData.title}</h1>
                 <div className={utilStyles.lightText}>
-                    <Date dateString={postData.date} />
+                    <Date dateString={postData.date} isPost={true} />
                 </div>
                 <br></br>
                 <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />

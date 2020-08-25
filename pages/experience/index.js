@@ -28,7 +28,7 @@ export default function Experience({ allExperiencesData }) {
                             <h1 className={utilStyles.headingMd}><a href={link}>{title}</a> @ {location}</h1>
                             <small className={utilStyles.lightText}>
                                 <p>{job_title}</p>
-                                <Date dateString={start_date} /> to <Date dateString={end_date} />
+                                <Date dateString={start_date} isPost={false} /> to <Date dateString={end_date} isPost={false} />
                             </small>
                         </li>
                     ))}

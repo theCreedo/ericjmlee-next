@@ -31,7 +31,7 @@ export default function Project({ projectData }) {
             <article className={utilStyles.divContainer}>
                 <h1 className={utilStyles.headingXl}>{projectData.title}</h1>
                 <div className={utilStyles.lightText}>
-                    <Date dateString={projectData.start_date} />
+                    <Date dateString={projectData.start_date} isPost={false} />
                 </div>
                 <div dangerouslySetInnerHTML={{ __html: projectData.contentHtml }} />
                 <Link href='/projects'><a>← Back to Projects</a></Link>
