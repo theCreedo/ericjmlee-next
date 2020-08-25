@@ -1,7 +1,19 @@
   .divContainer {
     margin: 0 1rem;
   }
-  
+
+  .iframeVideo {
+    height: 0px;
+    padding-top: 10px;
+    padding-bottom: 56.2%;
+    position: relative;
+  }
+  .iframeVideo iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+
   .heading2Xl {
     font-size: 2.5rem;
     line-height: 1.2;
