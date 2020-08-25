@@ -17,7 +17,7 @@ tech: "Ruby on Rails"
 hackathon:
 github_link: 
 devpost_link: 
-youtube_embed_link: 
+youtube_embed_link:
 header_image: ""
 header_image_alt_txt:
 footer_image: ""
