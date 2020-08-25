@@ -24,15 +24,44 @@ export default function Project({ allProjectsData }) {
                 <h2 className={utilStyles.headingLg}>Projects</h2>
                 <p>I am obsessed with <b>writing</b>, <b>entrepreneurship</b>, and <b>coding</b>. I am also interested in marketing, branding, and UX.</p>
                 <ul className={utilStyles.list}>
-                    {allProjectsData.map(({ id, start_date, title }) => (
+                    {allProjectsData.map(({ id, start_date, title, one_liner, tech, youtube_embed_link, footer_image, footer_image_alt_txt }) => (
                         <li className={utilStyles.listItem} key={id}>
-                            <Link href="/projects/[id]" as={`/projects/${id}`}>
-                                <a>{title}</a>
-                            </Link>
-                            <br />
-                            <small className={utilStyles.lightText}>
-                                <Date dateString={start_date} />
-                            </small>
+                            {youtube_embed_link ? (
+                                <div>
+                                    <Link href="/projects/[id]" as={`/projects/${id}`}>
+                                        <h4>
+                                            <a href=''>
+                                                {title}
+                                            </a>
+                                        </h4>
+                                    </Link>
+                                    <Date dateString={start_date} isPost={false} />
+                                    <br />
+                                    <div className={utilStyles.iframeVideo}>
+                                        <iframe width="560" height="315" src={youtube_embed_link} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <br />
+                                </div>
+                            ) : (
+                                    <div>
+                                        <div className={utilStyles.image}>
+                                            <img src={footer_image} alt={footer_image_alt_txt}></img>
+                                        </div>
+                                        <Link href="/projects/[id]" as={`/projects/${id}`}>
+                                            <h4>
+                                                <a href=''>
+                                                    {title}
+                                                </a>
+                                            </h4>
+                                        </Link>
+                                        <Date dateString={start_date} isPost={false} />
+                                    </div>
+                                )}
+                            <p>
+                                <b>{one_liner}</b>
+                                <br />
+                                Used: <i>{tech}</i>
+                            </p>
                         </li>
                     ))}
                 </ul>

@@ -1,7 +1,7 @@
 ---
 title: "Credit Writer"
 name: "Credit Writer"
-one_liner: "Tool that combined Pubnub, Twitter, Mapquest, and SOCAN's API in order to provide royaltie's credit back to composers."
+one_liner: "Credit music composers royalties"
 tech_stack: [
     "mapquest-geocoding",
     "twitter",
@@ -9,10 +9,16 @@ tech_stack: [
     "java",
     "javascript",
     "php",
-    "json"
+    "json",
 ]
+tech: "Javascript, PHP, Java, Twitter API, Pubnub API, Mapquest API"
 start_date: "2017-03-15"
 hackathon: "SXSW Hackathon 2017"
 github_link: "https://github.com/theCreedo/Credit-Writer"
 devpost_link: "https://devpost.com/software/credit-writer"
+youtube_embed_link:
+header_image: "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/488/361/datas/gallery.jpg"
+header_image_alt_txt:
+footer_image: ""
+footer_image_alt_txt:
 ---

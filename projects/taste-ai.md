@@ -1,15 +1,28 @@
 ---
 title: "TasteAI"
 name: "TasteAI: Personal AI Assistant for Tasty Recipes"
-one_liner: "Combines your tastes in food & machine learning to serve you recipes that you'll love"
+one_liner: "AI Assistant for Tasty Recipes"
 tech_stack: [
     "flask",
     "scikit-learn",
     "postgresql",
-    "sqlalchemy"
+    "sqlalchemy",
+    "python",
+    "redis",
+    "html",
+    "css",
+    "fullstack",
+    "frontend",
+    "backend",
 ]
+tech: "Python, Flask, Postgresql, Redis, Scikit-learn"
 start_date: "2017-09-24"
 hackathon: "MHacks X"
 github_link: "https://github.com/theCreedo/mhacksx"
 devpost_link: "https://devpost.com/software/mhacksx-6dnma8"
+youtube_embed_link:
+header_image: "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/539/063/datas/gallery.jpg"
+header_image_alt_txt:
+footer_image: ""
+footer_image_alt_txt:
 ---
