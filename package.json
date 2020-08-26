@@ -16,5 +16,8 @@
     "react-dom": "16.13.1",
     "remark": "^12.0.1",
     "remark-html": "^12.0.0"
+  },
+  "devDependencies": {
+    "react-social-icons": "^4.1.0"
   }
 }
