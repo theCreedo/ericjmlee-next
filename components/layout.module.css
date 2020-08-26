@@ -1,6 +1,34 @@
-.container {
+  .pageFooter {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 4rem;            /* Footer height */
+  }
+
+  .contentContainer {
+    padding-bottom: 4rem;
+  }
+
+  .pageContainer {
+    position: relative;
+    min-height: 100vh;
+  }
+  .navContainer {
+    overflow:hidden;
+    display:inline;
+  }
+
+  .social {
+    margin-left:5px;
+    margin-right:5px;
   }
   
+  .main {
+    position: relative;
+    min-height: 100vh;
+  }
   .header {
     display: flex;
     flex-direction: column;
