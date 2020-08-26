@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import { SocialIcon } from 'react-social-icons';
 
 
 const name = 'Eric Lee'
@@ -9,8 +10,13 @@ export const siteTitle = 'ERIC LEE'
 
 export default function Layout({ children, home, project, experience, blog, about, newsletter }) {
     const tabs = ['Experience', 'Projects', 'Blog', 'Newsletter', 'About']
+    const medium_url = "https://medium.com/@theCreedo"
+    const github_url = "http://github.com/theCreedo"
+    const linkedin_url = "http://linkedin.com/in/ericjmlee"
+    const twitter_url = "http://twitter.com/ericjmlee"
+    const email_url = "mailto:heyericjmlee@gmail.com"
     return (
-        <div className={styles.container}>
+        <div>
             <Head>
                 <link rel="icon" href="/favicon.ico" />
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossOrigin="anonymous" />
@@ -26,26 +32,27 @@ export default function Layout({ children, home, project, experience, blog, abou
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
             </Head>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="/">ERIC LEE</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        {tabs.map((item) => {
-                            const href = '/' + item.toLowerCase()
-                            return (
-                                <li class="nav-item">
-                                    <a class="nav-link"><Link href={href}><a>{item}</a></Link></a>
-                                </li>
-                            )
-                        })}
-                    </ul>
-                </div>
-            </nav>
-            <header className={styles.header}>
-                {/* <div className={styles.nav}>
+            <div className={styles.pageContainer}>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="/">ERIC LEE</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            {tabs.map((item) => {
+                                const href = '/' + item.toLowerCase()
+                                return (
+                                    <li class="nav-item">
+                                        <a class="nav-link"><Link href={href}><a>{item}</a></Link></a>
+                                    </li>
+                                )
+                            })}
+                        </ul>
+                    </div>
+                </nav>
+                <header className={styles.header}>
+                    {/* <div className={styles.nav}>
                     {tabs.map((item) => {
                         const href = '/' + item.toLowerCase()
                         return (
@@ -55,77 +62,105 @@ export default function Layout({ children, home, project, experience, blog, abou
                         )
                     })}
                 </div> */}
-                {home ? (
-                    <>
-                        <img
-                            src="/images/profile.jpg"
-                            className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-                            alt={name}
-                        />
-                        {/* <h1 className={utilStyles.heading2Xl}>{name}</h1> */}
-                    </>
-                ) : (
+                    {home ? (
                         <>
-                            {project && (
-                                <Link href="/">
-                                    <a>
-                                        <img
-                                            src="/images/projects-profile.jpg"
-                                            className={`${styles.headerImage} ${utilStyles.borderCircle}`}
-                                            alt={name}
-                                        />
-                                    </a>
-                                </Link>
-                            )}
-                            {experience && (
-                                <Link href="/">
-                                    <a>
-                                        <img
-                                            src="/images/experience-profile.jpg"
-                                            className={`${styles.headerImage} ${utilStyles.borderCircle}`}
-                                            alt={name}
-                                        />
-                                    </a>
-                                </Link>
-                            )}
-                            {newsletter && (
-                                <Link href="/">
-                                    <a>
-                                        <img
-                                            src="/images/newsletter-profile.jpg"
-                                            className={`${styles.headerImage} ${utilStyles.borderCircle}`}
-                                            alt={name}
-                                        />
-                                    </a>
-                                </Link>
-                            )}
-                            {blog && (
-                                <Link href="/">
-                                    <a>
-                                        <img
-                                            src="/images/blog-profile.jpg"
-                                            className={`${styles.headerImage} ${utilStyles.borderCircle}`}
-                                            alt={name}
-                                        />
-                                    </a>
-                                </Link>
-                            )}
-                            {about && (
-                                <Link href="/">
-                                    <a>
-                                        <img
-                                            src="/images/about-profile.jpg"
-                                            className={`${styles.headerImage} ${utilStyles.borderCircle}`}
-                                            alt={name}
-                                        />
-                                    </a>
-                                </Link>
-                            )}
+                            <img
+                                src="/images/profile.jpg"
+                                className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
+                                alt={name}
+                            />
+                            {/* <h1 className={utilStyles.heading2Xl}>{name}</h1> */}
                         </>
+                    ) : (
+                            <>
+                                {project && (
+                                    <Link href="/">
+                                        <a>
+                                            <img
+                                                src="/images/projects-profile.jpg"
+                                                className={`${styles.headerImage} ${utilStyles.borderCircle}`}
+                                                alt={name}
+                                            />
+                                        </a>
+                                    </Link>
+                                )}
+                                {experience && (
+                                    <Link href="/">
+                                        <a>
+                                            <img
+                                                src="/images/experience-profile.jpg"
+                                                className={`${styles.headerImage} ${utilStyles.borderCircle}`}
+                                                alt={name}
+                                            />
+                                        </a>
+                                    </Link>
+                                )}
+                                {newsletter && (
+                                    <Link href="/">
+                                        <a>
+                                            <img
+                                                src="/images/newsletter-profile.jpg"
+                                                className={`${styles.headerImage} ${utilStyles.borderCircle}`}
+                                                alt={name}
+                                            />
+                                        </a>
+                                    </Link>
+                                )}
+                                {blog && (
+                                    <Link href="/">
+                                        <a>
+                                            <img
+                                                src="/images/blog-profile.jpg"
+                                                className={`${styles.headerImage} ${utilStyles.borderCircle}`}
+                                                alt={name}
+                                            />
+                                        </a>
+                                    </Link>
+                                )}
+                                {about && (
+                                    <Link href="/">
+                                        <a>
+                                            <img
+                                                src="/images/about-profile.jpg"
+                                                className={`${styles.headerImage} ${utilStyles.borderCircle}`}
+                                                alt={name}
+                                            />
+                                        </a>
+                                    </Link>
+                                )}
+                            </>
+                        )}
+                </header>
+                <main class={styles.contentContainer}>{children}</main>
+                {home ? (
+                    <footer class="pageFooter font-small blue pt-4">
+                        <div class="text-center py-3">
+                            <div className={styles.navContainer}>
+                                <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={medium_url} />
+                                <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={github_url} />
+                                <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={linkedin_url} />
+                                <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={twitter_url} />
+                                <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={email_url} />
+                            </div>
+                        </div>
+                    </footer>
+                ) : (
+                        <footer class="pageFooter font-small blue pt-4">
+                            <div class="footer-copyright text-center py-3">
+                                <div className={styles.navContainer}>
+                                    <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={medium_url} />
+                                    <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={github_url} />
+                                    <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={linkedin_url} />
+                                    <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={twitter_url} />
+                                    <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={email_url} />
+                                </div>
+                                <div class="footer-copyright text-center py-3">
+                                    <small>Copyright © Eric Lee 2020</small>
+                                </div>
+                            </div>
+                        </footer>
                     )}
-            </header>
-            <main>{children}</main>
-
+            </div>
         </div>
     )
 }
