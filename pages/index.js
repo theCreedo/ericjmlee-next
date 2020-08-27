@@ -19,7 +19,8 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.divContainer}>
-        <p>SWE @ RetailMeNot | entrepreneur, blogger, and mentor</p>
+        <p>SWE @ RetailMeNot | entrepreneur, mentor, coder, and blogger</p>
+        <p>Learning is my passion. Empowering is my mission.</p>
       </section>
     </Layout >
   )
