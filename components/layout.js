@@ -47,7 +47,7 @@ export default function Layout({ children, home, project, experience, blog, abou
                                 const href = '/' + item.toLowerCase()
                                 return (
                                     <li class="nav-item">
-                                        <a class="nav-link"><Link href={href}><a>{item}</a></Link></a>
+                                        <Link href={href}><a class="nav-link">{item}</a></Link>
                                     </li>
                                 )
                             })}
