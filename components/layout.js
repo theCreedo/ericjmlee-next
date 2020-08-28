@@ -18,6 +18,21 @@ export default function Layout({ children, home, project, experience, blog, abou
     return (
         <div>
             <Head>
+                <script
+                    async
+                    src="https://www.googletagmanager.com/gtag/js?id=UA-176727335-1"
+                />
+                <script
+                    async
+                    dangerouslySetInnerHTML={{
+                        __html: `
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+                        gtag('config', 'UA-176727335-1');
+                    `,
+                    }}
+                />
                 <link rel="icon" href="/favicon.ico" />
                 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
                 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
