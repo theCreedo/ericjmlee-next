@@ -33,8 +33,7 @@ export default function About({ allPostsData }) {
                 <p>I'm not too much of a travel freak since it takes up a lot of energy to explore, but friends can usually coerce me into a trip. In general, I like to tell people that as long as I have internet and a laptop, I can be entertained for a while.</p>
                 <h2 className={utilStyles.headingLg}>Contact Me</h2>
                 <p>I love meeting new people. Sharing about life, helping people on their startups and creative ventures, as well as providing (or receiving) perspective are all life's joys.</p>
-                <p>Please reach out if you want to chat! Email me @ <a href="mailto:heyericjmlee@gmail.com">heyericjmlee@gmail.com</a>
-                or message me through any social media.</p>
+                <p>Please reach out if you want to chat! Email me @ <a href="mailto:heyericjmlee@gmail.com">heyericjmlee@gmail.com</a> or message me through any social media.</p>
                 <Link href='/'><a>← Back to Home</a></Link>
             </section>
         </Layout >

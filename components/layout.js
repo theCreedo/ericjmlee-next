@@ -3,6 +3,9 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import { SocialIcon } from 'react-social-icons';
+
+
+const name = 'Eric Lee'
 export const siteTitle = 'ERIC LEE'
 
 export default function Layout({ children, home, project, experience, blog, about, newsletter }) {
@@ -48,18 +51,18 @@ export default function Layout({ children, home, project, experience, blog, abou
                 <meta name="twitter:card" content="summary_large_image" />
             </Head>
             <div className={styles.pageContainer}>
-                <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <a className="navbar-brand" href="/">ERIC LEE</a>
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="/">ERIC LEE</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div className="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul className="navbar-nav">
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
                             {tabs.map((item) => {
                                 const href = '/' + item.toLowerCase()
                                 return (
-                                    <li className="nav-item">
-                                        <Link href={href}><a className="nav-link">{item}</a></Link>
+                                    <li class="nav-item">
+                                        <Link href={href}><a class="nav-link">{item}</a></Link>
                                     </li>
                                 )
                             })}
@@ -146,10 +149,10 @@ export default function Layout({ children, home, project, experience, blog, abou
                             </>
                         )}
                 </header>
-                <main className={styles.contentContainer}>{children}</main>
+                <main class={styles.contentContainer}>{children}</main>
                 {home ? (
-                    <footer className="pageFooter font-small blue pt-4">
-                        <div className="text-center py-3">
+                    <footer class="pageFooter font-small blue pt-4">
+                        <div class="text-center py-3">
                             <div className={styles.navContainer}>
                                 <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={medium_url} />
                                 <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={github_url} />
@@ -160,8 +163,8 @@ export default function Layout({ children, home, project, experience, blog, abou
                         </div>
                     </footer>
                 ) : (
-                        <footer className="pageFooter font-small blue pt-4">
-                            <div className="footer-copyright text-center py-3">
+                        <footer class="pageFooter font-small blue pt-4">
+                            <div class="footer-copyright text-center py-3">
                                 <div className={styles.navContainer}>
                                     <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={medium_url} />
                                     <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={github_url} />
@@ -169,13 +172,13 @@ export default function Layout({ children, home, project, experience, blog, abou
                                     <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={twitter_url} />
                                     <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={email_url} />
                                 </div>
-                                <div className="footer-copyright text-center py-3">
+                                <div class="footer-copyright text-center py-3">
                                     <small>Copyright © Eric Lee 2020</small>
                                 </div>
                             </div>
                         </footer>
                     )}
             </div>
-        </div >
+        </div>
     )
 }
