@@ -12,6 +12,7 @@ tech_stack: [
 ]
 tech: "Python, Data Mining, Machine Learning"
 start_date: "2016-11-12"
+header_link: "https://github.com/theCreedo/IndigitousMusicFinder"
 github_link: "https://github.com/theCreedo/IndigitousMusicFinder"
 devpost_link: "https://indigitous.org/projects/upliftify/"
 additional_links: "https://docs.google.com/document/d/1SsHBxV5uW9Nua9YWK0FhQR99E4dm15evlvtCADXgV5E/edit"

@@ -14,6 +14,7 @@ tech_stack: [
 tech: "Javascript, PHP, Java, Twitter API, Pubnub API, Mapquest API"
 start_date: "2017-03-15"
 hackathon: "SXSW Hackathon 2017"
+header_link: "https://devpost.com/software/credit-writer"
 github_link: "https://github.com/theCreedo/Credit-Writer"
 devpost_link: "https://devpost.com/software/credit-writer"
 youtube_embed_link:

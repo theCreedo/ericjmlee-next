@@ -13,6 +13,7 @@ tech_stack: [
 ]
 tech: "Android, Java"
 hackathon: "HackGT 2016"
+header_link: "https://devpost.com/software/hungry-cats"
 github_link: "https://github.com/manav95/HungryCats"
 devpost_link: "https://devpost.com/software/hungry-cats"
 youtube_embed_link:

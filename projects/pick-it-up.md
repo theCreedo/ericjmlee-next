@@ -15,6 +15,7 @@ tech_stack: [
 tech: "Java, Android"
 start_date: "2017-04-23"
 hackathon: "EarthHack"
+header_link: "https://devpost.com/software/pick-it-up"
 github_link: "https://github.com/theCreedo/pick-it-up"
 devpost_link: "https://devpost.com/software/pick-it-up"
 youtube_embed_link:

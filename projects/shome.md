@@ -14,6 +14,7 @@ tech_stack: [
     "backend",
 ]
 tech: "Ruby on Rails"
+header_link: "https://shome-housing.herokuapp.com/"
 hackathon:
 github_link: 
 devpost_link: 

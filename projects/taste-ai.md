@@ -18,6 +18,7 @@ tech_stack: [
 tech: "Python, Flask, Postgresql, Redis, Scikit-learn"
 start_date: "2017-09-24"
 hackathon: "MHacks X"
+header_link: "https://devpost.com/software/mhacksx-6dnma8"
 github_link: "https://github.com/theCreedo/mhacksx"
 devpost_link: "https://devpost.com/software/mhacksx-6dnma8"
 youtube_embed_link:
