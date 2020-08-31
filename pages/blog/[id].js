@@ -1,4 +1,4 @@
-import Layout from '../../components/layout'
+import Layout, { siteTitle } from '../../components/layout'
 import Date from '../../components/date'
 import Link from "next/link"
 import Head from 'next/head'
@@ -26,7 +26,7 @@ export default function Post({ postData }) {
     return (
         <Layout>
             <Head>
-                <title>{postData.title}</title>
+                <title>{postData.title} | {siteTitle}</title>
             </Head>
             <article className={utilStyles.divContainer}>
                 <h1 className={utilStyles.headingXl}>{postData.title}</h1>

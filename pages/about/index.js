@@ -19,7 +19,7 @@ export default function About({ allPostsData }) {
     return (
         <Layout about>
             <Head>
-                <title>{siteTitle}</title>
+                <title>About | {siteTitle}</title>
             </Head>
             <section className={`${utilStyles.divContainer} ${utilStyles.padding1px}`}>
                 <h2 className={utilStyles.headingLg}>About</h2>

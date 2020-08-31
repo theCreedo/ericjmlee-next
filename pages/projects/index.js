@@ -18,7 +18,7 @@ export default function Project({ allProjectsData }) {
     return (
         <Layout project>
             <Head>
-                <title>{siteTitle}</title>
+                <title>Projects | {siteTitle}</title>
             </Head>
             <section className={`${utilStyles.divContainer} ${utilStyles.padding1px}`}>
                 <h2 className={utilStyles.headingLg}>Projects</h2>

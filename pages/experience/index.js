@@ -18,7 +18,7 @@ export default function Experience({ allExperiencesData }) {
     return (
         <Layout experience>
             <Head>
-                <title>{siteTitle}</title>
+                <title>Experience | {siteTitle}</title>
             </Head>
             <section className={`${utilStyles.divContainer} ${utilStyles.padding1px}`}>
                 <h2 className={utilStyles.headingLg}>Experience</h2>

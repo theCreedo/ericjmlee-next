@@ -8,7 +8,7 @@ export default function Newsletter() {
     return (
         <Layout newsletter>
             <Head>
-                <title>{siteTitle}</title>
+                <title>Newsletter | {siteTitle}</title>
             </Head>
 
             <section className={`${utilStyles.divContainer} ${utilStyles.padding1px}`}>
