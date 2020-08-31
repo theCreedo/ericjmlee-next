@@ -19,8 +19,8 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.divContainer}>
-        <p>SWE @ RetailMeNot | entrepreneur, mentor, coder, and blogger</p>
-        <p>Learning is my passion. Empowering is my mission.</p>
+        <p>SWE @ <a href='https://www.retailmenot.com/'>RetailMeNot</a> | entrepreneur, mentor, coder, and blogger</p>
+        <p><b><i>Learning is my passion. Empowering is my mission.</i></b></p>
       </section>
     </Layout >
   )
