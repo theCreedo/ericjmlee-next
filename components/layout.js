@@ -41,10 +41,30 @@ export default function Layout({ children, home, project, experience, blog, abou
                 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossOrigin="anonymous"></script>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossOrigin="anonymous"></script>
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossOrigin="anonymous"></script>
-                <meta
+                {home && (<meta
                     property="og:image"
                     content={'https://www.ericjmlee.com/images/profile-191x100.jpg'}
-                />
+                />)}
+                {project && (<meta
+                    property="og:image"
+                    content={'https://www.ericjmlee.com/images/projects-profile-191x100.jpg'}
+                />)}
+                {experience && (<meta
+                    property="og:image"
+                    content={'https://www.ericjmlee.com/images/experience-profile-191x100.jpg'}
+                />)}
+                {blog && (<meta
+                    property="og:image"
+                    content={'https://www.ericjmlee.com/images/blog-profile-191x100.jpg'}
+                />)}
+                {newsletter && (<meta
+                    property="og:image"
+                    content={'https://www.ericjmlee.com/images/newsletter-profile-191x100.jpg'}
+                />)}
+                {about && (<meta
+                    property="og:image"
+                    content={'https://www.ericjmlee.com/images/about-profile-191x100.jpg'}
+                />)}
                 <meta property="og:title" content={siteTitle} />
                 <meta property="og:description" content="Inspiration Hub" />
                 <meta property="twitter:card" content="summary_large_image" />
