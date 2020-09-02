@@ -6,15 +6,15 @@ import { SocialIcon } from 'react-social-icons';
 
 
 const name = 'Eric Lee'
-export const siteTitle = 'ERIC LEE'
-export const base_url = 'https://www.ericjmlee.com'
+export const siteTitle = "ERIC LEE"
+export const base_url = "https://www.ericjmlee.com"
 
 export default function Layout({ children, home, project, experience, blog, about, newsletter }) {
     const tabs = ['Experience', 'Projects', 'Blog', 'Newsletter', 'About']
     const medium_url = "https://medium.com/@theCreedo"
     const github_url = "http://github.com/theCreedo"
-    const linkedin_url = "http://linkedin.com/in/ericjmlee"
-    const twitter_url = "http://twitter.com/ericjmlee"
+    const linkedin_url = "https://linkedin.com/in/ericjmlee"
+    const twitter_url = "https://twitter.com/ericjmlee"
     // const email_url = "mailto:heyericjmlee@gmail.com"
     return (
         <div>
@@ -38,54 +38,83 @@ export default function Layout({ children, home, project, experience, blog, abou
                 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
                 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
                 <link rel="manifest" href="/site.webmanifest" />
+                {home && (<>
+                    <meta
+                        property="og:image"
+                        content={base_url + "/images/profile-191x100.jpg"}
+                    />
+                    <meta
+                        property="og:title" content={siteTitle}
+                    />
+                    <meta
+                        property="og:description" content="Inspiration Hub"
+                    />
+                </>)}
+                {project && (<>
+                    <meta
+                        property="og:image"
+                        content={base_url + "/images/projects-profile-191x100.jpg"}
+                    />
+                    <meta
+                        property="og:title" content={"Projects | " + siteTitle}
+                    /> &&
+                    <meta
+                        property="og:description" content="Caution: Entering Construction Zone"
+                    />
+                </>)}
+                {experience && (<>
+                    <meta
+                        property="og:image"
+                        content={base_url + "/images/experience-profile-191x100.jpg"}
+                    /> &&
+                    <meta
+                        property="og:title" content={"Experience | " + siteTitle}
+                    /> &&
+                    <meta
+                        property="og:description" content="The Nine to Five Vibe"
+                    />
+                </>)}
+                {blog && (<>
+                    <meta
+                        property="og:image"
+                        content={base_url + "/images/blog-profile-191x100.jpg"}
+                    /> &&
+                    <meta
+                        property="og:title" content={"Blog | " + siteTitle}
+                    /> &&
+                    <meta
+                        property="og:description" content="3AM Thoughts"
+                    />
+                </>)}
+                {newsletter && (<>
+                    <meta
+                        property="og:image"
+                        content={base_url + "/images/newsletter-profile-191x100.jpg"}
+                    /> &&
+                    <meta
+                        property="og:title" content={"Newsletter | " + siteTitle}
+                    /> &&
+                    <meta
+                        property="og:description" content="Savvy Saturdays"
+                    />
+                </>)}
+                {about && (<>
+                    <meta
+                        property="og:image"
+                        content={base_url + "/images/about-profile-191x100.jpg"}
+                    /> &&
+                    <meta
+                        property="og:title" content={"About | " + siteTitle}
+                    /> &&
+                    <meta
+                        property="og:description" content="New Phone, Who Dis?"
+                    />
+                </>)}
+                <meta property="twitter:card" content="summary_large_image" />
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossOrigin="anonymous" />
                 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossOrigin="anonymous"></script>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossOrigin="anonymous"></script>
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossOrigin="anonymous"></script>
-                {home && (<meta
-                    property="og:image"
-                    content={base_url + '/images/profile-191x100.jpg'}
-                /> &&
-                    <meta
-                        property="og:description" content="Inspiration Hub"
-                    />)}
-                {project && (<meta
-                    property="og:image"
-                    content={base_url + '/images/projects-profile-191x100.jpg'}
-                /> &&
-                    <meta
-                        property="og:description" content="Caution: Entering Construction Zone"
-                    />)}
-                {experience && (<meta
-                    property="og:image"
-                    content={base_url + '/images/experience-profile-191x100.jpg'}
-                /> &&
-                    <meta
-                        property="og:description" content="The Nine to Five Vibe"
-                    />)}
-                {blog && (<meta
-                    property="og:image"
-                    content={base_url + '/images/blog-profile-191x100.jpg'}
-                /> &&
-                    <meta
-                        property="og:description" content="3AM Thoughts"
-                    />)}
-                {newsletter && (<meta
-                    property="og:image"
-                    content={base_url + '/images/newsletter-profile-191x100.jpg'}
-                /> &&
-                    <meta
-                        property="og:description" content="Savvy Saturdays"
-                    />)}
-                {about && (<meta
-                    property="og:image"
-                    content={base_url + '/images/about-profile-191x100.jpg'}
-                /> &&
-                    <meta
-                        property="og:description" content="New Phone, Who Dis?"
-                    />)}
-                <meta property="og:title" content={siteTitle} />
-                <meta property="twitter:card" content="summary_large_image" />
             </Head>
             <div className={styles.pageContainer}>
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -216,6 +245,6 @@ export default function Layout({ children, home, project, experience, blog, abou
                         </footer>
                     )}
             </div>
-        </div>
+        </div >
     )
 }
