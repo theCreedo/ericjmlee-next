@@ -1,6 +1,7 @@
 ---
 title: 'Your Reflection is a Perceived Lie'
 date: '2020-08-08'
+image_link: https://christianpolymathhome.files.wordpress.com/2020/08/monalisa.png "Mona Lisa Reflection"
 ---
 ![mona lisa reflection](https://christianpolymathhome.files.wordpress.com/2020/08/monalisa.png "Mona Lisa Reflection")
 ###### how people see Mona Lisa vs. how Mona Lisa sees herself

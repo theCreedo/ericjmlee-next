@@ -1,6 +1,7 @@
 ---
 title: 'Family Zoom Time'
 date: '2020-08-09'
+image_link: 
 ---
 I learned a lot during a zoom call with all my family, today.
 

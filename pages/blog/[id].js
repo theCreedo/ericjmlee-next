@@ -1,4 +1,4 @@
-import Layout, { siteTitle } from '../../components/layout'
+import Layout, { siteTitle, base_url } from '../../components/layout'
 import Date from '../../components/date'
 import Link from "next/link"
 import Head from 'next/head'
@@ -24,9 +24,13 @@ export async function getStaticPaths() {
 
 export default function Post({ postData }) {
     return (
-        <Layout>
+        <Layout post>
             <Head>
                 <title>{postData.title} | {siteTitle}</title>
+                <meta
+                    property="og:image"
+                    content={postData.image_link ? postData.image_link : base_url + '/images/blog-profile-191x100.jpg'}
+                />
             </Head>
             <article className={utilStyles.divContainer}>
                 <h1 className={utilStyles.headingXl}>{postData.title}</h1>

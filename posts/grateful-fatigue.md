@@ -1,6 +1,7 @@
 ---
 title: 'Grateful Fatigue'
 date: '2020-08-19'
+image_link: 
 ---
 Recently I moved into a new apartment.
 
