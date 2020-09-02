@@ -45,29 +45,46 @@ export default function Layout({ children, home, project, experience, blog, abou
                 {home && (<meta
                     property="og:image"
                     content={base_url + '/images/profile-191x100.jpg'}
-                />)}
+                /> &&
+                    <meta
+                        property="og:description" content="Inspiration Hub"
+                    />)}
                 {project && (<meta
                     property="og:image"
                     content={base_url + '/images/projects-profile-191x100.jpg'}
-                />)}
+                /> &&
+                    <meta
+                        property="og:description" content="Caution: Entering Construction Zone"
+                    />)}
                 {experience && (<meta
                     property="og:image"
                     content={base_url + '/images/experience-profile-191x100.jpg'}
-                />)}
+                /> &&
+                    <meta
+                        property="og:description" content="The Nine to Five Vibe"
+                    />)}
                 {blog && (<meta
                     property="og:image"
                     content={base_url + '/images/blog-profile-191x100.jpg'}
-                />)}
+                /> &&
+                    <meta
+                        property="og:description" content="3AM Thoughts"
+                    />)}
                 {newsletter && (<meta
                     property="og:image"
                     content={base_url + '/images/newsletter-profile-191x100.jpg'}
-                />)}
+                /> &&
+                    <meta
+                        property="og:description" content="Savvy Saturdays"
+                    />)}
                 {about && (<meta
                     property="og:image"
                     content={base_url + '/images/about-profile-191x100.jpg'}
-                />)}
+                /> &&
+                    <meta
+                        property="og:description" content="New Phone, Who Dis?"
+                    />)}
                 <meta property="og:title" content={siteTitle} />
-                <meta property="og:description" content="Inspiration Hub" />
                 <meta property="twitter:card" content="summary_large_image" />
             </Head>
             <div className={styles.pageContainer}>

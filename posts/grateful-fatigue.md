@@ -2,6 +2,7 @@
 title: 'Grateful Fatigue'
 date: '2020-08-19'
 image_link: 
+description: 'After the workout, and a chill nights rest, I woke up feeling stiff and uncomfortable. I tried to lift my arms up to stretch, and felt...'
 ---
 Recently I moved into a new apartment.
 

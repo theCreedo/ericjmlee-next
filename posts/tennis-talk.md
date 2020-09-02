@@ -2,6 +2,7 @@
 title: 'Tennis Talk'
 date: '2020-08-09'
 image_link: 'https://christianpolymathhome.files.wordpress.com/2020/08/117385348_811915826011976_5750625179686012209_n.jpg?w=2048'
+description: 'Essentially you’re ranked against the world, and most people who try to get into the field start as early as their teen years...'
 ---
 ![tennis game](https://christianpolymathhome.files.wordpress.com/2020/08/117385348_811915826011976_5750625179686012209_n.jpg?w=2048 "On Tennis Court")
 

@@ -28,6 +28,9 @@ export default function Post({ postData }) {
             <Head>
                 <title>{postData.title} | {siteTitle}</title>
                 <meta
+                    property="og:description" content={postData.description ? postData.description : 'Inspiration Hub'}
+                />
+                <meta
                     property="og:image"
                     content={postData.image_link ? postData.image_link : base_url + '/images/blog-profile-191x100.jpg'}
                 />

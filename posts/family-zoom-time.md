@@ -2,6 +2,7 @@
 title: 'Family Zoom Time'
 date: '2020-08-09'
 image_link: 
+description: 'I think the biggest takeaway is that if I feel I have a stake in the conversation or great enough reason to speak up, I would...'
 ---
 I learned a lot during a zoom call with all my family, today.
 
