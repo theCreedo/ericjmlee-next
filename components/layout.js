@@ -7,6 +7,7 @@ import { SocialIcon } from 'react-social-icons';
 
 const name = 'Eric Lee'
 export const siteTitle = 'ERIC LEE'
+export const base_url = 'https://www.ericjmlee.com'
 
 export default function Layout({ children, home, project, experience, blog, about, newsletter }) {
     const tabs = ['Experience', 'Projects', 'Blog', 'Newsletter', 'About']
@@ -43,27 +44,27 @@ export default function Layout({ children, home, project, experience, blog, abou
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossOrigin="anonymous"></script>
                 {home && (<meta
                     property="og:image"
-                    content={'https://www.ericjmlee.com/images/profile-191x100.jpg'}
+                    content={base_url + '/images/profile-191x100.jpg'}
                 />)}
                 {project && (<meta
                     property="og:image"
-                    content={'https://www.ericjmlee.com/images/projects-profile-191x100.jpg'}
+                    content={base_url + '/images/projects-profile-191x100.jpg'}
                 />)}
                 {experience && (<meta
                     property="og:image"
-                    content={'https://www.ericjmlee.com/images/experience-profile-191x100.jpg'}
+                    content={base_url + '/images/experience-profile-191x100.jpg'}
                 />)}
                 {blog && (<meta
                     property="og:image"
-                    content={'https://www.ericjmlee.com/images/blog-profile-191x100.jpg'}
+                    content={base_url + '/images/blog-profile-191x100.jpg'}
                 />)}
                 {newsletter && (<meta
                     property="og:image"
-                    content={'https://www.ericjmlee.com/images/newsletter-profile-191x100.jpg'}
+                    content={base_url + '/images/newsletter-profile-191x100.jpg'}
                 />)}
                 {about && (<meta
                     property="og:image"
-                    content={'https://www.ericjmlee.com/images/about-profile-191x100.jpg'}
+                    content={base_url + '/images/about-profile-191x100.jpg'}
                 />)}
                 <meta property="og:title" content={siteTitle} />
                 <meta property="og:description" content="Inspiration Hub" />
