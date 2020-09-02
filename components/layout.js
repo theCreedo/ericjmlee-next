@@ -14,7 +14,7 @@ export default function Layout({ children, home, project, experience, blog, abou
     const github_url = "http://github.com/theCreedo"
     const linkedin_url = "http://linkedin.com/in/ericjmlee"
     const twitter_url = "http://twitter.com/ericjmlee"
-    const email_url = "mailto:heyericjmlee@gmail.com"
+    // const email_url = "mailto:heyericjmlee@gmail.com"
     return (
         <div>
             <Head>
@@ -43,12 +43,11 @@ export default function Layout({ children, home, project, experience, blog, abou
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossOrigin="anonymous"></script>
                 <meta
                     property="og:image"
-                    content={`https://og-image.now.sh/${encodeURI(
-                        siteTitle
-                    )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
+                    content={'https://www.ericjmlee.com/images/profile-191x100.jpg'}
                 />
-                <meta name="og:title" content={siteTitle} />
-                <meta name="twitter:card" content="summary_large_image" />
+                <meta property="og:title" content={siteTitle} />
+                <meta property="og:description" content="Inspiration Hub" />
+                <meta property="twitter:card" content="summary_large_image" />
             </Head>
             <div className={styles.pageContainer}>
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -158,7 +157,7 @@ export default function Layout({ children, home, project, experience, blog, abou
                                 <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={github_url} />
                                 <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={linkedin_url} />
                                 <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={twitter_url} />
-                                <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={email_url} />
+                                {/* <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={email_url} /> */}
                             </div>
                         </div>
                     </footer>
@@ -170,7 +169,7 @@ export default function Layout({ children, home, project, experience, blog, abou
                                     <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={github_url} />
                                     <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={linkedin_url} />
                                     <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={twitter_url} />
-                                    <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={email_url} />
+                                    {/* <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={email_url} /> */}
                                 </div>
                                 <div class="footer-copyright text-center py-3">
                                     <small>Copyright © Eric Lee 2020</small>
