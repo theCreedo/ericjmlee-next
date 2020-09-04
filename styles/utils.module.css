@@ -54,9 +54,11 @@
   }
   
   .list {
-    list-style: none;
+    display: grid;
     padding: 0;
-    margin: 0;
+    grid-gap: 1rem;
+    list-style: none;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   }
   
   .listItem {
