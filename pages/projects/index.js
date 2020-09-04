@@ -33,7 +33,7 @@ export default function Project({ allProjectsData }) {
                                     (<div className={utilStyles.iframeVideo}>
                                         <iframe width="560" height="315" src={youtube_embed_link} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>) :
-                                    (<img src={image_link} alt={image_alt_text}></img>
+                                    (<a href={header_link}><img src={image_link} alt={image_alt_text}></img></a>
                                     )}
                                 <h4 className={utilStyles.headingLgProjects} >
                                     <a href={header_link}>
