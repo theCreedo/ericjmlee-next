@@ -23,15 +23,24 @@ export default function Blog({ allPostsData }) {
             <section className={`${utilStyles.divContainer} ${utilStyles.padding1px}`}>
                 <h2 className={utilStyles.headingLg}>Blog</h2>
                 <ul className={utilStyles.list}>
-                    {allPostsData.map(({ id, date, title }) => (
+                    {allPostsData.map(({ id, date, title, description, image_link }) => (
                         <li className={utilStyles.listItem} key={id}>
                             <Link href="/blog/[id]" as={`/blog/${id}`}>
                                 <a>{title}</a>
                             </Link>
                             <br />
+                            {image_link ? <img src={image_link}></img> : <></>}
                             <small className={utilStyles.lightText}>
                                 <Date dateString={date} isPost={true} />
                             </small>
+                            <br />
+                            <small>
+                                {description}
+                            </small>
+                            <br />
+                            <small><Link href="/blog/[id]" as={`/blog/${id}`}>
+                                <a>Read More</a>
+                            </Link></small>
                         </li>
                     ))}
                 </ul>
