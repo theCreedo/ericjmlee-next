@@ -25,7 +25,7 @@ export default function Project({ allProjectsData }) {
                 <p>I am obsessed with <b>writing</b>, <b>entrepreneurship</b>, and <b>coding</b>.</p>
                 <br />
                 <ul className={utilStyles.list}>
-                    {allProjectsData.map(({ id, start_date, title, one_liner, tech, header_link, footer_image, footer_image_alt_txt }) => (
+                    {allProjectsData.map(({ id, start_date, title, one_liner, tech, header_link, youtube_embed_link, image_link, image_alt_text }) => (
                         <li className={utilStyles.listItem} key={id}>
                             <div>
                                 <h4>
@@ -33,12 +33,20 @@ export default function Project({ allProjectsData }) {
                                         {title}
                                     </a>
                                     <br />
-                                    <p><small><Date dateString={start_date} isPost={false} /></small></p>
                                 </h4>
+
+                                {youtube_embed_link ?
+                                    (<div className={utilStyles.iframeVideo}>
+                                        <iframe width="560" height="315" src={youtube_embed_link} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>) :
+                                    (<img src={image_link} alt={image_alt_text}></img>
+                                    )}
+                                < br />
+                                <Date dateString={start_date} isPost={false} />
                             </div>
-                            <b>{one_liner}</b>
+                            <small><b>{one_liner}</b></small>
                             <br />
-                            <p>Used: <i>{tech}</i></p>
+                            <small><p>Used: <i>{tech}</i></p></small>
                             <br />
                         </li>
                     ))}

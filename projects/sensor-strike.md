@@ -19,8 +19,8 @@ header_link: "https://devpost.com/software/hack-utd"
 github_link: "https://github.com/tytrusty/SensorStrike-hack-UTD"
 devpost_link: "https://devpost.com/software/hack-utd"
 youtube_embed_link: "https://www.youtube.com/embed/JO4VNabCiHM"
-header_image: "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/503/282/datas/gallery.jpg"
-header_image_alt_txt:
+image_link:
+image_alt_txt: "Sensor Strike Logo"
 footer_image:
 footer_image_alt_txt:
 ---

@@ -19,8 +19,8 @@ hackathon:
 github_link: 
 devpost_link: 
 youtube_embed_link:
-header_image: ""
-header_image_alt_txt:
+image_link: "/images/shome-logo-595x430.png"
+image_alt_txt: "Shome logo"
 footer_image: ""
 footer_image_alt_txt:
 ---
