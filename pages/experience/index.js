@@ -29,6 +29,7 @@ export default function Experience({ allExperiencesData }) {
                             <small className={utilStyles.lightText}>
                                 <p>{current ? <><b>Current:</b></> : <></>} {job_title} @ {location}</p>
                             </small>
+                            <img src={logo_url} alt={title}></img>
                         </li>
                     ))}
                 </ul>
