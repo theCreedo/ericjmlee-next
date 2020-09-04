@@ -29,14 +29,16 @@ export default function Blog({ allPostsData }) {
                                 <a>{title}</a>
                             </Link>
                             <br />
-                            {image_link ? <img src={image_link}></img> : <></>}
                             <small className={utilStyles.lightText}>
                                 <Date dateString={date} isPost={true} />
                             </small>
+                            {image_link ?
+                                <Link href="/blog/[id]" as={`/blog/${id}`}>
+                                    <img src={image_link}></img>
+                                </Link>
+                                : <></>}
                             <br />
-                            <small>
-                                {description}
-                            </small>
+                            {description}
                             <br />
                             <small><Link href="/blog/[id]" as={`/blog/${id}`}>
                                 <a>Read More</a>
