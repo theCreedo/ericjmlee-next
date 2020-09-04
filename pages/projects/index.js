@@ -28,12 +28,6 @@ export default function Project({ allProjectsData }) {
                     {allProjectsData.map(({ id, start_date, title, one_liner, tech, header_link, youtube_embed_link, image_link, image_alt_text }) => (
                         <li className={utilStyles.listItem} key={id}>
                             <div>
-                                <h4>
-                                    <a href={header_link}>
-                                        {title}
-                                    </a>
-                                    <br />
-                                </h4>
 
                                 {youtube_embed_link ?
                                     (<div className={utilStyles.iframeVideo}>
@@ -41,13 +35,18 @@ export default function Project({ allProjectsData }) {
                                     </div>) :
                                     (<img src={image_link} alt={image_alt_text}></img>
                                     )}
-                                < br />
-                                <Date dateString={start_date} isPost={false} />
+                                <h4 className={utilStyles.headingLgProjects} >
+                                    <a href={header_link}>
+                                        {title}
+                                    </a>
+                                </h4>
+                                <small className={utilStyles.lightText}>
+                                    <Date dateString={start_date} isPost={false} />
+                                </small>
                             </div>
-                            <small><b>{one_liner}</b></small>
+                            <>{one_liner}</>
                             <br />
                             <small><p>Used: <i>{tech}</i></p></small>
-                            <br />
                         </li>
                     ))}
                 </ul>

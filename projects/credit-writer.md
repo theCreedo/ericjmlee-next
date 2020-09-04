@@ -18,7 +18,7 @@ header_link: "https://devpost.com/software/credit-writer"
 github_link: "https://github.com/theCreedo/Credit-Writer"
 devpost_link: "https://devpost.com/software/credit-writer"
 youtube_embed_link:
-image_link: "/images/credit-writer-logo-595x430.png"
+image_link: "/images/credit-writer-logo-374x222.png"
 image_alt_txt: "Credit Writer Logo"
 footer_image: ""
 footer_image_alt_txt:

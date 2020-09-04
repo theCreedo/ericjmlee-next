@@ -17,7 +17,7 @@ header_link: "https://devpost.com/software/hungry-cats"
 github_link: "https://github.com/manav95/HungryCats"
 devpost_link: "https://devpost.com/software/hungry-cats"
 youtube_embed_link:
-image_link: "/images/hungry-cats-logo-595x430.png"
+image_link: "/images/hungry-cats-logo-374x222.png"
 image_alt_txt: "Hungry Cats Logo"
 footer_image: ""
 footer_image_alt_txt:

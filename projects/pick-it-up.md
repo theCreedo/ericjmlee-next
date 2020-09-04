@@ -19,7 +19,7 @@ header_link: "https://devpost.com/software/pick-it-up"
 github_link: "https://github.com/theCreedo/pick-it-up"
 devpost_link: "https://devpost.com/software/pick-it-up"
 youtube_embed_link:
-image_link: "/images/pick-it-up-logo-595x430.png"
+image_link: "/images/pick-it-up-logo-374x222.png"
 image_alt_txt: "Pick It Up Logo"
 footer_image: ""
 footer_image_alt_txt:
