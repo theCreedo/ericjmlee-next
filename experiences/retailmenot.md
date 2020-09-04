@@ -1,9 +1,11 @@
 ---
 title: "RetailMeNot"
 company: "RetailMeNot"
-job_title: "Software Engineer"
+job_title: "SWE"
 location: "Austin, TX"
-link: "https://www.retailmenot.com/"
+company_url: "https://www.retailmenot.com/"
+logo_url: "/images/retailmenot-logo.png"
+current: true
 start_date: "2019-12-01"
 end_date: "2020-08-01"
 ---

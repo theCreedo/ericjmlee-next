@@ -23,12 +23,11 @@ export default function Experience({ allExperiencesData }) {
             <section className={`${utilStyles.divContainer} ${utilStyles.padding1px}`}>
                 <h2 className={utilStyles.headingLg}>Experience</h2>
                 <ul className={utilStyles.list}>
-                    {allExperiencesData.map(({ id, start_date, end_date, location, job_title, link, title }) => (
+                    {allExperiencesData.map(({ id, title, start_date, end_date, location, job_title, company_url, logo_url, current }) => (
                         <li className={utilStyles.listItem} key={id}>
-                            <h1 className={utilStyles.headingMd}><a href={link}>{title}</a> @ {location}</h1>
+                            <h1 className={utilStyles.headingMd}><a href={company_url}>{title}</a></h1>
                             <small className={utilStyles.lightText}>
-                                <p>{job_title}</p>
-                                <Date dateString={start_date} isPost={false} /> to <Date dateString={end_date} isPost={false} />
+                                <p>{current ? <><b>Current:</b></> : <></>} {job_title} @ {location}</p>
                             </small>
                         </li>
                     ))}

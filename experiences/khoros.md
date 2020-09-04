@@ -1,9 +1,11 @@
 ---
-title: "Spredfast Inc."
-company: "Spredfast Inc."
-job_title: "Software Engineer Intern"
+title: "Khoros Inc."
+company: "Khoros Inc."
+job_title: "SWE Intern"
 location: "Austin, TX"
-link: "https://khoros.com/"
+company_url: "https://khoros.com/"
+logo_url: "/images/khoros-logo.png"
+current: false
 start_date: "2018-05-01"
 end_date: "2018-08-01"
 ---

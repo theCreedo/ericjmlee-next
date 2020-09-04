@@ -1,9 +1,11 @@
 ---
 title: "Shome"
 company: "Shome"
-job_title: "CTO"
+job_title: "Lead SWE"
 location: "Austin, TX"
-link: "https://shome-housing.herokuapp.com/"
+company_url: "https://shome-housing.herokuapp.com/"
+logo_url: "/images/shome-logo-725x325.png"
+current: false
 start_date: "2019-05-01"
 end_date: "2019-11-01"
 ---
