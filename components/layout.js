@@ -3,13 +3,14 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import { SocialIcon } from 'react-social-icons';
+import Date from '../components/date'
 
 
 const name = 'Eric Lee'
 export const siteTitle = "ERIC LEE"
 export const base_url = "https://www.ericjmlee.com"
 
-export default function Layout({ children, home, project, experience, blog, about, newsletter }) {
+export default function Layout({ children, home, project, experience, blog, about, newsletter, postData }) {
     const tabs = ['Experience', 'Projects', 'Blog', 'Newsletter', 'About']
     const medium_url = "https://medium.com/@theCreedo"
     const github_url = "http://github.com/theCreedo"
@@ -205,6 +206,15 @@ export default function Layout({ children, home, project, experience, blog, abou
                                             />
                                         </Link>
                                         <h1 className={utilStyles.headingXl}>About</h1>
+                                    </>
+                                )}
+                                {postData && (
+                                    <>
+                                        <h1 className={utilStyles.headingXl}>{postData.title}</h1>
+                                        <br></br>
+                                        <div className={utilStyles.lightText}>
+                                            <Date dateString={postData.date} isPost={true} /> - {postData.reading_time}  min read
+                                        </div>
                                     </>
                                 )}
                             </>
