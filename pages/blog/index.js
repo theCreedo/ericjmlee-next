@@ -21,7 +21,7 @@ export default function Blog({ allPostsData }) {
                 <title>Blog | {siteTitle}</title>
             </Head>
             <section className={`${utilStyles.divContainer} ${utilStyles.padding1px}`}>
-                <h2 className={utilStyles.headingLg}>Blog</h2>
+                <br />
                 <ul className={utilStyles.list}>
                     {allPostsData.map(({ id, date, title, description, image_link }) => (
                         <li className={utilStyles.listItem} key={id}>

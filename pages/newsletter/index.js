@@ -10,9 +10,9 @@ export default function Newsletter() {
             <Head>
                 <title>Newsletter | {siteTitle}</title>
             </Head>
-
             <section className={`${utilStyles.divContainer} ${utilStyles.padding1px}`}>
-                <h2 className={utilStyles.headingLg}><a href="https://ericlee.substack.com/">Savvy Saturdays</a></h2>                <p>Weekly Resources on <b>Faith, Entrepreneurship, & Productivity</b></p>
+                <br />
+                <p>Weekly Resources on <b>Faith, Entrepreneurship, & Productivity</b></p>
                 <div class="subscribe-widget ">
                     <form action="https://ericlee.substack.com/api/v1/free?nojs=true" method="post" class="form " noValidate="">
                         <input type="hidden" name="first_url" value="https://ericlee.substack.com/" />

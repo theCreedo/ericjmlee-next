@@ -21,8 +21,6 @@ export default function Project({ allProjectsData }) {
                 <title>Projects | {siteTitle}</title>
             </Head>
             <section className={`${utilStyles.divContainer} ${utilStyles.padding1px}`}>
-                <h2 className={utilStyles.headingLg}>Projects</h2>
-                <p>I am obsessed with <b>writing</b>, <b>entrepreneurship</b>, and <b>coding</b>.</p>
                 <br />
                 <ul className={utilStyles.list}>
                     {allProjectsData.map(({ id, start_date, title, one_liner, tech, header_link, youtube_embed_link, image_link, image_alt_text }) => (

@@ -143,64 +143,69 @@ export default function Layout({ children, home, project, experience, blog, abou
                                 className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                                 alt={name}
                             />
-                            {/* <h1 className={utilStyles.heading2Xl}>{name}</h1> */}
+                            <h1 className={utilStyles.headingXl}>👋 Hey, Eric here!</h1>
                         </>
                     ) : (
                             <>
                                 {project && (
-                                    <Link href="/">
-                                        <a>
+                                    <>
+                                        <Link href="/">
                                             <img
                                                 src="/images/projects-profile.jpg"
                                                 className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                                                 alt={name}
                                             />
-                                        </a>
-                                    </Link>
+                                        </Link>
+                                        <h1 className={utilStyles.headingXl}>Projects</h1>
+                                    </>
                                 )}
                                 {experience && (
-                                    <Link href="/">
-                                        <a>
+                                    <>
+                                        <Link href="/">
                                             <img
                                                 src="/images/experience-profile.jpg"
                                                 className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                                                 alt={name}
                                             />
-                                        </a>
-                                    </Link>
+                                        </Link>
+                                        <h1 className={utilStyles.headingXl}>Experience</h1>
+                                    </>
                                 )}
                                 {newsletter && (
-                                    <Link href="/">
-                                        <a>
+                                    <>
+                                        <Link href="/">
                                             <img
                                                 src="/images/newsletter-profile.jpg"
                                                 className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                                                 alt={name}
                                             />
-                                        </a>
-                                    </Link>
+                                        </Link>
+                                        <h1 className={utilStyles.headingXl}>Savvy Saturdays</h1>
+                                    </>
                                 )}
                                 {blog && (
-                                    <Link href="/">
-                                        <a>
+                                    <>
+                                        <Link href="/">
                                             <img
                                                 src="/images/blog-profile.jpg"
                                                 className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                                                 alt={name}
                                             />
-                                        </a>
-                                    </Link>
+                                        </Link>
+                                        <h1 className={utilStyles.headingXl}>Blog</h1>
+                                    </>
                                 )}
                                 {about && (
-                                    <Link href="/">
-                                        <a>
+                                    <>
+                                        <Link href="/">
                                             <img
                                                 src="/images/about-profile.jpg"
                                                 className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                                                 alt={name}
                                             />
-                                        </a>
-                                    </Link>
+                                        </Link>
+                                        <h1 className={utilStyles.headingXl}>About</h1>
+                                    </>
                                 )}
                             </>
                         )}

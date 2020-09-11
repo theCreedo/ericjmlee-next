@@ -29,6 +29,7 @@
     position: relative;
     min-height: 100vh;
   }
+
   .header {
     display: flex;
     flex-direction: column;
@@ -44,7 +45,7 @@
   .headerHomeImage {
     width: 8rem;
     height: 8rem;
-    margin: 1rem auto 2rem;
+    margin: 0rem auto 2rem;
   }
   
   .backToHome {

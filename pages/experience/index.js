@@ -21,7 +21,6 @@ export default function Experience({ allExperiencesData }) {
                 <title>Experience | {siteTitle}</title>
             </Head>
             <section className={`${utilStyles.divContainer} ${utilStyles.padding1px}`}>
-                <h2 className={utilStyles.headingLg}>Experience</h2>
                 <br />
                 <ul className={utilStyles.list}>
                     {allExperiencesData.map(({ id, title, start_date, end_date, location, job_title, company_url, logo_url, current }) => (
