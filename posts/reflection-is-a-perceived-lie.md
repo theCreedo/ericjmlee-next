@@ -2,10 +2,10 @@
 title: 'Your Reflection is a Perceived Lie'
 date: '2020-08-08'
 image_link: 'https://christianpolymathhome.files.wordpress.com/2020/08/monalisa.png'
+reading_time: 2
 description: 'Did you know, when you look in the mirror or a video call, who you see every day is a mirrored view of what everyone sees?'
 ---
 ![mona lisa reflection](https://christianpolymathhome.files.wordpress.com/2020/08/monalisa.png "Mona Lisa Reflection")
-###### how people see Mona Lisa vs. how Mona Lisa sees herself
 
 Did you know, when you look in the mirror or a video call, who you see every day is a mirrored view of what everyone sees?
 
