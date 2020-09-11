@@ -19,7 +19,14 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.divContainer}>
-        <p>SWE @ <a href='https://www.retailmenot.com/'>RetailMeNot</a> | entrepreneur, mentor, coder, and blogger</p>
+        <br></br>
+        <p>Currently I work in ATX as a Software Engineer @ <a href='https://www.retailmenot.com/'>RetailMeNot</a>, working on full stack web development.</p>
+        <p>In my free time, I focus on:</p>
+        <ul>
+          <li>Serving in my church, <a href="https://austin.hmcc.net/">HMCC Austin</a>, as a leader.</li>
+          <li>Working on <a href="https://ericlee.substack.com/">Savvy Saturdays</a>, a weekly newsletter bringing the best resources on faith, entrepreneurship, & productivity to people's mailbox.</li>
+          <li>Consulting & mentorship for startups & creative ventures like YouTube, Etsy, & Instagram.</li>
+        </ul>
         <p><b><i>Learning is my passion. Empowering is my mission.</i></b></p>
       </section>
     </Layout >

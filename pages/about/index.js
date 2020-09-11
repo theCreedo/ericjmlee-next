@@ -22,12 +22,9 @@ export default function About({ allPostsData }) {
                 <title>About | {siteTitle}</title>
             </Head>
             <section className={`${utilStyles.divContainer} ${utilStyles.padding1px}`}>
-                <h2 className={utilStyles.headingLg}>About</h2>
-                <p>Hello, Eric here! 👋</p>
+                <br />
                 <p>I'm a {getAge('1996-12-21')} year old UT Austin grad (🤘'19) with a Computer Science (CS) major and an Entrepreneurship minor.</p>
                 <p>I’ve lived in Texas all my life and have a totally normal amount of Dallas pride ✊, but Taiwan will always be special to me because it symbolizes my heritage and family 🇹🇼. Michigan also holds a piece of my heart since my favorite mission trips were at Ann Arbor and Detroit.</p>
-                <p>Currently I work in ATX as a Software Engineer @ <a href='https://www.retailmenot.com/'>RetailMeNot</a>, working on full stack web development.</p>
-                <p>In my free time, I serve in my church called <a href="https://austin.hmcc.net/">HMCC Austin</a>, work on my personal newsletter <a href="https://ericlee.substack.com/">Savvy Saturdays</a>, and provide consulting & mentorship for startups & creative ventures like YouTube, Etsy, & Instagram.</p>
                 <p>My Myers-Briggs is <a href="https://www.16personalities.com/enfp-personality">ENFP</a>, and my Enneagram type is <a href="https://www.crystalknows.com/enneagram/type-2-wing-3">2w3</a>.</p>
 
                 <h2 className={utilStyles.headingLg}>Interests</h2>
@@ -37,6 +34,7 @@ export default function About({ allPostsData }) {
                 <h2 className={utilStyles.headingLg}>Contact Me</h2>
                 <p>I love meeting new people! Sharing about life, helping people on their startups and creative ventures, as well as providing (or receiving) perspective are all life's joys.</p>
                 <p>Please reach out if you want to chat! Email me @ <a href="mailto:heyericjmlee@gmail.com">heyericjmlee@gmail.com</a> or message me through any social media.</p>
+                <br />
                 <Link href='/'><a>← Back to Home</a></Link>
             </section>
         </Layout >
