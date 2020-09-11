@@ -136,16 +136,6 @@ export default function Layout({ children, home, project, experience, blog, abou
                     </div>
                 </nav>
                 <header className={styles.header}>
-                    {/* <div className={styles.nav}>
-                    {tabs.map((item) => {
-                        const href = '/' + item.toLowerCase()
-                        return (
-                            <div>
-                                <a>| <Link href={href}><a>{item}</a></Link> | </a>
-                            </div>
-                        )
-                    })}
-                </div> */}
                     {home ? (
                         <>
                             <img
@@ -162,7 +152,7 @@ export default function Layout({ children, home, project, experience, blog, abou
                                         <a>
                                             <img
                                                 src="/images/projects-profile.jpg"
-                                                className={`${styles.headerImage} ${utilStyles.borderCircle}`}
+                                                className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                                                 alt={name}
                                             />
                                         </a>
@@ -173,7 +163,7 @@ export default function Layout({ children, home, project, experience, blog, abou
                                         <a>
                                             <img
                                                 src="/images/experience-profile.jpg"
-                                                className={`${styles.headerImage} ${utilStyles.borderCircle}`}
+                                                className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                                                 alt={name}
                                             />
                                         </a>
@@ -184,7 +174,7 @@ export default function Layout({ children, home, project, experience, blog, abou
                                         <a>
                                             <img
                                                 src="/images/newsletter-profile.jpg"
-                                                className={`${styles.headerImage} ${utilStyles.borderCircle}`}
+                                                className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                                                 alt={name}
                                             />
                                         </a>
@@ -195,7 +185,7 @@ export default function Layout({ children, home, project, experience, blog, abou
                                         <a>
                                             <img
                                                 src="/images/blog-profile.jpg"
-                                                className={`${styles.headerImage} ${utilStyles.borderCircle}`}
+                                                className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                                                 alt={name}
                                             />
                                         </a>
@@ -206,7 +196,7 @@ export default function Layout({ children, home, project, experience, blog, abou
                                         <a>
                                             <img
                                                 src="/images/about-profile.jpg"
-                                                className={`${styles.headerImage} ${utilStyles.borderCircle}`}
+                                                className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                                                 alt={name}
                                             />
                                         </a>
