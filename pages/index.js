@@ -20,6 +20,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.divContainer}>
         <br></br>
+        <blockquote><b><i>Learning is my passion. Empowering is my mission.</i></b></blockquote>
         <p>Currently I work in ATX as a Software Engineer @ <a href='https://www.retailmenot.com/'>RetailMeNot</a>, working on full stack web development.</p>
         <p>In my free time, I focus on:</p>
         <ul>
@@ -27,7 +28,6 @@ export default function Home({ allPostsData }) {
           <li>Working on <a href="https://ericlee.substack.com/">Savvy Saturdays</a>, a weekly newsletter bringing the best resources on faith, entrepreneurship, & productivity to people's mailbox.</li>
           <li>Consulting & mentorship for startups & creative ventures like YouTube, Etsy, & Instagram.</li>
         </ul>
-        <p><b><i>Learning is my passion. Empowering is my mission.</i></b></p>
       </section>
     </Layout >
   )

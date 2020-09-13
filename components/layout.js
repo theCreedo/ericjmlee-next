@@ -118,7 +118,7 @@ export default function Layout({ children, home, project, experience, blog, abou
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossOrigin="anonymous"></script>
             </Head>
             <div className={styles.pageContainer}>
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                     <a class="navbar-brand" href="/">ERIC LEE</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -213,7 +213,7 @@ export default function Layout({ children, home, project, experience, blog, abou
                                         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
                                         <br></br>
                                         <div className={utilStyles.lightText}>
-                                            <Date dateString={postData.date} isPost={true} /> - {postData.reading_time}  min read
+                                            {postData.reading_time}  min read
                                         </div>
                                     </>
                                 )}
