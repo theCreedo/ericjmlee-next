@@ -23,7 +23,7 @@ export default function Blog({ allPostsData }) {
             <section className={`${utilStyles.divContainer} ${utilStyles.padding1px}`}>
                 <br />
                 <ul className={utilStyles.list}>
-                    {allPostsData.map(({ id, date, title, description, image_link }) => (
+                    {allPostsData.map(({ id, date, title, description, image_link, image_alt }) => (
                         <li className={utilStyles.listItem} key={id}>
                             <Link href="/blog/[id]" as={`/blog/${id}`}>
                                 <a>{title}</a>
@@ -34,7 +34,7 @@ export default function Blog({ allPostsData }) {
                             </small>
                             {image_link ?
                                 <Link href="/blog/[id]" as={`/blog/${id}`}>
-                                    <img src={image_link}></img>
+                                    <img src={image_link} alt={image_alt}></img>
                                 </Link>
                                 : <></>}
                             <br />

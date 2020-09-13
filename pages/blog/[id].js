@@ -40,6 +40,12 @@ export default function Post({ postData }) {
             </Head>
             <article className={utilStyles.divContainer}>
                 <br></br>
+                {postData.image_link ?
+                    <img src={postData.image_link} alt={postData.image_alt}></img>
+                    : <></>}
+                <br></br>
+                <div className={utilStyles.lightText}><Date dateString={postData.date} isPost={true} /></div>
+                <br></br>
                 <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
                 <Link href='/blog'><a>← Back to Blog</a></Link>
             </article>
