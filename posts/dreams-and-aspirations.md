@@ -1,10 +1,12 @@
 ---
 title: 'Dreams and Aspirations'
 date: '2020-09-05'
-image_link: 
+image_link: 'https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F135e01bf-42e4-4435-bb07-21d7cccc2513_5452x3635.jpeg'
+image_alt: 'kid playing piano'
 reading_time: 2
 description: 'I grew up with a lot of different dreams. Becoming a violinist and music performer like Lindsey Stirling or Piano Guys. Becoming a video game creator...'
 ---
+
 I grew up with a lot of different dreams.
 
 - Becoming a violinist and music performer like Lindsey Stirling or Piano Guys.

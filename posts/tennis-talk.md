@@ -1,12 +1,11 @@
 ---
 title: 'Tennis Talk'
 date: '2020-08-09'
-reading_time: 1
 image_link: 'https://christianpolymathhome.files.wordpress.com/2020/08/117385348_811915826011976_5750625179686012209_n.jpg?w=2048'
+image_alt: 'on the tennis court behind net'
+reading_time: 1
 description: 'Essentially you’re ranked against the world, and most people who try to get into the field start as early as their teen years...'
 ---
-![tennis game](https://christianpolymathhome.files.wordpress.com/2020/08/117385348_811915826011976_5750625179686012209_n.jpg?w=2048 "On Tennis Court")
-
 I learned a lot about tennis rating systems from my friend, as well as the competitiveness of tennis. Essentially you’re ranked against the world, and most people who try to get into the field start as early as their teen years, skip college to compete, and only the top 100+ people can maintain a tennis career as a salary.
 
 Interestingly enough, as much as sports players get paid, there’s so much money that needs to be spent on equipment, coaching, travel for self and coach, as well as other expenses. It’s no surprise that a group of tennis players may rent out an Airbnb with only a single floor in order to save money, since they can’t afford expensive lodging.
