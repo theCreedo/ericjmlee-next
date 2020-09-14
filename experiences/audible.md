@@ -4,7 +4,7 @@ company: "Audible Inc."
 job_title: "SDE Intern"
 location: "Newark, NJ"
 company_url: "https://www.audible.com/"
-logo_url: "/images/audible-logo.png"
+logo_url: "/images/experience/audible-logo.png"
 current: false
 start_date: "2016-05-01"
 end_date: "2016-08-01"

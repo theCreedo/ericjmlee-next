@@ -16,6 +16,7 @@ export default function Layout({ children, home, project, experience, blog, abou
     const github_url = "http://github.com/theCreedo"
     const linkedin_url = "https://linkedin.com/in/ericjmlee"
     const twitter_url = "https://twitter.com/ericjmlee"
+    const color = 'blue';
     // const email_url = "mailto:heyericjmlee@gmail.com"
     return (
         <div>
@@ -42,7 +43,7 @@ export default function Layout({ children, home, project, experience, blog, abou
                 {home && (<>
                     <meta
                         property="og:image"
-                        content={base_url + "/images/profile-191x100.jpg"}
+                        content={base_url + "/images/profile/" + color + "-profile-191x100.jpg"}
                     />
                     <meta
                         property="og:title" content={siteTitle}
@@ -54,7 +55,7 @@ export default function Layout({ children, home, project, experience, blog, abou
                 {project && (<>
                     <meta
                         property="og:image"
-                        content={base_url + "/images/projects-profile-191x100.jpg"}
+                        content={base_url + "/images/profile/" + color + "-projects-profile-191x100.jpg"}
                     />
                     <meta
                         property="og:title" content={"Projects | " + siteTitle}
@@ -66,7 +67,7 @@ export default function Layout({ children, home, project, experience, blog, abou
                 {experience && (<>
                     <meta
                         property="og:image"
-                        content={base_url + "/images/experience-profile-191x100.jpg"}
+                        content={base_url + "/images/profile/" + color + "-experience-profile-191x100.jpg"}
                     /> &&
                     <meta
                         property="og:title" content={"Experience | " + siteTitle}
@@ -78,7 +79,7 @@ export default function Layout({ children, home, project, experience, blog, abou
                 {blog && (<>
                     <meta
                         property="og:image"
-                        content={base_url + "/images/blog-profile-191x100.jpg"}
+                        content={base_url + "/images/profile/" + color + "-blog-profile-191x100.jpg"}
                     /> &&
                     <meta
                         property="og:title" content={"Blog | " + siteTitle}
@@ -90,7 +91,7 @@ export default function Layout({ children, home, project, experience, blog, abou
                 {newsletter && (<>
                     <meta
                         property="og:image"
-                        content={base_url + "/images/newsletter-profile-191x100.jpg"}
+                        content={base_url + "/images/profile/" + color + "-newsletter-profile-191x100.jpg"}
                     /> &&
                     <meta
                         property="og:title" content={"Newsletter | " + siteTitle}
@@ -102,7 +103,7 @@ export default function Layout({ children, home, project, experience, blog, abou
                 {about && (<>
                     <meta
                         property="og:image"
-                        content={base_url + "/images/about-profile-191x100.jpg"}
+                        content={base_url + "/images/profile/" + color + "-about-profile-191x100.jpg"}
                     /> &&
                     <meta
                         property="og:title" content={"About | " + siteTitle}
@@ -140,7 +141,7 @@ export default function Layout({ children, home, project, experience, blog, abou
                     {home ? (
                         <>
                             <img
-                                src="/images/profile.jpg"
+                                src={"/images/profile/transparent-profile.png"}
                                 className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                                 alt={name}
                             />
@@ -152,7 +153,7 @@ export default function Layout({ children, home, project, experience, blog, abou
                                     <>
                                         <Link href="/">
                                             <img
-                                                src="/images/projects-profile.jpg"
+                                                src={"/images/profile/transparent-projects-profile.png"}
                                                 className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                                                 alt={name}
                                             />
@@ -164,7 +165,7 @@ export default function Layout({ children, home, project, experience, blog, abou
                                     <>
                                         <Link href="/">
                                             <img
-                                                src="/images/experience-profile.jpg"
+                                                src={"/images/profile/transparent-experience-profile.png"}
                                                 className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                                                 alt={name}
                                             />
@@ -176,7 +177,7 @@ export default function Layout({ children, home, project, experience, blog, abou
                                     <>
                                         <Link href="/">
                                             <img
-                                                src="/images/newsletter-profile.jpg"
+                                                src={"/images/profile/transparent-newsletter-profile.png"}
                                                 className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                                                 alt={name}
                                             />
@@ -188,7 +189,7 @@ export default function Layout({ children, home, project, experience, blog, abou
                                     <>
                                         <Link href="/">
                                             <img
-                                                src="/images/blog-profile.jpg"
+                                                src={"/images/profile/transparent-blog-profile.png"}
                                                 className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                                                 alt={name}
                                             />
@@ -200,7 +201,7 @@ export default function Layout({ children, home, project, experience, blog, abou
                                     <>
                                         <Link href="/">
                                             <img
-                                                src="/images/about-profile.jpg"
+                                                src={"/images/profile/transparent-about-profile.png"}
                                                 className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                                                 alt={name}
                                             />

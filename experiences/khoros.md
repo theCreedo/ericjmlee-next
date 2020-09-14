@@ -4,7 +4,7 @@ company: "Khoros Inc."
 job_title: "SWE Intern"
 location: "Austin, TX"
 company_url: "https://khoros.com/"
-logo_url: "/images/khoros-logo.png"
+logo_url: "/images/experience/khoros-logo.png"
 current: false
 start_date: "2018-05-01"
 end_date: "2018-08-01"
