@@ -10,6 +10,25 @@ const name = 'Eric Lee'
 export const siteTitle = "ERIC LEE"
 export const base_url = "https://www.ericjmlee.com"
 
+function HeaderItem({ imageUrl, imageAlt, title, home }) {
+    return (<div>
+        {home ? <Link href="/" >
+            <img
+                src={imageUrl}
+                className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
+                alt={imageAlt}
+            />
+        </Link>
+            : <img
+                src={imageUrl}
+                className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
+                alt={imageAlt}
+            />}
+        <h1 className={utilStyles.headingXl}>{title}</h1>
+    </div>)
+
+}
+
 export default function Layout({ children, home, project, experience, blog, about, newsletter, postData }) {
     const tabs = ['Experience', 'Projects', 'Blog', 'Newsletter', 'About']
     const medium_url = "https://medium.com/@theCreedo"
@@ -139,75 +158,42 @@ export default function Layout({ children, home, project, experience, blog, abou
                 </nav>
                 <header className={styles.header}>
                     {home ? (
-                        <>
-                            <img
-                                src={"/images/profile/transparent-profile.png"}
-                                className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-                                alt={name}
-                            />
-                            <h1 className={utilStyles.headingXl}>👋 Hey, Eric here!</h1>
-                        </>
+                        <HeaderItem
+                            imageUrl={"/images/profile/transparent-profile.png"}
+                            imageAlt={name}
+                            title={"👋 Hey, Eric here!"}
+                            home={true} />
                     ) : (
                             <>
                                 {project && (
-                                    <>
-                                        <Link href="/">
-                                            <img
-                                                src={"/images/profile/transparent-projects-profile.png"}
-                                                className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-                                                alt={name}
-                                            />
-                                        </Link>
-                                        <h1 className={utilStyles.headingXl}>Projects</h1>
-                                    </>
+                                    <HeaderItem
+                                        imageUrl={"/images/profile/transparent-projects-profile.png"}
+                                        imageAlt={name}
+                                        title={"Projects"} />
                                 )}
                                 {experience && (
-                                    <>
-                                        <Link href="/">
-                                            <img
-                                                src={"/images/profile/transparent-experience-profile.png"}
-                                                className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-                                                alt={name}
-                                            />
-                                        </Link>
-                                        <h1 className={utilStyles.headingXl}>Experience</h1>
-                                    </>
+                                    <HeaderItem
+                                        imageUrl={"/images/profile/transparent-experience-profile.png"}
+                                        imageAlt={name}
+                                        title={"Experience"} />
                                 )}
                                 {newsletter && (
-                                    <>
-                                        <Link href="/">
-                                            <img
-                                                src={"/images/profile/transparent-newsletter-profile.png"}
-                                                className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-                                                alt={name}
-                                            />
-                                        </Link>
-                                        <h1 className={utilStyles.headingXl}>Savvy Saturdays</h1>
-                                    </>
+                                    <HeaderItem
+                                        imageUrl={"/images/profile/transparent-newsletter-profile.png"}
+                                        imageAlt={name}
+                                        title={"Savvy Saturdays"} />
                                 )}
                                 {blog && (
-                                    <>
-                                        <Link href="/">
-                                            <img
-                                                src={"/images/profile/transparent-blog-profile.png"}
-                                                className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-                                                alt={name}
-                                            />
-                                        </Link>
-                                        <h1 className={utilStyles.headingXl}>Blog</h1>
-                                    </>
+                                    <HeaderItem
+                                        imageUrl={"/images/profile/transparent-blog-profile.png"}
+                                        imageAlt={name}
+                                        title={"Blog"} />
                                 )}
                                 {about && (
-                                    <>
-                                        <Link href="/">
-                                            <img
-                                                src={"/images/profile/transparent-about-profile.png"}
-                                                className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-                                                alt={name}
-                                            />
-                                        </Link>
-                                        <h1 className={utilStyles.headingXl}>About</h1>
-                                    </>
+                                    <HeaderItem
+                                        imageUrl={"/images/profile/transparent-about-profile.png"}
+                                        imageAlt={name}
+                                        title={"About"} />
                                 )}
                                 {postData && (
                                     <>
