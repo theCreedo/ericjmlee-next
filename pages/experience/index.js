@@ -3,7 +3,8 @@ import Link from "next/link"
 import Layout, { siteTitle } from '../../components/layout'
 import utilStyles from '../../styles/utils.module.css'
 import { getSortedExperiencesData } from '../../lib/experiences'
-import Date from '../../components/date'
+import ExperienceItem from '../../components/experience'
+
 
 export async function getStaticProps() {
     const allExperiencesData = getSortedExperiencesData()
@@ -23,14 +24,8 @@ export default function Experience({ allExperiencesData }) {
             <section className={`${utilStyles.divContainer} ${utilStyles.padding1px}`}>
                 <br />
                 <ul className={utilStyles.list}>
-                    {allExperiencesData.map(({ id, title, start_date, end_date, location, job_title, company_url, logo_url, current }) => (
-                        <li className={utilStyles.listItem} key={id}>
-                            <h1 className={utilStyles.headingMd}><a href={company_url}>{title}</a></h1>
-                            <small className={utilStyles.lightText}>
-                                <p>{current ? <><b>Current:</b></> : <></>} {job_title} @ {location}</p>
-                            </small>
-                            <img src={logo_url} alt={title}></img>
-                        </li>
+                    {allExperiencesData.map((experienceData) => (
+                        <ExperienceItem {...experienceData} />
                     ))}
                 </ul>
                 {/* TODO ADD SKILLS */}
