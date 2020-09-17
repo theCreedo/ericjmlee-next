@@ -3,7 +3,6 @@ import Link from 'next/link'
 import Layout, { siteTitle } from '../../components/layout'
 import utilStyles from '../../styles/utils.module.css'
 import { getSortedProjectsData } from '../../lib/projects'
-import Date from '../../components/date'
 import ProjectItem from '../../components/project'
 
 export async function getStaticProps() {

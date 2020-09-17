@@ -68,6 +68,31 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+.buttonSubscribe {
+  border: outset;
+  width: fit-content;
+  border-radius: 5px;
+}
+
+.inputEmail {
+  border: none;
+  width: fit-content;
+  border-radius: 5px;
+}
+
+.newsletterForm {
+  margin: 2rem 3rem;
+  padding: 32px;
+  border-radius: 15px;
+  font-size: 1rem;
+  background-color: rgb(185, 185, 185);
+}
+
+@media(max-width:639px){
+  .newsletterForm {
+    margin: 0rem;
+  }
+}
 
 @media(max-width:600px){
   .list {
@@ -75,10 +100,10 @@
   }
 }
   
-  .listItem {
-    margin: 0 0 1.25rem;
-  }
-  
-  .lightText {
-    color: #999;
-  }
+.listItem {
+  margin: 0 0 1.25rem;
+}
+
+.lightText {
+  color: #999;
+}
