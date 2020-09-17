@@ -1,3 +1,4 @@
+import LazyLoad from 'react-lazyload';
 import utilStyles from '../styles/utils.module.css'
 import Date from './date'
 
@@ -12,9 +13,11 @@ export default function ProjectItem({ id, start_date, title, one_liner, tech, he
         <div>
             {youtube_embed_link ?
                 <YoutubeItem youtube_embed_link={youtube_embed_link} /> :
-                (<a href={header_link}>
-                    <img className={utilStyles.gridImage} src={image_link} alt={image_alt_text} />
-                </a>)}
+                (<LazyLoad>
+                    <a href={header_link}>
+                        <img className={utilStyles.gridImage} src={image_link} alt={image_alt_text} />
+                    </a>
+                </LazyLoad>)}
             <h4 className={utilStyles.headingLgProjects} >
                 <a href={header_link}>
                     {title}

@@ -1,3 +1,4 @@
+import LazyLoad from 'react-lazyload';
 import utilStyles from '../styles/utils.module.css'
 
 export default function ExperienceItem({ id, title, start_date, end_date, location, job_title, company_url, logo_url, current }) {
@@ -7,7 +8,9 @@ export default function ExperienceItem({ id, title, start_date, end_date, locati
             <small className={utilStyles.lightText}>
                 <p>{current ? <><b>Current:</b></> : <></>} {job_title} @ {location}</p>
             </small>
-            <img className={utilStyles.gridImage} src={logo_url} alt={title}></img>
+            <LazyLoad>
+                <img className={utilStyles.gridImage} src={logo_url} alt={title} />
+            </LazyLoad>
         </li>);
 }
 

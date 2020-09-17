@@ -1,9 +1,10 @@
 import utilStyles from '../styles/utils.module.css'
 import Date from './date'
 import Link from 'next/link'
+import LazyLoad from 'react-lazyload';
 
-export default function BlogItem({ id, date, title, description, image_link, image_alt }) {
-    return (
+export default function BlogItem({ id, date, title, description, image_link, image_alt, unpublished }) {
+    return (unpublished ? <></> :
         <li className={utilStyles.listItem} key={id}>
             <Link href="/blog/[id]" as={`/blog/${id}`}>
                 <a>{title}</a>
@@ -14,7 +15,9 @@ export default function BlogItem({ id, date, title, description, image_link, ima
             </small>
             {image_link ?
                 <Link href="/blog/[id]" as={`/blog/${id}`}>
-                    <img src={image_link} alt={image_alt}></img>
+                    <LazyLoad>
+                        <img src={image_link} alt={image_alt}></img>
+                    </LazyLoad>
                 </Link>
                 : <></>}
             <br />
