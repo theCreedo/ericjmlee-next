@@ -25,8 +25,10 @@ export default function Home({ allPostsData }) {
         <p>In my free time, I focus on:</p>
         <ul>
           <li>Serving in my church, <a href="https://austin.hmcc.net/">HMCC Austin</a>, as a leader.</li>
-          <li>Working on <a href="https://ericlee.substack.com/">Savvy Saturdays</a>, a weekly newsletter bringing the best resources on faith, entrepreneurship, & productivity to people's mailbox.</li>
-          <li>Consulting & mentorship for startups & creative ventures like YouTube, Etsy, & Instagram.</li>
+          <li>Designing and building new features for this website.</li>
+          <li>Writing thoughts out on faith, struggles, & life.</li>
+          <li>Working on <a href="https://ericlee.substack.com/">Savvy Saturdays</a>, a weekly newsletter on faith, entrepreneurship, productivity, & inspiration.</li>
+          <li>Consulting & mentoring startups & creative ventures like YouTube, Etsy, & Instagram.</li>
         </ul>
       </section>
     </Layout >
