@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
+import NewsletterForm from '../components/newsletter'
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
@@ -30,6 +31,8 @@ export default function Home({ allPostsData }) {
           <li>Working on <a href="https://ericlee.substack.com/">Savvy Saturdays</a>, a weekly newsletter on faith, entrepreneurship, productivity, & inspiration.</li>
           <li>Consulting & mentoring startups & creative ventures like YouTube, Etsy, & Instagram.</li>
         </ul>
+        {/* TODO: add latest blog post */}
+        <NewsletterForm />
       </section>
     </Layout >
   )
