@@ -5,7 +5,7 @@ image_link: 'https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:g
 image_alt: 'Imperfect Fern Leaf'
 reading_time: 1
 unpublished: false
-description: 'People would rather follow a leader that’s real, than a leader that’s right.'
+description: 'People would rather follow a leader that’s real, than a leader that’s right...'
 ---
 Leadership is hard.
 
