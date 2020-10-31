@@ -28,7 +28,7 @@ export default function Home({ allPostsData }) {
           <li>Serving in my church, <a href="https://austin.hmcc.net/">HMCC Austin</a>, as a leader.</li>
           <li>Designing and building new features for this website.</li>
           <li>Writing thoughts out on faith, struggles, & life.</li>
-          <li>Working on <a href="https://ericlee.substack.com/">Savvy Saturdays</a>, a weekly newsletter on faith, entrepreneurship, productivity, & inspiration.</li>
+          <li>Working on <a href="https://ericlee.substack.com/">Savvy Saturdays</a>, a weekly newsletter on my learnings, faith, leadership, & productivity.</li>
           <li>Consulting & mentoring startups & creative ventures like YouTube, Etsy, & Instagram.</li>
         </ul>
         {/* TODO: add latest blog post */}
