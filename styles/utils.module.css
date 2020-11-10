@@ -85,6 +85,28 @@
   border-radius: 5px;
 }
 
+.blogLink {
+  border-radius: 7px;
+  padding: 13px 26px;
+  background-color: rgb(226, 241, 255);
+  text-decoration-color: white;
+  display:inline-block;
+  line-height: 1.5rem;
+  transition: 0.5s;
+}
+
+.blogLink:hover {
+  background-color: rgb(147, 203, 255);
+  text-decoration: none;
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
 .newsletterForm {
   margin: 2rem 3rem;
   padding: 32px;

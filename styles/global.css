@@ -18,16 +18,26 @@ b {
 * {
   box-sizing: border-box;
 }
-
-a {
-  color: #00AAFF;
-  text-decoration: none;
-}
-
+/* a {
+  color: #A339CB;
+  text-decoration: none; */
+  /* First we need to help some browsers along for this to work.
+     Just because a vendor prefix is there, doesn't mean it will
+     work in a browser made by that vendor either, it's just for
+     future-proofing purposes I guess. */
+  /* -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s; */
+  /* ...and now for the proper property */
+/* 
+  transition: all 0.3s ease-in-out 0s;
+} */
+/* 
 a:hover {
-  color: #55c6ff;
-  text-decoration: underline;
-}
+  color: #ff76ddbe;
+  text-decoration: none;
+} */
 
 img {
   max-width: 100%;

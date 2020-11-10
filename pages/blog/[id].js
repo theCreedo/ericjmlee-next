@@ -3,13 +3,18 @@ import Date from '../../components/date'
 import Link from "next/link"
 import Head from 'next/head'
 import utilStyles from '../../styles/utils.module.css'
-import { getAllPostIds, getPostData } from '../../lib/posts'
+import { getAdjacentPosts, getAllPostIds, getPostData } from '../../lib/posts'
+import NewsletterForm from '../../components/newsletter'
 
 export async function getStaticProps({ params }) {
     const postData = await getPostData(params.id)
+
+    const adjacentPostsData = await getAdjacentPosts(params.id)
+    console.log(adjacentPostsData);
     return {
         props: {
-            postData
+            postData,
+            adjacentPostsData
         }
     }
 }
@@ -22,7 +27,8 @@ export async function getStaticPaths() {
     }
 }
 
-export default function Post({ postData }) {
+export default function Post({ postData, adjacentPostsData }) {
+    console.log(adjacentPostsData.previousPost);
     return (
         <Layout postData={postData}>
             <Head>
@@ -47,7 +53,18 @@ export default function Post({ postData }) {
                 <div className={utilStyles.lightText}><Date dateString={postData.date} isPost={true} /></div>
                 <br></br>
                 <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-                <Link href='/blog'><a>← Back to Blog</a></Link>
+                <div>
+                    {Math.floor(Math.random() * 10) > 5 && <NewsletterForm />}
+                    <hr />
+                    {adjacentPostsData.previousPost &&
+                        <Link href={'/blog/' + adjacentPostsData.previousPost.id}>
+                            <a className={`${utilStyles.blogLink} ${utilStyles.alignleft}`}>Previous: {adjacentPostsData.previousPost.title}</a>
+                        </Link>}
+                    {adjacentPostsData.nextPost &&
+                        <Link href={'/blog/' + adjacentPostsData.nextPost.id}>
+                            <a className={`${utilStyles.blogLink} ${utilStyles.alignright}`}>Next: {adjacentPostsData.nextPost.title}</a>
+                        </Link>}
+                </div>
             </article>
         </Layout>
     )
