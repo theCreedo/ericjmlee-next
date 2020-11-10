@@ -107,6 +107,13 @@
 	float: right;
 }
 
+
+.blogPostImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .newsletterForm {
   margin: 2rem 3rem;
   padding: 32px;
