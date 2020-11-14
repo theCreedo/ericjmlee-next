@@ -21,11 +21,11 @@ Rather than talking about numbers or speaking on “businessy” terms like KPIs
 
 And though he shared other cool things about the company, I was fixated by his statement to impact others through this framework:
 
-- *Dream Big*, because in order to know where you go in life, you need a big goal or vision.
+- **Dream Big**, because in order to know where you go in life, you need a big goal or vision.
 
-- *Start Small*, because you need to get good at consistency in taking small steps.
+- **Start Small**, because you need to get good at consistency in taking small steps.
 
-- *Scale Up*, because once you can do something small really well, you can grow into a greater capacity.
+- **Scale Up**, because once you can do something small really well, you can grow into a greater capacity.
 
 These steps are ways I’m trying to slowly live out different goals in my own personal life:
 
@@ -37,7 +37,7 @@ For my practical skills, I hope one day to be able to cook a 7-8 course meal to 
 
 By having a set goal, building up the habits, and learning to be consistent, though it can be mundane at times, I know that these small steps are necessary in order to live out a belief I have - the belief that what I do influences and changes lives, and ultimately glorifies God.
 
-*Through what we build, what we say, and how we live, I believe each of us has the ability to inspire and change the world.*
+**Through what we build, what we say, and how we live, I believe each of us has the ability to inspire and change the world.**
 
 To share a quote I was reflecting on this past week:
 

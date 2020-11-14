@@ -48,7 +48,7 @@ And with any opportunity, there is potential to grow. 🧐
 
 Gaining confidence, building up courage, and learning to lead amidst discomfort.
 
-“_To achieve what nobody has_” requires *being willing to step out of our comfort zone and stand out*.
+“_To achieve what nobody has_” requires **being willing to step out of our comfort zone and stand out**.
 
 To trade safety for risk.
 
