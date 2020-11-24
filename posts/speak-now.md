@@ -1,6 +1,6 @@
 ---
 title: "Speak Now"
-original_link: 'https://medium.com/@theCreedo/speak-now-ace4389eafd2'
+original_link: 'https://thecreedo.medium.com/speak-now-ace4389eafd2'
 date: '2017-10-26'
 image_link: 'https://miro.medium.com/max/1400/1*CnL-mUwNHAoOliWTZCBolA.jpeg'
 image_alt: 'close up mic'

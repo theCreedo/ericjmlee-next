@@ -1,6 +1,6 @@
 ---
 title: "A story about more than just bunnies and eggs"
-original_link: 'https://medium.com/@theCreedo/a-story-about-more-than-just-bunnies-and-eggs-265b92a6606f'
+original_link: 'https://thecreedo.medium.com/a-story-about-more-than-just-bunnies-and-eggs-265b92a6606f'
 date: '2017-04-16'
 image_link: 'https://miro.medium.com/max/1400/1*jKteeeE7HTcxs4EhMRcOyw.jpeg'
 image_alt: 'sunset and three crosses'

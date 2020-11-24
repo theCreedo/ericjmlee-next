@@ -1,6 +1,6 @@
 ---
 title: 'What About Him?'
-original_link: 'https://medium.com/@theCreedo/what-about-him-7178c8b382da'
+original_link: 'https://thecreedo.medium.com/what-about-him-7178c8b382da'
 date: '2017-10-14'
 image_link: 'https://miro.medium.com/max/1400/1*yEepbgIY7l9qWoHri6iuuA.jpeg'
 image_alt: 'fern leaves with a halo in front of sunlight'

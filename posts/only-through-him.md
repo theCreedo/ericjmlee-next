@@ -1,6 +1,6 @@
 ---
 title: "Only Through Him"
-original_link: 'https://medium.com/@theCreedo/only-through-him-5e4f333203f1'
+original_link: 'https://thecreedo.medium.com/only-through-him-5e4f333203f1'
 date: '2017-08-11'
 image_link: 'https://miro.medium.com/max/2000/1*0FFcVbUt8TGHecm_G2cl9A.jpeg'
 image_alt: 'a road amidst a forestry of trees'

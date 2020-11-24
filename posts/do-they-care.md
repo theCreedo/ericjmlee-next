@@ -5,7 +5,7 @@ date: '2018-10-03'
 image_link: 'https://miro.medium.com/max/1400/1*S-jVLtQgJ1bYaMoHzfqcBA.jpeg'
 image_alt: 'coarse rugged slanted lonely wall'
 reading_time: 8
-description: 'One of the hardest things in life I’m still coming to terms with is the harsh reality that even in the midst of suffering, life moves on...'
+description: 'Even in the midst of suffering, life moves on...'
 ---
 Have you ever felt those moments where you don’t want to exert energy to be noticed by people? To be isolated and alone. At the same time, the embracing feeling of loneliness sparks a desire to be reached out to, even with the paradox of running away?
 

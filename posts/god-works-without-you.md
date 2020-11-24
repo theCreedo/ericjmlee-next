@@ -1,6 +1,6 @@
 ---
 title: "God Works Without You"
-original_link: 'https://medium.com/@theCreedo/god-works-without-you-abba662a0b0d'
+original_link: 'https://thecreedo.medium.com/god-works-without-you-abba662a0b0d'
 date: '2017-08-16'
 image_link: 'https://miro.medium.com/max/1400/1*oCbEkSKSIRPiBLpx9zRZ2w.jpeg'
 image_alt: 'blue cross in an empty sanctuary'

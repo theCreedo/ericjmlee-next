@@ -1,6 +1,6 @@
 ---
 title: 'One Desire Fast 2018'
-original_link: 'https://medium.com/@theCreedo/one-desire-fast-2018-fe797f4cea57'
+original_link: 'https://thecreedo.medium.com/one-desire-fast-2018-fe797f4cea57'
 date: '2018-01-26'
 image_link: 'https://miro.medium.com/max/1400/1*Em3sBMjhfj9hdERHEEPpzQ.png'
 image_alt: 'silhouette of a man kneeling and praying'

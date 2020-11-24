@@ -1,6 +1,6 @@
 ---
 title: 'What’s Your Story?'
-original_link: 'https://medium.com/@theCreedo/whats-your-story-74175b68a551'
+original_link: 'https://thecreedo.medium.com/whats-your-story-74175b68a551'
 date: '2017-08-26'
 image_link: 'https://miro.medium.com/max/1400/1*r0Z0UHSHjxk9f-uCaYnvlw.jpeg'
 image_alt: 'several people wearing pink shirts for outreach'

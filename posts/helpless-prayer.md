@@ -1,6 +1,6 @@
 ---
 title: 'Helpless Prayer'
-original_link: 'https://medium.com/@theCreedo/helpless-prayer-d937acb16df3f'
+original_link: 'https://thecreedo.medium.com/helpless-prayer-d937acb16df3f'
 date: '2017-11-27'
 image_link: 'https://miro.medium.com/max/1400/1*mOwSj22vvcxRZ5ZjEUTBlQ.jpeg'
 image_alt: 'blue shading of a person kneeling before a shadowy cross'

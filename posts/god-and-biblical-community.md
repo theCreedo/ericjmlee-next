@@ -1,6 +1,6 @@
 ---
 title: 'Cling to God and Biblical Community'
-original_link: 'https://medium.com/@theCreedo/cling-to-god-and-biblical-community-84b480b83a2a'
+original_link: 'https://thecreedo.medium.com/cling-to-god-and-biblical-community-84b480b83a2a'
 date: '2018-01-20'
 image_link: 'https://miro.medium.com/max/1400/1*VcmAjXd1zp_LZCbJXMXhdQ.jpeg'
 image_alt: 'pasty fern leaves in front of sunlight a blurry sunrise'

@@ -5,14 +5,12 @@ image_link: 'https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:g
 image_alt: 'Moon in the night'
 reading_time: 2
 unpublished: false
-description: 'I grew up with a lot of different dreams. Becoming a violinist and music performer like Lindsey Stirling or Piano Guys. Becoming a video game creator...'
+description: 'Our spiritual lives are heavily influenced by our physical and emotional well-being...'
 ---
 
-Recently, I listened to my hometown church's sermon on “Burnout & Loneliness” by Pastor Josh, and there was a lot of life-changing insight I took away from it.🧐
+Recently, I listened to my hometown church's sermon on “Burnout & Loneliness” by Pastor Josh, and there was a lot of life-changing insight I took away from it. 🧐
 
-You can watch it here if you want:
-
-I found myself challenged, reminded of the difficulties that are found when overworking, and recognizing many of the unhealthy ways I try to deal with my stress, exhaustion, or discouragement.😬
+I found myself challenged, reminded of the difficulties that are found when overworking, and recognizing many of the unhealthy ways I try to deal with my stress, exhaustion, or discouragement. 😬
 
 When I find myself in pain or discomfort, I find myself taking action in the two ways Pastor Josh above shares - to numb the pain or to control it.
 
@@ -20,21 +18,21 @@ Many ways I try to numb the pain involve eating late-night foods, binge reading 
 
 Other times, I will look at my situation and try to micro-manage it. In the midst of exhaustion, I’ll neglect my present duties, pile on extra responsibilities, and try to fight back by working harder (not smarter). By forgoing sleep and making achievements in other areas of my life (whether important or not), I hope to prove myself that I’m in control.
 
-Though these two ways have elements of importance in life (enjoyment, rest, and focus), the outcome is negative not only physically & mentally, but also spiritually.💀
+Though these two ways have elements of importance in life (enjoyment, rest, and focus), the outcome is negative not only physically & mentally, but also spiritually. 💀
 
 The concept that the pastor shared though, Spiritual Embodiment, explains how our spiritual lives are heavily influenced by our physical and emotional well-being.
 
-You are not just a brain on a stick. Not just spirit. “You are embodied souls”
+_You are not just a brain on a stick. Not just spirit. “You are embodied souls”_
 
-Your environment. The habits you have. The things you do impact you spiritually.
+_Your environment. The habits you have. The things you do impact you spiritually._
 
-What you are consuming impacts you. Don't be naive.
+_What you are consuming impacts you. Don't be naive._
 
-—Personal notes taken from the Burnout & Loneliness Sermon
+_— Personal notes taken from the Burnout & Loneliness Sermon_
 
 Eating well, getting good rest, and exercising all influence the amount of energy we have to do good work and affect the mindset we can have in loving others.
 
-It has challenged me, when I am feeling despondent, instead of grabbing a bag of chips, to instead get a bowl of veggies. And when I find myself at my desk for too long, I try to take some time to do a few push-ups to keep my body fit.💪
+It has challenged me, when I am feeling despondent, instead of grabbing a bag of chips, to instead get a bowl of veggies. And when I find myself at my desk for too long, I try to take some time to do a few push-ups to keep my body fit. 💪
 
 This change doesn’t have to be too big.
 
@@ -42,6 +40,8 @@ The importance is taking the time & energy to be more intentional.
 
 Having awareness of what to improve on and taking small consistent actions to improve not only guarantees strong habits for the future but also improves the ability to love and serve others with a strong spiritual mindset.
 
-“Or do you not know that your body is a temple of the Holy Spirit within you, whom you have from God?
+_“Or do you not know that your body is a temple of the Holy Spirit within you, whom you have from God?_
 
-You are not your own, for you were bought with a price. So glorify God in your body.” (1 Corinthians 6:19-20)
+_You are not your own, for you were bought with a price. So glorify God in your body.”_
+
+_- (1 Corinthians 6:19-20)_

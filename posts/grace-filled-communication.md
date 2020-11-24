@@ -5,7 +5,7 @@ date: '2018-08-16'
 image_link: 'https://miro.medium.com/max/1400/1*4_Xrg6sQ558FdiqMeNSF-Q.jpeg'
 image_alt: 'bouquet of flowers next to a straw basket'
 reading_time: 4
-description: 'God’s grace. That’s the thought of the day...'
+description: 'I’ve always approached listening to people to understand where they’re coming from...'
 ---
 I want to be on everyone’s good side.
 

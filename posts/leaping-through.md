@@ -1,6 +1,6 @@
 ---
 title: "Leaping Through the Closed Door"
-original_link: 'https://medium.com/@theCreedo/leaping-through-the-closed-door-59b5a915ed70'
+original_link: 'https://thecreedo.medium.com/leaping-through-the-closed-door-59b5a915ed70'
 date: '2017-04-26'
 image_link: 'https://miro.medium.com/max/1400/1*HRynE28QQ12T_qeqp-dUhQ.jpeg'
 image_alt: 'door with light behind it'

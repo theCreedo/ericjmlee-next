@@ -1,6 +1,6 @@
 ---
 title: '"Heart Check" Me Out God'
-original_link: 'https://medium.com/@theCreedo/heart-check-me-out-god-6d2a9ef8afb5'
+original_link: 'https://thecreedo.medium.com/heart-check-me-out-god-6d2a9ef8afb5'
 date: '2017-08-21'
 image_link: 'https://miro.medium.com/max/1400/1*JZgYrBrNgDEAkstl07002A.jpeg'
 image_alt: 'leaf with heart shaped hole with sun pouring out from it'

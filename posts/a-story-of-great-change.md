@@ -1,6 +1,6 @@
 ---
 title: 'A Story of Great Change'
-original_link: 'https://medium.com/@theCreedo/a-story-of-great-change-d6712e7c6fef'
+original_link: 'https://thecreedo.medium.com/a-story-of-great-change-d6712e7c6fef'
 date: '2017-09-26'
 image_link: 'https://miro.medium.com/max/1400/1*iHnFma0DOas8eNWNRTkOqA.jpeg'
 image_alt: 'aesthetic brown leaves under the halo of the sunlight'

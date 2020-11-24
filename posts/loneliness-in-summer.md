@@ -1,6 +1,6 @@
 ---
 title: "Loneliness in Summer"
-original_link: 'https://medium.com/@theCreedo/loneliness-in-summer-ea94e59719ed'
+original_link: 'https://thecreedo.medium.com/loneliness-in-summer-ea94e59719ed'
 date: '2017-05-17'
 image_link: 'https://miro.medium.com/max/2000/1*EOUkPHUiZJuq1n8n_YJVJg.jpeg'
 image_alt: 'railroad rail in the midst of blurred background of nature'

@@ -1,6 +1,6 @@
 ---
 title: "All about God’s Grace"
-original_link: 'https://medium.com/@theCreedo/all-about-gods-grace-baf928bf4129'
+original_link: 'https://thecreedo.medium.com/all-about-gods-grace-baf928bf4129'
 date: '2018-06-14'
 image_link: 'https://miro.medium.com/max/1400/1*nJWfdcobO-nI4svmD9DTBA.jpeg'
 image_alt: 'solo pinkish purple dandelion in a bed of grass under the sun'

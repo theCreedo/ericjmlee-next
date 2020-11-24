@@ -1,6 +1,6 @@
 ---
 title: 'Praying for More Prayer'
-original_link: 'https://medium.com/@theCreedo/praying-for-more-prayer-d3f09c152d58'
+original_link: 'https://thecreedo.medium.com/praying-for-more-prayer-d3f09c152d58'
 date: '2018-06-01'
 image_link: 'https://miro.medium.com/max/1400/1*LPILtcS00_qeixfRot-XUw.jpeg'
 image_alt: 'arms held pensively on a rail before a blurred background of trees and a lake'
