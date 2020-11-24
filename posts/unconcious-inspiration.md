@@ -20,7 +20,7 @@ You can watch the quoted segment below:
 
 *“I find the idea that Candace keeps inspiring the kid’s inventions based on her throwaway comments like sky high or out of this world really interesting.*
 
-*These are the creations Candace is trying with all her efforts to get the kids in trouble for, but they wouldn't have even been made if it wasn't for her in the first place…*
+*These are the creations Candace is trying with all her efforts to get the kids in trouble for, but they wouldn't have even been made if it wasn't for her in the first place...*
 
 *__If in a mere throwaway comment she can bring about the completion of an awe-inspiring project who knows what she could accomplish if she refocused herself__.”*
 

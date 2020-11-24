@@ -20,9 +20,9 @@ Recently, I started to **shift my attention from my priorities to understanding 
 
 I listened to a podcast about Career vs Calling, and it pointed out two different types of callings we have - _faith calling & vocational calling_.
 
-- **Faith calling is essentially who you are outside of what you do.** _Things that don’t change even if the season changes. ex. character, values, etc…_
+- **Faith calling is essentially who you are outside of what you do.** _Things that don’t change even if the season changes. ex. character, values, etc..._
 
-- **Vocational calling is the vehicle to live out your faith calling.** _Things that change season to season. ex. Job Title, Family status, Role, etc…_
+- **Vocational calling is the vehicle to live out your faith calling.** _Things that change season to season. ex. Job Title, Family status, Role, etc..._
 
 In order to understand my faith calling, ironically, I had to analyze my priorities from season to season in order to extract patterns of the things I valued:
 

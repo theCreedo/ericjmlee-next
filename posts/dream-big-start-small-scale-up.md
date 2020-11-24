@@ -41,7 +41,7 @@ By having a set goal, building up the habits, and learning to be consistent, tho
 
 To share a quote I was reflecting on this past week:
 
-_“Everything around you that you call life was made up by people that were no smarter than you. And you can change it, you can influence it… Once you learn that, you'll never be the same again”_
+_“Everything around you that you call life was made up by people that were no smarter than you. And you can change it, you can influence it... Once you learn that, you'll never be the same again”_
 
 _-Steve Jobs_
 

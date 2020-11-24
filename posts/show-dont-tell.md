@@ -21,7 +21,7 @@ _- Matthew 6:21_
 
 For instance, I say a lot of times that sleep is important to me. But looking at where my time is spent, I contradict myself when I get 5-6 hours of sleep, don’t take naps, and consistently stay up late past 1 AM. 😪
 
-It’s questionable if what I say doesn’t align with what I do. Sleep may seem important in my life, but my actions show that I probably value something above sleep. (entertainment, busying myself with work, etc…)
+It’s questionable if what I say doesn’t align with what I do. Sleep may seem important in my life, but my actions show that I probably value something above sleep. (entertainment, busying myself with work, etc...)
 
 Another example might be someone who says they care passionately about fighting against injustice, but if they’re not spending money, volunteering for the cause, or taking some form of action, it’s a bit harder to believe.
 

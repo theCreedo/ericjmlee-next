@@ -29,7 +29,7 @@ Each of these dreams was inspired based on the season I was going through.
 
 As time went on though, dreams faded, and none of them listed above were achieved. The cool thing is that each of the dreams persists in different aspects.
 
-- I did social dance during college (waltz, swing, salsa, etc…), enjoy worshipping to Christian music (my reflection playlist), and love dancing to tunes by myself like this person.
+- I did social dance during college (waltz, swing, salsa, etc...), enjoy worshipping to Christian music (my reflection playlist), and love dancing to tunes by myself like this person.
 
 - I still play video games on and off with friends.
 

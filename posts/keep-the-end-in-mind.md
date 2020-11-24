@@ -29,5 +29,5 @@ Seeing this big picture helps me better understand the end goal I envision, work
 
 _What aspects of your life can you begin with the end in mind, in order to reorient and focus your life?_
 
-_Topics to consider: Relationship with God, Business, Health, Marriage, Work, Friendships, Finances, etc…_
+_Topics to consider: Relationship with God, Business, Health, Marriage, Work, Friendships, Finances, etc..._
 
