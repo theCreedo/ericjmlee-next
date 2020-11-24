@@ -37,7 +37,7 @@ I’m sure that if I didn’t have God during that time, the relationship and th
 
 But that didn’t happen, and God was good in that near the end of the semester, He revealed how much I needed to integrate myself more into biblical community. Those late nights of sharing with younger brothers in Christ, sleepovers talking about faith, and random moments of prayer that could only described to be wrapped in faith lifted me up and restored a bit of my relationship with community — I was able to have a taste of what God calls us to be as a Church who walk together in life.
 
--
+---
 
 I share this, because I’m so blessed to know a God who is so powerful and so good.
 
@@ -59,7 +59,7 @@ _“Likewise the Spirit helps us in our weakness. For we do not know what to pra
 
 _- Romans 8:26–27 ESV_
 
--
+---
 
 _As always, thanks for taking time out of your days to read my posts and being willing to reflect with me over stuff in my life. I love you guys, whether you know it or not! Good luck with your week! keep on fighting the good fight and running the race, and I’ll see y’all in the next blog post. God bless!_
 

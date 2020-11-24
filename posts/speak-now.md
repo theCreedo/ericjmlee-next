@@ -41,13 +41,13 @@ Reading a lot of productivity and speaking books have relayed many ideas to me, 
 
 And with all the times of spoken, I’ve learned a few quirks about myself and tips to ease my shaky speech-filled worries.
 
--
+---
 
 **I learn to fidget my way through my adrenaline** — twiddling my fingers, tapping my toe inside my shoe (this works O.O), focusing on deep breathes in order to get ready to stand before the crowds. With an output for the energy, I divert my distractions elsewhere and learn to focus on the actual topic I get to speak on.
 
 (Also, this is why I think fidget spinners that can charge batteries are the next big thing... lol :P)
 
--
+---
 
 **I learn to embody passion.** Or more so, to have a passion for what I speak about. I don’t do it only to inspire others, but to show that I’m not faking what I’m saying.
 
@@ -55,20 +55,20 @@ I care about what I say I’m doing.
 
 _Noone is going to listen to you if you don’t care about what you’re saying._
 
--
+---
 
 **I remember that the audience cares**. Or at least, they want to care.
 
 In fact,in my mind, I think that **they’re silently rooting for me.** Not in the sense that they know me personally and are on the bleachers with NBA or NFL posters spray painted burnt orange and black with the words “You GO Glenn Coco” on it. But internally, there’s that unspoken hope that what I say is well presented, that I’m not awkward, and that the presentation is informative an enjoyable.
 
 They came to this event, so they hope to get something out of it.
--
+---
 
 **I learn to take ownership of my mistakes.** I know I’m not perfect, and there’s nothing I can do if I accidentally slip up. There’s no use in crying over spilled milk, but it’s good to recognized when a mistake is made. When I address my mistakes, I learn from it.
 
 When I learn from it, I’m not beating myself against the standards others have for me, but I’m upholding myself to my past presentations, and hoping to improve upon what I should’ve done better on. Obviously, I need to do my best in preparation for the speaking I have to do, but it’s not as big of a deal as I think it is.
 
--
+---
 
 **I learn to be myself.**
 
@@ -88,13 +88,13 @@ I do my best to imbue my personality and humor into talks so that people can fee
 
 I don’t want to be a lecturer. I want to be seen as one of them.
 
--
+---
 
 **I learn to elaborate and make split-second decisions.** Interview, talks, lessons — everything I say may or may not need to be clarified. It’s key that what I say doesn’t oversimplify a topic while additionally making sure the audience doesn’t get drowned by the depth of the subject.
 
 I want to that steady stream of information that people can easily intake, be challenged, and in the end, understand.
 
--
+---
 
 **Finally, I learn to enjoy speaking.**
 

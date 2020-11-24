@@ -22,7 +22,7 @@ _The pure moments of worship. The dependance on God. The long prayer times given
 
 _The heart checking._
 
--
+---
 
 With all these thoughts on my mind, you can tell one of the hardest things I wrestle with during this 2-week period is knowing where my heart is at.
 
@@ -38,7 +38,7 @@ _“And he answered, “You shall love the Lord your God with all your heart and
 
 _- Luke 10:27 ESV_
 
--
+---
 
 As I think about all these thoughts and questions, everything really points to one hope I have during the One Desire Fast. That God becomes my One Desire. Not only during this fast, or for this year, but **in every single moment of my life.**
 
@@ -70,7 +70,7 @@ _For I know the plans I have for you, declares the Lord, plans for welfare and n
 
 _- Jeremiah 29:11-13 ESV_
 
--
+---
 
 _Thanks for taking time to read my posts as always, friends. As I said in the post, I’ll be peace-ing out of social media for the next 2 weeks. Who knows if I will post any posts or reflection during this time, but if I do, y’all will probably be the first to know._
 
