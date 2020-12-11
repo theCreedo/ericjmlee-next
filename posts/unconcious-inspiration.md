@@ -16,7 +16,7 @@ Anyways, I was captivated by this video, not because of the genius of the ending
 
 You can watch the quoted segment below:
 
-<div class="utils_iframeVideo"><iframe style="display: inline-block;" width="560" height="315" src="https://www.youtube.com/embed/x5eSZevcyNg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div className="utils_iframeVideo"><iframe style="display: inline-block;" width="560" height="315" src="https://www.youtube.com/embed/x5eSZevcyNg" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 *“I find the idea that Candace keeps inspiring the kid’s inventions based on her throwaway comments like sky high or out of this world really interesting.*
 
