@@ -48,7 +48,37 @@
     margin: 0rem auto 2rem;
     background-color: #00AAFF;
   }
-  
+
   .backToHome {
     margin: 3rem 0 0;
+  }
+
+  .swapFigure {
+	  margin: 0 auto;
+  }
+
+  /* Select the image and make it absolute to the container */
+  .swapFigure .swapOnHoverFrontImage {
+    position: absolute;
+    overflow: hidden;
+  }
+  .swapFigure .swapOnHoverBackImage {
+    position: relative;
+    overflow: hidden;
+  }
+
+  /*
+    We set z-index to be higher than the back image, so it's alwyas on the front.
+
+    We give it an opacity leaner to .25s, that way when we hover we will get a nice fading effect.
+  */
+  .swapOnHoverFrontImage {
+    z-index: 9999;
+    transition: opacity .5s linear;
+    cursor: pointer;
+  }
+
+  /* When we hover the figure element, the block with .swap-on-hover, we want to use > so the front-image is going to have opacity of 0, which means it will be hidden, to the back image will show */
+  .swapFigure:hover > .swapOnHoverFrontImage{
+    opacity: 0;
   }

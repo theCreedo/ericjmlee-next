@@ -11,21 +11,19 @@ export const siteTitle = "ERIC LEE"
 export const base_url = "https://www.ericjmlee.com"
 
 function HeaderItem({ imageUrl, imageAlt, title, home }) {
-    return (<div>
-        {home ? <Link href="/" >
-            <img
-                src={imageUrl}
-                className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-                alt={imageAlt}
-            />
-        </Link>
-            : <img
-                src={imageUrl}
-                className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-                alt={imageAlt}
-            />}
-        <h1 className={utilStyles.headingXl}>{title}</h1>
-    </div>)
+    return (<div className={styles.swapFigure}>
+        {!home && <img
+            className={`${styles.swapOnHoverFrontImage} ${styles.headerHomeImage} ${utilStyles.borderCircle}`}
+            src="https://www.ericjmlee.com/images/profile/transparent-profile.png"
+            alt={imageAlt}
+        />}
+        <img
+            className={`${styles.swapOnHoverBackImage} ${styles.headerHomeImage} ${utilStyles.borderCircle}`}
+            src={imageUrl}
+            alt={imageAlt}
+        />
+        <h1 className={`${utilStyles.headingXl}`}>{title}</h1>
+    </div >)
 
 }
 
@@ -139,30 +137,33 @@ export default function Layout({ children, home, project, experience, blog, abou
             </Head>
             <div className={styles.pageContainer}>
                 <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <a class="navbar-brand" href="/">ERIC LEE</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                    <a className="navbar-brand" href="/">ERIC LEE</a>
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
+                    <div className="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul className="navbar-nav">
                             {tabs.map((item) => {
                                 const href = '/' + item.toLowerCase()
                                 return (
-                                    <li class="nav-item">
-                                        <Link href={href}><a class="nav-link">{item}</a></Link>
+                                    <li className="nav-item">
+                                        <Link href={href}><a className="nav-link">{item}</a></Link>
                                     </li>
                                 )
                             })}
                         </ul>
                     </div>
                 </nav>
-                <header className={styles.header}>
+                <header className={`${styles.header}`}>
                     {home ? (
-                        <HeaderItem
-                            imageUrl={"/images/profile/transparent-profile.png"}
-                            imageAlt={name}
-                            title={"👋 Hey, Eric here!"}
-                            home={true} />
+                        <>
+                            <HeaderItem
+                                imageUrl={"/images/profile/transparent-profile.png"}
+                                imageAlt={name}
+                                title={"👋 Hey, Eric here!"}
+                                home={true}
+                            />
+                        </>
                     ) : (
                             <>
                                 {project && (
@@ -207,10 +208,10 @@ export default function Layout({ children, home, project, experience, blog, abou
                             </>
                         )}
                 </header>
-                <main class={styles.contentContainer}>{children}</main>
+                <main className={styles.contentContainer}>{children}</main>
                 {home ? (
-                    <footer class="pageFooter font-small blue pt-4">
-                        <div class="text-center py-3">
+                    <footer className="pageFooter font-small blue pt-4">
+                        <div className="text-center py-3">
                             <div className={styles.navContainer}>
                                 <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={medium_url} />
                                 <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={github_url} />
@@ -221,8 +222,8 @@ export default function Layout({ children, home, project, experience, blog, abou
                         </div>
                     </footer>
                 ) : (
-                        <footer class="pageFooter font-small blue pt-4">
-                            <div class="footer-copyright text-center py-3">
+                        <footer className="pageFooter font-small blue pt-4">
+                            <div className="footer-copyright text-center py-3">
                                 <div className={styles.navContainer}>
                                     <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={medium_url} />
                                     <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={github_url} />
@@ -230,7 +231,7 @@ export default function Layout({ children, home, project, experience, blog, abou
                                     <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={twitter_url} />
                                     {/* <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={email_url} /> */}
                                 </div>
-                                <div class="footer-copyright text-center py-3">
+                                <div className="footer-copyright text-center py-3">
                                     <small>Copyright © Eric Lee 2020</small>
                                 </div>
                             </div>

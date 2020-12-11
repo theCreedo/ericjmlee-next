@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Layout, { siteTitle } from '../../components/layout'
 import utilStyles from '../../styles/utils.module.css'
 import { getSortedPostsData } from '../../lib/posts'
+import LazyLoad from 'react-lazyload'
 
 export async function getStaticProps() {
     const allPostsData = getSortedPostsData()
@@ -15,7 +16,7 @@ export async function getStaticProps() {
 
 export default function About({ allPostsData }) {
     const yearInMs = 3.15576e+10 // Using a year of 365.25 days (because leap years)
-    const getAge = birthDate => Math.floor((new Date() - new Date(birthDate).getTime()) / 3.15576e+10)
+    const getAge = birthDate => Math.floor((new Date() - new Date(birthDate).getTime()) / yearInMs)
     return (
         <Layout about>
             <Head>
