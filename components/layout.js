@@ -3,7 +3,7 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import { SocialIcon } from 'react-social-icons';
-import Date from '../components/date'
+import { slide as Menu } from 'react-burger-menu'
 
 
 const name = 'Eric Lee'
@@ -11,6 +11,8 @@ export const siteTitle = "ERIC LEE"
 export const base_url = "https://www.ericjmlee.com"
 
 function HeaderItem({ imageUrl, imageAlt, title, home }) {
+    const headerText = title.substr(3);
+    const headerEmojiText = title.toLowerCase().substr(0, 2);
     return (<div className={styles.swapFigure}>
         {!home && <img
             className={`${styles.swapOnHoverFrontImage} ${styles.headerHomeImage} ${utilStyles.borderCircle}`}
@@ -22,13 +24,13 @@ function HeaderItem({ imageUrl, imageAlt, title, home }) {
             src={imageUrl}
             alt={imageAlt}
         />
-        <h1 className={`${utilStyles.headingXl}`}>{title}</h1>
+        <h1 className={`${utilStyles.headingXl}`}>{<span className={home ? styles.wave : null}>{headerEmojiText}</span>} {headerText}</h1>
     </div >)
 
 }
 
 export default function Layout({ children, home, project, experience, blog, about, newsletter, postData }) {
-    const tabs = ['Experience', 'Projects', 'Blog', 'Newsletter', 'About']
+    const tabs = ['🧠 Experience', '🚀 Projects', '📄 Blog', '💌 Savvy Saturdays', '🧐 About']
     const medium_url = "https://medium.com/@theCreedo"
     const github_url = "http://github.com/theCreedo"
     const linkedin_url = "https://linkedin.com/in/ericjmlee"
@@ -144,10 +146,15 @@ export default function Layout({ children, home, project, experience, blog, abou
                     <div className="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul className="navbar-nav">
                             {tabs.map((item) => {
-                                const href = '/' + item.toLowerCase()
+                                const tabText = item.toLowerCase().substr(3);
+                                const tabEmojiText = item.toLowerCase().substr(0, 2);
+                                var href = '/' + tabText;
+                                if (href.includes("sav")) {
+                                    href = 'newsletter';
+                                }
                                 return (
                                     <li className="nav-item">
-                                        <Link href={href}><a className="nav-link">{item}</a></Link>
+                                        <Link href={href}><a className="nav-link">{tabEmojiText + " " + tabText}</a></Link>
                                     </li>
                                 )
                             })}
@@ -166,35 +173,35 @@ export default function Layout({ children, home, project, experience, blog, abou
                         </>
                     ) : (
                             <>
-                                {project && (
-                                    <HeaderItem
-                                        imageUrl={"/images/profile/transparent-projects-profile.png"}
-                                        imageAlt={name}
-                                        title={"Projects"} />
-                                )}
                                 {experience && (
                                     <HeaderItem
                                         imageUrl={"/images/profile/transparent-experience-profile.png"}
                                         imageAlt={name}
-                                        title={"Experience"} />
+                                        title={"🧠 Experience"} />
+                                )}
+                                {project && (
+                                    <HeaderItem
+                                        imageUrl={"/images/profile/transparent-projects-profile.png"}
+                                        imageAlt={name}
+                                        title={"🚀 Projects"} />
                                 )}
                                 {newsletter && (
                                     <HeaderItem
                                         imageUrl={"/images/profile/transparent-newsletter-profile.png"}
                                         imageAlt={name}
-                                        title={"Savvy Saturdays"} />
+                                        title={"💌 Savvy Saturdays"} />
                                 )}
                                 {blog && (
                                     <HeaderItem
                                         imageUrl={"/images/profile/transparent-blog-profile.png"}
                                         imageAlt={name}
-                                        title={"Blog"} />
+                                        title={"📄 Blog"} />
                                 )}
                                 {about && (
                                     <HeaderItem
                                         imageUrl={"/images/profile/transparent-about-profile.png"}
                                         imageAlt={name}
-                                        title={"About"} />
+                                        title={"🧐 About"} />
                                 )}
                                 {postData && (
                                     <>

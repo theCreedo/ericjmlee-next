@@ -3,7 +3,7 @@ import utilStyles from '../styles/utils.module.css'
 export default function NewsletterForm() {
     return (
         <div className={utilStyles.newsletterForm}>
-            <h2 className={utilStyles.headingLg}><b>Join the "Savvy Saturdays" Mailing List</b></h2>
+            <h2 className={utilStyles.headingLg}><b>💌 Join the "Savvy Saturdays" Mailing List</b></h2>
             <div className="">
                 <p>Every Saturday, I send out an issue on faith, leadership, and productivity. This includes my own learnings, a curated collection of articles, and tidbits of thoughts, verses, and quotes to chew on.</p>
                 <form action="https://ericlee.substack.com/api/v1/free?nojs=true" method="post" className="form " noValidate="">
