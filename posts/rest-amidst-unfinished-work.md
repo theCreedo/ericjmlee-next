@@ -1,5 +1,5 @@
 ---
-title: 'Shedding the Image'
+title: 'Rest Amidst Unfinished Work'
 date: '2020-10-17'
 image_link: 'https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa71d90eb-6f2d-4665-a8ab-7776fe51df71_3437x2799.jpeg'
 image_alt: 'bench in front of sunset'
