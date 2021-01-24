@@ -5,7 +5,7 @@ export default function NewsletterForm() {
         <div className={utilStyles.newsletterForm}>
             <h2 className={utilStyles.headingLg}><b>💌 Join the "Savvy Saturdays" Mailing List</b></h2>
             <div className="">
-                <p>Every Saturday, I send out an issue on practical learnings, a curated collection of articles, and tidbits of verses & quotes to chew on.</p>
+                <p>Every Saturday, I send out an issue on self-improvement, a curated collection of insightful fun resources, and tidbits of learnings, verses & quotes to chew on.</p>
                 <form action="https://ericlee.substack.com/api/v1/free?nojs=true" method="post" className="form " noValidate="">
                     <input type="hidden" name="first_url" value="https://ericlee.substack.com/" />
                     <input type="hidden" name="first_referrer" value="https://substack.com/signup?oauth_token=1-MpKwAAAAAA8W84AAABb-6Z3GY" />
