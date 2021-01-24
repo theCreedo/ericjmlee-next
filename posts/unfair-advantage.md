@@ -4,7 +4,7 @@ date: '2021-01-23'
 image_link: 'https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fccafb656-890a-4441-950d-22d5ff162360_6720x4480.jpeg'
 image_alt: 'nike basketball'
 reading_time: 4
-description: ''
+description: 'Everyone has one...'
 ---
 In startups, there is a term called “Unfair Advantage”, which is one of the most important things a founder in a company needs to understand in order to beat out their competition.
 
