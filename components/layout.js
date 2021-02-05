@@ -44,21 +44,6 @@ export default function Layout({ children, home, project, experience, blog, abou
                     async
                     src="https://www.googletagmanager.com/gtag/js?id=UA-176727335-1"
                 />
-                <script async
-                    dangerouslySetInnerHTML={{
-                        __html: `
-                        (function (s, u, m, o, j, v) {
-                            j = u.createElement(m);
-                            v = u.getElementsByTagName(m)[0];
-                            j.async = 1;
-                            j.src = o;
-                            j.dataset.sumoSiteId = 'fda896b18e71425e996931a6fe0279960712ac92774f26d6f1fcc702aa9e87d9';
-                            v.parentNode.insertBefore(j, v);
-                            })
-                            (window, document, 'script', '//load.sumo.com/');
-                    `,
-                    }}
-                />
                 <script
                     async
                     dangerouslySetInnerHTML={{
