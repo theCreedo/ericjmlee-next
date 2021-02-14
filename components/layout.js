@@ -239,7 +239,7 @@ export default function Layout({ children, home, project, experience, blog, abou
                                     {/* <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={email_url} /> */}
                                 </div>
                                 <div className="footer-copyright text-center py-3">
-                                    <small>Copyright © Eric Lee 2020</small>
+                                    <small>Copyright © Eric Lee <span id="year">{new Date().getFullYear()}</span></small>
                                 </div>
                             </div>
                         </footer>

@@ -10,7 +10,6 @@ export async function getStaticProps({ params }) {
     const postData = await getPostData(params.id)
 
     const adjacentPostsData = await getAdjacentPosts(params.id)
-    console.log(adjacentPostsData);
     return {
         props: {
             postData,
@@ -28,7 +27,6 @@ export async function getStaticPaths() {
 }
 
 export default function Post({ postData, adjacentPostsData }) {
-    console.log(adjacentPostsData.previousPost);
     return (
         <Layout postData={postData}>
             <Head>
