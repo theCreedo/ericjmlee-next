@@ -34,6 +34,7 @@ export default function Home({ allPostsData }) {
           <li>Writing faith thoughts and other ponderings on <a href='https://thecreedo.medium.com'>Medium</a>.</li>
           <li>Serving in my church, <a href="https://austin.hmcc.net/">HMCC Austin</a>.</li>
           <li>Designing & building <a href="https://github.com/theCreedo/ericjmlee-next/issues">new features</a> for this website when in the coding zone.</li>
+          <li>Meeting cool ambitious people on <a href="https://lunchclub.com/?invite_code=ericl39">Lunchclub.ai</a>.</li>
         </ul>
         <NewsletterForm />
       </section>
