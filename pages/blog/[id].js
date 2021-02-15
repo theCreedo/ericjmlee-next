@@ -51,10 +51,10 @@ export default function Post({ postData, adjacentPostsData }) {
                 <div className={utilStyles.lightText}><Date dateString={postData.date} isPost={true} /></div>
                 <br></br>
                 <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-                {Math.floor(Math.random() * 10) > 5 && <NewsletterForm />}
                 <hr />
                 {/* Add a profile section with info on self? */}
             </article>
+            <NewsletterForm />
             <div className={utilStyles.blogLinkPadding}>
                 {adjacentPostsData.previousPost &&
                     <div>

@@ -135,18 +135,18 @@
 }
 
 .newsletterForm {
-  margin: 2rem 3rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
   padding: 32px;
   border-radius: 15px;
+  width: 80%;
+  max-width: 1000px;
   font-size: 1rem;
   background-color: rgb(226, 241, 255);
 }
 
-@media(max-width:639px){
-  .newsletterForm {
-    margin: 0rem;
-  }
-}
 
 @media(max-width:600px){
   .list {
@@ -165,6 +165,17 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+
+  .newsletterForm {
+    font-size: 16px;
+    margin: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .newsletterForm h2 {
+    font-size: 18px;
   }
 
   .blogLink a {
