@@ -5,7 +5,7 @@ date: '2017-05-17'
 image_link: 'https://miro.medium.com/max/2000/1*EOUkPHUiZJuq1n8n_YJVJg.jpeg'
 image_alt: 'railroad rail in the midst of blurred background of nature'
 reading_time: 6
-description: 'One of the things I dislike the most is unstructured free time over break...'
+description: 'One of the things I dislike the most is unstructured free time over break. As much as it’s relaxing and I get to sleep in for more than 8 hours a day (which I rarely get to do at school, if at all), it can be mind-numbing for me to not have something to look forward to do for the day. In fact, many times I feel very lonely during this free time.'
 ---
 One of the things I dislike the most is unstructured free time over break. As much as it’s relaxing and I get to sleep in for more than 8 hours a day (which I rarely get to do at school, if at all), it can be mind-numbing for me to not have something to look forward to do for the day. To not have a goal is quite pointless. Pretty sad. In fact, many times I feel very lonely during this free time.
 

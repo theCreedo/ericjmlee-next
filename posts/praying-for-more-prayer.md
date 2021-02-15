@@ -5,7 +5,7 @@ date: '2018-06-01'
 image_link: 'https://miro.medium.com/max/1400/1*LPILtcS00_qeixfRot-XUw.jpeg'
 image_alt: 'arms held pensively on a rail before a blurred background of trees and a lake'
 reading_time: 5
-description: 'Pray hard. Pray relentlessly. Never stop...'
+description: "Prayer is our communication with God. As communication is important in any worldly relationship, prayer is important in our spiritual relationship with God. Many things can hurt or further grow our relationships: whether it’s having small talk, sharing a story or life update, telling about your day, fighting over a belief or value, or making amends and asking for forgiveness."
 ---
 _Pray hard. Pray relentlessly. Never stop._
 

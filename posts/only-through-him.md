@@ -5,7 +5,7 @@ date: '2017-08-11'
 image_link: 'https://miro.medium.com/max/2000/1*0FFcVbUt8TGHecm_G2cl9A.jpeg'
 image_alt: 'a road amidst a forestry of trees'
 reading_time: 7
-description: 'The only way we can live our lives...'
+description: "This past summer, I spent time up in Michigan doing a missions trip, doing an after school program for a high school in the Southeast part of Detroit During that time, I was challenged a lot in my faith, facing faith-crises and working through many insecurities that God revealed in my life."
 ---
 **Personal Testimony:**
 

@@ -5,7 +5,7 @@ date: '2017-09-26'
 image_link: 'https://miro.medium.com/max/1400/1*iHnFma0DOas8eNWNRTkOqA.jpeg'
 image_alt: 'aesthetic brown leaves under the halo of the sunlight'
 reading_time: 5
-description: 'As I returned from my mission trip up in Michigan at the end of summer, I felt unsure in what the future held for my church...'
+description: "As I returned from my mission trip up in Michigan at the end of summer, I felt unsure in what the future held for my church."
 ---
 As I returned from my mission trip up in Michigan at the end of summer, I felt unsure in what the future held for my church, [HMCC of Austin](http://austin.hmcc.net/). I wondered how God was going to work as I entered back into it.
 

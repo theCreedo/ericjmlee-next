@@ -5,7 +5,7 @@ date: '2018-10-03'
 image_link: 'https://miro.medium.com/max/1400/1*S-jVLtQgJ1bYaMoHzfqcBA.jpeg'
 image_alt: 'coarse rugged slanted lonely wall'
 reading_time: 8
-description: 'Even in the midst of suffering, life moves on...'
+description: "Have you ever felt those moments where you don’t want to exert energy to be noticed by people? To be isolated and alone. At the same time, the embracing feeling of loneliness sparks a desire to be reached out to, even with the paradox of running away?"
 ---
 Have you ever felt those moments where you don’t want to exert energy to be noticed by people? To be isolated and alone. At the same time, the embracing feeling of loneliness sparks a desire to be reached out to, even with the paradox of running away?
 

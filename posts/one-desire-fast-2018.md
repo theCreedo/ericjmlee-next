@@ -5,7 +5,7 @@ date: '2018-01-26'
 image_link: 'https://miro.medium.com/max/1400/1*Em3sBMjhfj9hdERHEEPpzQ.png'
 image_alt: 'silhouette of a man kneeling and praying'
 reading_time: 4
-description: 'Everything really points to one hope I have during the One Desire Fast...'
+description: 'With all these thoughts on my mind, you can tell one of the hardest things I wrestle with during this 2-week period is knowing where my heart is at. The question I always have to ask is: What is my intention behind this fast?'
 ---
 For the next two coming weeks (starting this Friday, Jan 26th), my church will be starting our One Desire Fast where we fast from social media and meat in the 1st week, and choose to either have only one meal a day (no meat still) or survive on a liquids fast for the 2nd week (still continuing without social media).
 

@@ -4,7 +4,7 @@ date: '2021-01-16'
 image_link: 'https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe91b511-534b-4535-8e15-2a07f26a7487_2560x1707.jpeg'
 image_alt: "clock in a train station"
 reading_time: 2
-description: "We all can choose how busy we want to be..."
+description: "I was listening to an audiobook called Tribe of Mentors, a book by Tim Ferris in which many inspirational people answered 11 questions to give insight to readers on lifelong living. One of the mentors who spoke, Debbie Millman, quoted something, that hits really hard. 'Busy is a decision.'"
 ---
 I was listening to an audiobook called Tribe of Mentors, a book by Tim Ferris in which many inspirational people answered 11 questions to give insight to readers on lifelong living.
 

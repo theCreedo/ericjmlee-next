@@ -5,7 +5,7 @@ date: '2017-08-21'
 image_link: 'https://miro.medium.com/max/1400/1*JZgYrBrNgDEAkstl07002A.jpeg'
 image_alt: 'leaf with heart shaped hole with sun pouring out from it'
 reading_time: 4
-description: 'If my heart isn’t in the right place, should I still do it?...'
+description: 'The hardest struggle regarding my faith is making sure my intentions are clear — where is my heart at when I do something? Whether it’s worshipping, praying, or fellowshipping with others, I wrestle with being fully present in the moment and wholly dedicating my time to God.'
 ---
 The hardest struggle regarding my faith is making sure my intentions are clear — where is my heart at when I do something?
 

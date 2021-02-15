@@ -4,7 +4,7 @@ date: '2020-09-12'
 image_link: 'https://images.unsplash.com/photo-1512138664757-360e0aad5132?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80'
 image_alt: 'Ripple effect of inspiration'
 reading_time: 2
-description: 'There have been many people who have inspired me through their words of encouragement. Words that motivated me to pursue coding...'
+description: 'There have been many people who have inspired me through their words of encouragement. Words that motivated me to pursue coding, enter into entrepreneurship, and serve as a leader in my church.'
 ---
 I watched a video recently called “[The Genius of Phineas and Ferb’s Ending](https://www.youtube.com/watch?v=x5eSZevcyNg)” that covered Phineas and Ferb, a tv show I really enjoyed during my middle/high school years, and I was inspired by it.
 

@@ -4,7 +4,7 @@ date: '2021-01-02'
 image_link: 'https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc51d095f-0f8c-4b86-bf56-ba29656d4d06_3999x2666.jpeg'
 image_alt: 'Magnifying glass with blue background'
 reading_time: 2
-description: "You can go fast, but without direction, you'll end up in the wrong destination..."
+description: "When planning out your life, knowing your beliefs, your perspective, and how you approach certain aspects of life will help you assert where your true 'Your location' is,  ensuring you won’t plan your life out from the wrong starting point."
 ---
 I’ve started to listen to audiobooks, and a book I’ve been listening to recently is called “[Designing Your Life](https://www.amazon.com/Designing-Your-Life-Well-Lived-Joyful/dp/1101875321)”. It introduces a design-centered mindset in order to plan out life for any circumstances.
 

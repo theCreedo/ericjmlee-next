@@ -5,11 +5,11 @@ image_link: 'https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progress
 image_alt: 'A small kid staring at steps'
 reading_time: 1
 unpublished: false
-description: 'Through what we build, what we say, and how we live, I believe each of us has the ability to inspire and change the world....'
+description: 'Through what we build, what we say, and how we live, I believe each of us has the ability to inspire and change the world.'
 ---
 One of my favorite things to do, whenever I get the chance, is to listen and analyze leaders who share their stories or life experiences. There is usually insight to learn how they got to the position they’re in.
 
-When our company got acquired, the director of the new company shared his expectations and one thing that struct to me was the way he communicated about growth.
+When our company got acquired, the director of the new company shared his expectations and one thing that stuck to me was the way he communicated about growth.
 
 Rather than talking about numbers or speaking on “businessy” terms like KPIs (_Key performance indicators_) or OKRs (_Objectives and key results_), he shared 3 simple steps that he lived out in the organization - 3 ways he believed each of us could adopt in order to bring change and impact to others:
 

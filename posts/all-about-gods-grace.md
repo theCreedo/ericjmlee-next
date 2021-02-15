@@ -5,7 +5,7 @@ date: '2018-06-14'
 image_link: 'https://miro.medium.com/max/1400/1*nJWfdcobO-nI4svmD9DTBA.jpeg'
 image_alt: 'solo pinkish purple dandelion in a bed of grass under the sun'
 reading_time: 3
-description: 'God’s grace. That’s the thought of the day...'
+description: 'I see my imperfection so clearly. Whether it’s maintaining friendships, finishing my work, cleaning my apartment, cooking meals for myself, following after God, or living life day by day, I see so many ways I couldn’t meet a certain standard. Things I should’ve improved on, but became after-thoughts that were never acted upon.'
 ---
 God’s grace.
 

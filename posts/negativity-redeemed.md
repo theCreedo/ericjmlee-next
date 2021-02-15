@@ -5,7 +5,7 @@ date: '2019-05-13'
 image_link: 'https://miro.medium.com/max/1400/1*bISc6YNM6cR11EzkfvwxwA.jpeg'
 image_alt: 'three seeds on a leaf on a semi-blurred wooden board'
 reading_time: 4
-description: 'Seeing myself less than who I actually am is a sin. It’s a disbelief of the design that God has made of my life....'
+description: "I tend to look at myself with a low regard, and expectations that seem almost disgusting. What is it about this juxtaposition? Why do I do this to myself Something is wrong with how I approach this insecurity."
 ---
 _You’re stupid._
 

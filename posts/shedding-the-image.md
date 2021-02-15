@@ -5,7 +5,7 @@ image_link: 'https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:g
 image_alt: 'A marble bust head'
 reading_time: 1
 unpublished: false
-description: 'When I lead, many times I feel like I need to uphold an image...'
+description: 'When I lead, many times I feel like I need to uphold an image. Though it is fun playing around with the idea of becoming like these leaders, the problem with chasing after so many different ideals was that I easily lose myself and forget who I am.'
 ---
 When I lead, many times I feel like I need to uphold an image.
 

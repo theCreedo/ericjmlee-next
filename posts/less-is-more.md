@@ -4,7 +4,7 @@ date: '2020-12-12'
 image_link: 'https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F48b077a4-7f1a-4f2f-b05d-dee0384f4bfe_5809x3873.jpeg'
 image_alt: 'single bonsai tree on wooden floor'
 reading_time: 1
-description: 'Putting yourself in these circumstances can force you to adapt and innovate...'
+description: 'I’ve always believed that more is better. The more resources, experience, or time you have, the better you’re able to do things. That extra dollar, extra skill, and extra hour can go a long way. But sometimes, having more can be a hindrance.'
 ---
 I’ve always believed that more is better.
 

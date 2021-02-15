@@ -5,7 +5,7 @@ date: '2017-10-14'
 image_link: 'https://miro.medium.com/max/1400/1*yEepbgIY7l9qWoHri6iuuA.jpeg'
 image_alt: 'fern leaves with a halo in front of sunlight'
 reading_time: 5
-description: 'When I went up to Michigan in the middle of September, I was so excited! But something was wrong...'
+description: 'When I went up to Michigan in the middle of September, I was so excited! But something was wrong. Michigan holds a special place in my heart — a place where I think about friends, food, and memories. But nowhere during the time had I thought about Him. Jesus. God. The Father. The Creator.'
 ---
 When I went up to Michigan in the middle of September, I was so excited!
 

@@ -5,7 +5,7 @@ date: '2018-11-29'
 image_link: 'https://miro.medium.com/max/1400/1*mmZY35mg-OqgyoPMQJYXLg.jpeg'
 image_alt: 'neon lights with conceptual words need dream desire hope human'
 reading_time: 5
-description: 'Have you ever felt those moments where you don’t want to exert energy to be noticed by people?'
+description: "Have you ever felt those moments where you don’t want to exert energy to be noticed by people? To be isolated and alone. At the same time, the embracing feeling of loneliness sparks a desire to be reached out to, even with the paradox of running away?"
 ---
 Have you ever felt those moments where you don’t want to exert energy to be noticed by people? To be isolated and alone. At the same time, the embracing feeling of loneliness sparks a desire to be reached out to, even with the paradox of running away?
 

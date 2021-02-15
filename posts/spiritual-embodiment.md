@@ -5,7 +5,7 @@ image_link: 'https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:g
 image_alt: 'Moon in the night'
 reading_time: 2
 unpublished: false
-description: 'Our spiritual lives are heavily influenced by our physical and emotional well-being...'
+description: 'Our spiritual lives are heavily influenced by our physical and emotional well-being.'
 ---
 
 Recently, I listened to my hometown church's sermon on “Burnout & Loneliness” by Pastor Josh, and there was a lot of life-changing insight I took away from it. 🧐

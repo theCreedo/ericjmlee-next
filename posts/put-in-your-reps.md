@@ -4,7 +4,7 @@ date: '2021-02-06'
 image_link: "https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fbb673d16-86c1-451e-aebe-ef22ebcad9f3_5184x3456.jpeg"
 image_alt: "person getting ready to lift weights"
 reading_time: 2
-description: "A mantra to help achieve success..."
+description: "Many times, we find ourselves yearning for a specific vision to be fulfilled. There is an end goal we want to achieve. Focused on the hustle, we can find ourselves wanting to break our way into the top. But success never happens overnight."
 ---
 I read “[Atomic Habits](https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299)”, by James Clear, and one thing is clear (no pun intended), the only way for progress to be made in any field, craft, or skill is to make sure to put in your reps.
 

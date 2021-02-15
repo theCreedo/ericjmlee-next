@@ -4,10 +4,8 @@ date: '2020-08-09'
 image_link: 'https://images.unsplash.com/photo-1590482934203-8eb4838643ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60'
 image_alt: 'zoom words'
 reading_time: 1
-description: 'I think the biggest takeaway is that if I feel I have a stake in the conversation or great enough reason to speak up, I would...'
+description: 'I think the biggest takeaway is that if I feel I have a stake in the conversation or great enough reason to speak up, I would.'
 ---
-
-
 I learned a lot during a zoom call with all my family, today.
 
 Weirdly enough, I don’t see my extended family on my dad’s side enough, since most interactions happened before I was born, and most people are 10-20 years older than me.

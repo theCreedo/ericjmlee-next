@@ -5,7 +5,7 @@ image_link: 'https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:g
 image_alt: 'bench in front of sunset'
 reading_time: 1
 unpublished: false
-description: 'When I lead, many times I feel like I need to uphold an image...'
+description: 'Have you ever thought about how when we die, how many unfinished things we’ll have? 🤔 Whether it’s small things like organizing the closet, or big things like finishing a side project or hobby, in the end, we will have much-unfinished work.'
 ---
 Have you ever thought about how when we die, how many unfinished things we’ll have? 🤔
 
