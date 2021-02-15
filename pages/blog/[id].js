@@ -51,17 +51,21 @@ export default function Post({ postData, adjacentPostsData }) {
                 <div className={utilStyles.lightText}><Date dateString={postData.date} isPost={true} /></div>
                 <br></br>
                 <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-                <div>
-                    {Math.floor(Math.random() * 10) > 5 && <NewsletterForm />}
-                    <hr />
+                {Math.floor(Math.random() * 10) > 5 && <NewsletterForm />}
+                <hr />
+                <div className={utilStyles.blogLinkPadding}>
                     {adjacentPostsData.previousPost &&
-                        <Link href={'/blog/' + adjacentPostsData.previousPost.id}>
-                            <a className={`${utilStyles.blogLink} ${utilStyles.alignleft}`}>Previous: {adjacentPostsData.previousPost.title}</a>
-                        </Link>}
+                        <div>
+                            <Link href={'/blog/' + adjacentPostsData.previousPost.id}>
+                                <a className={`${utilStyles.blogLink} ${utilStyles.alignleft}`}>Previous: {adjacentPostsData.previousPost.title}</a>
+                            </Link>
+                        </div>}
                     {adjacentPostsData.nextPost &&
-                        <Link href={'/blog/' + adjacentPostsData.nextPost.id}>
-                            <a className={`${utilStyles.blogLink} ${utilStyles.alignright}`}>Next: {adjacentPostsData.nextPost.title}</a>
-                        </Link>}
+                        <div>
+                            <Link href={'/blog/' + adjacentPostsData.nextPost.id}>
+                                <a className={`${utilStyles.blogLink} ${utilStyles.alignright}`}>Next: {adjacentPostsData.nextPost.title}</a>
+                            </Link>
+                        </div>}
                 </div>
             </article>
         </Layout>
