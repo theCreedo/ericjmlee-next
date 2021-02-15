@@ -14,11 +14,11 @@ export default function BlogItem({ id, date, title, description, image_link, ima
                 <Date dateString={date} isPost={true} />
             </small>
             {image_link ?
-                <Link href="/blog/[id]" as={`/blog/${id}`}>
-                    <LazyLoad>
-                        <img src={image_link} alt={image_alt}></img>
-                    </LazyLoad>
-                </Link>
+                <LazyLoad>
+                    <Link href="/blog/[id]" as={`/blog/${id}`}>
+                        <a><img src={image_link} alt={image_alt}></img></a>
+                    </Link>
+                </LazyLoad>
                 : <></>}
             <br />
             {description}

@@ -74,7 +74,6 @@
 }
 
 .buttonSubscribe {
-  border: outset;
   width: fit-content;
   border-radius: 5px;
 }
@@ -89,6 +88,9 @@
   display: grid;
   padding: 0;
   list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
   grid-template-columns: repeat(2, 1fr);
 }
 
@@ -118,9 +120,11 @@
 }
 
 .alignleft {
+  margin: 0 0 0 1rem;
 }
 
 .alignright {
+  margin: 0 1rem 0 0;
 	float: right;
 }
 
@@ -151,16 +155,31 @@
 
   .blogLinkPadding {
     grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
   }
 
   .blogLink {
     width: 100%;
+    min-width: 300px;
+    max-width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .blogLink a {
     background-color: rgb(20, 40, 58);
     
   }
+
+.alignleft {
+  margin: 0;
+}
+
+.alignright {
+  margin: 0;
+}
+
 }
   
 .listItem {

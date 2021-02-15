@@ -53,21 +53,22 @@ export default function Post({ postData, adjacentPostsData }) {
                 <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
                 {Math.floor(Math.random() * 10) > 5 && <NewsletterForm />}
                 <hr />
-                <div className={utilStyles.blogLinkPadding}>
-                    {adjacentPostsData.previousPost &&
-                        <div>
-                            <Link href={'/blog/' + adjacentPostsData.previousPost.id}>
-                                <a className={`${utilStyles.blogLink} ${utilStyles.alignleft}`}>Previous: {adjacentPostsData.previousPost.title}</a>
-                            </Link>
-                        </div>}
-                    {adjacentPostsData.nextPost &&
-                        <div>
-                            <Link href={'/blog/' + adjacentPostsData.nextPost.id}>
-                                <a className={`${utilStyles.blogLink} ${utilStyles.alignright}`}>Next: {adjacentPostsData.nextPost.title}</a>
-                            </Link>
-                        </div>}
-                </div>
+                {/* Add a profile section with info on self? */}
             </article>
+            <div className={utilStyles.blogLinkPadding}>
+                {adjacentPostsData.previousPost &&
+                    <div>
+                        <Link href={'/blog/' + adjacentPostsData.previousPost.id}>
+                            <a className={`${utilStyles.blogLink} ${utilStyles.alignleft}`}>Previous: {adjacentPostsData.previousPost.title}</a>
+                        </Link>
+                    </div>}
+                {adjacentPostsData.nextPost &&
+                    <div>
+                        <Link href={'/blog/' + adjacentPostsData.nextPost.id}>
+                            <a className={`${utilStyles.blogLink} ${utilStyles.alignright}`}>Next: {adjacentPostsData.nextPost.title}</a>
+                        </Link>
+                    </div>}
+            </div>
         </Layout>
     )
 }

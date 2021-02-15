@@ -28,11 +28,11 @@ No one is successful in the long run when they are not willing to admit they don
 
 In fact, in the Bible, God always brings down the prideful, in comparison to how He treats the humble:
 
-_“For though the LORD is high, he regards the lowly, but the haughty he knows from afar.” - Psalm 138:6_
+_"For though the LORD is high, he regards the lowly but the haughty he knows from afar." - Psalm 138:6_
 
-_“One’s pride will bring him low, but he who is lowly in spirit will obtain honor.” - Proverbs 29:23_
+_"One's pride will bring him low, but he who is lowly in spirit will obtain honor." - Proverbs 29:23_
 
-_“Whoever exalts himself will be humbled, and whoever humbles himself will be exalted.” - Matthew 23:12_
+_"Whoever exalts himself will be humbled, and whoever humbles himself will be exalted." - Matthew 23:12_
 
 And my pride brought the downfall of not getting my work done in time.
 

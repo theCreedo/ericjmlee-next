@@ -26,7 +26,7 @@ To grow. 🌱
 
 Kelvin Doe was someone who was born in circumstances where he didn’t have much, yet he grew under those limits. 👇
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XOLOLrUBRBY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="video-container" style="position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/XOLOLrUBRBY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 _“15-Year-Old Kelvin Doe is an engineering whiz living in Sierra Leone who scours the trash bins for spare parts, which he uses to build batteries, generators and transmitters._
 

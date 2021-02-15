@@ -5,7 +5,7 @@ date: '2018-12-04'
 image_link: 'https://miro.medium.com/max/1400/1*lQ9-Gbeo9iIUWomI8AOIzg.jpeg'
 image_alt: 'lone man standing out in a wheat field plain holding a book'
 reading_time: 5
-description: 'If anyone is able to turn people’s desires towards Him through reading the words of faith by others, it can only be Him...'
+description: "If anyone is able to turn people’s desires towards Him through reading the words of faith by others, it can only be Him"
 ---
 Today was the kickoff for our church’s year-old missional initiative: the book club.
 

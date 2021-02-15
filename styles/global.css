@@ -9,6 +9,14 @@ body {
   color: #555;
 }
 
+h1 {
+  font-family: sans-serif;
+}
+
+p {
+  font-family: Serif;
+}
+
 h1,
 h2,
 b {
