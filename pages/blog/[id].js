@@ -56,12 +56,12 @@ export default function Post({ postData, adjacentPostsData }) {
             </article>
             <NewsletterForm />
             <div className={utilStyles.blogLinkPadding}>
-                {adjacentPostsData.previousPost &&
+                {adjacentPostsData.previousPost ?
                     <div>
                         <Link href={'/blog/' + adjacentPostsData.previousPost.id}>
                             <a className={`${utilStyles.blogLink} ${utilStyles.alignleft}`}>Previous: {adjacentPostsData.previousPost.title}</a>
                         </Link>
-                    </div>}
+                    </div> : <div className={`${utilStyles.alignleft}`}></div>}
                 {adjacentPostsData.nextPost &&
                     <div>
                         <Link href={'/blog/' + adjacentPostsData.nextPost.id}>
