@@ -48,6 +48,11 @@
     margin: 0rem auto 2rem;
     background-color: #00AAFF;
   }
+    
+  .navImage {
+    width: 50px;
+    height: auto;
+  }
 
   .backToHome {
     margin: 3rem 0 0;

@@ -16,7 +16,7 @@ function HeaderItem({ imageUrl, imageAlt, title, home }) {
     return (<div className={styles.swapFigure}>
         {!home && <img
             className={`${styles.swapOnHoverFrontImage} ${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-            src="https://www.ericjmlee.com/images/profile/transparent-profile.png"
+            src="/images/profile/transparent-profile.png"
             alt={imageAlt}
         />}
         <img
@@ -139,7 +139,13 @@ export default function Layout({ children, home, project, experience, blog, abou
             </Head>
             <div className={styles.pageContainer}>
                 <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <a className="navbar-brand" href="/">ERIC LEE</a>
+                    <a className="navbar-brand" href="/">
+                        <img
+                            className={styles.navImage}
+                            src="/images/profile/favicon.png"
+                            alt="profile-header"
+                        />
+                    </a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
