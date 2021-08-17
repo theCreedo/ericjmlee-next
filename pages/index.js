@@ -25,10 +25,22 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.divContainer}>
         <br></br>
-        <p>Welcome to the front-end part of my life!</p>
-        <p>Currently I work in ATX as a Software Engineer @ <a href='https://www.retailmenot.com/'>RetailMeNot</a>.</p>
+        <p>Welcome to the front-end part of my life!</p> 
+        
+        {/* <img className={utilStyles.gridImage} src="/images/profile/pose-profile.jpg" alt="Profile of Eric posing."></img> */}
+
+        <p>Things about me:</p>
+        <ul>
+          <li>Taiwanese 🇹🇼</li>
+          <li>ATX tech guy 🧑‍💻</li>
+          <li>Faith-driven leader ⛪️</li>
+          <li>Love product & content strategy 🎧</li>
+          <li>Big heart for entrepreneurship and hustle 🚀</li>
+          <li>Passionate about mentorship and equipping others 🛠</li>
+        </ul>
         <p>In my free time, I focus on:</p>
         <ul>
+          <li>Preparing to launch a <a href="https://twitter.com/leveluplee">podcast on leveling up</a>.</li>
           <li>Exercising & listening to Audible books (tracked on <Link href="https://www.goodreads.com/user/show/127464751-eric-lee">GoodReads</Link>).</li>
           <li>Working on my <a href="https://ericlee.substack.com/">newsletter</a>, sharing practical learnings & resources weekly.</li>
           <li>Writing faith thoughts and other ponderings on <a href='https://thecreedo.medium.com'>Medium</a>.</li>
