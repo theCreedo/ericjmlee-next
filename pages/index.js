@@ -34,22 +34,21 @@ export default function Home({ allPostsData }) {
           <li>Taiwanese 🇹🇼</li>
           <li>ATX tech guy 🧑‍💻</li>
           <li>Faith-driven leader ⛪️</li>
-          <li>Love product & content strategy 🎧</li>
-          <li>Big heart for entrepreneurship and hustle 🚀</li>
+          <li>Love brand & content strategy 🎧</li>
+          <li>Big heart for entrepreneurship 🚀</li>
           <li>Passionate about mentorship and equipping others 🛠</li>
         </ul>
         <p>In my free time, I focus on:</p>
         <ul>
-          <li>Co-leading Product & Marketing for <a href="https://fiesta.community/">FIESTA</a>, an Austin tech community.</li>
-          <li>Helping with content strategy for <a href="https://idserve.us/">Indigitous Serve</a>.</li>
-          <li>Meeting cool ambitious people on <a href="https://lunchclub.com/?invite_code=ericl39">Lunchclub.ai</a>.</li>
-          <li>Playing a trading card game, <a href="https://fabtcg.com/">Flesh and Blood</a>.</li>
-          <li>Playing video games (recently <a href="https://www.megacrit.com/">Slay the Spire</a>).</li>
-          <li>Serving in my church, <a href="https://austin.hmcc.net/">HMCC Austin</a>.</li>
-          <li>Writing faith thoughts and other ponderings on <a href='https://thecreedo.medium.com'>Medium</a>.</li>
-          <li>Exercising & listening to Audible books (tracked on <Link href="https://www.goodreads.com/user/show/127464751-eric-lee">GoodReads</Link>).</li>
-          <li>Working on my <a href="https://ericlee.substack.com/">newsletter</a>, sharing practical learnings & resources weekly.</li>
-          <li>Designing & building <a href="https://github.com/theCreedo/ericjmlee-next/issues">new features</a> for this website when in the coding zone.</li>
+          <li>✝️ Serving in my church, <a href="https://austin.hmcc.net/">HMCC Austin</a>.</li>
+          <li>🧑‍🤝‍🧑 Meeting cool ambitious people on <a href="https://lunchclub.com/?invite_code=ericl39">Lunchclub</a>.</li>
+          <li>😅 Procrastinating on my <a href="https://ericlee.substack.com/">newsletter</a> since 11/27/21.</li>
+          <li>🐊 Playing video games (King K. Rool Main on Smash).</li>
+          <li>🤔 Writing faith thoughts and other ponderings on <a href='https://thecreedo.medium.com'>Medium</a>.</li>
+          <li>🍿 Watching Netflix (recs: <a href="https://www.imdb.com/title/tt10231312/">Inside Job</a> and <a href="https://www.imdb.com/title/tt9561862/">Love, Death, & Robots</a>).</li>
+          <li>🏃‍♂️ Exercising & listening to Audible books (tracked on <Link href="https://www.goodreads.com/user/show/127464751-eric-lee">GoodReads</Link>).</li>
+          <li>🎲 Playing and growing the community in <a href="https://fabtcg.com/">Flesh and Blood</a>. (<a href="https://judge.fabtcg.com/judges/ericjmlee1/">official L1 Judge</a>).</li>
+          <li>👷‍♂️ Designing & building <a href="https://github.com/theCreedo/ericjmlee-next/issues">new features</a> for this website when in the coding zone.</li>
         </ul>
         <NewsletterForm />
       </section>
