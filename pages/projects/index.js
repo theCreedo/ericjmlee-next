@@ -18,16 +18,16 @@ export default function Project({ allProjectsData }) {
     return (
         <Layout project>
             <Head>
-                <title>Projects | {siteTitle}</title>
+                <title>{`Projects | ${siteTitle}`}</title>
             </Head>
             <section className={`${utilStyles.divContainer} ${utilStyles.padding1px}`}>
                 <br />
                 <ul className={utilStyles.list}>
                     {allProjectsData.map((projectData) => (
-                        <ProjectItem {...projectData} />
+                        <ProjectItem key={projectData.id} {...projectData} />
                     ))}
                 </ul>
-                <Link href='/'><a>← Back to Home</a></Link>
+                <Link href='/'>← Back to Home</Link>
             </section>
         </Layout >
     )

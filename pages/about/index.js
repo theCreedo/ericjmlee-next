@@ -3,7 +3,6 @@ import Link from 'next/link'
 import Layout, { siteTitle } from '../../components/layout'
 import utilStyles from '../../styles/utils.module.css'
 import { getSortedPostsData } from '../../lib/posts'
-import LazyLoad from 'react-lazyload'
 import NewsletterForm from '../../components/newsletter'
 
 export async function getStaticProps() {
@@ -21,7 +20,7 @@ export default function About({ allPostsData }) {
     return (
         <Layout about>
             <Head>
-                <title>About | {siteTitle}</title>
+                <title>{`About | ${siteTitle}`}</title>
             </Head>
             <section className={`${utilStyles.divContainer} ${utilStyles.padding1px}`}>
                 <br />
@@ -45,7 +44,7 @@ export default function About({ allPostsData }) {
                 <p>You can also join my newsletter to stay in touch. 👇</p>
                 <NewsletterForm />
                 <br />
-                <Link href='/'><a>← Back to Home</a></Link>
+                <Link href='/'>← Back to Home</Link>
             </section>
         </Layout >
     )

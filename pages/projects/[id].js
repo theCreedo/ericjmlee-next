@@ -34,7 +34,7 @@ export default function Project({ projectData }) {
                     <Date dateString={projectData.start_date} isPost={false} />
                 </div>
                 <div dangerouslySetInnerHTML={{ __html: projectData.contentHtml }} />
-                <Link href='/projects'><a>← Back to Projects</a></Link>
+                <Link href='/projects'>← Back to Projects</Link>
             </article>
         </Layout>
     )

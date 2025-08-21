@@ -31,3 +31,16 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+
+# specific files to ignore
+lib/skillsData.js
+lib/startupsData.js
+pages/experience/crash-cook-off.md
+pages/experience/high-hopes-coffee.md
+posts/hackathon-craze.md
+posts/mapping-out-time.md
+posts/template.md
+posts/you-should-build-a-website.md
+posts/youtube-cult.md
+public/images/NPR-Logo-1200px.png
+public/images/profile/pose-profile.jpg

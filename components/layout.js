@@ -1,8 +1,10 @@
 import Head from 'next/head'
+import Image from 'next/image'
+import Script from 'next/script'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
-import { SocialIcon } from 'react-social-icons';
+import { FaMedium, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { slide as Menu } from 'react-burger-menu'
 
 
@@ -14,15 +16,19 @@ function HeaderItem({ imageUrl, imageAlt, title, home }) {
     const headerText = title.substr(3);
     const headerEmojiText = title.toLowerCase().substr(0, 2);
     return (<div className={styles.swapFigure}>
-        {!home && <img
+        {!home && <Image
             className={`${styles.swapOnHoverFrontImage} ${styles.headerHomeImage} ${utilStyles.borderCircle}`}
             src="/images/profile/transparent-profile.png"
             alt={imageAlt}
+            width={144}
+            height={144}
         />}
-        <img
+        <Image
             className={`${styles.swapOnHoverBackImage} ${styles.headerHomeImage} ${utilStyles.borderCircle}`}
             src={imageUrl}
             alt={imageAlt}
+            width={144}
+            height={144}
         />
         <h1 className={`${utilStyles.headingXl}`}>{<span className={home ? styles.wave : null}>{headerEmojiText}</span>} {headerText}</h1>
     </div >)
@@ -132,26 +138,24 @@ export default function Layout({ children, home, project, experience, blog, abou
                     />
                 </>)}
                 <meta property="twitter:card" content="summary_large_image" />
-                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossOrigin="anonymous" />
-                <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossOrigin="anonymous"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossOrigin="anonymous"></script>
-                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossOrigin="anonymous"></script>
             </Head>
             <div className={styles.pageContainer}>
                 <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                     <a className="navbar-brand" href="/">
-                        <img
+                        <Image
                             className={styles.navImage}
                             src="/images/profile/favicon.png"
                             alt="profile-header"
+                            width={32}
+                            height={32}
                         />
                     </a>
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul className="navbar-nav">
-                            {tabs.map((item) => {
+                            {tabs.map((item, index) => {
                                 const tabText = item.toLowerCase().substr(3);
                                 const tabEmojiText = item.toLowerCase().substr(0, 2);
                                 var href = '/' + tabText;
@@ -159,8 +163,8 @@ export default function Layout({ children, home, project, experience, blog, abou
                                     href = 'newsletter';
                                 }
                                 return (
-                                    <li className="nav-item">
-                                        <Link href={href}><a className="nav-link">{tabEmojiText + " " + tabText}</a></Link>
+                                    <li key={`nav-${index}`} className="nav-item">
+                                        <Link href={href} className="nav-link">{tabEmojiText + " " + tabText}</Link>
                                     </li>
                                 )
                             })}
@@ -226,10 +230,10 @@ export default function Layout({ children, home, project, experience, blog, abou
                     <footer className="pageFooter font-small blue pt-4">
                         <div className="text-center py-3">
                             <div className={styles.navContainer}>
-                                <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={medium_url} />
-                                <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={github_url} />
-                                <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={linkedin_url} />
-                                <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={twitter_url} />
+                                <a href={medium_url} className={styles.social}><FaMedium size={40} /></a>
+                                <a href={github_url} className={styles.social}><FaGithub size={40} /></a>
+                                <a href={linkedin_url} className={styles.social}><FaLinkedin size={40} /></a>
+                                <a href={twitter_url} className={styles.social}><FaTwitter size={40} /></a>
                                 {/* <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={email_url} /> */}
                             </div>
                         </div>
@@ -238,10 +242,10 @@ export default function Layout({ children, home, project, experience, blog, abou
                         <footer className="pageFooter font-small blue pt-4">
                             <div className="footer-copyright text-center py-3">
                                 <div className={styles.navContainer}>
-                                    <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={medium_url} />
-                                    <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={github_url} />
-                                    <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={linkedin_url} />
-                                    <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={twitter_url} />
+                                    <a href={medium_url} className={styles.social}><FaMedium size={40} /></a>
+                                    <a href={github_url} className={styles.social}><FaGithub size={40} /></a>
+                                    <a href={linkedin_url} className={styles.social}><FaLinkedin size={40} /></a>
+                                    <a href={twitter_url} className={styles.social}><FaTwitter size={40} /></a>
                                     {/* <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={email_url} /> */}
                                 </div>
                                 <div className="footer-copyright text-center py-3">
@@ -251,6 +255,12 @@ export default function Layout({ children, home, project, experience, blog, abou
                         </footer>
                     )}
             </div>
+            <Script 
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+                integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+                crossOrigin="anonymous"
+                strategy="lazyOnload"
+            />
         </div >
     )
 }

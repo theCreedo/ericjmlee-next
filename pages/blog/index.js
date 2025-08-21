@@ -18,16 +18,16 @@ export default function Blog({ allPostsData }) {
     return (
         <Layout blog>
             <Head>
-                <title>Blog | {siteTitle}</title>
+                <title>{`Blog | ${siteTitle}`}</title>
             </Head>
             <section className={`${utilStyles.divContainer} ${utilStyles.padding1px}`}>
                 <br />
                 <ul className={utilStyles.list}>
                     {allPostsData.map((postData) => (
-                        <BlogItem {...postData} />
+                        <BlogItem key={postData.id} {...postData} />
                     ))}
                 </ul>
-                <Link href='/'><a>← Back to Home</a></Link>
+                <Link href='/'>← Back to Home</Link>
             </section>
         </Layout >
     )

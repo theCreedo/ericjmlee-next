@@ -9,7 +9,7 @@ export default function Newsletter() {
     return (
         <Layout newsletter>
             <Head>
-                <title>Newsletter | {siteTitle}</title>
+                <title>{`Newsletter | ${siteTitle}`}</title>
             </Head>
             <section className={`${utilStyles.divContainer} ${utilStyles.padding1px}`}>
                 <br />
@@ -20,7 +20,7 @@ export default function Newsletter() {
                 <NewsletterForm />
                 <br />
                 <p>(<a href="https://ericlee.substack.com/feed">RSS Feed</a>)</p>
-                <Link href='/'><a>← Back to Home</a></Link>
+                <Link href='/'>← Back to Home</Link>
             </section>
         </Layout >
     )
