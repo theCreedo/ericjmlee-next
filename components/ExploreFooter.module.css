@@ -1,0 +1,35 @@
+.footer {
+  padding: 1.5rem 1rem 2rem;
+}
+
+.rule {
+  margin-bottom: 1rem;
+  border: none;
+  border-top: 1px solid #eee;
+}
+
+.sectionLabel {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #888;
+  margin: 0 0 0.5rem;
+}
+
+.recentPosts {
+  margin-bottom: 1rem;
+}
+
+.postLine {
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
+}
+
+.date {
+  color: #888;
+}
+
+.nav {
+  font-size: 0.9rem;
+  color: #888;
+}
