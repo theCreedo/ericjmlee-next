@@ -1,0 +1,42 @@
+.hero {
+  margin-bottom: 2rem;
+}
+
+.hero p {
+  margin: 0 0 0.5rem;
+}
+
+.domainGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.domainCard {
+  display: block;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 4px;
+}
+
+.domainCard:hover {
+  border-color: #999;
+}
+
+.domainCard h3 {
+  margin: 0 0 0.4rem;
+  font-size: 1rem;
+}
+
+.domainCard p {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #555;
+}
+
+.about {
+  margin-top: 1rem;
+}
