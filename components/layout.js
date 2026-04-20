@@ -4,7 +4,6 @@ import Script from 'next/script'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
-import { FaMedium, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 
 const name = 'Eric Lee'
@@ -36,10 +35,6 @@ function HeaderItem({ imageUrl, imageAlt, title, home }) {
 
 export default function Layout({ children, home, project, experience, blog, about, newsletter, postData }) {
     const tabs = ['🧠 Experience', '🚀 Projects', '📄 Blog', '💌 Savvy Saturdays', '🧐 About']
-    const medium_url = "https://medium.com/@theCreedo"
-    const github_url = "http://github.com/theCreedo"
-    const linkedin_url = "https://linkedin.com/in/ericjmlee"
-    const twitter_url = "https://twitter.com/ericjmlee"
     const color = 'blue';
     // const email_url = "mailto:heyericjmlee@gmail.com"
     return (
@@ -157,14 +152,13 @@ export default function Layout({ children, home, project, experience, blog, abou
                 </nav>
                 <header className={`${styles.header}`}>
                     {home ? (
-                        <>
-                            <HeaderItem
-                                imageUrl={"/images/profile/transparent-profile.png"}
-                                imageAlt={name}
-                                title={"👋 Hey, Eric here!"}
-                                home={true}
-                            />
-                        </>
+                        <Image
+                            className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
+                            src="/images/profile/transparent-profile.png"
+                            alt={name}
+                            width={144}
+                            height={144}
+                        />
                     ) : (
                             <>
                                 {experience && (
@@ -210,34 +204,13 @@ export default function Layout({ children, home, project, experience, blog, abou
                         )}
                 </header>
                 <main className={styles.contentContainer}>{children}</main>
-                {home ? (
+                {!home && (
                     <footer className="pageFooter font-small blue pt-4">
-                        <div className="text-center py-3">
-                            <div className={styles.navContainer}>
-                                <a href={medium_url} className={styles.social}><FaMedium size={40} /></a>
-                                <a href={github_url} className={styles.social}><FaGithub size={40} /></a>
-                                <a href={linkedin_url} className={styles.social}><FaLinkedin size={40} /></a>
-                                <a href={twitter_url} className={styles.social}><FaTwitter size={40} /></a>
-                                {/* <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={email_url} /> */}
-                            </div>
+                        <div className="footer-copyright text-center py-3">
+                            <small>© Eric Lee {new Date().getFullYear()}</small>
                         </div>
                     </footer>
-                ) : (
-                        <footer className="pageFooter font-small blue pt-4">
-                            <div className="footer-copyright text-center py-3">
-                                <div className={styles.navContainer}>
-                                    <a href={medium_url} className={styles.social}><FaMedium size={40} /></a>
-                                    <a href={github_url} className={styles.social}><FaGithub size={40} /></a>
-                                    <a href={linkedin_url} className={styles.social}><FaLinkedin size={40} /></a>
-                                    <a href={twitter_url} className={styles.social}><FaTwitter size={40} /></a>
-                                    {/* <SocialIcon className={styles.social} style={{ height: 40, width: 40 }} url={email_url} /> */}
-                                </div>
-                                <div className="footer-copyright text-center py-3">
-                                    <small>Copyright © Eric Lee <span id="year">{new Date().getFullYear()}</span></small>
-                                </div>
-                            </div>
-                        </footer>
-                    )}
+                )}
             </div>
             <Script 
                 src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
