@@ -5,11 +5,10 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import { FaMedium, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
-import { slide as Menu } from 'react-burger-menu'
 
 
 const name = 'Eric Lee'
-export const siteTitle = "ERIC LEE"
+export const siteTitle = "Eric Lee"
 export const base_url = "https://www.ericjmlee.com"
 
 function HeaderItem({ imageUrl, imageAlt, title, home }) {
@@ -46,21 +45,6 @@ export default function Layout({ children, home, project, experience, blog, abou
     return (
         <div>
             <Head>
-                <script
-                    async
-                    src="https://www.googletagmanager.com/gtag/js?id=UA-176727335-1"
-                />
-                <script
-                    async
-                    dangerouslySetInnerHTML={{
-                        __html: `
-                        window.dataLayer = window.dataLayer || [];
-                        function gtag(){dataLayer.push(arguments);}
-                        gtag('js', new Date());
-                        gtag('config', 'UA-176727335-1');
-                    `,
-                    }}
-                />
                 <link rel="icon" href="/favicon.ico" />
                 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
                 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -84,7 +68,7 @@ export default function Layout({ children, home, project, experience, blog, abou
                     />
                     <meta
                         property="og:title" content={"Projects | " + siteTitle}
-                    /> &&
+                    />
                     <meta
                         property="og:description" content="Caution: Entering Construction Zone"
                     />
@@ -93,10 +77,10 @@ export default function Layout({ children, home, project, experience, blog, abou
                     <meta
                         property="og:image"
                         content={base_url + "/images/profile/" + color + "-experience-profile-191x100.jpg"}
-                    /> &&
+                    />
                     <meta
                         property="og:title" content={"Experience | " + siteTitle}
-                    /> &&
+                    />
                     <meta
                         property="og:description" content="The Nine to Five Vibe"
                     />
@@ -105,10 +89,10 @@ export default function Layout({ children, home, project, experience, blog, abou
                     <meta
                         property="og:image"
                         content={base_url + "/images/profile/" + color + "-blog-profile-191x100.jpg"}
-                    /> &&
+                    />
                     <meta
                         property="og:title" content={"Blog | " + siteTitle}
-                    /> &&
+                    />
                     <meta
                         property="og:description" content="3AM Thoughts"
                     />
@@ -117,10 +101,10 @@ export default function Layout({ children, home, project, experience, blog, abou
                     <meta
                         property="og:image"
                         content={base_url + "/images/profile/" + color + "-newsletter-profile-191x100.jpg"}
-                    /> &&
+                    />
                     <meta
                         property="og:title" content={"Newsletter | " + siteTitle}
-                    /> &&
+                    />
                     <meta
                         property="og:description" content="Savvy Saturdays"
                     />
@@ -129,10 +113,10 @@ export default function Layout({ children, home, project, experience, blog, abou
                     <meta
                         property="og:image"
                         content={base_url + "/images/profile/" + color + "-about-profile-191x100.jpg"}
-                    /> &&
+                    />
                     <meta
                         property="og:title" content={"About | " + siteTitle}
-                    /> &&
+                    />
                     <meta
                         property="og:description" content="New Phone, Who Dis?"
                     />
