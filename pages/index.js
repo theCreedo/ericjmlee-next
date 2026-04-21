@@ -1,4 +1,6 @@
+import { useState } from 'react'
 import Head from 'next/head'
+import Image from 'next/image'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import styles from './index.module.css'
@@ -23,18 +25,37 @@ const domains = [
 
 export default function Home({ allPostsData }) {
   const recentPosts = allPostsData.slice(0, 3)
+  const [avatarPop, setAvatarPop] = useState(false)
+
+  function handleAvatarClick() {
+    setAvatarPop(true)
+    setTimeout(() => setAvatarPop(false), 300)
+  }
+
   return (
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.divContainer}>
-        <div className={styles.hero}>
-          <p>Welcome to the front-end part of my life.</p>
-          <p>
-            Developer advocate · L2 judge · church leader · writer<br />
-            Austin, TX · UT '19 · 🇺🇸🇹🇼
-          </p>
+        <div className={styles.heroRow}>
+          <div
+            className={`${styles.avatar}${avatarPop ? ' ' + styles.avatarPop : ''}`}
+            onClick={handleAvatarClick}
+            role="presentation"
+          >
+            <Image
+              src="/images/profile/transparent-profile.png"
+              alt="Eric Lee"
+              width={68}
+              height={68}
+            />
+          </div>
+          <div className={styles.heroText}>
+            <p className={styles.heroGreeting}>Welcome to the front-end part of my life.</p>
+            <p className={styles.heroCredentials}>Developer advocate · L2 judge · church leader · writer</p>
+            <p className={styles.heroMeta}>Austin, TX · UT &rsquo;19 · 🇺🇸🇹🇼</p>
+          </div>
         </div>
 
         <div className={styles.domainGrid}>
@@ -48,7 +69,6 @@ export default function Home({ allPostsData }) {
 
         <section id="about" className={styles.about}>
           <p>[TODO: about paragraph — Plano origin, UT Austin CS 2019, Austin, four domains]</p>
-          {/* TODO: contact email — use JS-assembled rendering to block scrapers */}
         </section>
       </section>
       <ExploreFooter posts={recentPosts} />
