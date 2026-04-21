@@ -7,21 +7,24 @@
 
 .filterBtn {
   padding: 0.25rem 0.75rem;
-  border: 1px solid #ccc;
+  border: 1px solid var(--border);
   border-radius: 999px;
+  font-family: var(--f-ui), system-ui, sans-serif;
   font-size: 0.85rem;
   text-decoration: none;
-  color: inherit;
+  color: var(--text);
+  transition: border-color var(--t-fast), color var(--t-fast), background var(--t-fast);
 }
 
 .filterBtn:hover {
-  border-color: #333;
+  border-color: var(--ink);
+  color: var(--ink);
 }
 
 .filterBtnActive {
-  background: #111;
-  color: #fff;
-  border-color: #111;
+  background: var(--ink);
+  color: white;
+  border-color: var(--ink);
 }
 
 .list {
@@ -31,18 +34,21 @@
 }
 
 .listItem {
-  padding: 0.75rem 0;
-  border-bottom: 1px solid #eee;
+  padding: 22px 0;
+  border-bottom: 1px solid var(--border);
 }
 
 .postTitle {
-  font-size: 1rem;
-  color: inherit;
+  font-family: var(--f-display), Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--ink);
   text-decoration: none;
+  transition: color var(--t-fast);
 }
 
 .postTitle:hover {
-  text-decoration: underline;
+  color: var(--accent);
 }
 
 .meta {
@@ -50,10 +56,16 @@
   align-items: center;
   gap: 0.75rem;
   margin-top: 0.2rem;
-  font-size: 0.85rem;
+  font-family: var(--f-ui), system-ui, sans-serif;
+  font-size: 11px;
+  color: var(--faint);
 }
 
 .sourceBadge {
-  color: #888;
-  font-style: italic;
+  font-family: var(--f-ui), system-ui, sans-serif;
+  font-size: 10px;
+  background: var(--accent-subtle);
+  color: var(--accent);
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
 }

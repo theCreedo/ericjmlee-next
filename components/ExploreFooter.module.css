@@ -1,35 +1,62 @@
 .footer {
-  padding: 1.5rem 1rem 2rem;
+  border-top: 1px solid var(--border);
+  padding-top: var(--space-8);
+  padding-bottom: var(--space-10);
 }
 
 .rule {
-  margin-bottom: 1rem;
-  border: none;
-  border-top: 1px solid #eee;
+  display: none;
 }
 
 .sectionLabel {
-  font-size: 0.75rem;
+  font-family: var(--f-ui), system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: #888;
-  margin: 0 0 0.5rem;
+  color: var(--faint);
+  margin: 0 0 var(--space-3);
 }
 
 .recentPosts {
-  margin-bottom: 1rem;
+  margin-bottom: var(--space-4);
 }
 
 .postLine {
-  margin-bottom: 0.3rem;
-  font-size: 0.9rem;
+  margin-bottom: var(--space-2);
+  font-size: 15px;
+}
+
+.postLine a {
+  font-family: var(--f-body), Georgia, serif;
+  font-size: 15px;
+  color: var(--ink);
+  text-decoration: none;
+  transition: color var(--t-fast);
+}
+
+.postLine a:hover {
+  color: var(--accent);
 }
 
 .date {
-  color: #888;
+  font-family: var(--f-ui), system-ui, sans-serif;
+  font-size: 11px;
+  color: var(--faint);
 }
 
 .nav {
-  font-size: 0.9rem;
-  color: #888;
+  font-family: var(--f-ui), system-ui, sans-serif;
+  font-size: 12px;
+  color: var(--faint);
+}
+
+.nav a {
+  color: var(--faint);
+  text-decoration: none;
+  transition: color var(--t-fast);
+}
+
+.nav a:hover {
+  color: var(--accent);
 }

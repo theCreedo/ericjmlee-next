@@ -1,5 +1,8 @@
 import '../styles/global.css'
 import '../styles/tokens.css'
+import '../styles/transitions.css'
+import { useEffect } from 'react'
+import { useRouter } from 'next/router'
 import { Cormorant_Garamond, Crimson_Pro, Space_Grotesk, DM_Mono } from 'next/font/google'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import { Analytics } from '@vercel/analytics/next'
@@ -40,6 +43,23 @@ const fontClasses = [
 ].join(' ')
 
 export default function App({ Component, pageProps }) {
+  const router = useRouter()
+
+  useEffect(() => {
+    const handleStart = () => document.body.classList.add('page-fading')
+    const handleComplete = () => setTimeout(() => document.body.classList.remove('page-fading'), 0)
+
+    router.events.on('routeChangeStart', handleStart)
+    router.events.on('routeChangeComplete', handleComplete)
+    router.events.on('routeChangeError', handleComplete)
+
+    return () => {
+      router.events.off('routeChangeStart', handleStart)
+      router.events.off('routeChangeComplete', handleComplete)
+      router.events.off('routeChangeError', handleComplete)
+    }
+  }, [router.events])
+
   return (
     <div className={fontClasses}>
       <Component {...pageProps} />

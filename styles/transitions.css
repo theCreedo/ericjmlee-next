@@ -1,0 +1,8 @@
+/* Page transition fade */
+main {
+  transition: opacity var(--t-base);
+}
+
+body.page-fading main {
+  opacity: 0;
+}
