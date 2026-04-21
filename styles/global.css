@@ -1,65 +1,65 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, Serif, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
-    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  line-height: 1.6;
-  font-size: 18px;
-  color: #555;
-}
-
-h1,
-h2,
-b {
-  color: #333;
-}
-
 * {
   box-sizing: border-box;
 }
 
-a {
-  color: #000000;
-  font-weight: bold;
-  text-decoration: none;
-  /* First we need to help some browsers along for this to work.
-     Just because a vendor prefix is there, doesn't mean it will
-     work in a browser made by that vendor either, it's just for
-     future-proofing purposes I guess. */
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  /* ...and now for the proper property */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--bg);
+  font-family: var(--f-body);
+  font-size: 17px;
+  line-height: 1.75;
+  color: var(--text);
+}
 
-  transition: all 0.3s ease-in-out 0s;
+h1,
+h2 {
+  font-family: var(--f-display);
+  color: var(--ink);
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2.4rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 1.6rem;
+  line-height: 1.25;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: var(--t-fast);
 }
 
 a:hover {
-  /* color: #A339CB; */
+  color: var(--accent-hover);
+  border-bottom-color: var(--accent);
+}
 
-  /* color: #FFFFFF ; */
-  /* background-color: #343A40 ; */
-  text-decoration: none;
+blockquote {
+  border-left: 2px solid var(--accent);
+  padding: 10px 20px;
+  margin: 28px 0;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.75;
+  background: var(--accent-subtle);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+code,
+pre {
+  font-family: var(--f-mono);
+  background: var(--bg-alt);
+  border-radius: var(--radius-sm);
 }
 
 img {
   max-width: 100%;
-}
-
-header h1 {
-  color: white;
-  font-size: 2.5em;
-  font-weight: 300;
-}
-
-header {
-  background-color: #000000;
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  line-height: 1.2;
-  padding: 5vw 2em;
-  text-align: center;
 }
