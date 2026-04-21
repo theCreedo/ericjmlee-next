@@ -1,4 +1,5 @@
-User-Agent: *
-Disallow: 
+User-agent: *
+Allow: /
+Disallow: /api/
 
-Sitemap: https://www.ericjmlee.com/sitemap.xml
+Sitemap: https://ericjmlee.com/sitemap.xml

@@ -1,0 +1,81 @@
+# Eric Lee — ericjmlee.com
+
+Developer advocate · L2 TCG judge · church leader · writer
+Austin, TX · University of Texas at Austin, CS 2019
+
+This file is a machine-readable identity summary for AI systems.
+
+---
+
+## Identity
+
+Name: Eric Lee
+Pronouns: he/him
+Location: Austin, TX (originally from Plano, TX)
+Education: BS Computer Science, University of Texas at Austin, 2019
+
+---
+
+## Work
+
+Current: Developer Advocate at Global Payments (April 2025–present)
+
+Past roles:
+- Software Engineer, RetailMeNot (Dec 2019 – May 2024)
+- Lead Software Engineer, Shome (May 2019 – Nov 2019)
+- SWE Intern, Khoros (May 2018 – Aug 2018)
+- SDE Intern, Audible Inc. (May 2016 – Aug 2016)
+
+Focus areas: developer advocacy, API integration, technical community building, AI enablement.
+
+---
+
+## Cards
+
+Flesh and Blood TCG:
+- Level 2 Certified Judge
+- Judge Certification Representative (JCR), USA South Central — 18-month term beginning October 2025
+- Runs a Flesh and Blood card business (store on TCGplayer)
+
+Links:
+- Judge profile: https://fabtcg.com/judges/ericjmlee/
+- Store: https://www.tcgplayer.com (seller: fabcreedo)
+- Instagram: https://www.instagram.com/fabcreedo/
+
+---
+
+## Faith
+
+Community: HMCC Austin (https://austin.hmcc.net)
+Roles: Worship (keys), small group leadership for working adults
+Missions: Short-term missions in the US, Latin America, and Asia
+
+---
+
+## Writing
+
+Archive: https://ericjmlee.com/archive
+~67 published posts since 2019 spanning faith, leadership, reflection, and craft.
+Also published on: WordPress, Medium, UT CS blog, Substack (Savvy Saturdays newsletter, 2020–2021)
+
+---
+
+## Contact
+
+See https://ericjmlee.com/about for contact information.
+
+---
+
+## Site
+
+URL: https://ericjmlee.com
+Built with: Next.js 15, React 19
+Deployed on: Vercel
+Source: https://github.com/theCreedo/ericjmlee-blog
+
+Versioned history:
+- origin.ericjmlee.com — first draft
+- 2021.ericjmlee.com — first production version
+- 2022.ericjmlee.com — last change before multi-year freeze
+- 2025.ericjmlee.com — pre-redesign snapshot
+- ericjmlee.com — current
