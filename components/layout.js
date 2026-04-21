@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Script from 'next/script'
+import { useState } from 'react'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
@@ -33,8 +33,23 @@ function HeaderItem({ imageUrl, imageAlt, title, home }) {
 
 }
 
+const nav = [
+  { label: 'About', href: '/about' },
+  { label: 'Now', href: '/now' },
+  {
+    label: 'Domains',
+    children: [
+      { label: 'Work', href: '/work' },
+      { label: 'Cards', href: '/cards' },
+      { label: 'Faith', href: '/faith' },
+      { label: 'Studio', href: '/studio' },
+    ],
+  },
+  { label: 'Archive', href: '/archive' },
+];
+
 export default function Layout({ children, home, project, experience, blog, about, newsletter, postData }) {
-    const tabs = ['🧠 Experience', '🚀 Projects', '📄 Blog', '💌 Savvy Saturdays', '🧐 About']
+    const [navOpen, setNavOpen] = useState(false);
     const color = 'blue';
     // const email_url = "mailto:heyericjmlee@gmail.com"
     return (
@@ -119,36 +134,45 @@ export default function Layout({ children, home, project, experience, blog, abou
                 <meta property="twitter:card" content="summary_large_image" />
             </Head>
             <div className={styles.pageContainer}>
-                <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <a className="navbar-brand" href="/">
+                <nav className={styles.nav}>
+                    <Link href="/" className={styles.navLogo}>
                         <Image
-                            className={styles.navImage}
                             src="/images/profile/favicon.png"
-                            alt="profile-header"
+                            alt="Eric Lee"
                             width={32}
                             height={32}
                         />
-                    </a>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
+                    </Link>
+                    <button
+                        className={styles.navHamburger}
+                        onClick={() => setNavOpen((o) => !o)}
+                        aria-label="Toggle navigation"
+                        aria-expanded={navOpen}
+                    >
+                        <span />
+                        <span />
+                        <span />
                     </button>
-                    <div className="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul className="navbar-nav">
-                            {tabs.map((item, index) => {
-                                const tabText = item.toLowerCase().substr(3);
-                                const tabEmojiText = item.toLowerCase().substr(0, 2);
-                                var href = '/' + tabText;
-                                if (href.includes("sav")) {
-                                    href = 'newsletter';
-                                }
-                                return (
-                                    <li key={`nav-${index}`} className="nav-item">
-                                        <Link href={href} className="nav-link">{tabEmojiText + " " + tabText}</Link>
-                                    </li>
-                                )
-                            })}
-                        </ul>
-                    </div>
+                    <ul className={`${styles.navLinks} ${navOpen ? styles.navLinksOpen : ''}`}>
+                        {nav.map((item) =>
+                            item.children ? (
+                                <li key={item.label} className={`${styles.navItem} ${styles.navItemDropdown}`}>
+                                    <span className={styles.navLink}>{item.label}</span>
+                                    <ul className={styles.navDropdownMenu}>
+                                        {item.children.map((child) => (
+                                            <li key={child.label}>
+                                                <Link href={child.href} className={styles.navLink}>{child.label}</Link>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </li>
+                            ) : (
+                                <li key={item.label} className={styles.navItem}>
+                                    <Link href={item.href} className={styles.navLink}>{item.label}</Link>
+                                </li>
+                            )
+                        )}
+                    </ul>
                 </nav>
                 <header className={`${styles.header}`}>
                     {home ? (
@@ -205,19 +229,11 @@ export default function Layout({ children, home, project, experience, blog, abou
                 </header>
                 <main className={styles.contentContainer}>{children}</main>
                 {!home && (
-                    <footer className="pageFooter font-small blue pt-4">
-                        <div className="footer-copyright text-center py-3">
-                            <small>© Eric Lee {new Date().getFullYear()}</small>
-                        </div>
+                    <footer className={styles.pageFooter}>
+                        <small>© Eric Lee {new Date().getFullYear()}</small>
                     </footer>
                 )}
             </div>
-            <Script 
-                src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
-                integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
-                crossOrigin="anonymous"
-                strategy="lazyOnload"
-            />
         </div >
     )
 }
