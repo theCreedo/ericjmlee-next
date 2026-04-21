@@ -2,9 +2,13 @@
   .nav {
     display: flex;
     align-items: center;
-    background: #111;
+    height: 52px;
+    background: var(--bg-alt);
+    border-bottom: 1px solid var(--border);
     padding: 0 1rem;
-    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 50;
   }
 
   .navLogo {
@@ -28,15 +32,18 @@
   .navLink {
     display: block;
     padding: 1rem;
-    color: rgba(255, 255, 255, 0.75);
+    color: var(--text);
     text-decoration: none;
-    font-size: 0.9rem;
+    font-family: var(--f-ui);
+    font-size: 13px;
+    font-weight: 400;
     cursor: pointer;
     white-space: nowrap;
+    transition: color var(--t-fast);
   }
 
   .navLink:hover {
-    color: #fff;
+    color: var(--ink);
   }
 
   .navDropdownMenu {
@@ -44,12 +51,14 @@
     position: absolute;
     top: 100%;
     left: 0;
-    background: #1a1a1a;
+    background: var(--surface);
+    border: 1px solid var(--border);
     list-style: none;
     margin: 0;
     padding: 0.25rem 0;
     min-width: 120px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 12px var(--shadow);
+    border-radius: var(--radius-md);
     z-index: 100;
   }
 
@@ -69,6 +78,20 @@
     display: none;
   }
 
+  .navThemeToggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.85rem;
+    color: var(--faint);
+    padding: 0 var(--space-4);
+    transition: color var(--t-fast);
+  }
+
+  .navThemeToggle:hover {
+    color: var(--text);
+  }
+
   @media (max-width: 768px) {
     .navHamburger {
       display: flex;
@@ -84,7 +107,7 @@
       display: block;
       width: 22px;
       height: 2px;
-      background: #fff;
+      background: var(--text);
     }
 
     .navLinks {
@@ -94,7 +117,8 @@
       left: 0;
       right: 0;
       flex-direction: column;
-      background: #111;
+      background: var(--bg-alt);
+      border-bottom: 1px solid var(--border);
       z-index: 99;
       padding: 0.5rem 0;
     }
@@ -106,8 +130,10 @@
     .navDropdownMenu {
       display: block;
       position: static;
-      background: #1a1a1a;
+      background: var(--surface);
+      border: none;
       box-shadow: none;
+      border-radius: 0;
       padding-left: 1rem;
     }
   }
@@ -142,7 +168,7 @@
     margin-left:5px;
     margin-right:5px;
   }
-  
+
   .main {
     position: relative;
     min-height: 100vh;
@@ -153,20 +179,20 @@
     flex-direction: column;
     align-items: center;
   }
-  
+
   .headerImage {
     width: 6rem;
     height: 6rem;
     margin: 1rem auto 1rem;
   }
-  
+
   .headerHomeImage {
     width: 8rem;
     height: 8rem;
     margin: 0rem auto 2rem;
     background-color: #00AAFF;
   }
-    
+
   .navImage {
     width: 45px;
     height: auto;
@@ -184,7 +210,7 @@
     transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
     display: inline-block;
   }
-  
+
   @keyframes wave-animation {
       0% { transform: rotate( 0.0deg) }
      10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
@@ -195,7 +221,7 @@
      60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
     100% { transform: rotate( 0.0deg) }
   }
-  
+
 
   .swapFigure {
 	  margin: 0 auto;

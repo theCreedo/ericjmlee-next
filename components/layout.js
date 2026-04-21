@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
@@ -50,7 +50,24 @@ const nav = [
 
 export default function Layout({ children, home, project, experience, blog, about, newsletter, postData }) {
     const [navOpen, setNavOpen] = useState(false);
+    const [darkMode, setDarkMode] = useState(false);
     const color = 'blue';
+
+    useEffect(() => {
+        const saved = localStorage.getItem('darkMode');
+        if (saved === 'true') {
+            setDarkMode(true);
+            document.body.classList.add('dark');
+        }
+    }, []);
+
+    function toggleDarkMode() {
+        const next = !darkMode;
+        setDarkMode(next);
+        document.body.classList.toggle('dark', next);
+        localStorage.setItem('darkMode', String(next));
+    }
+
     // const email_url = "mailto:heyericjmlee@gmail.com"
     return (
         <div>
@@ -173,6 +190,13 @@ export default function Layout({ children, home, project, experience, blog, abou
                             )
                         )}
                     </ul>
+                    <button
+                        className={styles.navThemeToggle}
+                        onClick={toggleDarkMode}
+                        aria-label={darkMode ? 'Switch to light mode' : 'Switch to dark mode'}
+                    >
+                        {darkMode ? '☀️' : '🌙'}
+                    </button>
                 </nav>
                 <header className={`${styles.header}`}>
                     {home ? (
