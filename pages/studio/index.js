@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Layout, { siteTitle } from '../../components/layout'
+import Layout, { siteTitle, base_url } from '../../components/layout'
 import ExploreFooter from '../../components/ExploreFooter'
+import JsonLd from '../../components/JsonLd'
 import { getSortedPostsData } from '../../lib/posts'
 import styles from '../../styles/domain.module.css'
 
@@ -10,13 +11,30 @@ export async function getStaticProps() {
   return { props: { recentPosts } }
 }
 
+const STUDIO_SCHEMA = {
+  '@context': 'https://schema.org',
+  '@type': 'CreativeWork',
+  name: 'Studio — Eric Lee',
+  url: `${base_url}/studio`,
+  creator: {
+    '@type': 'Person',
+    name: 'Eric Lee',
+    url: base_url,
+  },
+  description: 'Project shelf: writing archive, early projects, newsletter, and past platforms.',
+}
+
 export default function Studio({ recentPosts }) {
   return (
     <Layout>
       <Head>
         <title>{`Studio | ${siteTitle}`}</title>
         <meta name="description" content="Eric Lee's project shelf — writing, early projects, and archived work." />
+        <meta property="og:title" content={`Studio | ${siteTitle}`} />
+        <meta property="og:description" content="Eric Lee's project shelf — writing, early projects, and archived work." />
+        <JsonLd data={STUDIO_SCHEMA} />
       </Head>
+      {/* Page: /studio | Person: Eric Lee | Topic: Creative output, writing, projects */}
       <div className={styles.page}>
         <h1>Studio</h1>
         <p className={styles.lead}>[TODO: Eric to write framing paragraph — writing, early projects, archived newsletter, past work.]</p>

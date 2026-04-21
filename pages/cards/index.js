@@ -16,7 +16,10 @@ export default function Cards({ recentPosts }) {
       <Head>
         <title>{`Cards | ${siteTitle}`}</title>
         <meta name="description" content="Eric Lee's work in Flesh and Blood TCG — judging, community, and card business." />
+        <meta property="og:title" content={`Cards | ${siteTitle}`} />
+        <meta property="og:description" content="L2 Certified Judge and JCR for Flesh and Blood TCG. Card business, community, and judging." />
       </Head>
+      {/* Page: /cards | Person: Eric Lee | Topic: Flesh and Blood TCG, judging, card business, community */}
       <div className={styles.page}>
         <h1>Cards</h1>
         <p className={styles.lead}>[TODO: Eric to write framing paragraph — judging, community, selling. Flesh and Blood TCG.]</p>

@@ -16,7 +16,10 @@ export default function Faith({ recentPosts }) {
       <Head>
         <title>{`Faith | ${siteTitle}`}</title>
         <meta name="description" content="Eric Lee's faith — what it means to how he lives." />
+        <meta property="og:title" content={`Faith | ${siteTitle}`} />
+        <meta property="og:description" content="Faith as a way of life — HMCC Austin, worship, leadership, and missions." />
       </Head>
+      {/* Page: /faith | Person: Eric Lee | Topic: Faith, HMCC Austin, church leadership, worship, missions */}
       <div className={styles.page}>
         <h1>Faith</h1>
         <p className={styles.lead}>[TODO: Eric to write framing statement — what faith means to how I live.]</p>

@@ -4,11 +4,50 @@ import { useState, useEffect } from 'react'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
-
+import JsonLd from './JsonLd'
 
 const name = 'Eric Lee'
 export const siteTitle = "Eric Lee"
-export const base_url = "https://www.ericjmlee.com"
+export const base_url = "https://ericjmlee.com"
+
+const DEFAULT_OG_IMAGE = base_url + '/images/profile/blue-profile-191x100.jpg'
+const DEFAULT_DESCRIPTION = 'Developer advocate, L2 TCG judge, church leader, and writer based in Austin, TX.'
+
+const PERSON_SCHEMA = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'Eric Lee',
+  url: base_url,
+  jobTitle: 'Developer Advocate',
+  worksFor: {
+    '@type': 'Organization',
+    name: 'Global Payments',
+    url: 'https://www.globalpayments.com',
+  },
+  alumniOf: {
+    '@type': 'CollegeOrUniversity',
+    name: 'University of Texas at Austin',
+  },
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Austin',
+    addressRegion: 'TX',
+    addressCountry: 'US',
+  },
+  knowsAbout: [
+    'Developer Advocacy',
+    'Software Engineering',
+    'API Integration',
+    'Technical Community Building',
+    'Flesh and Blood TCG',
+    'Trading Card Game Judging',
+  ],
+  sameAs: [
+    'https://fabtcg.com/judges/ericjmlee/',
+    'https://www.instagram.com/fabcreedo/',
+    'https://github.com/theCreedo',
+  ],
+}
 
 function HeaderItem({ imageUrl, imageAlt, title, home }) {
     const headerText = title.substr(3);
@@ -30,7 +69,6 @@ function HeaderItem({ imageUrl, imageAlt, title, home }) {
         />
         <h1 className={`${utilStyles.headingXl}`}>{<span className={home ? styles.wave : null}>{headerEmojiText}</span>} {headerText}</h1>
     </div >)
-
 }
 
 const nav = [
@@ -48,10 +86,9 @@ const nav = [
   { label: 'Archive', href: '/archive' },
 ];
 
-export default function Layout({ children, home, project, experience, blog, about, newsletter, postData }) {
+export default function Layout({ children, home, project, experience, blog, newsletter, postData }) {
     const [navOpen, setNavOpen] = useState(false);
     const [darkMode, setDarkMode] = useState(false);
-    const color = 'blue';
 
     useEffect(() => {
         const saved = localStorage.getItem('darkMode');
@@ -68,7 +105,6 @@ export default function Layout({ children, home, project, experience, blog, abou
         localStorage.setItem('darkMode', String(next));
     }
 
-    // const email_url = "mailto:heyericjmlee@gmail.com"
     return (
         <div>
             <Head>
@@ -76,79 +112,26 @@ export default function Layout({ children, home, project, experience, blog, abou
                 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
                 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
                 <link rel="manifest" href="/site.webmanifest" />
-                {home && (<>
-                    <meta
-                        property="og:image"
-                        content={base_url + "/images/profile/" + color + "-profile-191x100.jpg"}
-                    />
-                    <meta
-                        property="og:title" content={siteTitle}
-                    />
-                    <meta
-                        property="og:description" content="Inspiration Hub"
-                    />
-                </>)}
-                {project && (<>
-                    <meta
-                        property="og:image"
-                        content={base_url + "/images/profile/" + color + "-projects-profile-191x100.jpg"}
-                    />
-                    <meta
-                        property="og:title" content={"Projects | " + siteTitle}
-                    />
-                    <meta
-                        property="og:description" content="Caution: Entering Construction Zone"
-                    />
-                </>)}
-                {experience && (<>
-                    <meta
-                        property="og:image"
-                        content={base_url + "/images/profile/" + color + "-experience-profile-191x100.jpg"}
-                    />
-                    <meta
-                        property="og:title" content={"Experience | " + siteTitle}
-                    />
-                    <meta
-                        property="og:description" content="The Nine to Five Vibe"
-                    />
-                </>)}
-                {blog && (<>
-                    <meta
-                        property="og:image"
-                        content={base_url + "/images/profile/" + color + "-blog-profile-191x100.jpg"}
-                    />
-                    <meta
-                        property="og:title" content={"Blog | " + siteTitle}
-                    />
-                    <meta
-                        property="og:description" content="3AM Thoughts"
-                    />
-                </>)}
-                {newsletter && (<>
-                    <meta
-                        property="og:image"
-                        content={base_url + "/images/profile/" + color + "-newsletter-profile-191x100.jpg"}
-                    />
-                    <meta
-                        property="og:title" content={"Newsletter | " + siteTitle}
-                    />
-                    <meta
-                        property="og:description" content="Savvy Saturdays"
-                    />
-                </>)}
-                {about && (<>
-                    <meta
-                        property="og:image"
-                        content={base_url + "/images/profile/" + color + "-about-profile-191x100.jpg"}
-                    />
-                    <meta
-                        property="og:title" content={"About | " + siteTitle}
-                    />
-                    <meta
-                        property="og:description" content="New Phone, Who Dis?"
-                    />
-                </>)}
+                {/* Sitewide defaults — pages override with their own <Head> tags */}
+                <meta key="og:image" property="og:image" content={DEFAULT_OG_IMAGE} />
+                <meta key="og:description" property="og:description" content={DEFAULT_DESCRIPTION} />
                 <meta property="twitter:card" content="summary_large_image" />
+                {home && (
+                    <meta key="og:title" property="og:title" content={siteTitle} />
+                )}
+                {project && (
+                    <meta key="og:title" property="og:title" content={`Projects | ${siteTitle}`} />
+                )}
+                {experience && (
+                    <meta key="og:title" property="og:title" content={`Experience | ${siteTitle}`} />
+                )}
+                {blog && (
+                    <meta key="og:title" property="og:title" content={`Blog | ${siteTitle}`} />
+                )}
+                {newsletter && (
+                    <meta key="og:title" property="og:title" content={`Newsletter | ${siteTitle}`} />
+                )}
+                <JsonLd data={PERSON_SCHEMA} />
             </Head>
             <div className={styles.pageContainer}>
                 <nav className={styles.nav}>
@@ -218,6 +201,6 @@ export default function Layout({ children, home, project, experience, blog, abou
                     </footer>
                 )}
             </div>
-        </div >
+        </div>
     )
 }

@@ -24,7 +24,10 @@ export default function Work({ experiences, recentPosts }) {
       <Head>
         <title>{`Work | ${siteTitle}`}</title>
         <meta name="description" content="Eric Lee's work in developer advocacy, software engineering, and technical community building." />
+        <meta property="og:title" content={`Work | ${siteTitle}`} />
+        <meta property="og:description" content="Developer Advocate at Global Payments. Software engineering background. Austin, TX." />
       </Head>
+      {/* Page: /work | Person: Eric Lee | Topic: Professional background, developer advocacy, software engineering */}
       <div className={styles.page}>
         <h1>Work</h1>
         <p className={styles.lead}>[TODO: Eric to write framing paragraph — general, forward-looking. AI enablement, integration, community.]</p>
