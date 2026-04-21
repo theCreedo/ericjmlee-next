@@ -2,7 +2,6 @@ import { useState } from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import Layout, { siteTitle } from '../components/layout'
-import utilStyles from '../styles/utils.module.css'
 import styles from './index.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import ExploreFooter from '../components/ExploreFooter'
@@ -36,8 +35,9 @@ export default function Home({ allPostsData }) {
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
+        <meta name="description" content="Developer advocate, L2 TCG judge, church leader, and writer based in Austin, TX." />
       </Head>
-      <section className={utilStyles.divContainer}>
+      <section>
         <div className={styles.heroRow}>
           <div
             className={`${styles.avatar}${avatarPop ? ' ' + styles.avatarPop : ''}`}
