@@ -106,6 +106,7 @@ const inventory = files
       original_link: originalLink,
       description,
       suggested_topics: suggestTopics(title, description),
+      evergreen: false,
     };
   })
   .filter((entry) => entry.title && entry.title !== '');

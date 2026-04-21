@@ -8,7 +8,8 @@
     "description": "I’ve been learning that the hardest process in life is trying to maintain balance and equilibrium in everything.",
     "suggested_topics": [
       "practice"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "balance-macro-and-micro",
@@ -19,7 +20,8 @@
     "description": "When mistakes occurs, it’s easy to fret over the long-term impact our mistakes may have. But it doesn't have to be that way.",
     "suggested_topics": [
       "leadership"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "kill-writers-block",
@@ -30,7 +32,8 @@
     "description": "One of the most difficult things to do as a writer is to get over the hump of writing—the slumps that arise every so often.",
     "suggested_topics": [
       "craft"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "immeasurable-value",
@@ -42,7 +45,8 @@
     "suggested_topics": [
       "leadership",
       "practice"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "net-giver",
@@ -53,7 +57,8 @@
     "description": "Find balance in net giving so you have enough to pour out.",
     "suggested_topics": [
       "relationships"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "impact-through-mojo",
@@ -65,7 +70,8 @@
     "suggested_topics": [
       "leadership",
       "craft"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "embrace-the-dip",
@@ -76,7 +82,8 @@
     "description": "Have you ever felt uncertain whether to start a venture, or in too deep with a venture to be able to quit? The Dip help's to work through that!",
     "suggested_topics": [
       "purpose"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "dichotomy-of-life",
@@ -89,7 +96,8 @@
       "leadership",
       "reflection",
       "purpose"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "extreme-ownership",
@@ -101,7 +109,8 @@
     "suggested_topics": [
       "leadership",
       "relationships"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "radical-candor",
@@ -112,7 +121,8 @@
     "description": "My hope was to hear my manager's thoughts on 'being awkward through real talk'. Instead he one upped me.",
     "suggested_topics": [
       "leadership"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "put-in-your-reps",
@@ -125,7 +135,8 @@
       "leadership",
       "practice",
       "purpose"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "courageous-kindness",
@@ -138,7 +149,8 @@
       "leadership",
       "relationships",
       "craft"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "unfair-advantage",
@@ -151,7 +163,8 @@
       "practice",
       "relationships",
       "purpose"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "busy-is-a-decision",
@@ -164,7 +177,8 @@
       "leadership",
       "practice",
       "relationships"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "make-decisions-easily",
@@ -177,7 +191,8 @@
       "reflection",
       "practice",
       "purpose"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "design-your-life",
@@ -188,7 +203,8 @@
     "description": "When planning out your life, knowing your beliefs, your perspective, and how you approach certain aspects of life will help you assert where your true 'Your location' is,  ensuring you won’t plan your life out from the wrong starting point.",
     "suggested_topics": [
       "purpose"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "infinite-mindset-2020",
@@ -199,7 +215,8 @@
     "description": "Life is not a finite game, where a loss in a year means a loss for the rest of our life (though sometimes, it may feel that way). Rather, it is an infinite game where we are not be tied down by a single outcome in our lives and can continue to learn & grow.",
     "suggested_topics": [
       "purpose"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "know-your-time",
@@ -213,7 +230,8 @@
       "practice",
       "purpose",
       "craft"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "less-is-more",
@@ -225,7 +243,8 @@
     "suggested_topics": [
       "reflection",
       "practice"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "keep-it-simple-stupid",
@@ -236,7 +255,8 @@
     "description": "When faced with a problem, how would you solve it in the simplest manner?",
     "suggested_topics": [
       "practice"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "social-tools",
@@ -248,7 +268,8 @@
     "suggested_topics": [
       "practice",
       "relationships"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "show-dont-tell",
@@ -259,7 +280,8 @@
     "description": "It’s important to look at where our time, money, and talents are going, that way we know where our heart is truly at.",
     "suggested_topics": [
       "purpose"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "dream-big-start-small-scale-up",
@@ -272,7 +294,8 @@
       "leadership",
       "purpose",
       "craft"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "priorities-values-calling",
@@ -284,7 +307,8 @@
     "suggested_topics": [
       "faith",
       "purpose"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "step-out-to-stand-out",
@@ -295,7 +319,8 @@
     "description": "At work, I started to turn my camera on at big company calls 📷 (as in 100+ or all-company gatherings). The reason I started to do it was because I listened to a podcast that mentioned a perspective to take in order to achieve success. \"To achieve what nobody has, you must do what nobody else does.\"",
     "suggested_topics": [
       "leadership"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "help-in-humility",
@@ -306,7 +331,8 @@
     "description": "I found myself forced to do one of the things I disliked most: asking for help. When it comes to sending a message to ask for help, I struggle with formulating the right words to ask a question. Overanalysis, overthinking, and obsession over the intention of what I send stops me from moving past my discomfort of sending the question.",
     "suggested_topics": [
       "relationships"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "rest-amidst-unfinished-work",
@@ -318,7 +344,8 @@
     "suggested_topics": [
       "purpose",
       "craft"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "shedding-the-image",
@@ -329,7 +356,8 @@
     "description": "When I lead, many times I feel like I need to uphold an image. Though it is fun playing around with the idea of becoming like these leaders, the problem with chasing after so many different ideals was that I easily lose myself and forget who I am.",
     "suggested_topics": [
       "leadership"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "real-over-right",
@@ -341,7 +369,8 @@
     "suggested_topics": [
       "leadership",
       "relationships"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "keep-the-end-in-mind",
@@ -355,7 +384,8 @@
       "leadership",
       "practice",
       "purpose"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "spiritual-embodiment",
@@ -367,7 +397,8 @@
     "suggested_topics": [
       "faith",
       "leadership"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "unconcious-inspiration",
@@ -381,7 +412,8 @@
       "leadership",
       "relationships",
       "craft"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "you-should-build-a-website",
@@ -392,7 +424,8 @@
     "description": "If you can code, you should consider building a website",
     "suggested_topics": [
       "craft"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "dreams-and-aspirations",
@@ -405,7 +438,8 @@
       "leadership",
       "reflection",
       "purpose"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "mapping-out-time",
@@ -417,7 +451,8 @@
     "suggested_topics": [
       "practice",
       "purpose"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "youtube-cult",
@@ -428,7 +463,8 @@
     "description": "A list of my favorite YouTubers...",
     "suggested_topics": [
       "reflection"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "storms-are-temporary",
@@ -439,7 +475,8 @@
     "description": "A reminder that life can bring storms, and they are challenging, but they will end eventually. In hindsight, everything will make sense and it will be a growing experience.",
     "suggested_topics": [
       "reflection"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "grateful-fatigue",
@@ -450,7 +487,8 @@
     "description": "After the workout, and a chill nights rest, I woke up feeling stiff and uncomfortable. I tried to lift my arms up to stretch, and felt the sharp sting of pain enter my right elbow. I looked down and tried to bend it, but it wouldn’t budge.",
     "suggested_topics": [
       "purpose"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "family-zoom-time",
@@ -462,7 +500,8 @@
     "suggested_topics": [
       "reflection",
       "relationships"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "tennis-talk",
@@ -475,7 +514,8 @@
       "reflection",
       "practice",
       "relationships"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "reflection-is-a-perceived-lie",
@@ -486,7 +526,8 @@
     "description": "Did you know, when you look in the mirror or a video call, who you see every day is a mirrored view of what everyone sees?",
     "suggested_topics": [
       "reflection"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "season-of-disobedience",
@@ -498,7 +539,8 @@
     "suggested_topics": [
       "leadership",
       "purpose"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "el-paso-shooting",
@@ -509,7 +551,8 @@
     "description": "The news didn’t register quick enough and before I knew it, it slid swiftly by.",
     "suggested_topics": [
       "reflection"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "negativity-redeemed",
@@ -520,7 +563,8 @@
     "description": "I tend to look at myself with a low regard, and expectations that seem almost disgusting. What is it about this juxtaposition? Why do I do this to myself Something is wrong with how I approach this insecurity.",
     "suggested_topics": [
       "reflection"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "a-rant",
@@ -532,7 +576,8 @@
     "suggested_topics": [
       "faith",
       "purpose"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "well-read-faith",
@@ -544,7 +589,8 @@
     "suggested_topics": [
       "faith",
       "relationships"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "misplaced-affections",
@@ -555,7 +601,8 @@
     "description": "Have you ever felt those moments where you don’t want to exert energy to be noticed by people? To be isolated and alone. At the same time, the embracing feeling of loneliness sparks a desire to be reached out to, even with the paradox of running away?",
     "suggested_topics": [
       "relationships"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "what-do-you-do",
@@ -566,7 +613,8 @@
     "description": "What do you do when the world seems to go against you?",
     "suggested_topics": [
       "purpose"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "do-they-care",
@@ -577,7 +625,8 @@
     "description": "Have you ever felt those moments where you don’t want to exert energy to be noticed by people? To be isolated and alone. At the same time, the embracing feeling of loneliness sparks a desire to be reached out to, even with the paradox of running away?",
     "suggested_topics": [
       "relationships"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "grace-filled-communication",
@@ -589,7 +638,8 @@
     "suggested_topics": [
       "faith",
       "relationships"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "all-about-gods-grace",
@@ -601,7 +651,8 @@
     "suggested_topics": [
       "faith",
       "relationships"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "praying-for-more-prayer",
@@ -614,7 +665,8 @@
       "faith",
       "reflection",
       "relationships"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "guilty-but-guiltless",
@@ -625,7 +677,8 @@
     "description": "Free from guilt and experiencing freedom from guilt are two different things.",
     "suggested_topics": [
       "faith"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "one-desire-fast-2018",
@@ -637,7 +690,8 @@
     "suggested_topics": [
       "faith",
       "purpose"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "god-and-biblical-community",
@@ -649,7 +703,8 @@
     "suggested_topics": [
       "faith",
       "relationships"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "helpless-prayer",
@@ -660,7 +715,8 @@
     "description": "Do you ever feel selfish whenever you ask someone else to pray for you?",
     "suggested_topics": [
       "faith"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "speak-now",
@@ -672,7 +728,8 @@
     "suggested_topics": [
       "leadership",
       "relationships"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "what-about-him",
@@ -685,7 +742,8 @@
       "faith",
       "reflection",
       "relationships"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "a-story-of-great-change",
@@ -697,7 +755,8 @@
     "suggested_topics": [
       "faith",
       "reflection"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "whats-your-story",
@@ -708,7 +767,8 @@
     "description": "Who are you? How did you come to be here? What drives you to be you?",
     "suggested_topics": [
       "reflection"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "heart-check-me-out-god",
@@ -720,7 +780,8 @@
     "suggested_topics": [
       "faith",
       "purpose"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "god-works-without-you",
@@ -733,7 +794,8 @@
       "faith",
       "reflection",
       "relationships"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "only-through-him",
@@ -745,7 +807,8 @@
     "suggested_topics": [
       "faith",
       "reflection"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "loneliness-in-summer",
@@ -756,7 +819,8 @@
     "description": "One of the things I dislike the most is unstructured free time over break. As much as it’s relaxing and I get to sleep in for more than 8 hours a day (which I rarely get to do at school, if at all), it can be mind-numbing for me to not have something to look forward to do for the day. In fact, many times I feel very lonely during this free time.",
     "suggested_topics": [
       "relationships"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "leaping-through",
@@ -767,7 +831,8 @@
     "description": "I found that my lack of experience and knowledge when initially working in JavaScript had stopped me from wanting to work with it. I realized that if I hadn’t been forced to program in JavaScript, though, I never would’ve opened myself up to working on the language in the future, if ever.",
     "suggested_topics": [
       "reflection"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "more-than-bunnies-and-eggs",
@@ -780,7 +845,8 @@
       "faith",
       "reflection",
       "relationships"
-    ]
+    ],
+    "evergreen": false
   },
   {
     "slug": "hackathon-craze",
@@ -791,6 +857,7 @@
     "description": "'Hackathons are where your crazy idea becomes reality' - Alex Kern, Hacker",
     "suggested_topics": [
       "craft"
-    ]
+    ],
+    "evergreen": false
   }
 ]
