@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Layout, { siteTitle } from '../../components/layout'
-import utilStyles from '../../styles/utils.module.css'
+import ExploreFooter from '../../components/ExploreFooter'
+import { getSortedPostsData } from '../../lib/posts'
 import styles from './extras.module.css'
 
 const PERSONALITY = [
@@ -28,18 +29,26 @@ const SITE_HISTORY = [
   { year: 'Now', url: 'https://ericjmlee.com', label: 'ericjmlee.com' },
 ]
 
-export default function Extras() {
+export async function getStaticProps() {
+  const recentPosts = getSortedPostsData().slice(0, 3)
+  return { props: { recentPosts } }
+}
+
+export default function Extras({ recentPosts }) {
   return (
     <Layout>
       <Head>
-        <title>Extras | {siteTitle}</title>
+        <title>{`Extras | ${siteTitle}`}</title>
+        <meta name="description" content="The extras — personality, hobbies, recommendations, and site history." />
       </Head>
 
-      <h1 className={utilStyles.headingXl}>Extras</h1>
-      <p className={utilStyles.lightText}>The stuff that doesn&apos;t fit neatly anywhere else.</p>
+      <h1>Extras</h1>
+      <p style={{ fontFamily: 'var(--f-ui)', fontSize: '13px', color: 'var(--faint)', marginTop: 0 }}>
+        The stuff that doesn&apos;t fit neatly anywhere else.
+      </p>
 
       <section className={styles.section}>
-        <h2 className={utilStyles.headingLg}>Personality</h2>
+        <h2>Personality</h2>
         <dl className={styles.dl}>
           {PERSONALITY.map(({ label, value }) => (
             <div key={label} className={styles.dlRow}>
@@ -51,24 +60,24 @@ export default function Extras() {
       </section>
 
       <section className={styles.section}>
-        <h2 className={utilStyles.headingLg}>Hobbies</h2>
+        <h2>Hobbies</h2>
         <ul className={styles.plainList}>
           {HOBBIES.map((h) => <li key={h}>{h}</li>)}
         </ul>
       </section>
 
       <section className={styles.section}>
-        <h2 className={utilStyles.headingLg}>Recommendations</h2>
-        <p className={utilStyles.lightText}>Eric to fill in — shows, movies, games, books.</p>
+        <h2>Recommendations</h2>
+        <p style={{ color: 'var(--faint)', fontFamily: 'var(--f-ui)', fontSize: '13px' }}>Eric to fill in — shows, movies, games, books.</p>
       </section>
 
       <section className={styles.section}>
-        <h2 className={utilStyles.headingLg}>Quotes &amp; Verses</h2>
-        <p className={utilStyles.lightText}>Eric to fill in — favorite quotes and scripture.</p>
+        <h2>Quotes &amp; Verses</h2>
+        <p style={{ color: 'var(--faint)', fontFamily: 'var(--f-ui)', fontSize: '13px' }}>Eric to fill in — favorite quotes and scripture.</p>
       </section>
 
       <section className={styles.section}>
-        <h2 className={utilStyles.headingLg}>Site History</h2>
+        <h2>Site History</h2>
         <p>This site has gone through a few eras.</p>
         <ul className={styles.historyList}>
           {SITE_HISTORY.map(({ year, url, label }) => (
@@ -83,6 +92,7 @@ export default function Extras() {
       <p className={styles.backLink}>
         <Link href="/about">← Back to About</Link>
       </p>
+      <ExploreFooter posts={recentPosts} />
     </Layout>
   )
 }

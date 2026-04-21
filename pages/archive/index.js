@@ -2,8 +2,9 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import Layout, { siteTitle } from '../../components/layout'
-import utilStyles from '../../styles/utils.module.css'
+import ExploreFooter from '../../components/ExploreFooter'
 import { getArchiveData, getArchiveTopics, getArchiveYears } from '../../lib/archive'
+import { getSortedPostsData } from '../../lib/posts'
 import Date from '../../components/date'
 import styles from './archive.module.css'
 
@@ -15,7 +16,7 @@ const SOURCE_LABELS = {
   external: 'External',
 }
 
-export default function Archive({ posts, topics, years }) {
+export default function Archive({ posts, topics, years, recentPosts }) {
   const router = useRouter()
   const { topic, year } = router.query
 
@@ -38,9 +39,10 @@ export default function Archive({ posts, topics, years }) {
   return (
     <Layout>
       <Head>
-        <title>Archive | {siteTitle}</title>
+        <title>{`Archive | ${siteTitle}`}</title>
+        <meta name="description" content="All writing by Eric Lee — blog posts, essays, and published pieces." />
       </Head>
-      <h1 className={utilStyles.headingXl}>Archive</h1>
+      <h1>Archive</h1>
 
       {topics.length > 0 && (
         <div className={styles.filters}>
@@ -87,23 +89,39 @@ export default function Archive({ posts, topics, years }) {
                 {post.title}
               </a>
               <div className={styles.meta}>
-                <span className={utilStyles.lightText}>
+                <span className={styles.postDate}>
                   <Date dateString={post.date} isPost />
                 </span>
                 {sourceLabel && (
                   <span className={styles.sourceBadge}>
-                    Originally on {sourceLabel}
+                    {sourceLabel}
                   </span>
                 )}
               </div>
+              {post.topics && post.topics.length > 0 && (
+                <div className={styles.topicTags}>
+                  {post.topics.map((t) => (
+                    <Link
+                      key={t}
+                      href={filterHref('topic', t)}
+                      className={styles.topicTag}
+                    >
+                      {t}
+                    </Link>
+                  ))}
+                </div>
+              )}
             </li>
           )
         })}
       </ul>
 
       {filtered.length === 0 && (
-        <p className={utilStyles.lightText}>No posts match the selected filters.</p>
+        <p style={{ color: 'var(--faint)', fontFamily: 'var(--f-ui)', fontSize: '14px' }}>
+          No posts match the selected filters.
+        </p>
       )}
+      <ExploreFooter posts={recentPosts} />
     </Layout>
   )
 }
@@ -112,5 +130,6 @@ export async function getStaticProps() {
   const posts = getArchiveData()
   const topics = getArchiveTopics(posts)
   const years = getArchiveYears(posts)
-  return { props: { posts, topics, years } }
+  const recentPosts = getSortedPostsData().slice(0, 3)
+  return { props: { posts, topics, years, recentPosts } }
 }

@@ -198,59 +198,19 @@ export default function Layout({ children, home, project, experience, blog, abou
                         {darkMode ? '☀️' : '🌙'}
                     </button>
                 </nav>
-                <header className={`${styles.header}`}>
-                    {home ? (
-                        <Image
-                            className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-                            src="/images/profile/transparent-profile.png"
-                            alt={name}
-                            width={144}
-                            height={144}
-                        />
-                    ) : (
+                {!home && (
+                    <header className={`${styles.header}`}>
+                        {postData && (
                             <>
-                                {experience && (
-                                    <HeaderItem
-                                        imageUrl={"/images/profile/transparent-experience-profile.png"}
-                                        imageAlt={name}
-                                        title={"🧠 Experience"} />
-                                )}
-                                {project && (
-                                    <HeaderItem
-                                        imageUrl={"/images/profile/transparent-projects-profile.png"}
-                                        imageAlt={name}
-                                        title={"🚀 Projects"} />
-                                )}
-                                {newsletter && (
-                                    <HeaderItem
-                                        imageUrl={"/images/profile/transparent-newsletter-profile.png"}
-                                        imageAlt={name}
-                                        title={"💌 Savvy Saturdays"} />
-                                )}
-                                {blog && (
-                                    <HeaderItem
-                                        imageUrl={"/images/profile/transparent-blog-profile.png"}
-                                        imageAlt={name}
-                                        title={"📄 Blog"} />
-                                )}
-                                {about && (
-                                    <HeaderItem
-                                        imageUrl={"/images/profile/transparent-about-profile.png"}
-                                        imageAlt={name}
-                                        title={"🧐 About"} />
-                                )}
-                                {postData && (
-                                    <>
-                                        <h1 className={utilStyles.headingXl}>{postData.title}</h1>
-                                        <br></br>
-                                        <div className={utilStyles.lightText}>
-                                            {postData.reading_time}  min read
-                                        </div>
-                                    </>
-                                )}
+                                <h1 className={utilStyles.headingXl}>{postData.title}</h1>
+                                <br></br>
+                                <div className={utilStyles.lightText}>
+                                    {postData.reading_time} min read
+                                </div>
                             </>
                         )}
-                </header>
+                    </header>
+                )}
                 <main className={styles.contentContainer}>{children}</main>
                 {!home && (
                     <footer className={styles.pageFooter}>

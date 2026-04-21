@@ -61,6 +61,10 @@
   color: var(--faint);
 }
 
+.postDate {
+  color: var(--faint);
+}
+
 .sourceBadge {
   font-family: var(--f-ui), system-ui, sans-serif;
   font-size: 10px;
@@ -68,4 +72,27 @@
   color: var(--accent);
   padding: 2px 6px;
   border-radius: var(--radius-sm);
+}
+
+.topicTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.4rem;
+}
+
+.topicTag {
+  font-family: var(--f-ui), system-ui, sans-serif;
+  font-size: 10px;
+  color: var(--faint);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full, 9999px);
+  padding: 1px 8px;
+  text-decoration: none;
+  transition: color var(--t-fast), border-color var(--t-fast);
+}
+
+.topicTag:hover {
+  color: var(--ink);
+  border-color: var(--ink);
 }
