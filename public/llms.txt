@@ -71,7 +71,7 @@ See https://ericjmlee.com/about for contact information.
 URL: https://ericjmlee.com
 Built with: Next.js 15, React 19
 Deployed on: Vercel
-Source: https://github.com/theCreedo/ericjmlee-blog
+Source: https://github.com/theCreedo/ericjmlee-next
 
 Versioned history:
 - origin.ericjmlee.com — first draft
