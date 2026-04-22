@@ -1,7 +1,7 @@
 import '../styles/global.css'
 import '../styles/tokens.css'
 import '../styles/transitions.css'
-import { useEffect } from 'react'
+import { createContext, useContext, useState, useEffect } from 'react'
 import { useRouter } from 'next/router'
 import { Cormorant_Garamond, Crimson_Pro, Space_Grotesk, DM_Mono } from 'next/font/google'
 import { SpeedInsights } from '@vercel/speed-insights/next'
@@ -42,8 +42,30 @@ const fontClasses = [
   dmMono.variable,
 ].join(' ')
 
+export const DarkModeContext = createContext({ darkMode: false, toggleDarkMode: () => {} })
+
+export function useDarkMode() {
+  return useContext(DarkModeContext)
+}
+
 export default function App({ Component, pageProps }) {
+  const [darkMode, setDarkMode] = useState(false)
   const router = useRouter()
+
+  useEffect(() => {
+    const saved = localStorage.getItem('darkMode')
+    if (saved === 'true') {
+      setDarkMode(true)
+      document.body.classList.add('dark')
+    }
+  }, [])
+
+  function toggleDarkMode() {
+    const next = !darkMode
+    setDarkMode(next)
+    document.body.classList.toggle('dark', next)
+    localStorage.setItem('darkMode', String(next))
+  }
 
   useEffect(() => {
     const handleStart = () => document.body.classList.add('page-fading')
@@ -61,10 +83,12 @@ export default function App({ Component, pageProps }) {
   }, [router.events])
 
   return (
-    <div className={fontClasses}>
-      <Component {...pageProps} />
-      <SpeedInsights />
-      <Analytics />
-    </div>
+    <DarkModeContext.Provider value={{ darkMode, toggleDarkMode }}>
+      <div className={fontClasses}>
+        <Component {...pageProps} />
+        <SpeedInsights />
+        <Analytics />
+      </div>
+    </DarkModeContext.Provider>
   )
 }

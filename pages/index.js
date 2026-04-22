@@ -5,6 +5,7 @@ import Layout, { siteTitle } from '../components/layout'
 import styles from './index.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import ExploreFooter from '../components/ExploreFooter'
+import { useDarkMode } from './_app'
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
@@ -25,10 +26,12 @@ const domains = [
 export default function Home({ allPostsData }) {
   const recentPosts = allPostsData.slice(0, 3)
   const [avatarPop, setAvatarPop] = useState(false)
+  const { toggleDarkMode } = useDarkMode()
 
   function handleAvatarClick() {
     setAvatarPop(true)
     setTimeout(() => setAvatarPop(false), 300)
+    toggleDarkMode()
   }
 
   return (
@@ -42,7 +45,10 @@ export default function Home({ allPostsData }) {
           <div
             className={`${styles.avatar}${avatarPop ? ' ' + styles.avatarPop : ''}`}
             onClick={handleAvatarClick}
-            role="presentation"
+            role="button"
+            aria-label="Toggle dark mode"
+            tabIndex={0}
+            onKeyDown={(e) => e.key === 'Enter' && handleAvatarClick()}
           >
             <Image
               src="/images/profile/transparent-profile.png"

@@ -1,10 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { useState, useEffect } from 'react'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import JsonLd from './JsonLd'
+import { useState } from 'react'
+import { useDarkMode } from '../pages/_app'
 
 export const siteTitle = "Eric Lee"
 export const base_url = "https://ericjmlee.com"
@@ -65,22 +66,7 @@ const nav = [
 
 export default function Layout({ children, home, project, experience, blog, newsletter, postData }) {
   const [navOpen, setNavOpen] = useState(false)
-  const [darkMode, setDarkMode] = useState(false)
-
-  useEffect(() => {
-    const saved = localStorage.getItem('darkMode')
-    if (saved === 'true') {
-      setDarkMode(true)
-      document.body.classList.add('dark')
-    }
-  }, [])
-
-  function toggleDarkMode() {
-    const next = !darkMode
-    setDarkMode(next)
-    document.body.classList.toggle('dark', next)
-    localStorage.setItem('darkMode', String(next))
-  }
+  const { darkMode, toggleDarkMode } = useDarkMode()
 
   return (
     <div>
