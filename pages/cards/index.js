@@ -34,7 +34,7 @@ export default function Cards({ recentPosts }) {
             <li className={styles.linkItem}>
               <span className={styles.linkLabel}>Role</span>
               <span className={styles.linkValue}>
-                Judge Certification Representative, USA South Central
+                Judge Community Representative, USA South Central
                 <br />
                 <span style={{ fontFamily: 'var(--f-ui)', fontSize: '11px', color: 'var(--faint)' }}>
                   18-month term · October 2025
