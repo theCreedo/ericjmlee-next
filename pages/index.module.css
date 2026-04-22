@@ -10,7 +10,7 @@
   width: 68px;
   height: 68px;
   border-radius: var(--radius-full, 9999px);
-  background: #B8860B;
+  background: var(--accent);
   overflow: hidden;
   flex-shrink: 0;
   cursor: pointer;
