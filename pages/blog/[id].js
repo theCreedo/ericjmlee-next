@@ -4,17 +4,19 @@ import Link from "next/link"
 import Head from 'next/head'
 import Image from 'next/image'
 import utilStyles from '../../styles/utils.module.css'
-import { getAdjacentPosts, getAllPostIds, getPostData } from '../../lib/posts'
-import NewsletterForm from '../../components/newsletter'
+import ExploreFooter from '../../components/ExploreFooter'
+import { getAdjacentPosts, getAllPostIds, getPostData, getSortedPostsData } from '../../lib/posts'
 import JsonLd from '../../components/JsonLd'
 
 export async function getStaticProps({ params }) {
     const postData = await getPostData(params.id)
     const adjacentPostsData = await getAdjacentPosts(params.id)
+    const recentPosts = getSortedPostsData().slice(0, 3)
     return {
         props: {
             postData,
-            adjacentPostsData
+            adjacentPostsData,
+            recentPosts
         }
     }
 }
@@ -27,7 +29,7 @@ export async function getStaticPaths() {
     }
 }
 
-export default function Post({ postData, adjacentPostsData }) {
+export default function Post({ postData, adjacentPostsData, recentPosts }) {
     const postSchema = {
         '@context': 'https://schema.org',
         '@type': postData.evergreen ? 'Article' : 'BlogPosting',
@@ -62,7 +64,6 @@ export default function Post({ postData, adjacentPostsData }) {
                 <JsonLd data={postSchema} />
             </Head>
             <article className={utilStyles.divContainer}>
-                <br></br>
                 {postData.image_link && (
                     <Image
                         className={utilStyles.blogPostImage}
@@ -74,31 +75,34 @@ export default function Post({ postData, adjacentPostsData }) {
                             objectFit: 'cover',
                             borderRadius: '8px',
                             maxWidth: '100%',
-                            height: 'auto'
+                            height: 'auto',
+                            marginBottom: 'var(--space-6)'
                         }}
                     />
                 )}
-                <br></br>
-                <div className={utilStyles.lightText}><Date dateString={postData.date} isPost={true} /></div>
-                <br></br>
+                <div className={utilStyles.lightText} style={{ marginBottom: 'var(--space-6)' }}>
+                    <Date dateString={postData.date} isPost={true} />
+                </div>
                 <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-                <hr />
+                <hr style={{ borderColor: 'var(--border)', margin: 'var(--space-8) 0 0' }} />
             </article>
-            <NewsletterForm />
             <div className={utilStyles.blogLinkPadding}>
-                {adjacentPostsData.previousPost ?
+                {adjacentPostsData.previousPost ? (
                     <div>
                         <Link href={'/blog/' + adjacentPostsData.previousPost.id} className={`${utilStyles.blogLink} ${utilStyles.alignleft}`}>
-                            Previous: {adjacentPostsData.previousPost.title}
+                            ← {adjacentPostsData.previousPost.title}
                         </Link>
-                    </div> : <div className={`${utilStyles.alignleft}`}></div>}
-                {adjacentPostsData.nextPost &&
+                    </div>
+                ) : <div />}
+                {adjacentPostsData.nextPost && (
                     <div>
                         <Link href={'/blog/' + adjacentPostsData.nextPost.id} className={`${utilStyles.blogLink} ${utilStyles.alignright}`}>
-                            Next: {adjacentPostsData.nextPost.title}
+                            {adjacentPostsData.nextPost.title} →
                         </Link>
-                    </div>}
+                    </div>
+                )}
             </div>
+            <ExploreFooter posts={recentPosts} />
         </Layout>
     )
 }
