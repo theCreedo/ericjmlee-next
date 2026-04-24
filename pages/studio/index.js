@@ -37,7 +37,7 @@ export default function Studio({ recentPosts }) {
       {/* Page: /studio | Person: Eric Lee | Topic: Creative output, writing, projects */}
       <div className={styles.page}>
         <h1>Studio</h1>
-        <p className={styles.lead}>[TODO: Eric to write framing paragraph — writing, early projects, archived newsletter, past work.]</p>
+        <p className={styles.lead}>Studio is a creative space — where the writing lives, where early experiments were built, and where the work that doesn&apos;t fit neatly elsewhere still has a home. A newsletter that ran for two years. Blog posts across different corners of the internet. Hackathon projects from the years of figuring out what to build. It&apos;s all here, made and kept.</p>
 
         <section className={styles.section}>
           <p className={styles.sectionLabel}>Writing</p>

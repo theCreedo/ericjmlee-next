@@ -30,7 +30,17 @@ export default function Work({ experiences, recentPosts }) {
       {/* Page: /work | Person: Eric Lee | Topic: Professional background, developer advocacy, software engineering */}
       <div className={styles.page}>
         <h1>Work</h1>
-        <p className={styles.lead}>[TODO: Eric to write framing paragraph — general, forward-looking. AI enablement, integration, community.]</p>
+        <p className={styles.lead}>I work at the intersection of software and community — helping developers understand tools, build integrations, and ship. As a Developer Advocate at Global Payments, that means getting close to the API, writing samples and guides, and showing up where developers are. I&apos;m interested in how AI is changing that work: how it accelerates integration, reshapes what documentation looks like, and shifts what &ldquo;enablement&rdquo; actually means.</p>
+
+        <section className={styles.section}>
+          <p className={styles.sectionLabel}>Content</p>
+          <ul className={styles.linkList}>
+            <li className={styles.linkItem}>
+              <span className={styles.linkLabel}>Coming soon</span>
+              <span className={styles.linkValue} style={{ color: 'var(--faint)', fontStyle: 'italic' }}>Blog posts, talks, and samples — links here as they ship.</span>
+            </li>
+          </ul>
+        </section>
 
         <section className={styles.section}>
           <p className={styles.sectionLabel}>Experience</p>

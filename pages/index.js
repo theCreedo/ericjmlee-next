@@ -17,10 +17,10 @@ export async function getStaticProps() {
 }
 
 const domains = [
-  { label: 'Work', href: '/work', description: '[TODO: one-liner ~15 words]' },
-  { label: 'Cards', href: '/cards', description: '[TODO: one-liner ~15 words]' },
-  { label: 'Faith', href: '/faith', description: '[TODO: one-liner ~15 words]' },
-  { label: 'Studio', href: '/studio', description: '[TODO: one-liner ~15 words]' },
+  { label: 'Work',   href: '/work',   description: 'Developer Advocate at Global Payments — helping developers integrate, build, and ship.' },
+  { label: 'Cards',  href: '/cards',  description: 'L2 judge, card business, and Austin community in Flesh and Blood TCG.' },
+  { label: 'Faith',  href: '/faith',  description: 'Love God, Love Others.' },
+  { label: 'Studio', href: '/studio', description: 'A creative space for writing, making, and everything built along the way.' },
 ]
 
 export default function Home({ allPostsData }) {
@@ -74,7 +74,7 @@ export default function Home({ allPostsData }) {
         </div>
 
         <section id="about" className={styles.about}>
-          <p>[TODO: about paragraph — Plano origin, UT Austin CS 2019, Austin, four domains]</p>
+          <p>I grew up in Plano, studied CS at UT Austin, and stayed in Austin. I work in developer advocacy, judge trading card game tournaments, lead at my church, and write. Four domains, one person.</p>
         </section>
       </section>
       <ExploreFooter posts={recentPosts} />

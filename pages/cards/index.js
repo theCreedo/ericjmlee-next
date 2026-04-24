@@ -22,7 +22,7 @@ export default function Cards({ recentPosts }) {
       {/* Page: /cards | Person: Eric Lee | Topic: Flesh and Blood TCG, judging, card business, community */}
       <div className={styles.page}>
         <h1>Cards</h1>
-        <p className={styles.lead}>[TODO: Eric to write framing paragraph — judging, community, selling. Flesh and Blood TCG.]</p>
+        <p className={styles.lead}>I&apos;ve been in Flesh and Blood TCG since the early days — as a player, then a judge, now an L2 Certified Judge and Judge Community Representative for USA South Central. The Austin FAB community is home base: local events, tournaments, and the people who show up week after week. I also run a card business and write for the judge blog about what it means to judge well.</p>
 
         <section className={styles.section}>
           <p className={styles.sectionLabel}>Credentials</p>
@@ -52,17 +52,33 @@ export default function Cards({ recentPosts }) {
           <p className={styles.sectionLabel}>Find me</p>
           <ul className={styles.linkList}>
             <li className={styles.linkItem}>
+              <span className={styles.linkLabel}>Game</span>
+              <span className={styles.linkValue}>
+                <a href="https://fabtcg.com" target="_blank" rel="noopener noreferrer">
+                  fabtcg.com
+                </a>
+              </span>
+            </li>
+            <li className={styles.linkItem}>
               <span className={styles.linkLabel}>Judge profile</span>
               <span className={styles.linkValue}>
-                <a href="https://fabtcg.com/judges/ericjmlee/" target="_blank" rel="noopener noreferrer">
-                  fabtcg.com/judges/ericjmlee
+                <a href="https://judge.fabtcg.com/judges/ericjmlee/" target="_blank" rel="noopener noreferrer">
+                  judge.fabtcg.com/judges/ericjmlee
+                </a>
+              </span>
+            </li>
+            <li className={styles.linkItem}>
+              <span className={styles.linkLabel}>Judge resources</span>
+              <span className={styles.linkValue}>
+                <a href="https://blog.judge.fabtcg.com" target="_blank" rel="noopener noreferrer">
+                  blog.judge.fabtcg.com
                 </a>
               </span>
             </li>
             <li className={styles.linkItem}>
               <span className={styles.linkLabel}>Store</span>
               <span className={styles.linkValue}>
-                <a href="https://www.tcgplayer.com/search/all/product?sellerName=fabcreedo" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.tcgplayer.com/search/all/product?seller=c32f5ae7&view=grid" target="_blank" rel="noopener noreferrer">
                   TCGplayer — fabcreedo
                 </a>
               </span>
@@ -76,6 +92,41 @@ export default function Cards({ recentPosts }) {
               </span>
             </li>
           </ul>
+        </section>
+
+        <section className={styles.section}>
+          <p className={styles.sectionLabel}>Writing</p>
+          <ul className={styles.linkList}>
+            <li className={styles.linkItem}>
+              <span className={styles.linkLabel}>Apr 2026</span>
+              <span className={styles.linkValue}>
+                <a href="https://blog.judge.fabtcg.com/blog/2026/04/13/judge-projects-policy/" target="_blank" rel="noopener noreferrer">
+                  Behind the Scenes: The Policy Team – Shaping How We Judge Flesh and Blood
+                </a>
+              </span>
+            </li>
+            <li className={styles.linkItem}>
+              <span className={styles.linkLabel}>Nov 2025</span>
+              <span className={styles.linkValue}>
+                <a href="https://blog.judge.fabtcg.com/blog/2025/11/11/what-is-a-wrangler-part-2/" target="_blank" rel="noopener noreferrer">
+                  Wrangling at Gen Con: How Outreach Filled Every Demo Seat in 15 Minutes
+                </a>
+              </span>
+            </li>
+            <li className={styles.linkItem}>
+              <span className={styles.linkLabel}>Nov 2025</span>
+              <span className={styles.linkValue}>
+                <a href="https://blog.judge.fabtcg.com/blog/2025/11/08/what-is-a-wrangler-part-1/" target="_blank" rel="noopener noreferrer">
+                  What is a Wrangler? Understanding the L2P Role (Part 1)
+                </a>
+              </span>
+            </li>
+          </ul>
+          <p style={{ marginTop: '12px', fontFamily: 'var(--f-ui)', fontSize: '13px' }}>
+            <a href="https://blog.judge.fabtcg.com/blog/author/eric-lee/" target="_blank" rel="noopener noreferrer">
+              All judge writing →
+            </a>
+          </p>
         </section>
 
         <div className={styles.crossLinks}>

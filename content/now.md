@@ -1,13 +1,5 @@
 ---
-updated_at: "2026-04-20"
+updated_at: "2026-04-24"
 ---
 
-<!-- Eric: replace each section below with your own paragraph. Keep it to ~4 paragraphs, one per domain. -->
-
-**Work** — [Eric to write]
-
-**Cards** — [Eric to write]
-
-**Faith** — [Eric to write]
-
-**Studio** — [Eric to write]
+Right now: building in the developer advocacy space at Global Payments, judging Flesh and Blood TCG tournaments and serving as JCR for USA South Central, playing keys and leading community at HMCC Austin, and writing when I can.

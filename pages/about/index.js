@@ -22,7 +22,10 @@ export default function About({ recentPosts }) {
       <div className={styles.page}>
         <h1>About</h1>
         <p className={styles.lead}>
-          [TODO: Eric to write — Plano origin, UT Austin CS 2019, Austin, four domains.]
+          I grew up in Plano, TX and studied computer science at UT Austin, graduating in 2019.
+          Austin kept me. I work in developer advocacy — currently at Global Payments — play and judge Flesh
+          and Blood TCG tournaments, play keys and lead a small group at HMCC Austin,
+          and write. Welcome to the front end part of my life.
         </p>
         <p className={styles.lead} style={{ fontSize: '16px', marginTop: 0 }}>
           Reach me at{' '}

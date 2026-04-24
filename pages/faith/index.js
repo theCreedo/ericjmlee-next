@@ -22,7 +22,25 @@ export default function Faith({ recentPosts }) {
       {/* Page: /faith | Person: Eric Lee | Topic: Faith, HMCC Austin, church leadership, worship, missions */}
       <div className={styles.page}>
         <h1>Faith</h1>
-        <p className={styles.lead}>[TODO: Eric to write framing statement — what faith means to how I live.]</p>
+
+        <section className={styles.section}>
+          <p className={styles.sectionLabel}>Values</p>
+          <ul className={styles.linkList}>
+            {[
+              'Love God, Love Others',
+              'Community',
+              'Discipleship',
+              'Living Missionally',
+              'Salt & Light',
+              'Redemptive Ministry',
+              'Ministry of Presence',
+            ].map((v) => (
+              <li key={v} className={styles.linkItem}>
+                <span className={styles.linkValue}>{v}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
 
         <section className={styles.section}>
           <p className={styles.sectionLabel}>Community</p>
