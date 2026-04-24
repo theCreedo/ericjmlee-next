@@ -1,0 +1,32 @@
+---
+title: "Week One - Starting the Sophomore Semester (Not Slump)"
+date: '2016-08-28'
+era: early
+unpublished: true
+---
+
+> CS371p — Object-Oriented Programming in C++ (Fall 2016), UT Austin, taught by Professor Downing. First published at [thecreedo.github.io](https://thecreedo.github.io/Week-One/).
+
+What did you do this past week?
+------
+I installed Docker Toolbox and pulled Downing's image and OOP files onto my Windows terminal. Furthermore, I created a linkedlist in C for Principles of Computer Systems, which was difficult because I had not worked with pointers in C for a while. Additionally, I revamped my resume to contain the work experience I had from Audible as well as reformat and delete non-technical details that took up precious space, which was a pain because I worked in Microsoft Word instead of LaTeX. I also downloaded MatLab for Programming for Correctness, and finished half a week of a Linear Algebra course in preparation for the class. Finally, I lead the first Slosh social dance event on Saturday night, where people learned Footloose and East Coast Swing and got to free dance to many social dance songs.
+
+What’s in your way?
+------
+I encountered a problem where my Windows terminal did not contain Hyper-V, so I had to download Docker Toolbox rather than the Docker software itself. Also, I had an error while typing up this blog, where I formatted the title with a colon, which made the Jekyll software receive nil input instead of the date and title name and did not allow the website to build. Furthermore, after a summer working at an internship, I have to be quick on my feet in switching my mindset from a working aspect back to studying in college. Finally, as a person who obsesses over Instagram-worthy captions, this blog will challenge me on my time management in hashing out a blog post without spending too much time.
+
+What will you do next week?
+------
+I'm hoping to learn how traverse through Docker more effectively. Furthermore, I hope to learn C pointers and memory usage better so I won't be deterred in Operating Systems. I hope to start on my first projects for Operating Systems and OOP, so that I can encounter the new software that I have to learn and applicate. Additionally, I hope to finish my 3 week Linear Algebra course by Friday (3 weeks in 1 week... no biggie). I will also be preparing to teach this Saturday's social dance event on East Coast Swing, which I haven't practiced for a summer (no pressure).
+
+OOP Class First Impression
+------
+
+The class went by so fast. Our 50 min lecture felt like 10 mins in a TedX talk. Downing presented his information clearly and captured my attention throughout the whole class time. I liked how interactive the class was, compared to the traditional passive lecture style that many professors adhere to, because I felt like a participant of the class, rather than a single-entity of classmates that had to be like sponges and absorb all the information given. I also like how most of the software needed for the class was already set-up through Docker, because I knew that as much of a learning experience setting up software is, it is very time-consuming.
+
+
+Tip of the Week
+------
+There's this newsletter called [The Hustle](http://ambassadors.thehustle.co/?ref=76af0631a4) that gives current event information about news in tech, popular culture, and business. The content is curated so that news doesn't contain a cliffhanger and a link, but information is hashed out in shortened, understandable, and entertaining way. They try to make themselves personable to readers through their humor, sarcasm and sass and even have nicknames for specific subjects (5+ points if you get "Bezo's army").
+
+Even if this newsletter may not be something you want to subscribe for, I highly recommend staying on top of news in some sort of form or fashion, not only because it's a good topic discusser, but also because you will have a greater scope of what is going on throughout the world, not just where you currently live.
