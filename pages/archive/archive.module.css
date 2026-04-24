@@ -74,6 +74,15 @@
   border-radius: var(--radius-sm);
 }
 
+.eraBadge {
+  font-family: var(--f-ui), system-ui, sans-serif;
+  font-size: 10px;
+  background: var(--border);
+  color: var(--faint);
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+}
+
 .topicTags {
   display: flex;
   flex-wrap: wrap;

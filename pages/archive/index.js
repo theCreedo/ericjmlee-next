@@ -11,6 +11,7 @@ import styles from './archive.module.css'
 const SOURCE_LABELS = {
   medium: 'Medium',
   'ut-blog': 'UT CS Blog',
+  'ut-blog-archived': 'UT CS Blog (archived)',
   substack: 'Substack',
   internal: null,
   external: 'External',
@@ -96,6 +97,9 @@ export default function Archive({ posts, topics, years, recentPosts }) {
                   <span className={styles.sourceBadge}>
                     {sourceLabel}
                   </span>
+                )}
+                {post.era === 'early' && (
+                  <span className={styles.eraBadge}>College era</span>
                 )}
               </div>
               {post.topics && post.topics.length > 0 && (
