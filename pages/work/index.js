@@ -36,8 +36,13 @@ export default function Work({ experiences, recentPosts }) {
           <p className={styles.sectionLabel}>Content</p>
           <ul className={styles.linkList}>
             <li className={styles.linkItem}>
-              <span className={styles.linkLabel}>Coming soon</span>
-              <span className={styles.linkValue} style={{ color: 'var(--faint)', fontStyle: 'italic' }}>Blog posts, talks, and samples — links here as they ship.</span>
+              <span className={styles.linkLabel}>Talk</span>
+              <span className={styles.linkValue}>
+                <a href="https://shane.logsdon.io/speaking/strategic-insights/from-shopping-carts-to-custom-builds/" target="_blank" rel="noopener noreferrer">
+                  From Shopping Carts to Custom Builds
+                </a>
+                {' '}· Strategic Insights, Global Payments
+              </span>
             </li>
           </ul>
         </section>
