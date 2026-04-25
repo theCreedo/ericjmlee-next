@@ -2,7 +2,7 @@
 title: "Week Six - Hard-Aware Hack"
 date: '2016-10-02'
 era: early
-unpublished: true
+
 reading_time: 6
 description: "TAMUHack: hardware-hacking our way from an Intel Smart Glove to a virtual air drum set that won People's Choice and Best Technical awards."
 ---

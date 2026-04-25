@@ -2,7 +2,7 @@
 title: "Week Eleven - Code Withdrawal"
 date: '2016-11-04'
 era: early
-unpublished: true
+
 reading_time: 3
 description: "Studying for the OS exam on a whiteboard, setting up VirtualBox out of code withdrawal, and the sophomore slump making itself known."
 ---

@@ -2,7 +2,7 @@
 title: "Week Eight - Eat, Work, Blog, Sleep"
 date: '2016-10-16'
 era: early
-unpublished: true
+
 reading_time: 3
 description: "Landing a UTCS blogger job, a 3-day OS bug hiding in a single line of C type declaration, and a rough week shadowed by a friend's passing."
 ---

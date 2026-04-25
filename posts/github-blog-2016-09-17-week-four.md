@@ -2,7 +2,7 @@
 title: "Week Four - Discovering the Lab"
 date: '2016-09-17'
 era: early
-unpublished: true
+
 reading_time: 3
 description: "Finding the tight-knit CS lab community, finishing the first OS shell project, and starting a Netflix cache project with a partner."
 ---

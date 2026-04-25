@@ -2,7 +2,7 @@
 title: "Writer's Unblock Week"
 date: '2017-04-22'
 era: early
-unpublished: true
+
 reading_time: 4
 description: "Organizing Music Hacks, publishing a UTCS faculty profile, completing SWE Phase 3, and registering for fall classes including Korean."
 ---

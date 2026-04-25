@@ -2,7 +2,7 @@
 title: "Sound of my Heart"
 date: '2017-02-10'
 era: early
-unpublished: true
+
 reading_time: 2
 description: "Church retreat debt, tedious Algo proofs, interviewing a UTCS professor on OS research, and changing a fiction story from zombies to tribal artists."
 ---

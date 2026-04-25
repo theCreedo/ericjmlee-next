@@ -2,7 +2,7 @@
 title: "Working It All Out"
 date: '2017-02-17'
 era: early
-unpublished: true
+
 reading_time: 2
 description: "Algo problem-sets, Netflix finished early, SWE group coordination for Spring Break, and the decision to do missions instead of internships this summer."
 ---

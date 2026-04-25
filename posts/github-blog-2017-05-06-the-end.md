@@ -2,7 +2,7 @@
 title: "The End?"
 date: '2017-05-06'
 era: early
-unpublished: true
+
 reading_time: 3
 description: "A final retrospective on SWE with Prof. Downing: the smooth early projects, the hard group work, the Python learning, and the takeaways."
 ---

@@ -2,7 +2,7 @@
 title: "Week Three - Bugs, Bugs, Bugs!"
 date: '2016-09-11'
 era: early
-unpublished: true
+
 reading_time: 4
 description: "Debugging Collatz with Docker, Travis CI, and stray merge conflicts — plus dancing scheduling algorithms in front of a 439 lecture hall."
 ---

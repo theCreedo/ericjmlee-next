@@ -2,7 +2,7 @@
 title: "Who Needs A Break"
 date: '2017-03-21'
 era: early
-unpublished: true
+
 reading_time: 4
 description: "Spring Break camping in Texas, winning the SXSW hackathon with Credit Writer, and a staycation with church friends."
 ---

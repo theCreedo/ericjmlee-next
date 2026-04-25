@@ -2,7 +2,7 @@
 title: "Pre-Exam Life"
 date: '2017-04-28'
 era: early
-unpublished: true
+
 reading_time: 3
 description: "EarthHack's Pick It Up project using computer vision, coding a Gmail API script for a church grad night video, and prepping for SWE and Gov exams."
 ---

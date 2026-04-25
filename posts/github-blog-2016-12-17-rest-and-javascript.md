@@ -2,7 +2,7 @@
 title: "Rest and JavaScript"
 date: '2016-12-17'
 era: early
-unpublished: true
+
 reading_time: 2
 description: "Five days of JavaScript30, designing a social dance app with microservices, and a spiritual fast from YouTube and social media."
 ---

@@ -2,7 +2,7 @@
 title: "Week Sixteen – Dis is Finals"
 date: '2016-12-04'
 era: early
-unpublished: true
+
 reading_time: 3
 description: "The hardest week of semester: an ER visit from stress and anxiety, the toughest OOP exam yet, and finishing everything just barely."
 ---

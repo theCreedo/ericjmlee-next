@@ -2,7 +2,7 @@
 title: "Week Ten - Week for the Weak"
 date: '2016-10-29'
 era: early
-unpublished: true
+
 reading_time: 3
 description: "HackTX brainstorming, the Darwin project's big lesson: 60% design makes everything else easier, and the 50th anniversary UTCS celebration."
 ---

@@ -2,7 +2,7 @@
 title: "Molded Into Life"
 date: '2017-04-08'
 era: early
-unpublished: true
+
 reading_time: 4
 description: "Building the SWE Flask API, debugging a GCP deployment issue, and reflecting on overcommitment and what actually matters."
 ---

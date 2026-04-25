@@ -2,7 +2,7 @@
 title: "Week Five - Hack my Life Away"
 date: '2016-09-23'
 era: early
-unpublished: true
+
 reading_time: 4
 description: "A 4AM coding session in the lab and HackGT at Georgia Tech — building Hungry Cats over 36 sleepless hours with an undocumented Android game engine."
 ---

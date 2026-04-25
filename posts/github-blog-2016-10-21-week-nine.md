@@ -2,7 +2,7 @@
 title: "Week Nine - Garbage Point"
 date: '2016-10-21'
 era: early
-unpublished: true
+
 reading_time: 3
 description: "Finishing OOP's Allocator project ahead of schedule, dereferencing a pointer I'd already seen and ignored, and Downing's best analogies yet."
 ---

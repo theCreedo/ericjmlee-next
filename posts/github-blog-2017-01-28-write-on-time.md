@@ -2,7 +2,7 @@
 title: "Write On Time"
 date: '2017-01-28'
 era: early
-unpublished: true
+
 reading_time: 2
 description: "Week one of a One-Desire meat fast, finishing Collatz after 15 hours of wrong optimization, and writing four simultaneous blogs at once."
 ---

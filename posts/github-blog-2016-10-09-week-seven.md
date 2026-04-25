@@ -2,7 +2,7 @@
 title: "Week Seven - Balance to an Extension"
 date: '2016-10-09'
 era: early
-unpublished: true
+
 reading_time: 3
 description: "Balancing the OOP exam on Canvas, an OS Stack assignment full of memcpy surprises, and a constant tug-of-war between requirements and what matters more."
 ---

@@ -2,7 +2,7 @@
 title: "Music Hacks"
 date: '2017-04-15'
 era: early
-unpublished: true
+
 reading_time: 2
 description: "Implementing Flask-Whooshee for SWE search, organizing Music Hacks, and learning that alone time is sometimes the right destressor."
 ---

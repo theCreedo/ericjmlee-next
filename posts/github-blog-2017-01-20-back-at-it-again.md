@@ -2,7 +2,7 @@
 title: "Back At It Again"
 date: '2017-01-20'
 era: early
-unpublished: true
+
 reading_time: 3
 description: "Back from Taiwan with a reset sleep schedule, starting Algorithms and Software Engineering, and proctoring OOP for the first time."
 ---

@@ -2,7 +2,7 @@
 title: "Back From Break"
 date: '2017-03-24'
 era: early
-unpublished: true
+
 reading_time: 2
 description: "Catching up after Spring Break, shipping the SWE website, and navigating a paranoid game of Assassins with Freetail Hackers."
 ---

@@ -2,7 +2,7 @@
 title: "Week Thirteen – Chill-ish Week"
 date: '2016-11-18'
 era: early
-unpublished: true
+
 reading_time: 2
 description: "Wrapping up OS Project 3 and the OOP Life project, narrowly missing a bike at a silent auction, and mixed feelings about the semester ending."
 ---

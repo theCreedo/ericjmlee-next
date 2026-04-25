@@ -2,7 +2,7 @@
 title: "Crazy Week"
 date: '2017-03-03'
 era: early
-unpublished: true
+
 reading_time: 3
 description: "SWE Test 1 prep, joining FreeTail Hackers Tech Team, cooking Gordon Ramsay sliders, and studying Algo as a dynamic programming cache."
 ---

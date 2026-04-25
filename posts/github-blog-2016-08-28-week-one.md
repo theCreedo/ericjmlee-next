@@ -2,7 +2,7 @@
 title: "Week One - Starting the Sophomore Semester (Not Slump)"
 date: '2016-08-28'
 era: early
-unpublished: true
+
 reading_time: 3
 description: "First week of sophomore year at UT Austin: installing Docker, writing C linked lists, revamping a resume, and teaching social dance."
 ---

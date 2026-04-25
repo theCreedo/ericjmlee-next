@@ -2,7 +2,7 @@
 title: "Week Two - Let the projects begin!"
 date: '2016-09-03'
 era: early
-unpublished: true
+
 reading_time: 3
 description: "Learning MATLAB and LaTeX, juggling C++ and OS projects, and discovering a typing-based note-taking method that actually works."
 ---

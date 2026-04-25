@@ -2,7 +2,7 @@
 title: "Fully Booked"
 date: '2017-02-24'
 era: early
-unpublished: true
+
 reading_time: 2
 description: "Algo exam regrets over a wasted 20 minutes on a counterexample, finishing a short story without a conclusion, and wondering if there's room for everything."
 ---

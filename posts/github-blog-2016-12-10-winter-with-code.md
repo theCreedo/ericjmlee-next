@@ -2,7 +2,7 @@
 title: "Winter with Code"
 date: '2016-12-10'
 era: early
-unpublished: true
+
 reading_time: 2
 description: "Studying OS with Feynman's method, unboxing a Black Friday Echo Dot, and planning side projects for winter break."
 ---

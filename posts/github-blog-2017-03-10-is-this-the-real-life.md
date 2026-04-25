@@ -2,7 +2,7 @@
 title: "Is This The Real Life"
 date: '2017-03-10'
 era: early
-unpublished: true
+
 reading_time: 3
 description: "Winning Mobile Track at HackUTD with SensorStrike, planning the SWE website project team, and previewing a second short story."
 ---

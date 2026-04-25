@@ -2,7 +2,7 @@
 title: "Problem Acquired"
 date: '2017-02-03'
 era: early
-unpublished: true
+
 reading_time: 2
 description: "Liquids week of the One-Desire fast, IM basketball while running on empty, and learning to treat spec changes like real industry pressure."
 ---

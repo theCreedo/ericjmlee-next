@@ -2,7 +2,7 @@
 title: "Arms Are Heavy"
 date: '2017-03-31'
 era: early
-unpublished: true
+
 reading_time: 3
 description: "Algo and Gov exams, meeting Palantir, drafting a UTCS faculty article, and realizing how little code I was actually writing."
 ---
