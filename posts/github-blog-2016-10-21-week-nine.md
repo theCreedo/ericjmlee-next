@@ -1,0 +1,74 @@
+---
+title: "Week Nine - Garbage Point"
+date: '2016-10-21'
+era: early
+unpublished: true
+reading_time: 3
+description: "Finishing OOP's Allocator project ahead of schedule, dereferencing a pointer I'd already seen and ignored, and Downing's best analogies yet."
+---
+
+> CS371p — Object-Oriented Programming in C++ (Fall 2016), UT Austin, taught by Professor Downing. First published at [thecreedo.github.io](https://thecreedo.github.io/Week-Nine/).
+
+## What did you do this past week?
+
+I slept late as always.
+
+Spending a lot of time finishing individual work late at night, since most of my other time is spent finishing up group project work, going to classes, and interview prep. Having a packed schedule feels good, because there's so much stuff that is accomplished during those times. Unfortunately, not everything fits into a 16 hour schedule (if I slept 8 hours a night, which I don't), so a good amount of time is spent in the lab finishing up hw and blog job work (and being inspired by [Gordon Ramsay's opinion](https://www.youtube.com/watch?v=XiB4pqusHe0). Disclaimer, yes Ramsay is blunt and savage, but it's only because he desires others to have a passion in their cooking... and to also cook well).
+
+Fortunately, I finished my projects really early. I finished up OOP's Allocator project more than a day it was due (6 hours faster than I expected), and finished my OS System call, argument passing project 2 days before it was due (which is a blessing since those projects can take almost 60+ hrs a week).
+
+Allocator was luckily one of the smoothest projects I've ever gotten to work on. Even with all the code design, unit test building, and CI-Integration changes, the project either made sense, my partner and I clicked well, or the project was just really easy. This project will definitely be the standard against all future projects, and hopefully there'll be a chance to surpass it multiple times.
+
+OS was not as lucky. Last week we spent 3 days on a bug involving attempts to make code better formatted and failed. This week, we spent 2 hours figuring out why our tests wouldn't pass all because of a single line.
+
+```c
+int fd = (int *) parse_stack(); // Oh the horror
+```
+
+We forgot to dereference a pointer.
+
+Even when debugging the code, I saw the un-dereferenced pointer, thought about it, and shrugged the thought off, mainly because I didn't want to think it could cause an error. I thought I was an expert on pointers, taking OOP, a C++ heavy class. Luckily, my pride was broken down after I checked that line again while we were failing tests, realized it was actually causing the errors, and corrected it.
+
+## What's in your way?
+
+Learning how to do proofs.
+
+Proofs are not hard to understand, but there are so many laws and formalities behind proving something correct. Logical connections and theorems are fun to work through, but memorizing and understanding them are always tough. There is no excuse not to go through that initial process of figuring out a new concept, because learning is always the beginning stage for doing anything. Sure, you can try to wing your way through things, but there's no value behind that. It's better to learn something well enough for a lifetime than have to relearn and go over the same material when needed.
+
+Then again, there is the internet... so that statement may start to slowly have less meaning as information becomes quicker and easier to access or consume...
+
+## OOP Class Impressions
+
+The class is great as usual. Downing really has a knack for making analogies. At times, we'll be going over some new concepts when abruptly, Downing will make a context switch and either start or continue a sentence with an out of context, absurd analogy.
+
+In order to analogize the swap() method:
+
+> "Imagine we're in ancient Egypt, where when people die, their stuff gets buried with them..."
+
+In order to discern the different variations of const and pointers:
+
+> "I come in class with a paintball gun, and it will automatically direct itself at someone..."
+
+In order to remind us what constructors are called on user-defined objects:
+
+> "And I change that int, and turn it into an elephant, what will happen..."
+
+I really have to give it to him. Those analogies definitely bring fun to learning, and really do stick in your head for a while.
+
+## What will you do next week?
+
+I will be going to HackTX this weekend. Can't wait to go and learn some more hardware or software tech. It will definitely be a stress reliever and fun time to work on a cool idea with other people near my university rather than flying or busing to another location.
+
+Next week, I plan to prepare for my Programming for Correctness exam, which is where I will have to applicate all my proof knowledge. Besides that, I will need to read over memory allocation on Pintos to start Project 3 for OS. Most of all, I'll need to do interview prep for interviews, since somehow, all the times I gave to companies seemed to fit for next week. Wish me luck.
+
+## Pointer of the Week
+
+*Sorry, NULL Pointer for you*
+
+## Tip of the Week
+
+Ever wish life could be automated with an if then statement? If I enter my house, then have the thermostat raise or lower the temperature. If I leave my home, then have the lights turn off by themselves. If someone tweets about memes, automatically retweet it.
+
+Well there's a website that does it all for you! It's called [IFTTT](https://ifttt.com). The idea behind it is to "Connect the apps and devices you love with 'if this, then that' statements." Enjoy a more controlled and automated life!
+
+(Furthermore, there's a [DO App](https://ifttt.com/products/do/button) made by the same group that can do many more things like track your work hours on Google Drive, show you the way home from your current location, and even call yourself to get out of awkward situations.)
