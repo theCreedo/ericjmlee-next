@@ -23,7 +23,7 @@
 
 .filterBtnActive {
   background: var(--ink);
-  color: white;
+  color: var(--bg);
   border-color: var(--ink);
 }
 
@@ -97,11 +97,4 @@
   border: 1px solid var(--border);
   border-radius: var(--radius-full, 9999px);
   padding: 1px 8px;
-  text-decoration: none;
-  transition: color var(--t-fast), border-color var(--t-fast);
-}
-
-.topicTag:hover {
-  color: var(--ink);
-  border-color: var(--ink);
 }

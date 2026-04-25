@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import Layout, { siteTitle } from '../../components/layout'
 import ExploreFooter from '../../components/ExploreFooter'
-import { getArchiveData, getArchiveTopics, getArchiveYears } from '../../lib/archive'
+import { getArchiveData, getArchiveYears } from '../../lib/archive'
 import { getSortedPostsData } from '../../lib/posts'
 import Date from '../../components/date'
 import styles from './archive.module.css'
@@ -17,12 +17,11 @@ const SOURCE_LABELS = {
   external: 'External',
 }
 
-export default function Archive({ posts, topics, years, recentPosts }) {
+export default function Archive({ posts, years, recentPosts }) {
   const router = useRouter()
-  const { topic, year } = router.query
+  const { year } = router.query
 
   const filtered = posts.filter((post) => {
-    if (topic && !post.topics.includes(topic)) return false
     if (year && !post.date.startsWith(year)) return false
     return true
   })
@@ -44,20 +43,6 @@ export default function Archive({ posts, topics, years, recentPosts }) {
         <meta name="description" content="All writing by Eric Lee — blog posts, essays, and published pieces." />
       </Head>
       <h1>Archive</h1>
-
-      {topics.length > 0 && (
-        <div className={styles.filters}>
-          {topics.map((t) => (
-            <Link
-              key={t}
-              href={filterHref('topic', t)}
-              className={`${styles.filterBtn} ${topic === t ? styles.filterBtnActive : ''}`}
-            >
-              {t}
-            </Link>
-          ))}
-        </div>
-      )}
 
       {years.length > 0 && (
         <div className={styles.filters}>
@@ -105,13 +90,7 @@ export default function Archive({ posts, topics, years, recentPosts }) {
               {post.topics && post.topics.length > 0 && (
                 <div className={styles.topicTags}>
                   {post.topics.map((t) => (
-                    <Link
-                      key={t}
-                      href={filterHref('topic', t)}
-                      className={styles.topicTag}
-                    >
-                      {t}
-                    </Link>
+                    <span key={t} className={styles.topicTag}>{t}</span>
                   ))}
                 </div>
               )}
@@ -132,8 +111,7 @@ export default function Archive({ posts, topics, years, recentPosts }) {
 
 export async function getStaticProps() {
   const posts = getArchiveData()
-  const topics = getArchiveTopics(posts)
   const years = getArchiveYears(posts)
   const recentPosts = getSortedPostsData().slice(0, 3)
-  return { props: { posts, topics, years, recentPosts } }
+  return { props: { posts, years, recentPosts } }
 }
