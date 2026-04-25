@@ -681,6 +681,21 @@
     "evergreen": false
   },
   {
+    "slug": "utcs-blog-final-lessons-thoughts",
+    "title": "Final Lessons & Thoughts",
+    "date": "2018-04-30",
+    "source": "ut-blog",
+    "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/final-lessons-thoughts",
+    "description": "My last UTCS blog post—seven life lessons from college on journaling, saying no, building habits, community, and learning to be imperfect.",
+    "suggested_topics": [
+      "reflection",
+      "practice",
+      "relationships",
+      "craft"
+    ],
+    "evergreen": false
+  },
+  {
     "slug": "one-desire-fast-2018",
     "title": "One Desire Fast 2018",
     "date": "2018-01-26",
@@ -707,6 +722,28 @@
     "evergreen": false
   },
   {
+    "slug": "utcs-blog-entrepreneurship-life-update",
+    "title": "Entrepreneurship Life Update",
+    "date": "2017-12-05",
+    "source": "ut-blog",
+    "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/entrepreneurship-life-update",
+    "description": "A semester recap of my winding path through Austin's startup scene—joining and leaving two startups, sitting in the in-between, and finally finding Crash Cook Off at 3 Day Startup.",
+    "suggested_topics": [],
+    "evergreen": false
+  },
+  {
+    "slug": "utcs-blog-run-strong",
+    "title": "Run Strong",
+    "date": "2017-11-28",
+    "source": "ut-blog",
+    "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/run-strong",
+    "description": "Coming back from Thanksgiving break with nothing done and no regrets—choosing rest over grinding, then gearing up to finish the semester like a marathon.",
+    "suggested_topics": [
+      "purpose"
+    ],
+    "evergreen": false
+  },
+  {
     "slug": "helpless-prayer",
     "title": "Helpless Prayer",
     "date": "2017-11-27",
@@ -715,6 +752,44 @@
     "description": "Do you ever feel selfish whenever you ask someone else to pray for you?",
     "suggested_topics": [
       "faith"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "utcs-blog-letter-yourself-take-break",
+    "title": "A Letter from Yourself to Take a Break",
+    "date": "2017-11-20",
+    "source": "ut-blog",
+    "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/letter-yourself-take-break",
+    "description": "A letter written to myself (and anyone else running on empty) making the case for actually resting over Thanksgiving break instead of grinding through it.",
+    "suggested_topics": [
+      "purpose"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "utcs-blog-overloaded-decisions",
+    "title": "Overloaded Decisions",
+    "date": "2017-11-14",
+    "source": "ut-blog",
+    "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/overloaded-decisions",
+    "description": "Confessing my pattern of saying yes to everything—cramming courses, hackathons, orgs, recruiting—and how a summer mission trip finally taught me to aim before I fire.",
+    "suggested_topics": [
+      "faith",
+      "practice",
+      "craft"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "utcs-blog-interview-shenanigans",
+    "title": "Interview Shenanigans",
+    "date": "2017-10-31",
+    "source": "ut-blog",
+    "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/interview-shenanigans",
+    "description": "A tour through every interview format—coding challenges, phone screens, video calls, whiteboarding—and learning to stop performing for companies and just aim to be better than yesterday.",
+    "suggested_topics": [
+      "craft"
     ],
     "evergreen": false
   },
@@ -728,6 +803,30 @@
     "suggested_topics": [
       "leadership",
       "relationships"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "utcs-blog-learned-teaching",
+    "title": "Learned Teaching",
+    "date": "2017-10-24",
+    "source": "ut-blog",
+    "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/learned-teaching",
+    "description": "Spending two hours teaching Git at a hackathon and realizing I never truly understood it myself—a case for the Feynman technique and learning through teaching.",
+    "suggested_topics": [
+      "craft"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "utcs-blog-hackathon-transformation",
+    "title": "Hackathon Transformation",
+    "date": "2017-10-17",
+    "source": "ut-blog",
+    "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/hackathon-transformation",
+    "description": "How hackathons became the gateway into entrepreneurship—shifting from 24-hour sprints to building something for the long run.",
+    "suggested_topics": [
+      "craft"
     ],
     "evergreen": false
   },
@@ -746,6 +845,33 @@
     "evergreen": false
   },
   {
+    "slug": "utcs-blog-food-and-swag-matters",
+    "title": "Food and Swag that Matters",
+    "date": "2017-10-09",
+    "source": "ut-blog",
+    "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/food-and-swag-matters",
+    "description": "A playful reminder to look past the free t-shirts and BBQ at CS events and actually engage with what they offer—mentors, learning, interviews, and real connections.",
+    "suggested_topics": [
+      "leadership",
+      "relationships"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "utcs-blog-busy-reflection",
+    "title": "Busy Reflection",
+    "date": "2017-09-30",
+    "source": "ut-blog",
+    "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/busy-reflection",
+    "description": "Processing a season of busyness and the disorientation that comes with it—and why turning toward community instead of clinging to feelings is what reorients me.",
+    "suggested_topics": [
+      "reflection",
+      "practice",
+      "relationships"
+    ],
+    "evergreen": false
+  },
+  {
     "slug": "a-story-of-great-change",
     "title": "A Story of Great Change",
     "date": "2017-09-26",
@@ -755,6 +881,32 @@
     "suggested_topics": [
       "faith",
       "reflection"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "utcs-blog-intentional-recruiting",
+    "title": "Intentional Recruiting",
+    "date": "2017-09-17",
+    "source": "ut-blog",
+    "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/intentional-recruiting",
+    "description": "Shifting from shotgunning resumes at every booth to recruiting with intention—researching company values, culture, and mission to find a fit worth rooting into.",
+    "suggested_topics": [
+      "faith",
+      "purpose"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "utcs-blog-whats-your-vision",
+    "title": "What's Your Vision?",
+    "date": "2017-09-11",
+    "source": "ut-blog",
+    "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/whats-your-vision",
+    "description": "Coming back from a summer mission trip in Michigan with a new question—why do I do what I do?—and drafting my first lifetime vision statement.",
+    "suggested_topics": [
+      "faith",
+      "purpose"
     ],
     "evergreen": false
   },
@@ -811,6 +963,18 @@
     "evergreen": false
   },
   {
+    "slug": "github-blog-2017-08-05-return-of-the-summer",
+    "title": "Return of the Summer",
+    "date": "2017-08-05",
+    "source": "internal",
+    "original_link": "",
+    "description": "Back from two months of missions in Ann Arbor and Detroit, reuniting with Austin, and looking ahead to junior year with a season of investment.",
+    "suggested_topics": [
+      "faith"
+    ],
+    "evergreen": false
+  },
+  {
     "slug": "loneliness-in-summer",
     "title": "Loneliness in Summer",
     "date": "2017-05-17",
@@ -823,6 +987,45 @@
     "evergreen": false
   },
   {
+    "slug": "github-blog-2017-05-06-the-end",
+    "title": "The End?",
+    "date": "2017-05-06",
+    "source": "internal",
+    "original_link": "",
+    "description": "A final retrospective on SWE with Prof. Downing: the smooth early projects, the hard group work, the Python learning, and the takeaways.",
+    "suggested_topics": [
+      "craft"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "utcs-blog-finishing-sophomore-slump",
+    "title": "Finishing off Sophomore Slump",
+    "date": "2017-05-01",
+    "source": "ut-blog",
+    "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/finishing-sophomore-slump",
+    "description": "An end-of-sophomore-year recap—cramming Texas history, surviving OS, running 100 miles, organizing hackathons, and looking ahead to junior year.",
+    "suggested_topics": [
+      "reflection",
+      "craft"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "github-blog-2017-04-28-pre-exam-life",
+    "title": "Pre-Exam Life",
+    "date": "2017-04-28",
+    "source": "internal",
+    "original_link": "",
+    "description": "EarthHack's Pick It Up project using computer vision, coding a Gmail API script for a church grad night video, and prepping for SWE and Gov exams.",
+    "suggested_topics": [
+      "faith",
+      "purpose",
+      "craft"
+    ],
+    "evergreen": false
+  },
+  {
     "slug": "leaping-through",
     "title": "Leaping Through the Closed Door",
     "date": "2017-04-26",
@@ -831,6 +1034,30 @@
     "description": "I found that my lack of experience and knowledge when initially working in JavaScript had stopped me from wanting to work with it. I realized that if I hadn’t been forced to program in JavaScript, though, I never would’ve opened myself up to working on the language in the future, if ever.",
     "suggested_topics": [
       "reflection"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "utcs-blog-procrastinationthoughts",
+    "title": "#ProcrastinationThoughts",
+    "date": "2017-04-25",
+    "source": "ut-blog",
+    "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/procrastinationthoughts",
+    "description": "Writing a blog post about procrastination while procrastinating on a final project—digging into why I avoid work and what urgency actually looks like when it shows up.",
+    "suggested_topics": [
+      "craft"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "github-blog-2017-04-22-writers-unblock-week",
+    "title": "Writer's Unblock Week",
+    "date": "2017-04-22",
+    "source": "internal",
+    "original_link": "",
+    "description": "Organizing Music Hacks, publishing a UTCS faculty profile, completing SWE Phase 3, and registering for fall classes including Korean.",
+    "suggested_topics": [
+      "craft"
     ],
     "evergreen": false
   },
@@ -849,6 +1076,427 @@
     "evergreen": false
   },
   {
+    "slug": "utcs-blog-hack-tech-organizer-life",
+    "title": "Hack Tech Organizer Life",
+    "date": "2017-04-16",
+    "source": "ut-blog",
+    "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/hack-tech-organizer-life",
+    "description": "Behind the scenes of organizing Music Hacks with Freetail Hackers—from API directories and t-shirt iterations to accidentally crashing the site on hackathon day.",
+    "suggested_topics": [
+      "craft"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "github-blog-2017-04-15-music-hacks",
+    "title": "Music Hacks",
+    "date": "2017-04-15",
+    "source": "internal",
+    "original_link": "",
+    "description": "Implementing Flask-Whooshee for SWE search, organizing Music Hacks, and learning that alone time is sometimes the right destressor.",
+    "suggested_topics": [
+      "relationships"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "github-blog-2017-04-08-molded-into-life",
+    "title": "Molded Into Life",
+    "date": "2017-04-08",
+    "source": "internal",
+    "original_link": "",
+    "description": "Building the SWE Flask API, debugging a GCP deployment issue, and reflecting on overcommitment and what actually matters.",
+    "suggested_topics": [
+      "reflection",
+      "craft"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "utcs-blog-reflection",
+    "title": "Reflection",
+    "date": "2017-04-01",
+    "source": "ut-blog",
+    "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/reflection",
+    "description": "Realizing I'd spent over a year in CS chasing grades instead of learning—and the slow shift toward checking the heart behind the intention.",
+    "suggested_topics": [
+      "reflection"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "github-blog-2017-03-31-arms-are-heavy",
+    "title": "Arms Are Heavy",
+    "date": "2017-03-31",
+    "source": "internal",
+    "original_link": "",
+    "description": "Algo and Gov exams, meeting Palantir, drafting a UTCS faculty article, and realizing how little code I was actually writing.",
+    "suggested_topics": [
+      "craft"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "github-blog-2017-03-24-back-from-break",
+    "title": "Back From Break",
+    "date": "2017-03-24",
+    "source": "internal",
+    "original_link": "",
+    "description": "Catching up after Spring Break, shipping the SWE website, and navigating a paranoid game of Assassins with Freetail Hackers.",
+    "suggested_topics": [
+      "craft"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "utcs-blog-how-hackathon",
+    "title": "How to Hackathon",
+    "date": "2017-03-24",
+    "source": "ut-blog",
+    "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/how-hackathon",
+    "description": "A practical walkthrough of hackathon strategy—brainstorming under pressure, building a diverse team, and making sure the presentation does justice to a sleepless night of work.",
+    "suggested_topics": [
+      "craft"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "github-blog-2017-03-21-who-needs-a-break",
+    "title": "Who Needs A Break",
+    "date": "2017-03-21",
+    "source": "internal",
+    "original_link": "",
+    "description": "Spring Break camping in Texas, winning the SXSW hackathon with Credit Writer, and a staycation with church friends.",
+    "suggested_topics": [
+      "faith",
+      "relationships",
+      "craft"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "github-blog-2017-03-10-is-this-the-real-life",
+    "title": "Is This The Real Life",
+    "date": "2017-03-10",
+    "source": "internal",
+    "original_link": "",
+    "description": "Winning Mobile Track at HackUTD with SensorStrike, planning the SWE website project team, and previewing a second short story.",
+    "suggested_topics": [
+      "reflection",
+      "craft"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "github-blog-2017-03-03-crazy-week",
+    "title": "Crazy Week",
+    "date": "2017-03-03",
+    "source": "internal",
+    "original_link": "",
+    "description": "SWE Test 1 prep, joining FreeTail Hackers Tech Team, cooking Gordon Ramsay sliders, and studying Algo as a dynamic programming cache.",
+    "suggested_topics": [],
+    "evergreen": false
+  },
+  {
+    "slug": "utcs-blog-hack-life",
+    "title": "Hack Life",
+    "date": "2017-03-03",
+    "source": "ut-blog",
+    "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/hack-life",
+    "description": "From hating hackathons to falling in love with them—and joining Freetail Hackers to organize one myself.",
+    "suggested_topics": [
+      "craft"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "utcs-blog-free-food",
+    "title": "Free Food!!!",
+    "date": "2017-03-01",
+    "source": "ut-blog",
+    "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/free-food",
+    "description": "The original version of my CS event swag rant—watching students stampede a recruiter's table and reflecting on the privilege we take for granted as CS majors.",
+    "suggested_topics": [
+      "reflection"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "github-blog-2017-02-24-fully-booked",
+    "title": "Fully Booked",
+    "date": "2017-02-24",
+    "source": "internal",
+    "original_link": "",
+    "description": "Algo exam regrets over a wasted 20 minutes on a counterexample, finishing a short story without a conclusion, and wondering if there's room for everything.",
+    "suggested_topics": [
+      "reflection"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "utcs-blog-software-crisis",
+    "title": "Software Crisis",
+    "date": "2017-02-22",
+    "source": "ut-blog",
+    "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/software-crisis",
+    "description": "A mid-college crisis at the career fair—choosing a mission trip over an internship, discovering a love for teaching through proctoring, and questioning whether the industry is really where I belong.",
+    "suggested_topics": [
+      "faith"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "github-blog-2017-02-17-working-it-all-out",
+    "title": "Working It All Out",
+    "date": "2017-02-17",
+    "source": "internal",
+    "original_link": "",
+    "description": "Algo problem-sets, Netflix finished early, SWE group coordination for Spring Break, and the decision to do missions instead of internships this summer.",
+    "suggested_topics": [
+      "faith",
+      "practice"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "github-blog-2017-02-10-sound-of-my-heart",
+    "title": "Sound of my Heart",
+    "date": "2017-02-10",
+    "source": "internal",
+    "original_link": "",
+    "description": "Church retreat debt, tedious Algo proofs, interviewing a UTCS professor on OS research, and changing a fiction story from zombies to tribal artists.",
+    "suggested_topics": [
+      "faith",
+      "reflection"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "utcs-blog-not-my-problem",
+    "title": "Not My Problem",
+    "date": "2017-02-05",
+    "source": "ut-blog",
+    "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/not-my-problem",
+    "description": "Proctoring OOP and getting frustrated by lazy questions—then realizing the frustration is really with my past self, and making the case for owning what you don't know.",
+    "suggested_topics": [],
+    "evergreen": false
+  },
+  {
+    "slug": "github-blog-2017-02-03-problem-acquired",
+    "title": "Problem Acquired",
+    "date": "2017-02-03",
+    "source": "internal",
+    "original_link": "",
+    "description": "Liquids week of the One-Desire fast, IM basketball while running on empty, and learning to treat spec changes like real industry pressure.",
+    "suggested_topics": [
+      "faith"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "utcs-blog-out-my-field",
+    "title": "Out of My Field",
+    "date": "2017-01-29",
+    "source": "ut-blog",
+    "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/out-my-field",
+    "description": "A pitch for CS majors to take non-CS classes—social dance, fiction writing, interpersonal communication—and how stepping outside the major builds you as a person.",
+    "suggested_topics": [
+      "relationships",
+      "craft"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "github-blog-2017-01-28-write-on-time",
+    "title": "Write On Time",
+    "date": "2017-01-28",
+    "source": "internal",
+    "original_link": "",
+    "description": "Week one of a One-Desire meat fast, finishing Collatz after 15 hours of wrong optimization, and writing four simultaneous blogs at once.",
+    "suggested_topics": [
+      "faith",
+      "craft"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "utcs-blog-new-season-new-me",
+    "title": "New Season, New Me",
+    "date": "2017-01-23",
+    "source": "ut-blog",
+    "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/new-season-new-me",
+    "description": "Coming back from winter break after a brutal semester and wrestling with the comparison trap—choosing to step into a new season instead of staying bound by old insecurities.",
+    "suggested_topics": [
+      "reflection",
+      "purpose"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "github-blog-2017-01-20-back-at-it-again",
+    "title": "Back At It Again",
+    "date": "2017-01-20",
+    "source": "internal",
+    "original_link": "",
+    "description": "Back from Taiwan with a reset sleep schedule, starting Algorithms and Software Engineering, and proctoring OOP for the first time.",
+    "suggested_topics": [],
+    "evergreen": false
+  },
+  {
+    "slug": "github-blog-2016-12-17-rest-and-javascript",
+    "title": "Rest and JavaScript",
+    "date": "2016-12-17",
+    "source": "internal",
+    "original_link": "",
+    "description": "Five days of JavaScript30, designing a social dance app with microservices, and a spiritual fast from YouTube and social media.",
+    "suggested_topics": [
+      "faith",
+      "reflection",
+      "relationships",
+      "purpose"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "github-blog-2016-12-10-winter-with-code",
+    "title": "Winter with Code",
+    "date": "2016-12-10",
+    "source": "internal",
+    "original_link": "",
+    "description": "Studying OS with Feynman's method, unboxing a Black Friday Echo Dot, and planning side projects for winter break.",
+    "suggested_topics": [
+      "craft"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "utcs-blog-stress-free-or-free-stress",
+    "title": "Stress-Free or Free-Stress?",
+    "date": "2016-12-06",
+    "source": "ut-blog",
+    "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/stress-free-or-free-stress",
+    "description": "Five finals-week survival tips—planned breaks, hot chocolate, honest venting, study groups, and letting it go once the exam is done.",
+    "suggested_topics": [],
+    "evergreen": false
+  },
+  {
+    "slug": "github-blog-2016-12-04-week-sixteen",
+    "title": "Week Sixteen – Dis is Finals",
+    "date": "2016-12-04",
+    "source": "internal",
+    "original_link": "",
+    "description": "The hardest week of semester: an ER visit from stress and anxiety, the toughest OOP exam yet, and finishing everything just barely.",
+    "suggested_topics": [],
+    "evergreen": false
+  },
+  {
+    "slug": "utcs-blog-help-i-can-do-it-myself",
+    "title": "Help! I Can Do it Myself.",
+    "date": "2016-11-28",
+    "source": "ut-blog",
+    "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/help-i-can-do-it-myself",
+    "description": "Learning to ask for help after spending three days on a problem a coworker fixed in five minutes—and finding the balance between cheap help and expensive help.",
+    "suggested_topics": [],
+    "evergreen": false
+  },
+  {
+    "slug": "github-blog-2016-11-25-week-fourteen",
+    "title": "Week Fourteen – Thanksgivings",
+    "date": "2016-11-25",
+    "source": "internal",
+    "original_link": "",
+    "description": "Thanksgiving break: real sleep, teahouse visits, a new bike, and the OS project hovering in the background the whole time.",
+    "suggested_topics": [
+      "craft"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "utcs-blog-perfect-language",
+    "title": "The Perfect Language",
+    "date": "2016-11-23",
+    "source": "ut-blog",
+    "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/perfect-language",
+    "description": "Spoiler: there isn't one. A walkthrough of languages across classes, hackathons, and jobs to show that the right language depends on what problem you're trying to solve.",
+    "suggested_topics": [
+      "craft"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "github-blog-2016-11-18-week-thirteen",
+    "title": "Week Thirteen – Chill-ish Week",
+    "date": "2016-11-18",
+    "source": "internal",
+    "original_link": "",
+    "description": "Wrapping up OS Project 3 and the OOP Life project, narrowly missing a bike at a silent auction, and mixed feelings about the semester ending.",
+    "suggested_topics": [
+      "craft"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "utcs-blog-whats-doc",
+    "title": "What's up Doc?",
+    "date": "2016-11-15",
+    "source": "ut-blog",
+    "original_link": "https://web.archive.org/web/20200812004611/https://www.cs.utexas.edu/blog/whats-doc",
+    "description": "A case for code documentation born from a frustrating hackathon with an undocumented game engine—addressing every excuse I used to have for skipping it.",
+    "suggested_topics": [
+      "craft"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "github-blog-2016-11-11-week-twelve",
+    "title": "Week Twelve – Moodify Hack",
+    "date": "2016-11-11",
+    "source": "internal",
+    "original_link": "",
+    "description": "Winning People's Choice and Best Technical at Indigitous #Hack with a music sentiment analysis app, then getting nominated to compete globally.",
+    "suggested_topics": [
+      "relationships"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "utcs-blog-3-reasons-why-python-java",
+    "title": "3 Reasons Why Python > Java",
+    "date": "2016-11-07",
+    "source": "ut-blog",
+    "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/3-reasons-why-python-java",
+    "description": "A lighthearted case for Python over Java after my first full Python project at the Indigitous #Hack hackathon—covering dynamic typing, the interactive interpreter, and easy library management.",
+    "suggested_topics": [
+      "leadership",
+      "craft"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "github-blog-2016-11-04-week-eleven",
+    "title": "Week Eleven - Code Withdrawal",
+    "date": "2016-11-04",
+    "source": "internal",
+    "original_link": "",
+    "description": "Studying for the OS exam on a whiteboard, setting up VirtualBox out of code withdrawal, and the sophomore slump making itself known.",
+    "suggested_topics": [
+      "craft"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "github-blog-2016-10-29-week-ten",
+    "title": "Week Ten - Week for the Weak",
+    "date": "2016-10-29",
+    "source": "internal",
+    "original_link": "",
+    "description": "HackTX brainstorming, the Darwin project's big lesson: 60% design makes everything else easier, and the 50th anniversary UTCS celebration.",
+    "suggested_topics": [
+      "craft"
+    ],
+    "evergreen": false
+  },
+  {
     "slug": "hackathon-craze",
     "title": "Hackathon Craze",
     "date": "2016-10-24",
@@ -856,6 +1504,126 @@
     "original_link": "https://www.cs.utexas.edu/blog/hackathon-craze-0",
     "description": "'Hackathons are where your crazy idea becomes reality' - Alex Kern, Hacker",
     "suggested_topics": [
+      "craft"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "utcs-blog-hackathon-craze-0",
+    "title": "Hackathon Craze",
+    "date": "2016-10-24",
+    "source": "ut-blog",
+    "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/hackathon-craze-0",
+    "description": "My very first UTCS blog post—a rundown of why hackathons are worth the sleep deprivation, from free food and swag to learning, building, and making friends at 3 AM.",
+    "suggested_topics": [
+      "relationships",
+      "craft"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "github-blog-2016-10-21-week-nine",
+    "title": "Week Nine - Garbage Point",
+    "date": "2016-10-21",
+    "source": "internal",
+    "original_link": "",
+    "description": "Finishing OOP's Allocator project ahead of schedule, dereferencing a pointer I'd already seen and ignored, and Downing's best analogies yet.",
+    "suggested_topics": [
+      "craft"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "github-blog-2016-10-16-week-eight",
+    "title": "Week Eight - Eat, Work, Blog, Sleep",
+    "date": "2016-10-16",
+    "source": "internal",
+    "original_link": "",
+    "description": "Landing a UTCS blogger job, a 3-day OS bug hiding in a single line of C type declaration, and a rough week shadowed by a friend's passing.",
+    "suggested_topics": [
+      "relationships",
+      "craft"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "github-blog-2016-10-09-week-seven",
+    "title": "Week Seven - Balance to an Extension",
+    "date": "2016-10-09",
+    "source": "internal",
+    "original_link": "",
+    "description": "Balancing the OOP exam on Canvas, an OS Stack assignment full of memcpy surprises, and a constant tug-of-war between requirements and what matters more.",
+    "suggested_topics": [],
+    "evergreen": false
+  },
+  {
+    "slug": "github-blog-2016-10-02-week-six",
+    "title": "Week Six - Hard-Aware Hack",
+    "date": "2016-10-02",
+    "source": "internal",
+    "original_link": "",
+    "description": "TAMUHack: hardware-hacking our way from an Intel Smart Glove to a virtual air drum set that won People's Choice and Best Technical awards.",
+    "suggested_topics": [
+      "relationships"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "github-blog-2016-09-23-week-five",
+    "title": "Week Five - Hack my Life Away",
+    "date": "2016-09-23",
+    "source": "internal",
+    "original_link": "",
+    "description": "A 4AM coding session in the lab and HackGT at Georgia Tech — building Hungry Cats over 36 sleepless hours with an undocumented Android game engine.",
+    "suggested_topics": [
+      "craft"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "github-blog-2016-09-17-week-four",
+    "title": "Week Four - Discovering the Lab",
+    "date": "2016-09-17",
+    "source": "internal",
+    "original_link": "",
+    "description": "Finding the tight-knit CS lab community, finishing the first OS shell project, and starting a Netflix cache project with a partner.",
+    "suggested_topics": [
+      "relationships",
+      "craft"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "github-blog-2016-09-11-week-three",
+    "title": "Week Three - Bugs, Bugs, Bugs!",
+    "date": "2016-09-11",
+    "source": "internal",
+    "original_link": "",
+    "description": "Debugging Collatz with Docker, Travis CI, and stray merge conflicts — plus dancing scheduling algorithms in front of a 439 lecture hall.",
+    "suggested_topics": [],
+    "evergreen": false
+  },
+  {
+    "slug": "github-blog-2016-09-03-week-two",
+    "title": "Week Two - Let the projects begin!",
+    "date": "2016-09-03",
+    "source": "internal",
+    "original_link": "",
+    "description": "Learning MATLAB and LaTeX, juggling C++ and OS projects, and discovering a typing-based note-taking method that actually works.",
+    "suggested_topics": [
+      "craft"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "github-blog-2016-08-28-week-one",
+    "title": "Week One - Starting the Sophomore Semester (Not Slump)",
+    "date": "2016-08-28",
+    "source": "internal",
+    "original_link": "",
+    "description": "First week of sophomore year at UT Austin: installing Docker, writing C linked lists, revamping a resume, and teaching social dance.",
+    "suggested_topics": [
+      "relationships",
       "craft"
     ],
     "evergreen": false
