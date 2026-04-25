@@ -16,10 +16,6 @@ export default function ExploreFooter({ posts }) {
         ))}
       </div>
       <nav className={styles.nav}>
-        <Link href="/about">About</Link>
-        {' · '}
-        <Link href="/now">Now</Link>
-        {' · '}
         <Link href="/archive">Archive</Link>
       </nav>
     </div>

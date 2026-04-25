@@ -4,6 +4,7 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import JsonLd from './JsonLd'
+import SiteFooter from './SiteFooter'
 import { useState } from 'react'
 import { useDarkMode } from '../pages/_app'
 
@@ -50,17 +51,10 @@ const PERSON_SCHEMA = {
 }
 
 const nav = [
-  { label: 'About', href: '/about' },
-  { label: 'Now', href: '/now' },
-  {
-    label: 'Domains',
-    children: [
-      { label: 'Work', href: '/work' },
-      { label: 'Cards', href: '/cards' },
-      { label: 'Faith', href: '/faith' },
-      { label: 'Studio', href: '/studio' },
-    ],
-  },
+  { label: 'Work',    href: '/work' },
+  { label: 'Cards',   href: '/cards' },
+  { label: 'Faith',   href: '/faith' },
+  { label: 'Studio',  href: '/studio' },
   { label: 'Archive', href: '/archive' },
 ]
 
@@ -106,24 +100,11 @@ export default function Layout({ children, home, project, experience, blog, news
             <span />
           </button>
           <ul className={`${styles.navLinks} ${navOpen ? styles.navLinksOpen : ''}`}>
-            {nav.map((item) =>
-              item.children ? (
-                <li key={item.label} className={`${styles.navItem} ${styles.navItemDropdown}`}>
-                  <span className={styles.navLink}>{item.label}</span>
-                  <ul className={styles.navDropdownMenu}>
-                    {item.children.map((child) => (
-                      <li key={child.label}>
-                        <Link href={child.href} className={styles.navLink}>{child.label}</Link>
-                      </li>
-                    ))}
-                  </ul>
-                </li>
-              ) : (
-                <li key={item.label} className={styles.navItem}>
-                  <Link href={item.href} className={styles.navLink}>{item.label}</Link>
-                </li>
-              )
-            )}
+            {nav.map((item) => (
+              <li key={item.label} className={styles.navItem}>
+                <Link href={item.href} className={styles.navLink}>{item.label}</Link>
+              </li>
+            ))}
           </ul>
           <button
             className={styles.navThemeToggle}
@@ -142,11 +123,7 @@ export default function Layout({ children, home, project, experience, blog, news
           </header>
         )}
         <main className={styles.contentContainer}>{children}</main>
-        {!home && (
-          <footer className={styles.pageFooter}>
-            <small>© Eric Lee {new Date().getFullYear()}</small>
-          </footer>
-        )}
+        <SiteFooter />
       </div>
     </div>
   )
