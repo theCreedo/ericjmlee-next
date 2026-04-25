@@ -4,8 +4,11 @@
  * Reads all posts in /posts/*.md, extracts frontmatter metadata,
  * and outputs catalog/post-inventory.json sorted by date descending.
  *
- * Candidate topic taxonomy:
+ * Topic taxonomy (7 topics):
  *   faith, leadership, reflection, practice, relationships, purpose, craft
+ *
+ * Topics are merged from explicit frontmatter `topics` field + keyword inference.
+ * Canonical keyword definitions live in lib/topics.js (ESM); mirrored here for CJS compat.
  *
  * Usage: node scripts/generate-catalog.js
  */
@@ -98,6 +101,10 @@ const inventory = files
     const description = data.description || '';
     const originalLink = data.original_link || '';
 
+    const explicit = Array.isArray(data.topics) ? data.topics : [];
+    const inferred = suggestTopics(title, description);
+    const topics = [...new Set([...explicit, ...inferred])];
+
     return {
       slug,
       title,
@@ -105,8 +112,8 @@ const inventory = files
       source: inferSource(originalLink),
       original_link: originalLink,
       description,
-      suggested_topics: suggestTopics(title, description),
-      evergreen: false,
+      topics,
+      evergreen: data.evergreen ?? false,
     };
   })
   .filter((entry) => entry.title && entry.title !== '');
