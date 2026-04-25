@@ -83,9 +83,6 @@ export default function Archive({ posts, years, recentPosts }) {
                     {sourceLabel}
                   </span>
                 )}
-                {post.era === 'early' && (
-                  <span className={styles.eraBadge}>College era</span>
-                )}
               </div>
               {post.topics && post.topics.length > 0 && (
                 <div className={styles.topicTags}>
