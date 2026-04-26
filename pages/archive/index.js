@@ -15,7 +15,12 @@ const SOURCE_LABELS = {
   substack: 'Substack',
   internal: null,
   external: 'External',
+  'cs371p': 'CS371p Fall 2016',
+  'cs373': 'CS373 Spring 2017',
+  'github-blog': 'GitHub Blog',
 }
+
+const INTERNAL_SOURCES = new Set(['internal', 'cs371p', 'cs373', 'github-blog'])
 
 export default function Archive({ posts, years, recentPosts }) {
   const router = useRouter()
@@ -61,15 +66,14 @@ export default function Archive({ posts, years, recentPosts }) {
       <ul className={styles.list}>
         {filtered.map((post) => {
           const sourceLabel = SOURCE_LABELS[post.source]
-          const href = post.source === 'internal'
-            ? `/blog/${post.id}`
-            : post.original_link
+          const isInternal = INTERNAL_SOURCES.has(post.source)
+          const href = isInternal ? `/blog/${post.id}` : post.original_link
 
           return (
             <li key={post.id} className={styles.listItem}>
               <a
                 href={href}
-                {...(post.source !== 'internal' ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+                {...(!isInternal ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
                 className={styles.postTitle}
               >
                 {post.title}
