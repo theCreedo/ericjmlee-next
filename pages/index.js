@@ -6,8 +6,8 @@ import styles from './index.module.css'
 import { useDarkMode } from './_app'
 
 const domains = [
-  { label: 'Work',   href: '/work',   description: 'Developer Advocate at Global Payments — helping developers integrate, build, and ship.' },
-  { label: 'Cards',  href: '/cards',  description: 'L2 judge, card business, and Austin community in Flesh and Blood TCG.' },
+  { label: 'Work',   href: '/work',   description: 'Developer Advocate @ Global Payments — helping developers integrate, build, and ship.' },
+  { label: 'Cards',  href: '/cards',  description: 'Playing, collecting, selling, and judging in Flesh & Blood TCG.' },
   { label: 'Faith',  href: '/faith',  description: 'Love God, Love Others.' },
   { label: 'Studio', href: '/studio', description: 'A creative space for writing, making, and everything built along the way.' },
 ]
@@ -47,7 +47,7 @@ export default function Home() {
           </div>
           <div className={styles.heroText}>
             <p className={styles.heroGreeting}><span className={styles.wave}>👋</span> Welcome to the front-end part of my life.</p>
-            <p className={styles.heroCredentials}>Developer advocate · L2 judge · church leader · writer</p>
+            <p className={styles.heroCredentials}>Developer advocate · FAB L2 judge · TCG seller · church leader · writer</p>
             <p className={styles.heroMeta}>Austin, TX · UT &rsquo;19 · 🇺🇸🇹🇼</p>
           </div>
         </div>
@@ -62,7 +62,8 @@ export default function Home() {
         </div>
 
         <section id="about" className={styles.about}>
-          <p>I grew up in Plano, studied CS at UT Austin, and stayed in Austin. I work in developer advocacy, judge trading card game tournaments, lead at my church, and write. Four domains, one person.</p>
+          <p>Raised in Plano 🇺🇸, Taiwanese roots 🇹🇼, Texas all my life. I studied CS at UT Austin 🤘 and stayed in Austin afterwards. I work in developer advocacy —
+          currently at Global Payments — judge and play Flesh and Blood TCG, serve at HMCC Austin, and write & tinker on many projects on the side.</p>
         </section>
       </section>
     </Layout>
