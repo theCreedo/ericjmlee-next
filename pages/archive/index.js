@@ -2,9 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import Layout, { siteTitle } from '../../components/layout'
-import ExploreFooter from '../../components/ExploreFooter'
 import { getArchiveData, getArchiveYears } from '../../lib/archive'
-import { getSortedPostsData } from '../../lib/posts'
 import Date from '../../components/date'
 import styles from './archive.module.css'
 
@@ -13,6 +11,7 @@ const SOURCE_LABELS = {
   'ut-blog': 'UT CS Blog',
   'ut-blog-archived': 'UT CS Blog (archived)',
   substack: 'Substack',
+  'wordpress-o9to5': 'Outside the 9 to 5',
   internal: null,
   external: 'External',
   'cs371p': 'CS371p Fall 2016',
@@ -22,7 +21,7 @@ const SOURCE_LABELS = {
 
 const INTERNAL_SOURCES = new Set(['internal', 'cs371p', 'cs373', 'github-blog'])
 
-export default function Archive({ posts, years, recentPosts }) {
+export default function Archive({ posts, years }) {
   const router = useRouter()
   const { year } = router.query
 
@@ -105,7 +104,6 @@ export default function Archive({ posts, years, recentPosts }) {
           No posts match the selected filters.
         </p>
       )}
-      <ExploreFooter posts={recentPosts} />
     </Layout>
   )
 }
@@ -113,6 +111,5 @@ export default function Archive({ posts, years, recentPosts }) {
 export async function getStaticProps() {
   const posts = getArchiveData()
   const years = getArchiveYears(posts)
-  const recentPosts = getSortedPostsData().slice(0, 3)
-  return { props: { posts, years, recentPosts } }
+  return { props: { posts, years } }
 }

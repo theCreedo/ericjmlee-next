@@ -61,6 +61,12 @@ const nextConfig = {
         hostname: 'www.cs.utexas.edu',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'outsidethe9to5life.wordpress.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
