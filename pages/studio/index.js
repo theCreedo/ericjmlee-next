@@ -1,15 +1,9 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import Link from 'next/link'
 import Layout, { siteTitle, base_url } from '../../components/layout'
-import ExploreFooter from '../../components/ExploreFooter'
 import JsonLd from '../../components/JsonLd'
-import { getSortedPostsData } from '../../lib/posts'
 import styles from '../../styles/domain.module.css'
-
-export async function getStaticProps() {
-  const recentPosts = getSortedPostsData().slice(0, 3)
-  return { props: { recentPosts } }
-}
 
 const STUDIO_SCHEMA = {
   '@context': 'https://schema.org',
@@ -24,7 +18,7 @@ const STUDIO_SCHEMA = {
   description: 'Project shelf: writing archive, early projects, newsletter, and past platforms.',
 }
 
-export default function Studio({ recentPosts }) {
+export default function Studio() {
   return (
     <Layout>
       <Head>
@@ -35,8 +29,20 @@ export default function Studio({ recentPosts }) {
         <JsonLd data={STUDIO_SCHEMA} />
       </Head>
       {/* Page: /studio | Person: Eric Lee | Topic: Creative output, writing, projects */}
+      {/* TODO: /studio content direction needs rethinking — archive now has all writing from Medium, WordPress, Substack, UT CS Blog. Consider photo grid similar to /cards community section. */}
       <div className={styles.page}>
-        <h1>Studio</h1>
+        <div className={styles.domainHeader}>
+          {/* Drop headshot at /public/images/profile/studio-profile.jpg */}
+          <div className={styles.domainProfile}>
+            <Image
+              src="/images/profile/studio-profile.jpg"
+              alt="Eric Lee"
+              fill
+              style={{ objectFit: 'cover' }}
+            />
+          </div>
+          <h1>Studio</h1>
+        </div>
         <p className={styles.lead}>Studio is a creative space — where the writing lives, where early experiments were built, and where the work that doesn&apos;t fit neatly elsewhere still has a home. A newsletter that ran for two years. Blog posts across different corners of the internet. Hackathon projects from the years of figuring out what to build. It&apos;s all here, made and kept.</p>
 
         <section className={styles.section}>
@@ -118,7 +124,6 @@ export default function Studio({ recentPosts }) {
           </nav>
         </div>
       </div>
-      <ExploreFooter posts={recentPosts} />
     </Layout>
   )
 }

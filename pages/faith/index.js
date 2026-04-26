@@ -1,9 +1,8 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import Link from 'next/link'
 import Layout, { siteTitle, base_url } from '../../components/layout'
-import ExploreFooter from '../../components/ExploreFooter'
 import JsonLd from '../../components/JsonLd'
-import { getSortedPostsData } from '../../lib/posts'
 import styles from '../../styles/domain.module.css'
 
 const FAITH_SCHEMA = {
@@ -14,12 +13,7 @@ const FAITH_SCHEMA = {
   description: 'Faith, community, and church involvement at HMCC Austin. Worship (keys) and small group leadership for working adults.',
 }
 
-export async function getStaticProps() {
-  const recentPosts = getSortedPostsData().slice(0, 3)
-  return { props: { recentPosts } }
-}
-
-export default function Faith({ recentPosts }) {
+export default function Faith() {
   return (
     <Layout>
       <Head>
@@ -31,7 +25,18 @@ export default function Faith({ recentPosts }) {
       </Head>
       {/* Page: /faith | Person: Eric Lee | Topic: Faith, HMCC Austin, church leadership, worship, missions */}
       <div className={styles.page}>
-        <h1>Faith</h1>
+        <div className={styles.domainHeader}>
+          {/* Drop headshot at /public/images/profile/faith-profile.jpg */}
+          <div className={styles.domainProfile}>
+            <Image
+              src="/images/profile/faith-profile.jpg"
+              alt="Eric Lee"
+              fill
+              style={{ objectFit: 'cover' }}
+            />
+          </div>
+          <h1>Faith</h1>
+        </div>
 
         <section className={styles.section}>
           <p className={styles.sectionLabel}>Values</p>
@@ -81,12 +86,10 @@ export default function Faith({ recentPosts }) {
         <div className={styles.crossLinks}>
           <p className={styles.sectionLabel}>Elsewhere in this site</p>
           <nav className={styles.crossLinkNav}>
-            <Link href="/archive?topic=faith">Writing on faith →</Link>
             <Link href="/studio">Studio →</Link>
           </nav>
         </div>
       </div>
-      <ExploreFooter posts={recentPosts} />
     </Layout>
   )
 }

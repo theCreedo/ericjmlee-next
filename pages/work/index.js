@@ -2,10 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import Layout, { siteTitle, base_url } from '../../components/layout'
-import ExploreFooter from '../../components/ExploreFooter'
 import JsonLd from '../../components/JsonLd'
 import { getSortedExperiencesData } from '../../lib/experiences'
-import { getSortedPostsData } from '../../lib/posts'
 import styles from '../../styles/domain.module.css'
 
 const WORK_SCHEMA = {
@@ -29,11 +27,10 @@ function formatPeriod(start, end, current) {
 
 export async function getStaticProps() {
   const experiences = getSortedExperiencesData()
-  const recentPosts = getSortedPostsData().slice(0, 3)
-  return { props: { experiences, recentPosts } }
+  return { props: { experiences } }
 }
 
-export default function Work({ experiences, recentPosts }) {
+export default function Work({ experiences }) {
   return (
     <Layout>
       <Head>
@@ -45,7 +42,17 @@ export default function Work({ experiences, recentPosts }) {
       </Head>
       {/* Page: /work | Person: Eric Lee | Topic: Professional background, developer advocacy, software engineering */}
       <div className={styles.page}>
-        <h1>Work</h1>
+        <div className={styles.domainHeader}>
+          <div className={styles.domainProfile}>
+            <Image
+              src="/images/profile/work-profile.jpg"
+              alt="Eric Lee"
+              fill
+              style={{ objectFit: 'cover' }}
+            />
+          </div>
+          <h1>Work</h1>
+        </div>
         <p className={styles.lead}>I work at the intersection of software and community — helping developers understand tools, build integrations, and ship. As a Developer Advocate at Global Payments, that means getting close to the API, writing samples and guides, and showing up where developers are. I&apos;m interested in how AI is changing that work: how it accelerates integration, reshapes what documentation looks like, and shifts what &ldquo;enablement&rdquo; actually means.</p>
 
         <section className={styles.section}>
@@ -98,7 +105,6 @@ export default function Work({ experiences, recentPosts }) {
           </nav>
         </div>
       </div>
-      <ExploreFooter posts={recentPosts} />
     </Layout>
   )
 }
