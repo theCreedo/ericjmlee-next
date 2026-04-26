@@ -1,10 +1,17 @@
+import fs from 'fs'
+import path from 'path'
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
 import Layout, { siteTitle, base_url } from '../../components/layout'
-import ExploreFooter from '../../components/ExploreFooter'
 import JsonLd from '../../components/JsonLd'
-import { getSortedPostsData } from '../../lib/posts'
 import styles from '../../styles/domain.module.css'
+
+const LOGOS = [
+  { file: 'fab-logo.png',               alt: 'Flesh and Blood TCG' },
+  { file: 'judges-of-rathe-logo.png',   alt: 'Judges of Rathe' },
+  { file: 'tcgplayer-logo.png',          alt: 'TCGplayer' },
+]
 
 const CARDS_SCHEMA = {
   '@context': 'https://schema.org',
@@ -23,11 +30,15 @@ const CARDS_SCHEMA = {
 }
 
 export async function getStaticProps() {
-  const recentPosts = getSortedPostsData().slice(0, 3)
-  return { props: { recentPosts } }
+  const photosDir = path.join(process.cwd(), 'public/images/cards/photos')
+  const photos = fs.readdirSync(photosDir)
+    .filter((f) => /\.(jpg|jpeg|png|webp)$/i.test(f))
+    .sort()
+
+  return { props: { photos } }
 }
 
-export default function Cards({ recentPosts }) {
+export default function Cards({ photos }) {
   return (
     <Layout>
       <Head>
@@ -39,78 +50,32 @@ export default function Cards({ recentPosts }) {
       </Head>
       {/* Page: /cards | Person: Eric Lee | Topic: Flesh and Blood TCG, judging, card business, community */}
       <div className={styles.page}>
-        <h1>Cards</h1>
-        <p className={styles.lead}>I&apos;ve been in Flesh and Blood TCG since the early days — as a player, then a judge, now an L2 Certified Judge and Judge Community Representative for USA South Central. The Austin FAB community is home base: local events, tournaments, and the people who show up week after week. I also run a card business and write for the judge blog about what it means to judge well.</p>
+        <div className={styles.domainHeader}>
+          <div className={styles.domainProfile}>
+            <Image
+              src="/images/profile/cards-profile.jpg"
+              alt="Eric Lee"
+              fill
+              style={{ objectFit: 'cover' }}
+            />
+          </div>
+          <h1>Cards</h1>
+        </div>
+        <p className={styles.lead}>I&apos;ve been in Flesh and Blood since the end of 2021. Started off as a player, then a collector and a seller, and now a judge. For my locals, I try to be involved and connect players with one another in the community, as well as inform about regional and national events. As a judge, I help write content for the judge blog and am involved in the community as JCR for USA South Central.</p>
 
-        <section className={styles.section}>
-          <p className={styles.sectionLabel}>Credentials</p>
-          <ul className={styles.linkList}>
-            <li className={styles.linkItem}>
-              <span className={styles.linkLabel}>Certification</span>
-              <span className={styles.linkValue}>Level 2 Certified Judge — Flesh and Blood TCG</span>
-            </li>
-            <li className={styles.linkItem}>
-              <span className={styles.linkLabel}>Role</span>
-              <span className={styles.linkValue}>
-                Judge Community Representative, USA South Central
-                <br />
-                <span style={{ fontFamily: 'var(--f-ui)', fontSize: '11px', color: 'var(--faint)' }}>
-                  18-month term · October 2025
-                </span>
-              </span>
-            </li>
-            <li className={styles.linkItem}>
-              <span className={styles.linkLabel}>Business</span>
-              <span className={styles.linkValue}>I run a Flesh and Blood card business.</span>
-            </li>
-          </ul>
-        </section>
-
-        <section className={styles.section}>
-          <p className={styles.sectionLabel}>Find me</p>
-          <ul className={styles.linkList}>
-            <li className={styles.linkItem}>
-              <span className={styles.linkLabel}>Game</span>
-              <span className={styles.linkValue}>
-                <a href="https://fabtcg.com" target="_blank" rel="noopener noreferrer">
-                  fabtcg.com
-                </a>
-              </span>
-            </li>
-            <li className={styles.linkItem}>
-              <span className={styles.linkLabel}>Judge profile</span>
-              <span className={styles.linkValue}>
-                <a href="https://judge.fabtcg.com/judges/ericjmlee/" target="_blank" rel="noopener noreferrer">
-                  judge.fabtcg.com/judges/ericjmlee
-                </a>
-              </span>
-            </li>
-            <li className={styles.linkItem}>
-              <span className={styles.linkLabel}>Judge resources</span>
-              <span className={styles.linkValue}>
-                <a href="https://blog.judge.fabtcg.com" target="_blank" rel="noopener noreferrer">
-                  blog.judge.fabtcg.com
-                </a>
-              </span>
-            </li>
-            <li className={styles.linkItem}>
-              <span className={styles.linkLabel}>Store</span>
-              <span className={styles.linkValue}>
-                <a href="https://www.tcgplayer.com/search/all/product?seller=c32f5ae7&view=grid" target="_blank" rel="noopener noreferrer">
-                  TCGplayer — fabcreedo
-                </a>
-              </span>
-            </li>
-            <li className={styles.linkItem}>
-              <span className={styles.linkLabel}>Instagram</span>
-              <span className={styles.linkValue}>
-                <a href="https://www.instagram.com/fabcreedo/" target="_blank" rel="noopener noreferrer">
-                  @fabcreedo
-                </a>
-              </span>
-            </li>
-          </ul>
-        </section>
+        <div className={styles.logoStrip}>
+          {LOGOS.map((logo) => (
+            <div key={logo.file} className={styles.logoWrapper}>
+              <Image
+                src={`/images/cards/${logo.file}`}
+                alt={logo.alt}
+                fill
+                className={styles.logoImg}
+                style={{ objectFit: 'contain', objectPosition: 'left center' }}
+              />
+            </div>
+          ))}
+        </div>
 
         <section className={styles.section}>
           <p className={styles.sectionLabel}>Writing</p>
@@ -147,6 +112,70 @@ export default function Cards({ recentPosts }) {
           </p>
         </section>
 
+        {photos.length > 0 && (
+          <section className={styles.section}>
+            <p className={styles.sectionLabel}>Community</p>
+            <div className={styles.photoGrid}>
+              {photos.map((photo) => (
+                <div key={photo} className={styles.photoItem}>
+                  <Image
+                    src={`/images/cards/photos/${photo}`}
+                    alt="Flesh and Blood community"
+                    fill
+                    sizes="(max-width: 480px) 100vw, (max-width: 720px) 50vw, 33vw"
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
+              ))}
+            </div>
+            <p style={{ marginTop: '12px', fontFamily: 'var(--f-ui)', fontSize: '13px' }}>
+              <a href="https://www.instagram.com/fabcreedo/" target="_blank" rel="noopener noreferrer">
+                Follow @fabcreedo →
+              </a>
+            </p>
+          </section>
+        )}
+
+        <section className={styles.section}>
+          <p className={styles.sectionLabel}>Store</p>
+          <ul className={styles.linkList}>
+            <li className={styles.linkItem}>
+              <span className={styles.linkLabel}>Selling since</span>
+              <span className={styles.linkValue}>February 2024 · Creedo&apos;s Emporio</span>
+            </li>
+            <li className={styles.linkItem}>
+              <span className={styles.linkLabel}>Shop</span>
+              <span className={styles.linkValue}>
+                <a href="https://www.tcgplayer.com/search/all/product?seller=c32f5ae7&view=grid" target="_blank" rel="noopener noreferrer">
+                  TCGplayer listings
+                </a>
+              </span>
+            </li>
+            <li className={styles.linkItem}>
+              <span className={styles.linkLabel}>Feedback</span>
+              <span className={styles.linkValue}>
+                <a href="https://www.tcgplayer.com/sellers/Creedo%27s-Emporio/c32f5ae7/feedback" target="_blank" rel="noopener noreferrer">
+                  Buyer ratings
+                </a>
+              </span>
+            </li>
+          </ul>
+          <ul className={styles.reviewList}>
+            <li className={styles.reviewItem}>
+              <p className={styles.reviewText}>&ldquo;Had an issue with shipping, but the store made it more than right. Wasn&apos;t the store&apos;s fault, issue with USPS. Great communication.&rdquo;</p>
+              <p className={styles.reviewMeta}>t****5 &middot; Nov 2025</p>
+            </li>
+            <li className={styles.reviewItem}>
+              <p className={styles.reviewText}>&ldquo;Even though there was a problem where I was sent the wrong version of the card I ordered, the seller was diligent and corrected the issue. Would order again.&rdquo;</p>
+              <p className={styles.reviewMeta}>c****9 &middot; May 2025</p>
+            </li>
+            <li className={styles.reviewItem}>
+              <p className={styles.reviewText}>&ldquo;Amazing seller, quick shipping, great communication 10/10 would buy anytime&rdquo;</p>
+              <p className={styles.reviewMeta}>p****9 &middot; Jul 2025</p>
+            </li>
+          </ul>
+        </section>
+
         <div className={styles.crossLinks}>
           <p className={styles.sectionLabel}>Elsewhere in this site</p>
           <nav className={styles.crossLinkNav}>
@@ -156,7 +185,6 @@ export default function Cards({ recentPosts }) {
           </nav>
         </div>
       </div>
-      <ExploreFooter posts={recentPosts} />
     </Layout>
   )
 }
