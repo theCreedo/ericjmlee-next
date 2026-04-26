@@ -15,10 +15,13 @@ export default function About() {
       <div className={styles.page}>
         <h1>About</h1>
         <p className={styles.lead}>
-          I grew up in Plano, TX and studied computer science at UT Austin, graduating in 2019.
-          Austin kept me. I work in developer advocacy — currently at Global Payments — play and judge Flesh
-          and Blood TCG tournaments, play keys and lead a small group at HMCC Austin,
-          and write. Welcome to the front end part of my life.
+          Raised in Plano 🇺🇸, Taiwanese roots 🇹🇼, Texas all my life. I studied computer science
+          at UT Austin ({"'"}19) 🤘 and Austin kept me. I work in developer advocacy —
+          currently at Global Payments — judge and play Flesh and Blood TCG, serve at HMCC Austin, and write & tinker on many projects on the side.
+        </p>
+        <p className={styles.lead}>
+          I love to learn, am constantly challenged to grow in my faith, and aspire
+          to be real in everything I do.
         </p>
         <p className={styles.lead} style={{ fontSize: '16px', marginTop: 0 }}>
           Reach me at{' '}
