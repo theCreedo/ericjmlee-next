@@ -5,6 +5,7 @@ image_link: 'https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progress
 image_alt: 'Half cut avocado with a pink background'
 reading_time: 2
 description: 'When faced with a problem, how would you solve it in the simplest manner?'
+original_link: 'https://ericlee.substack.com/p/keep-it-simple-stupid'
 ---
 Tim Ferris, an American entrepreneur, shares a question in an [interview](https://www.youtube.com/watch?time_continue=189&v=ZTyO15qoSp4&feature=emb_title) that he uses to help analyze situations and organize his thoughts:
 

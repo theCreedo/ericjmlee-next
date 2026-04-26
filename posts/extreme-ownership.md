@@ -5,6 +5,7 @@ image_link: "https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:g
 image_alt: "scrabble with words be the change"
 reading_time: 2
 description: "For me, before knowing extreme ownership, I found myself wanting to blame others when issues arise. To point at other’s faults. To not take responsibility. What I learned, though, is that extreme ownership challenges us to not blame others, have humility, and take greater ownership to change."
+original_link: 'https://ericlee.substack.com/p/extreme-ownership'
 ---
 One of my favorite books I finished this year was Jocko Willink and Leif Babin’s book, “[Extreme Ownership](https://www.amazon.com/Extreme-Ownership-U-S-Navy-SEALs/dp/1250067057)”.
 

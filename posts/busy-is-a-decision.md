@@ -5,6 +5,7 @@ image_link: 'https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progress
 image_alt: "clock in a train station"
 reading_time: 2
 description: "I was listening to an audiobook called Tribe of Mentors, a book by Tim Ferris in which many inspirational people answered 11 questions to give insight to readers on lifelong living. One of the mentors who spoke, Debbie Millman, quoted something, that hits really hard. 'Busy is a decision.'"
+original_link: 'https://ericlee.substack.com/p/savvy-saturdays-12321'
 ---
 I was listening to an audiobook called Tribe of Mentors, a book by Tim Ferris in which many inspirational people answered 11 questions to give insight to readers on lifelong living.
 

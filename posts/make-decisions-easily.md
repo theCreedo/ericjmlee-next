@@ -5,6 +5,7 @@ image_link: 'https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:g
 image_alt: 'Post with directions in front of sunset'
 reading_time: 2
 description: 'We are making decisions every single moment of our life; what food to order at a restaurant, which YouTube recommended video to watch, or what color mask (if any) to wear before heading out.'
+original_link: 'https://ericlee.substack.com/p/make-decisions-easily'
 ---
 We are making decisions every single moment of our life; what food to order at a restaurant, which YouTube recommended video to watch, or what color mask (if any) to wear before heading out.
 

@@ -5,6 +5,7 @@ image_link: 'https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:g
 image_alt: 'Magnifying glass with blue background'
 reading_time: 2
 description: "When planning out your life, knowing your beliefs, your perspective, and how you approach certain aspects of life will help you assert where your true 'Your location' is,  ensuring you won’t plan your life out from the wrong starting point."
+original_link: 'https://ericlee.substack.com/p/design-your-life'
 ---
 I’ve started to listen to audiobooks, and a book I’ve been listening to recently is called “[Designing Your Life](https://www.amazon.com/Designing-Your-Life-Well-Lived-Joyful/dp/1101875321)”. It introduces a design-centered mindset in order to plan out life for any circumstances.
 

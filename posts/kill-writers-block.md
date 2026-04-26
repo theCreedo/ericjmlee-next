@@ -5,6 +5,7 @@ image_link: "https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progress
 image_alt: "Crumbled up pieces of paper in a trash can"
 reading_time: 2
 description: "One of the most difficult things to do as a writer is to get over the hump of writing—the slumps that arise every so often."
+original_link: 'https://ericlee.substack.com/p/kill-writers-block'
 ---
 One of the most difficult things to do as a writer is to get over the hump of writing—the slumps that arise every so often.
 

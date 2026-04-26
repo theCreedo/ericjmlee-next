@@ -5,6 +5,7 @@ image_link: "https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progress
 image_alt: "person getting ready to lift weights"
 reading_time: 2
 description: "Many times, we find ourselves yearning for a specific vision to be fulfilled. There is an end goal we want to achieve. Focused on the hustle, we can find ourselves wanting to break our way into the top. But success never happens overnight."
+original_link: 'https://ericlee.substack.com/p/put-in-your-reps'
 ---
 I read “[Atomic Habits](https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299)”, by James Clear, and one thing is clear (no pun intended), the only way for progress to be made in any field, craft, or skill is to make sure to put in your reps.
 

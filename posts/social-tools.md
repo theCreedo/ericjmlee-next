@@ -5,6 +5,7 @@ image_link: 'https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:g
 image_alt: 'hammer and wrench on a wooden table'
 reading_time: 2
 description: 'What if I could turn my greatest enemy, into my friend?'
+original_link: 'https://ericlee.substack.com/p/social-media-tools-not-addictions'
 ---
 Some of the biggest time wasters in my life are several circular icons on my phone.
 

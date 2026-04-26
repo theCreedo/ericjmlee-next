@@ -5,6 +5,7 @@ image_link: 'https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:g
 image_alt: 'kid playing piano'
 reading_time: 2
 description: "I grew up with a lot of different dreams. Each of these dreams was inspired based on the season I was going through."
+original_link: 'https://ericlee.substack.com/p/dreams-and-aspirations'
 ---
 
 I grew up with a lot of different dreams.

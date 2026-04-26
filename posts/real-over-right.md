@@ -6,6 +6,7 @@ image_alt: 'Imperfect Fern Leaf'
 reading_time: 1
 unpublished: false
 description: 'Leadership is hard. As someone who is obsessed with leadership topics, I find myself burdened by the never-ending list of expectations that I feel are implicitly expected of leaders. But people would rather follow a leader that’s real, than a leader that’s right.'
+original_link: 'https://ericlee.substack.com/p/real-over-right'
 ---
 Leadership is hard.
 

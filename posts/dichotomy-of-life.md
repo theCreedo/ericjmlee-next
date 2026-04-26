@@ -5,6 +5,7 @@ image_link: "https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:g
 image_alt: "a top balanced on the floor"
 reading_time: 2
 description: "Going back and forth, finding balance seemed impossible to achieve, and it never seemed to end. But there were moments when I achieved serendipity. When I experienced balance while facing the two opposing views."
+original_link: 'https://ericlee.substack.com/p/the-dichotomy-of-life'
 ---
 _“A leader must care about the troops, but at the same time the leader must complete the mission, and in doing so there will be risk and sometimes unavoidable consequences to the troops.”_
 

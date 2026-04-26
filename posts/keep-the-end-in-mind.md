@@ -6,6 +6,7 @@ image_alt: 'Race track with runners'
 reading_time: 1
 unpublished: false
 description: 'As someone who personally struggles with leadership, whether it’s leading a bible study or making decisions in a startup, I’ve been inspired to keep the end in mind.'
+original_link: 'https://ericlee.substack.com/p/keep-the-end-in-mind'
 ---
 I’ve been listening to a [leadership podcast](https://www.youtube.com/c/craiggroeschel/) recently by [Craig Groeschel](https://twitter.com/craiggroeschel), and it’s been a blessing to find this golden nugget in the vast mine of the internet. (shoutout to my pastor in Austin for finding & sharing it 💪)
 

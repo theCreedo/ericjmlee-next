@@ -5,6 +5,7 @@ image_link: 'https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progress
 image_alt: 'hand holding a clock'
 reading_time: 1
 description: "Whether it’s spent working on a project, exercising, leisurely watching some shows, or reflecting on the purpose of life (a timely activity I partake in), being able to know where your time goes allows you to know how you’re using your time."
+original_link: 'https://ericlee.substack.com/p/know-your-time'
 ---
 Recently, I read a book called “The Effective Executive”, by Peter Drucker.
 

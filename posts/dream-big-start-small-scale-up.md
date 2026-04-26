@@ -6,6 +6,7 @@ image_alt: 'A small kid staring at steps'
 reading_time: 1
 unpublished: false
 description: 'Through what we build, what we say, and how we live, I believe each of us has the ability to inspire and change the world.'
+original_link: 'https://ericlee.substack.com/p/dream-big-start-small-scale-up'
 ---
 One of my favorite things to do, whenever I get the chance, is to listen and analyze leaders who share their stories or life experiences. There is usually insight to learn how they got to the position they’re in.
 

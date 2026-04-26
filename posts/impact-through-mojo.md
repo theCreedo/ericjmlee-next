@@ -5,6 +5,7 @@ image_link: "https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progress
 image_alt: "fall season painting with green background"
 reading_time: 2
 description: "Growing up, I always believed that in order to inspire & create impact, you had to be big or have a position of great power. But that's not true."
+original_link: 'https://ericlee.substack.com/p/the-power-of-limits-care-and-mojo'
 ---
 Growing up, I always believed that in order to inspire & create impact, you had to be big or have a position of great power.
 

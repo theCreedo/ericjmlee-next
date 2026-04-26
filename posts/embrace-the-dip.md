@@ -5,6 +5,7 @@ image_link: "https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progress
 image_alt: "graph with x-axis for effort and y axis with results, containing a dip"
 reading_time: 2
 description: "Have you ever felt uncertain whether to start a venture, or in too deep with a venture to be able to quit? The Dip help's to work through that!"
+original_link: 'https://ericlee.substack.com/p/embrace-the-dip'
 ---
 Have you ever felt uncertain whether to start a venture?
 

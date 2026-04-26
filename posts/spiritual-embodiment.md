@@ -6,6 +6,7 @@ image_alt: 'Moon in the night'
 reading_time: 2
 unpublished: false
 description: 'Our spiritual lives are heavily influenced by our physical and emotional well-being.'
+original_link: 'https://ericlee.substack.com/p/spiritual-embodiment'
 ---
 
 Recently, I listened to my hometown church's sermon on “Burnout & Loneliness” by Pastor Josh, and there was a lot of life-changing insight I took away from it. 🧐
