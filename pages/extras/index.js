@@ -17,6 +17,58 @@ const HOBBIES = [
   'Worship music (keys)',
   'Video games',
   'Anime',
+  'Flesh and Blood TCG',
+  'Watching shows & movies',
+  'Building this website',
+]
+
+const RECS = [
+  {
+    category: 'Shows & movies',
+    items: [
+      { label: 'Dandadan',      url: 'https://www.imdb.com/title/tt30217403/' },
+      { label: 'Breaking Bad',  url: 'https://www.imdb.com/title/tt0903747/' },
+      { label: 'The Godfather', url: 'https://www.imdb.com/title/tt0068646/' },
+    ],
+  },
+  {
+    category: 'Video games',
+    items: [
+      { label: 'Omori',       url: 'https://www.omori-game.com/en' },
+      { label: 'Undertale',   url: 'https://undertale.com/' },
+      { label: 'Deltarune',   url: 'https://deltarune.com/' },
+      { label: 'Inscryption', url: 'https://www.inscryption.com' },
+    ],
+  },
+  {
+    category: 'Reading',
+    items: [
+      { label: 'GoodReads', url: 'https://www.goodreads.com/user/show/127464751-eric-lee' },
+    ],
+  },
+]
+
+const QUOTES = [
+  {
+    text: 'You shall love the Lord your God with all your heart and with all your soul and with all your mind. This is the great and first commandment. And a second is like it: You shall love your neighbor as yourself.',
+    source: 'Matthew 22:37-39 ESV',
+  },
+  {
+    text: 'For where your treasure is, there your heart will be also.',
+    source: 'Matthew 6:21',
+  },
+  {
+    text: 'There is only one way to eat an elephant: one bite at a time.',
+    source: 'Desmond Tutu',
+  },
+  {
+    text: "I'm gonna make him an offer he can't refuse.",
+    source: 'The Godfather',
+  },
+  {
+    text: 'Murder your darlings.',
+    source: 'Anonymous',
+  },
 ]
 
 const SITE_HISTORY = [
@@ -61,12 +113,33 @@ export default function Extras() {
 
       <section className={styles.section}>
         <h2>Recommendations</h2>
-        <p style={{ color: 'var(--faint)', fontFamily: 'var(--f-ui)', fontSize: '13px' }}>Eric to fill in — shows, movies, games, books.</p>
+        <dl className={styles.dl}>
+          {RECS.map(({ category, items }) => (
+            <div key={category} className={styles.dlRow}>
+              <dt className={styles.dt}>{category}</dt>
+              <dd className={styles.dd}>
+                {items.map((item, i) => (
+                  <span key={item.label}>
+                    <a href={item.url} target="_blank" rel="noopener noreferrer">{item.label}</a>
+                    {i < items.length - 1 && ' · '}
+                  </span>
+                ))}
+              </dd>
+            </div>
+          ))}
+        </dl>
       </section>
 
       <section className={styles.section}>
         <h2>Quotes &amp; Verses</h2>
-        <p style={{ color: 'var(--faint)', fontFamily: 'var(--f-ui)', fontSize: '13px' }}>Eric to fill in — favorite quotes and scripture.</p>
+        <ul className={styles.quoteList}>
+          {QUOTES.map(({ text, source }) => (
+            <li key={source} className={styles.quoteItem}>
+              <p className={styles.quoteText}>&ldquo;{text}&rdquo;</p>
+              <p className={styles.quoteSource}>— {source}</p>
+            </li>
+          ))}
+        </ul>
       </section>
 
       <section className={styles.section}>
