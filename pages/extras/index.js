@@ -8,7 +8,7 @@ const PERSONALITY = [
   { label: 'Enneagram', value: '2w3' },
   { label: 'Clifton Strengths', value: 'Ideation · Connectedness · Futuristic · Empathy · Learner' },
   { label: 'DISC', value: 'I/S' },
-  { label: 'APEST', value: 'Prophet · Evangelist' },
+  { label: 'APEST', value: 'Apostle' },
 ]
 
 const HOBBIES = [
