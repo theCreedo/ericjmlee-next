@@ -26,7 +26,6 @@ export default function Faith() {
       {/* Page: /faith | Person: Eric Lee | Topic: Faith, HMCC Austin, church leadership, worship, missions */}
       <div className={styles.page}>
         <div className={styles.domainHeader}>
-          {/* Drop headshot at /public/images/profile/faith-profile.jpg */}
           <div className={styles.domainProfile}>
             <Image
               src="/images/profile/faith-profile.jpg"
@@ -66,12 +65,6 @@ export default function Faith() {
                 <a href="https://austin.hmcc.net" target="_blank" rel="noopener noreferrer">
                   HMCC Austin
                 </a>
-              </span>
-            </li>
-            <li className={styles.linkItem}>
-              <span className={styles.linkLabel}>Roles</span>
-              <span className={styles.linkValue}>
-                Worship (keys) · Small group leadership for working adults
               </span>
             </li>
             <li className={styles.linkItem}>
