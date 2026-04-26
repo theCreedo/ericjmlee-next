@@ -1,9 +1,26 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Layout, { siteTitle } from '../../components/layout'
+import Layout, { siteTitle, base_url } from '../../components/layout'
 import ExploreFooter from '../../components/ExploreFooter'
+import JsonLd from '../../components/JsonLd'
 import { getSortedPostsData } from '../../lib/posts'
 import styles from '../../styles/domain.module.css'
+
+const CARDS_SCHEMA = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: 'Cards — Eric Lee',
+  url: `${base_url}/cards`,
+  description: 'L2 Certified Judge and Judge Community Representative for Flesh and Blood TCG. Runs a card business on TCGplayer.',
+  about: {
+    '@type': 'Person',
+    name: 'Eric Lee',
+    hasCredential: {
+      '@type': 'EducationalOccupationalCredential',
+      credentialCategory: 'Level 2 Certified Judge, Flesh and Blood TCG',
+    },
+  },
+}
 
 export async function getStaticProps() {
   const recentPosts = getSortedPostsData().slice(0, 3)
@@ -18,6 +35,7 @@ export default function Cards({ recentPosts }) {
         <meta name="description" content="Eric Lee's work in Flesh and Blood TCG — judging, community, and card business." />
         <meta property="og:title" content={`Cards | ${siteTitle}`} />
         <meta property="og:description" content="L2 Certified Judge and JCR for Flesh and Blood TCG. Card business, community, and judging." />
+        <JsonLd data={CARDS_SCHEMA} />
       </Head>
       {/* Page: /cards | Person: Eric Lee | Topic: Flesh and Blood TCG, judging, card business, community */}
       <div className={styles.page}>

@@ -1,11 +1,26 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import Layout, { siteTitle } from '../../components/layout'
+import Layout, { siteTitle, base_url } from '../../components/layout'
 import ExploreFooter from '../../components/ExploreFooter'
+import JsonLd from '../../components/JsonLd'
 import { getSortedExperiencesData } from '../../lib/experiences'
 import { getSortedPostsData } from '../../lib/posts'
 import styles from '../../styles/domain.module.css'
+
+const WORK_SCHEMA = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfilePage',
+  name: 'Work — Eric Lee',
+  url: `${base_url}/work`,
+  description: 'Developer advocacy, software engineering background, and career history.',
+  mainEntity: {
+    '@type': 'Person',
+    name: 'Eric Lee',
+    jobTitle: 'Developer Advocate',
+    worksFor: { '@type': 'Organization', name: 'Global Payments' },
+  },
+}
 
 function formatPeriod(start, end, current) {
   const fmt = (d) => new Date(d).toLocaleDateString('en-US', { month: 'short', year: 'numeric' })
@@ -26,6 +41,7 @@ export default function Work({ experiences, recentPosts }) {
         <meta name="description" content="Eric Lee's work in developer advocacy, software engineering, and technical community building." />
         <meta property="og:title" content={`Work | ${siteTitle}`} />
         <meta property="og:description" content="Developer Advocate at Global Payments. Software engineering background. Austin, TX." />
+        <JsonLd data={WORK_SCHEMA} />
       </Head>
       {/* Page: /work | Person: Eric Lee | Topic: Professional background, developer advocacy, software engineering */}
       <div className={styles.page}>

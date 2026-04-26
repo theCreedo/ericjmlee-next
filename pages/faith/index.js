@@ -1,9 +1,18 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Layout, { siteTitle } from '../../components/layout'
+import Layout, { siteTitle, base_url } from '../../components/layout'
 import ExploreFooter from '../../components/ExploreFooter'
+import JsonLd from '../../components/JsonLd'
 import { getSortedPostsData } from '../../lib/posts'
 import styles from '../../styles/domain.module.css'
+
+const FAITH_SCHEMA = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: 'Faith — Eric Lee',
+  url: `${base_url}/faith`,
+  description: 'Faith, community, and church involvement at HMCC Austin. Worship (keys) and small group leadership for working adults.',
+}
 
 export async function getStaticProps() {
   const recentPosts = getSortedPostsData().slice(0, 3)
@@ -18,6 +27,7 @@ export default function Faith({ recentPosts }) {
         <meta name="description" content="Eric Lee's faith — what it means to how he lives." />
         <meta property="og:title" content={`Faith | ${siteTitle}`} />
         <meta property="og:description" content="Faith as a way of life — HMCC Austin, worship, leadership, and missions." />
+        <JsonLd data={FAITH_SCHEMA} />
       </Head>
       {/* Page: /faith | Person: Eric Lee | Topic: Faith, HMCC Austin, church leadership, worship, missions */}
       <div className={styles.page}>

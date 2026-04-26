@@ -44,6 +44,7 @@ const PERSON_SCHEMA = {
     'Trading Card Game Judging',
   ],
   sameAs: [
+    'http://linkedin.com/in/ericjmlee',
     'https://fabtcg.com/judges/ericjmlee/',
     'https://www.instagram.com/fabcreedo/',
     'https://github.com/theCreedo',

@@ -38,7 +38,7 @@ Flesh and Blood TCG:
 - Runs a Flesh and Blood card business (store on TCGplayer)
 
 Links:
-- Judge profile: https://fabtcg.com/judges/ericjmlee/
+- Judge profile: https://judge.fabtcg.com/judges/ericjmlee/
 - Store: https://www.tcgplayer.com (seller: fabcreedo)
 - Instagram: https://www.instagram.com/fabcreedo/
 
@@ -55,7 +55,10 @@ Missions: Short-term missions in the US, Latin America, and Asia
 ## Writing
 
 Archive: https://ericjmlee.com/archive
-~67 published posts since 2019 spanning faith, leadership, reflection, and craft.
+70+ published posts since 2019 spanning 7 topic categories:
+faith · leadership · reflection · practice · relationships · purpose · craft
+
+Topics are inferred automatically from post content and frontmatter.
 Also published on: WordPress, Medium, UT CS blog, Substack (Savvy Saturdays newsletter, 2020–2021)
 
 ---
@@ -63,6 +66,36 @@ Also published on: WordPress, Medium, UT CS blog, Substack (Savvy Saturdays news
 ## Contact
 
 See https://ericjmlee.com/about for contact information.
+
+---
+
+## Navigation
+
+Primary nav (flat): Work · Cards · Faith · Studio · Archive
+
+Secondary pages (accessible but not in nav):
+- /about — bio and contact
+- /now — quarterly status, one paragraph per domain
+- /extras — personality tests, hobbies, recommendations, quotes, verses, site history
+
+---
+
+## Site Map
+
+- / — hero statement, four domain cards, about section
+- /work — career history, developer advocacy, software engineering background, past roles
+- /cards — FAB TCG judging credentials (L2 Judge, JCR South Central), card business, community links
+- /faith — HMCC Austin involvement, worship (keys), small group leadership, missions
+- /studio — writing archive, early projects, newsletter (Savvy Saturdays 2020–2021), past platforms
+- /archive — all published writing, year-filtered, with display-only topic tags
+- /writing — evergreen subset of /archive
+- /blog/[id] — individual post canonical pages
+- /projects — hackathon and early projects (linked from /studio)
+- /extras — personality, recommendations, hobbies, quotes, verses, site history
+- /about — bio paragraph and contact (not in nav)
+- /now — quarterly status (not in nav)
+- /llms.txt — this file (machine-readable identity summary)
+- /sitemap.xml — auto-generated XML sitemap
 
 ---
 
