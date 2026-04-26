@@ -32,7 +32,6 @@ export default function Studio() {
       {/* TODO: /studio content direction needs rethinking — archive now has all writing from Medium, WordPress, Substack, UT CS Blog. Consider photo grid similar to /cards community section. */}
       <div className={styles.page}>
         <div className={styles.domainHeader}>
-          {/* Drop headshot at /public/images/profile/studio-profile.jpg */}
           <div className={styles.domainProfile}>
             <Image
               src="/images/profile/studio-profile.jpg"
@@ -52,12 +51,6 @@ export default function Studio() {
               <span className={styles.linkLabel}>Archive</span>
               <span className={styles.linkValue}>
                 <Link href="/archive">All writing →</Link>
-              </span>
-            </li>
-            <li className={styles.linkItem}>
-              <span className={styles.linkLabel}>Evergreen</span>
-              <span className={styles.linkValue}>
-                <Link href="/writing">Writing worth returning to →</Link>
               </span>
             </li>
           </ul>
@@ -82,7 +75,7 @@ export default function Studio() {
               <span className={styles.linkLabel}>Savvy Saturdays</span>
               <span className={styles.linkValue}>
                 Weekly newsletter, 2020–2021, now archived.{' '}
-                <a href="https://savvysaturdays.substack.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://ericlee.substack.com/archive" target="_blank" rel="noopener noreferrer">
                   Substack archive →
                 </a>
               </span>
@@ -93,14 +86,6 @@ export default function Studio() {
         <section className={styles.section}>
           <p className={styles.sectionLabel}>Past platforms</p>
           <ul className={styles.linkList}>
-            <li className={styles.linkItem}>
-              <span className={styles.linkLabel}>WordPress</span>
-              <span className={styles.linkValue}>
-                <a href="https://ericjmlee.wordpress.com" target="_blank" rel="noopener noreferrer">
-                  ericjmlee.wordpress.com
-                </a>
-              </span>
-            </li>
             <li className={styles.linkItem}>
               <span className={styles.linkLabel}>Medium</span>
               <span className={styles.linkValue}>
