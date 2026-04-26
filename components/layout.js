@@ -12,7 +12,7 @@ export const siteTitle = "Eric Lee"
 export const base_url = "https://ericjmlee.com"
 
 const DEFAULT_OG_IMAGE = base_url + '/images/profile/blue-profile-191x100.jpg'
-const DEFAULT_DESCRIPTION = 'Developer advocate, L2 TCG judge, church leader, and writer based in Austin, TX.'
+const DEFAULT_DESCRIPTION = 'Developer advocate, FAB L2 judge, TCG seller, church leader, and writer based in Austin, TX.'
 
 const PERSON_SCHEMA = {
   '@context': 'https://schema.org',
@@ -42,6 +42,8 @@ const PERSON_SCHEMA = {
     'Technical Community Building',
     'Flesh and Blood TCG',
     'Trading Card Game Judging',
+    'Trading Card Game Collecting',
+    'Trading Card Game Retail',
   ],
   sameAs: [
     'http://linkedin.com/in/ericjmlee',

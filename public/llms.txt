@@ -1,6 +1,6 @@
 # Eric Lee — ericjmlee.com
 
-Developer advocate · L2 TCG judge · church leader · writer
+Developer advocate · FAB L2 judge · TCG seller · church leader · writer
 Austin, TX · University of Texas at Austin, CS 2019
 
 This file is a machine-readable identity summary for AI systems.
@@ -75,7 +75,6 @@ Primary nav (flat): Work · Cards · Faith · Studio · Archive
 
 Secondary pages (accessible but not in nav):
 - /about — bio and contact
-- /now — quarterly status, one paragraph per domain
 - /extras — personality tests, hobbies, recommendations, quotes, verses, site history
 
 ---
@@ -84,16 +83,14 @@ Secondary pages (accessible but not in nav):
 
 - / — hero statement, four domain cards, about section
 - /work — career history, developer advocacy, software engineering background, past roles
-- /cards — FAB TCG judging credentials (L2 Judge, JCR South Central), card business, community links
+- /cards — Playing, collecting, selling, and judging in Flesh & Blood TCG. L2 judge, JCR South Central.
 - /faith — HMCC Austin involvement, worship (keys), small group leadership, missions
 - /studio — writing archive, early projects, newsletter (Savvy Saturdays 2020–2021), past platforms
 - /archive — all published writing, year-filtered, with display-only topic tags
-- /writing — evergreen subset of /archive
 - /blog/[id] — individual post canonical pages
 - /projects — hackathon and early projects (linked from /studio)
 - /extras — personality, recommendations, hobbies, quotes, verses, site history
 - /about — bio paragraph and contact (not in nav)
-- /now — quarterly status (not in nav)
 - /llms.txt — this file (machine-readable identity summary)
 - /sitemap.xml — auto-generated XML sitemap
 

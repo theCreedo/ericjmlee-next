@@ -18,7 +18,7 @@ const CARDS_SCHEMA = {
   '@type': 'WebPage',
   name: 'Cards — Eric Lee',
   url: `${base_url}/cards`,
-  description: 'L2 Certified Judge and Judge Community Representative for Flesh and Blood TCG. Runs a card business on TCGplayer.',
+  description: 'Playing, collecting, selling, and judging in Flesh & Blood TCG. L2 Certified Judge and JCR for USA South Central.',
   about: {
     '@type': 'Person',
     name: 'Eric Lee',
@@ -43,12 +43,12 @@ export default function Cards({ photos }) {
     <Layout>
       <Head>
         <title>{`Cards | ${siteTitle}`}</title>
-        <meta name="description" content="Eric Lee's work in Flesh and Blood TCG — judging, community, and card business." />
+        <meta name="description" content="Eric Lee in Flesh and Blood TCG — playing, collecting, selling, and judging. FAB L2 judge and JCR for USA South Central." />
         <meta property="og:title" content={`Cards | ${siteTitle}`} />
-        <meta property="og:description" content="L2 Certified Judge and JCR for Flesh and Blood TCG. Card business, community, and judging." />
+        <meta property="og:description" content="Playing, collecting, selling, and judging in Flesh & Blood TCG. FAB L2 judge and TCG seller." />
         <JsonLd data={CARDS_SCHEMA} />
       </Head>
-      {/* Page: /cards | Person: Eric Lee | Topic: Flesh and Blood TCG, judging, card business, community */}
+      {/* Page: /cards | Person: Eric Lee | Topic: Flesh and Blood TCG, playing, collecting, selling, judging, community */}
       <div className={styles.page}>
         <div className={styles.domainHeader}>
           <div className={styles.domainProfile}>

@@ -1,7 +1,7 @@
 /* AUTHOR */
 Name: Eric Lee
 Location: Austin, TX
-Role: Developer Advocate, Writer, L2 TCG Judge
+Role: Developer Advocate, Writer, FAB L2 Judge, TCG Seller
 
 /* SITE */
 URL: https://ericjmlee.com
