@@ -5,6 +5,7 @@ image_link: 'https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:g
 image_alt: 'hand with index finger pointing upward in front of orange background'
 reading_time: 2
 description: 'It’s important to look at where our time, money, and talents are going, that way we know where our heart is truly at.'
+original_link: 'https://ericlee.substack.com/p/show-dont-tell'
 ---
 Words have power. 💪
 

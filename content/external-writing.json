@@ -1,0 +1,12 @@
+[
+  {
+    "id": "external-placeholder",
+    "title": "Example external post",
+    "date": "2021-01-01",
+    "source": "medium",
+    "original_link": "https://medium.com/@ericjmlee/example",
+    "description": "Example entry — replace with real posts",
+    "topics": [],
+    "evergreen": false
+  }
+]

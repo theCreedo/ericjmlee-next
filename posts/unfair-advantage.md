@@ -5,6 +5,7 @@ image_link: 'https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progress
 image_alt: 'nike basketball'
 reading_time: 4
 description: "An “Unfair Advantage” is anything that cannot be easily copied or bought by other stakeholders. This can be technical knowledge, unique skills, connections, patents, or a large sum donation from a distant uncle."
+original_link: 'https://ericlee.substack.com/p/savvy-saturdays-11621'
 ---
 In startups, there is a term called “Unfair Advantage”, which is one of the most important things a founder in a company needs to understand in order to beat out their competition.
 

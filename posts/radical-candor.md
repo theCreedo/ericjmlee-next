@@ -5,6 +5,7 @@ image_link: "https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progress
 image_alt: "graph showing radical candor with 2 axes involving the level of challenge and care"
 reading_time: 2
 description: "My hope was to hear my manager's thoughts on 'being awkward through real talk'. Instead he one upped me."
+original_link: 'https://ericlee.substack.com/p/radical-candor'
 ---
 Over the past year, I have learned a lot during my 1-on-1 meetings with my manager—what to look out for when interviewing a candidate, how to work during company changes (ownership handoffs & layoffs), and even how to create a resume with real-world experience! (probably shouldn’t have asked for resume help in my first 1 on 1 though 😅)
 

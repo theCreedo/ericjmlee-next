@@ -7,11 +7,7 @@ import BlogItem from '../../components/blog'
 
 export async function getStaticProps() {
     const allPostsData = getSortedPostsData()
-    return {
-        props: {
-            allPostsData
-        }
-    }
+    return { props: { allPostsData } }
 }
 
 export default function Blog({ allPostsData }) {
@@ -19,16 +15,17 @@ export default function Blog({ allPostsData }) {
         <Layout blog>
             <Head>
                 <title>{`Blog | ${siteTitle}`}</title>
+                <meta name="description" content="All posts by Eric Lee." />
             </Head>
             <section className={`${utilStyles.divContainer} ${utilStyles.padding1px}`}>
-                <br />
-                <ul className={utilStyles.list}>
+                <h1>Blog</h1>
+                <ul style={{ listStyle: 'none', padding: 0 }}>
                     {allPostsData.map((postData) => (
                         <BlogItem key={postData.id} {...postData} />
                     ))}
                 </ul>
                 <Link href='/'>← Back to Home</Link>
             </section>
-        </Layout >
+        </Layout>
     )
 }

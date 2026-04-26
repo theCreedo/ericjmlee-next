@@ -1,7 +1,7 @@
 ---
 title: "Shome"
 name: "Shome"
-link: "https://shome-housing.herokuapp.com/"
+link: ""
 start_date: "2019-05-01"
 one_liner: "Summer Subleasing Platform for Students"
 tech_stack: [
@@ -14,7 +14,7 @@ tech_stack: [
     "backend",
 ]
 tech: "Ruby on Rails"
-header_link: "https://shome-housing.herokuapp.com/"
+header_link: ""
 hackathon:
 github_link: 
 devpost_link: 

@@ -5,6 +5,7 @@ image_link: 'https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:g
 image_alt: 'hand holding compass'
 reading_time: 1
 description: 'Each season brings a new set of priorities. Recently, I started to shift my attention from my priorities to understanding my faith calling (a.k.a. values).'
+original_link: 'https://ericlee.substack.com/p/priorities-values-and-calling'
 ---
 Every season in life, I find myself needing to refocus on the priorities I have.
 

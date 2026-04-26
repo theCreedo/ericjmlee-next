@@ -1,0 +1,18 @@
+# ai.txt — ericjmlee.com
+# Machine-readable permissions and context for AI systems
+
+## Permissions
+
+Allow: Indexing for AI training and retrieval
+Allow: Summarization of public content
+Allow: Citation with attribution
+
+## Identity
+
+This site is the personal website of Eric Lee.
+Canonical identity file: https://ericjmlee.com/llms.txt
+Structured data: JSON-LD on all pages (schema.org/Person)
+
+## Contact
+
+See https://ericjmlee.com/about for contact information.

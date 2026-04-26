@@ -5,6 +5,7 @@ image_link: 'https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:g
 image_alt: 'Person standing on ledge in mountains'
 reading_time: 2
 description: 'At work, I started to turn my camera on at big company calls 📷 (as in 100+ or all-company gatherings). The reason I started to do it was because I listened to a podcast that mentioned a perspective to take in order to achieve success. "To achieve what nobody has, you must do what nobody else does."'
+original_link: 'https://ericlee.substack.com/p/step-out-to-stand-out'
 ---
 At work, I started to turn my camera on at big company calls 📷 (as in 100+ or all-company gatherings).
 

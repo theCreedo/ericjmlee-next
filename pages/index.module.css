@@ -1,0 +1,126 @@
+/* Wave emoji animation */
+.wave {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate(  0.0deg) }
+   10% { transform: rotate( 14.0deg) }
+   20% { transform: rotate( -8.0deg) }
+   30% { transform: rotate( 14.0deg) }
+   40% { transform: rotate( -4.0deg) }
+   50% { transform: rotate( 10.0deg) }
+   60% { transform: rotate(  0.0deg) }
+  100% { transform: rotate(  0.0deg) }
+}
+
+/* Hero */
+.heroRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 22px;
+  margin-bottom: 2rem;
+}
+
+.avatar {
+  width: 68px;
+  height: 68px;
+  border-radius: var(--radius-full, 9999px);
+  background: var(--accent);
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: transform var(--t-base, 180ms ease);
+}
+
+.avatarPop {
+  transform: scale(1.08);
+}
+
+.heroText {
+  flex: 1;
+}
+
+.heroGreeting {
+  font-family: var(--f-display), Georgia, serif;
+  font-size: 2.1rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--ink, #1C1917);
+  margin: 0 0 var(--space-2, 8px);
+}
+
+.heroCredentials {
+  font-family: var(--f-body), Georgia, serif;
+  font-size: 16px;
+  color: var(--text, #57534E);
+  margin: 0 0 var(--space-1, 4px);
+}
+
+.heroMeta {
+  font-family: var(--f-ui), system-ui, sans-serif;
+  font-size: 11px;
+  color: var(--faint, #A8A29E);
+  margin: 0;
+}
+
+/* Domain grid */
+.domainGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+.domainCard {
+  display: block;
+  border: 1px solid var(--border, #E7E5E4);
+  border-radius: var(--radius-md, 6px);
+  padding: 16px 18px;
+  background: var(--surface, #FFFFFF);
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow var(--t-base, 180ms ease), transform var(--t-base, 180ms ease);
+}
+
+.domainCard:hover {
+  box-shadow: 0 2px 14px var(--shadow, rgba(28, 25, 23, 0.07));
+  transform: translateY(-1px);
+}
+
+.domainCard h3 {
+  font-family: var(--f-display), Georgia, serif;
+  font-size: 1.15rem;
+  font-weight: 400;
+  color: var(--ink, #1C1917);
+  margin: 0 0 0.4rem;
+}
+
+.domainCard p {
+  font-family: var(--f-ui), system-ui, sans-serif;
+  font-size: 12px;
+  color: var(--faint, #A8A29E);
+  margin: 0;
+}
+
+/* About section */
+.about {
+  font-family: var(--f-body), Georgia, serif;
+  max-width: var(--max-prose, 680px);
+  margin-top: 1rem;
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .heroRow {
+    flex-direction: column;
+  }
+
+  .domainGrid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -5,6 +5,7 @@ image_link: "https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progress
 image_alt: "hand reaching out to hand"
 reading_time: 2
 description: "The impact that changes lives and captures souls requires a willingness to do what isn’t easy and to do what’s right. For me, even as I write this, I can’t help but know that talking the talk is so much easier than walking the walk."
+original_link: 'https://ericlee.substack.com/p/courage-over-confidence'
 ---
 I finished a book recently called “[Deep Kindness](https://www.amazon.com/Deep-Kindness-Revolutionary-Guide-Think/dp/1982163100)”, which introduces a revolutionary way of kindness.
 

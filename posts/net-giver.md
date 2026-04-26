@@ -5,6 +5,7 @@ image_link: "https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progress
 image_alt: "Palm facing upward holding a yellow flower"
 reading_time: 1
 description: "Find balance in net giving so you have enough to pour out."
+original_link: 'https://ericlee.substack.com/p/be-a-healthy-net-giver'
 ---
 In life, there are many types of people you meet.
 

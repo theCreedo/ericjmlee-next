@@ -5,6 +5,7 @@ image_link: 'https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:g
 image_alt: 'arm reaching out in darkness'
 reading_time: 1
 description: 'I found myself forced to do one of the things I disliked most: asking for help. When it comes to sending a message to ask for help, I struggle with formulating the right words to ask a question. Overanalysis, overthinking, and obsession over the intention of what I send stops me from moving past my discomfort of sending the question.'
+original_link: 'https://ericlee.substack.com/p/help-in-humility'
 ---
 A couple of weeks ago, I missed a work deadline on Friday.
 

@@ -1,4 +1,4 @@
-import Layout from '../../components/layout'
+import Layout, { siteTitle } from '../../components/layout'
 import Date from '../../components/date'
 import Link from "next/link"
 import Head from 'next/head'
@@ -7,11 +7,7 @@ import { getAllProjectIds, getProjectData } from '../../lib/projects'
 
 export async function getStaticProps({ params }) {
     const projectData = await getProjectData(params.id)
-    return {
-        props: {
-            projectData
-        }
-    }
+    return { props: { projectData } }
 }
 
 export async function getStaticPaths() {
@@ -26,11 +22,11 @@ export default function Project({ projectData }) {
     return (
         <Layout>
             <Head>
-                <title>{projectData.title}</title>
+                <title>{`${projectData.title} | ${siteTitle}`}</title>
             </Head>
             <article className={utilStyles.divContainer}>
                 <h1 className={utilStyles.headingXl}>{projectData.title}</h1>
-                <div className={utilStyles.lightText}>
+                <div className={utilStyles.lightText} style={{ marginBottom: 'var(--space-6)' }}>
                     <Date dateString={projectData.start_date} isPost={false} />
                 </div>
                 <div dangerouslySetInnerHTML={{ __html: projectData.contentHtml }} />

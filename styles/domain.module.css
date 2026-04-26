@@ -1,0 +1,271 @@
+.page {
+  max-width: var(--max-prose, 680px);
+}
+
+.lead {
+  font-family: var(--f-body), Georgia, serif;
+  font-size: 18px;
+  line-height: 1.75;
+  color: var(--text);
+  margin: var(--space-4, 16px) 0 var(--space-8, 32px);
+}
+
+.sectionLabel {
+  font-family: var(--f-ui), system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--faint);
+  margin: 0 0 var(--space-4, 16px);
+}
+
+.section {
+  margin: var(--space-12, 48px) 0;
+}
+
+/* Experience list */
+.expList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.expItem {
+  display: flex;
+  gap: var(--space-4, 16px);
+  padding: var(--space-6, 24px) 0;
+  border-bottom: 1px solid var(--border);
+  align-items: flex-start;
+}
+
+.expItem:first-child {
+  border-top: 1px solid var(--border);
+}
+
+.expLogo {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-md, 6px);
+  border: 1px solid var(--border);
+  object-fit: contain;
+  background: var(--surface);
+  flex-shrink: 0;
+}
+
+.expMeta {
+  flex: 1;
+}
+
+.expRole {
+  font-family: var(--f-display), Georgia, serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: var(--ink);
+  margin: 0 0 var(--space-1, 4px);
+}
+
+.expCompany {
+  font-family: var(--f-ui), system-ui, sans-serif;
+  font-size: 13px;
+  color: var(--faint);
+  margin: 0 0 var(--space-1, 4px);
+}
+
+.expCompany a {
+  color: var(--faint);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color var(--t-fast), border-color var(--t-fast);
+}
+
+.expCompany a:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.expPeriod {
+  font-family: var(--f-ui), system-ui, sans-serif;
+  font-size: 11px;
+  color: var(--faint);
+  margin: 0;
+}
+
+/* Links / credentials section */
+.linkList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3, 12px);
+}
+
+.linkItem {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-3, 12px);
+}
+
+.linkLabel {
+  font-family: var(--f-ui), system-ui, sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--faint);
+  min-width: 90px;
+}
+
+.linkValue {
+  font-family: var(--f-body), Georgia, serif;
+  font-size: 15px;
+  color: var(--text);
+}
+
+/* Cross-domain links */
+.crossLinks {
+  margin-top: var(--space-12, 48px);
+  padding-top: var(--space-8, 32px);
+  border-top: 1px solid var(--border);
+}
+
+.crossLinkNav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4, 16px);
+  margin-top: var(--space-3, 12px);
+}
+
+.crossLinkNav a {
+  font-family: var(--f-ui), system-ui, sans-serif;
+  font-size: 13px;
+  color: var(--faint);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color var(--t-fast), border-color var(--t-fast);
+}
+
+.crossLinkNav a:hover {
+  color: var(--accent);
+  border-color: transparent;
+}
+
+/* Domain header — profile photo + h1 */
+.domainHeader {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4, 16px);
+  margin-bottom: var(--space-6, 24px);
+}
+
+.domainHeader h1 {
+  margin: 0;
+}
+
+.domainProfile {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border-radius: var(--radius-full, 9999px);
+  overflow: hidden;
+  flex-shrink: 0;
+  border: 1px solid var(--border);
+  background: var(--bg-alt);
+}
+
+/* Logo strip */
+.logoStrip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-6, 24px);
+  align-items: center;
+  margin: var(--space-6, 24px) 0 var(--space-8, 32px);
+}
+
+.logoWrapper {
+  position: relative;
+  height: 36px;
+  width: 120px;
+}
+
+.logoImg {
+  filter: grayscale(1) opacity(0.45);
+  transition: filter var(--t-fast);
+}
+
+.logoImg:hover {
+  filter: none;
+}
+
+/* Photo grid */
+.photoGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-3, 12px);
+  margin: var(--space-4, 16px) 0;
+}
+
+.photoItem {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius-md, 6px);
+  overflow: hidden;
+  background: var(--bg-alt);
+}
+
+@media (max-width: 640px) {
+  .expItem {
+    flex-direction: column;
+    gap: var(--space-3, 12px);
+  }
+
+  .linkItem {
+    flex-direction: column;
+    gap: var(--space-1, 4px);
+  }
+
+  .linkLabel {
+    min-width: unset;
+  }
+
+  .photoGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 400px) {
+  .photoGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Store reviews */
+.reviewList {
+  list-style: none;
+  padding: 0;
+  margin: var(--space-4, 16px) 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4, 16px);
+}
+
+.reviewItem {
+  border-left: 2px solid var(--accent);
+  padding-left: var(--space-4, 16px);
+}
+
+.reviewText {
+  font-family: var(--f-body), Georgia, serif;
+  font-size: 14px;
+  color: var(--text);
+  margin: 0 0 var(--space-1, 4px);
+  font-style: italic;
+}
+
+.reviewMeta {
+  font-family: var(--f-ui), system-ui, sans-serif;
+  font-size: 11px;
+  color: var(--faint);
+  margin: 0;
+}

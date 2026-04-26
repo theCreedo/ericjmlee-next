@@ -5,6 +5,7 @@ image_link: "https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progress
 image_alt: "spread out gold coins on a table"
 reading_time: 2
 description: "What is the best way to quantify the results that you achieve?"
+original_link: 'https://ericlee.substack.com/p/measurable-and-immeasurable-value'
 ---
 _Every problem is an interpersonal problem_
 

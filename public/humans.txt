@@ -1,0 +1,12 @@
+/* AUTHOR */
+Name: Eric Lee
+Location: Austin, TX
+Role: Developer Advocate, Writer, FAB L2 Judge, TCG Seller
+
+/* SITE */
+URL: https://ericjmlee.com
+Built with: Next.js 15, React 19
+Deployed on: Vercel
+
+/* STANDARDS */
+HTML5, CSS3 (custom properties), no tracking pixels

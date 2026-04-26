@@ -1,5 +1,7 @@
-# Eric Lee's Personal Website - Next.js/React Edition
+# ericjmlee.com
 
-Find it @ [ericjmlee.com](https://ericjmlee.com)
+Personal website for Eric Lee — developer advocate, TCG judge, church leader, and writer based in Austin, TX.
 
-Starting template using [Next.js](https://nextjs.org)
+Built with [Next.js](https://nextjs.org) 15 and React 19. Deployed on [Vercel](https://vercel.com).
+
+Visit: [ericjmlee.com](https://ericjmlee.com)

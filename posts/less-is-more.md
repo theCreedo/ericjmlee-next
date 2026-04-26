@@ -5,6 +5,7 @@ image_link: 'https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progress
 image_alt: 'single bonsai tree on wooden floor'
 reading_time: 1
 description: 'I’ve always believed that more is better. The more resources, experience, or time you have, the better you’re able to do things. That extra dollar, extra skill, and extra hour can go a long way. But sometimes, having more can be a hindrance.'
+original_link: 'https://ericlee.substack.com/p/less-is-more'
 ---
 I’ve always believed that more is better.
 

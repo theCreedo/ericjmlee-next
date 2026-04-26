@@ -5,6 +5,7 @@ image_link: 'https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progress
 image_alt: 'foggy concrete area with tubes'
 reading_time: 2
 description: 'Life is not a finite game, where a loss in a year means a loss for the rest of our life (though sometimes, it may feel that way). Rather, it is an infinite game where we are not be tied down by a single outcome in our lives and can continue to learn & grow.'
+original_link: 'https://ericlee.substack.com/p/infinite-mindset-closing-out-2020'
 ---
 2020 was a year.
 

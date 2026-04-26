@@ -6,6 +6,7 @@ image_alt: 'bench in front of sunset'
 reading_time: 1
 unpublished: false
 description: 'Have you ever thought about how when we die, how many unfinished things we’ll have? 🤔 Whether it’s small things like organizing the closet, or big things like finishing a side project or hobby, in the end, we will have much-unfinished work.'
+original_link: 'https://ericlee.substack.com/p/rest-amidst-unfinished-work'
 ---
 Have you ever thought about how when we die, how many unfinished things we’ll have? 🤔
 

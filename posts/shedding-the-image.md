@@ -6,6 +6,7 @@ image_alt: 'A marble bust head'
 reading_time: 1
 unpublished: false
 description: 'When I lead, many times I feel like I need to uphold an image. Though it is fun playing around with the idea of becoming like these leaders, the problem with chasing after so many different ideals was that I easily lose myself and forget who I am.'
+original_link: 'https://ericlee.substack.com/p/shedding-the-image'
 ---
 When I lead, many times I feel like I need to uphold an image.
 

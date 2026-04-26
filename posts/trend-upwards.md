@@ -5,6 +5,7 @@ image_link: "https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progress
 image_alt: "Stone statue of a bull"
 reading_time: 2
 description: "I’ve been learning that the hardest process in life is trying to maintain balance and equilibrium in everything."
+original_link: 'https://ericlee.substack.com/p/aim-to-trend-upwards'
 ---
 I’ve been learning that the hardest process in life is trying to maintain balance and equilibrium in everything.
 

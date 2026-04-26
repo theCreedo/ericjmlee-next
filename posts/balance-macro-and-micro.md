@@ -5,6 +5,7 @@ image_link: "https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progress
 image_alt: "Close up image of an eye"
 reading_time: 1
 description: "When mistakes occurs, it’s easy to fret over the long-term impact our mistakes may have. But it doesn't have to be that way."
+original_link: 'https://ericlee.substack.com/p/living-macro-and-micro'
 ---
 Recently I was talking with a parent (family of 3) describe his experience of raising up his children.
 
