@@ -4,14 +4,11 @@ const BASE = 'https://ericjmlee.com'
 
 const STATIC_PAGES = [
   { loc: '/',        priority: '1.0', changefreq: 'weekly' },
-  { loc: '/about',   priority: '0.8', changefreq: 'monthly' },
-  { loc: '/now',     priority: '0.7', changefreq: 'monthly' },
   { loc: '/work',    priority: '0.8', changefreq: 'monthly' },
-  { loc: '/cards',   priority: '0.7', changefreq: 'monthly' },
+  { loc: '/cards',   priority: '0.8', changefreq: 'monthly' },
   { loc: '/faith',   priority: '0.7', changefreq: 'monthly' },
   { loc: '/studio',  priority: '0.7', changefreq: 'monthly' },
   { loc: '/archive', priority: '0.7', changefreq: 'weekly' },
-  { loc: '/writing', priority: '0.6', changefreq: 'monthly' },
   { loc: '/extras',  priority: '0.5', changefreq: 'monthly' },
   { loc: '/projects',priority: '0.5', changefreq: 'monthly' },
 ]

@@ -70,6 +70,7 @@ export default function Layout({ children, home, project, experience, blog, news
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
+        <link rel="alternate" type="application/rss+xml" title="Eric Lee" href="/rss.xml" />
         <meta key="og:image" property="og:image" content={DEFAULT_OG_IMAGE} />
         <meta key="og:description" property="og:description" content={DEFAULT_DESCRIPTION} />
         <meta property="twitter:card" content="summary_large_image" />
