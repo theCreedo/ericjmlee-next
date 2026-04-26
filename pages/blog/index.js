@@ -2,22 +2,15 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Layout, { siteTitle } from '../../components/layout'
 import utilStyles from '../../styles/utils.module.css'
-import ExploreFooter from '../../components/ExploreFooter'
 import { getSortedPostsData } from '../../lib/posts'
 import BlogItem from '../../components/blog'
 
 export async function getStaticProps() {
     const allPostsData = getSortedPostsData()
-    const recentPosts = allPostsData.slice(0, 3)
-    return {
-        props: {
-            allPostsData,
-            recentPosts
-        }
-    }
+    return { props: { allPostsData } }
 }
 
-export default function Blog({ allPostsData, recentPosts }) {
+export default function Blog({ allPostsData }) {
     return (
         <Layout blog>
             <Head>
@@ -33,7 +26,6 @@ export default function Blog({ allPostsData, recentPosts }) {
                 </ul>
                 <Link href='/'>← Back to Home</Link>
             </section>
-            <ExploreFooter posts={recentPosts} />
         </Layout>
     )
 }

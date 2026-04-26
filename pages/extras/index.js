@@ -1,8 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Layout, { siteTitle } from '../../components/layout'
-import ExploreFooter from '../../components/ExploreFooter'
-import { getSortedPostsData } from '../../lib/posts'
 import styles from './extras.module.css'
 
 const PERSONALITY = [
@@ -29,12 +27,7 @@ const SITE_HISTORY = [
   { year: 'Now', url: 'https://ericjmlee.com', label: 'ericjmlee.com' },
 ]
 
-export async function getStaticProps() {
-  const recentPosts = getSortedPostsData().slice(0, 3)
-  return { props: { recentPosts } }
-}
-
-export default function Extras({ recentPosts }) {
+export default function Extras() {
   return (
     <Layout>
       <Head>
@@ -92,7 +85,6 @@ export default function Extras({ recentPosts }) {
       <p className={styles.backLink}>
         <Link href="/about">← Back to About</Link>
       </p>
-      <ExploreFooter posts={recentPosts} />
     </Layout>
   )
 }

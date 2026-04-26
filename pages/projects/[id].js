@@ -3,19 +3,11 @@ import Date from '../../components/date'
 import Link from "next/link"
 import Head from 'next/head'
 import utilStyles from '../../styles/utils.module.css'
-import ExploreFooter from '../../components/ExploreFooter'
 import { getAllProjectIds, getProjectData } from '../../lib/projects'
-import { getSortedPostsData } from '../../lib/posts'
 
 export async function getStaticProps({ params }) {
     const projectData = await getProjectData(params.id)
-    const recentPosts = getSortedPostsData().slice(0, 3)
-    return {
-        props: {
-            projectData,
-            recentPosts
-        }
-    }
+    return { props: { projectData } }
 }
 
 export async function getStaticPaths() {
@@ -26,7 +18,7 @@ export async function getStaticPaths() {
     }
 }
 
-export default function Project({ projectData, recentPosts }) {
+export default function Project({ projectData }) {
     return (
         <Layout>
             <Head>
@@ -40,7 +32,6 @@ export default function Project({ projectData, recentPosts }) {
                 <div dangerouslySetInnerHTML={{ __html: projectData.contentHtml }} />
                 <Link href='/projects'>← Back to Projects</Link>
             </article>
-            <ExploreFooter posts={recentPosts} />
         </Layout>
     )
 }

@@ -4,19 +4,16 @@ import Link from "next/link"
 import Head from 'next/head'
 import Image from 'next/image'
 import utilStyles from '../../styles/utils.module.css'
-import ExploreFooter from '../../components/ExploreFooter'
-import { getAdjacentPosts, getAllPostIds, getPostData, getSortedPostsData } from '../../lib/posts'
+import { getAdjacentPosts, getAllPostIds, getPostData } from '../../lib/posts'
 import JsonLd from '../../components/JsonLd'
 
 export async function getStaticProps({ params }) {
     const postData = await getPostData(params.id)
     const adjacentPostsData = await getAdjacentPosts(params.id)
-    const recentPosts = getSortedPostsData().slice(0, 3)
     return {
         props: {
             postData,
             adjacentPostsData,
-            recentPosts
         }
     }
 }
@@ -29,7 +26,7 @@ export async function getStaticPaths() {
     }
 }
 
-export default function Post({ postData, adjacentPostsData, recentPosts }) {
+export default function Post({ postData, adjacentPostsData }) {
     const postSchema = {
         '@context': 'https://schema.org',
         '@type': postData.evergreen ? 'Article' : 'BlogPosting',
@@ -102,7 +99,6 @@ export default function Post({ postData, adjacentPostsData, recentPosts }) {
                     </div>
                 )}
             </div>
-            <ExploreFooter posts={recentPosts} />
         </Layout>
     )
 }

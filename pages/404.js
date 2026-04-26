@@ -1,16 +1,9 @@
 import Link from "next/link"
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
-import ExploreFooter from '../components/ExploreFooter'
 import utilStyles from '../styles/utils.module.css'
-import { getSortedPostsData } from '../lib/posts'
 
-export async function getStaticProps() {
-    const recentPosts = getSortedPostsData().slice(0, 3)
-    return { props: { recentPosts } }
-}
-
-export default function Custom404({ recentPosts }) {
+export default function Custom404() {
     return (
         <Layout>
             <Head>
@@ -21,7 +14,6 @@ export default function Custom404({ recentPosts }) {
                 <p style={{ color: 'var(--text)' }}>This page doesn&apos;t exist.</p>
                 <Link href='/'>← Back to Home</Link>
             </section>
-            <ExploreFooter posts={recentPosts} />
         </Layout>
     )
 }

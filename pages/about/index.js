@@ -1,16 +1,9 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Layout, { siteTitle } from '../../components/layout'
-import ExploreFooter from '../../components/ExploreFooter'
-import { getSortedPostsData } from '../../lib/posts'
 import styles from '../../styles/domain.module.css'
 
-export async function getStaticProps() {
-  const recentPosts = getSortedPostsData().slice(0, 3)
-  return { props: { recentPosts } }
-}
-
-export default function About({ recentPosts }) {
+export default function About() {
   const email = 'eric' + '.lee1@' + 'e-hps.com'
 
   return (
@@ -35,7 +28,6 @@ export default function About({ recentPosts }) {
           <Link href="/extras">More about me →</Link>
         </p>
       </div>
-      <ExploreFooter posts={recentPosts} />
     </Layout>
   )
 }

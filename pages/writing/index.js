@@ -1,12 +1,10 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Layout, { siteTitle } from '../../components/layout'
-import ExploreFooter from '../../components/ExploreFooter'
 import { getArchiveData } from '../../lib/archive'
-import { getSortedPostsData } from '../../lib/posts'
 import styles from './writing.module.css'
 
-export default function Writing({ posts, recentPosts }) {
+export default function Writing({ posts }) {
   return (
     <Layout>
       <Head>
@@ -28,13 +26,11 @@ export default function Writing({ posts, recentPosts }) {
           ))}
         </ul>
       )}
-      <ExploreFooter posts={recentPosts} />
     </Layout>
   )
 }
 
 export async function getStaticProps() {
   const posts = getArchiveData().filter((p) => p.evergreen)
-  const recentPosts = getSortedPostsData().slice(0, 3)
-  return { props: { posts, recentPosts } }
+  return { props: { posts } }
 }

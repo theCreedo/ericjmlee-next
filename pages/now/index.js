@@ -1,12 +1,10 @@
 import Layout, { siteTitle } from '../../components/layout'
 import Head from 'next/head'
-import ExploreFooter from '../../components/ExploreFooter'
 import { getNowData } from '../../lib/now'
-import { getSortedPostsData } from '../../lib/posts'
 import utilStyles from '../../styles/utils.module.css'
 import styles from '../../styles/domain.module.css'
 
-export default function Now({ nowData, recentPosts }) {
+export default function Now({ nowData }) {
   return (
     <Layout>
       <Head>
@@ -20,13 +18,11 @@ export default function Now({ nowData, recentPosts }) {
         </p>
         <div dangerouslySetInnerHTML={{ __html: nowData.contentHtml }} />
       </div>
-      <ExploreFooter posts={recentPosts} />
     </Layout>
   )
 }
 
 export async function getStaticProps() {
   const nowData = await getNowData()
-  const recentPosts = getSortedPostsData().slice(0, 3)
-  return { props: { nowData, recentPosts } }
+  return { props: { nowData } }
 }

@@ -3,18 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Layout, { siteTitle } from '../components/layout'
 import styles from './index.module.css'
-import { getSortedPostsData } from '../lib/posts'
-import ExploreFooter from '../components/ExploreFooter'
 import { useDarkMode } from './_app'
-
-export async function getStaticProps() {
-  const allPostsData = getSortedPostsData()
-  return {
-    props: {
-      allPostsData
-    }
-  }
-}
 
 const domains = [
   { label: 'Work',   href: '/work',   description: 'Developer Advocate at Global Payments — helping developers integrate, build, and ship.' },
@@ -23,8 +12,7 @@ const domains = [
   { label: 'Studio', href: '/studio', description: 'A creative space for writing, making, and everything built along the way.' },
 ]
 
-export default function Home({ allPostsData }) {
-  const recentPosts = allPostsData.slice(0, 3)
+export default function Home() {
   const [avatarPop, setAvatarPop] = useState(false)
   const { toggleDarkMode } = useDarkMode()
 
@@ -58,7 +46,7 @@ export default function Home({ allPostsData }) {
             />
           </div>
           <div className={styles.heroText}>
-            <p className={styles.heroGreeting}>Welcome to the front-end part of my life.</p>
+            <p className={styles.heroGreeting}><span className={styles.wave}>👋</span> Welcome to the front-end part of my life.</p>
             <p className={styles.heroCredentials}>Developer advocate · L2 judge · church leader · writer</p>
             <p className={styles.heroMeta}>Austin, TX · UT &rsquo;19 · 🇺🇸🇹🇼</p>
           </div>
@@ -77,7 +65,6 @@ export default function Home({ allPostsData }) {
           <p>I grew up in Plano, studied CS at UT Austin, and stayed in Austin. I work in developer advocacy, judge trading card game tournaments, lead at my church, and write. Four domains, one person.</p>
         </section>
       </section>
-      <ExploreFooter posts={recentPosts} />
     </Layout>
   )
 }
