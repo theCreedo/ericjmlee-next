@@ -189,10 +189,13 @@
   width: 120px;
   opacity: 0.55;
   transition: opacity var(--t-fast);
+  color: inherit;
+  border-bottom: none;
 }
 
 .logoWrapper:hover {
   opacity: 1;
+  border-bottom: none;
 }
 
 .logoImg {
