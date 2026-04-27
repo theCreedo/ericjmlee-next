@@ -19,7 +19,6 @@ const HOBBIES = [
   'Anime',
   'Flesh and Blood TCG',
   'Watching shows & movies',
-  'Building this website',
 ]
 
 const RECS = [

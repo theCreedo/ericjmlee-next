@@ -62,7 +62,7 @@ export default function Faith() {
             <li className={styles.linkItem}>
               <span className={styles.linkLabel}>Church</span>
               <span className={styles.linkValue}>
-                <a href="https://austin.hmcc.net" target="_blank" rel="noopener noreferrer">
+                <a href="https://atx.hmccglobal.org/" target="_blank" rel="noopener noreferrer">
                   HMCC Austin
                 </a>
               </span>
