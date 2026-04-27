@@ -10,8 +10,8 @@ import styles from '../../styles/domain.module.css'
 
 const LOGOS = [
   { file: 'fab-logo.png',             alt: 'Flesh and Blood TCG', url: 'https://fabtcg.com' },
-  { file: 'judges-of-rathe-logo.png', alt: 'Judges of Rathe',    url: 'https://judge.fabtcg.com' },
-  { file: 'tcgplayer-logo.png',       alt: 'TCGplayer',          url: 'https://www.tcgplayer.com' },
+  { file: 'judges-of-rathe-logo.png', alt: 'Judges of Rathe',    url: 'https://fabtcg.com/judges/ericjmlee/' },
+  { file: 'tcgplayer-logo.png',       alt: 'TCGplayer',          url: 'https://www.tcgplayer.com/search/all/product?seller=c32f5ae7&view=grid' },
 ]
 
 const CARDS_SCHEMA = {
