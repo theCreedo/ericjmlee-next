@@ -1,5 +1,6 @@
 import fs from 'fs'
 import path from 'path'
+import { useState, useEffect, useCallback } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -39,6 +40,23 @@ export async function getStaticProps() {
 }
 
 export default function Cards({ photos }) {
+  const [lightboxIndex, setLightboxIndex] = useState(null)
+
+  const closeLightbox = useCallback(() => setLightboxIndex(null), [])
+  const prev = useCallback(() => setLightboxIndex((i) => (i - 1 + photos.length) % photos.length), [photos.length])
+  const next = useCallback(() => setLightboxIndex((i) => (i + 1) % photos.length), [photos.length])
+
+  useEffect(() => {
+    if (lightboxIndex === null) return
+    function onKey(e) {
+      if (e.key === 'Escape')     closeLightbox()
+      if (e.key === 'ArrowLeft')  prev()
+      if (e.key === 'ArrowRight') next()
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [lightboxIndex, closeLightbox, prev, next])
+
   return (
     <Layout canonicalPath="/cards">
       <Head>
@@ -116,8 +134,13 @@ export default function Cards({ photos }) {
           <section className={styles.section}>
             <p className={styles.sectionLabel}>Community</p>
             <div className={styles.photoGrid}>
-              {photos.map((photo) => (
-                <div key={photo} className={styles.photoItem}>
+              {photos.map((photo, i) => (
+                <button
+                  key={photo}
+                  className={styles.photoItem}
+                  onClick={() => setLightboxIndex(i)}
+                  aria-label={`Open photo ${i + 1} of ${photos.length}`}
+                >
                   <Image
                     src={`/images/cards/photos/${photo}`}
                     alt="Flesh and Blood community"
@@ -125,7 +148,7 @@ export default function Cards({ photos }) {
                     sizes="(max-width: 480px) 100vw, (max-width: 720px) 50vw, 33vw"
                     style={{ objectFit: 'cover' }}
                   />
-                </div>
+                </button>
               ))}
             </div>
             <p style={{ marginTop: '12px', fontFamily: 'var(--f-ui)', fontSize: '13px' }}>
@@ -134,6 +157,25 @@ export default function Cards({ photos }) {
               </a>
             </p>
           </section>
+        )}
+
+        {lightboxIndex !== null && (
+          <div className={styles.lightbox} onClick={closeLightbox} role="dialog" aria-modal="true" aria-label="Photo lightbox">
+            <button className={styles.lightboxClose} onClick={closeLightbox} aria-label="Close">✕</button>
+            {photos.length > 1 && (
+              <button className={`${styles.lightboxNav} ${styles.lightboxPrev}`} onClick={(e) => { e.stopPropagation(); prev() }} aria-label="Previous photo">‹</button>
+            )}
+            <img
+              src={`/images/cards/photos/${photos[lightboxIndex]}`}
+              alt={`Flesh and Blood community photo ${lightboxIndex + 1}`}
+              className={styles.lightboxImg}
+              onClick={(e) => e.stopPropagation()}
+            />
+            {photos.length > 1 && (
+              <button className={`${styles.lightboxNav} ${styles.lightboxNext}`} onClick={(e) => { e.stopPropagation(); next() }} aria-label="Next photo">›</button>
+            )}
+            <p className={styles.lightboxCounter}>{lightboxIndex + 1} / {photos.length}</p>
+          </div>
         )}
 
         <section className={styles.section}>
