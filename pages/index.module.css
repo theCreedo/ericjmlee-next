@@ -123,4 +123,8 @@
   .domainGrid {
     grid-template-columns: 1fr;
   }
+
+  .heroGreeting {
+    font-size: 1.6rem;
+  }
 }

@@ -232,6 +232,14 @@
   .photoGrid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .logoStrip {
+    gap: var(--space-4, 16px);
+  }
+
+  .logoWrapper {
+    width: 100px;
+  }
 }
 
 @media (max-width: 400px) {

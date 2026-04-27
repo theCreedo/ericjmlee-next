@@ -63,3 +63,9 @@ pre {
 img {
   max-width: 100%;
 }
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.9rem;
+  }
+}

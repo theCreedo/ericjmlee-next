@@ -93,3 +93,14 @@
 .backLink {
   margin-top: 3rem;
 }
+
+@media (max-width: 480px) {
+  .dl {
+    grid-template-columns: 1fr;
+    gap: 0.1rem 0;
+  }
+
+  .dt {
+    margin-top: 0.75rem;
+  }
+}
