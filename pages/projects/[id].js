@@ -20,7 +20,7 @@ export async function getStaticPaths() {
 
 export default function Project({ projectData }) {
     return (
-        <Layout>
+        <Layout canonicalPath={`/projects/${projectData.id}`}>
             <Head>
                 <title>{`${projectData.title} | ${siteTitle}`}</title>
             </Head>

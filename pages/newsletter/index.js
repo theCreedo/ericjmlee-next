@@ -5,7 +5,7 @@ import utilStyles from '../../styles/utils.module.css'
 
 export default function Newsletter() {
     return (
-        <Layout newsletter>
+        <Layout newsletter canonicalPath="/newsletter">
             <Head>
                 <title>{`Newsletter | ${siteTitle}`}</title>
                 <meta name="description" content="Savvy Saturdays — archived newsletter by Eric Lee, 2020–2021." />

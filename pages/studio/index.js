@@ -20,7 +20,7 @@ const STUDIO_SCHEMA = {
 
 export default function Studio() {
   return (
-    <Layout>
+    <Layout canonicalPath="/studio">
       <Head>
         <title>{`Studio | ${siteTitle}`}</title>
         <meta name="description" content="Eric Lee's project shelf — writing, early projects, and archived work." />

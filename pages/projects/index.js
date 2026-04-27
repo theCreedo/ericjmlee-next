@@ -12,7 +12,7 @@ export async function getStaticProps() {
 
 export default function Projects({ allProjectsData }) {
     return (
-        <Layout project>
+        <Layout project canonicalPath="/projects">
             <Head>
                 <title>{`Projects | ${siteTitle}`}</title>
                 <meta name="description" content="Hackathon projects and early work by Eric Lee." />

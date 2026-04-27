@@ -7,7 +7,7 @@ export default function About() {
   const email = 'eric' + '.lee1@' + 'e-hps.com'
 
   return (
-    <Layout>
+    <Layout canonicalPath="/about">
       <Head>
         <title>{`About | ${siteTitle}`}</title>
         <meta name="description" content="About Eric Lee — developer advocate, L2 judge, church leader, and writer based in Austin, TX." />

@@ -15,7 +15,7 @@ const FAITH_SCHEMA = {
 
 export default function Faith() {
   return (
-    <Layout>
+    <Layout canonicalPath="/faith">
       <Head>
         <title>{`Faith | ${siteTitle}`}</title>
         <meta name="description" content="Eric Lee's faith — what it means to how he lives." />

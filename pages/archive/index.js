@@ -41,7 +41,7 @@ export default function Archive({ posts, years }) {
   }
 
   return (
-    <Layout>
+    <Layout canonicalPath="/archive">
       <Head>
         <title>{`Archive | ${siteTitle}`}</title>
         <meta name="description" content="All writing by Eric Lee — blog posts, essays, and published pieces." />

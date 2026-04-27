@@ -80,7 +80,7 @@ const SITE_HISTORY = [
 
 export default function Extras() {
   return (
-    <Layout>
+    <Layout canonicalPath="/extras">
       <Head>
         <title>{`Extras | ${siteTitle}`}</title>
         <meta name="description" content="The extras — personality, hobbies, recommendations, and site history." />

@@ -48,7 +48,7 @@ export default function Post({ postData, adjacentPostsData }) {
     }
 
     return (
-        <Layout postData={postData}>
+        <Layout postData={postData} canonicalPath={`/blog/${postData.id}`} ogType="article">
             <Head>
                 <title>{`${postData.title} | ${siteTitle}`}</title>
                 <meta name="description" content={postData.description || DEFAULT_DESCRIPTION} />

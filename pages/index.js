@@ -23,7 +23,7 @@ export default function Home() {
   }
 
   return (
-    <Layout home>
+    <Layout home canonicalPath="/">
       <Head>
         <title>{siteTitle}</title>
         <meta name="description" content="Developer advocate, L2 TCG judge, church leader, and writer based in Austin, TX." />

@@ -40,7 +40,7 @@ export async function getStaticProps() {
 
 export default function Cards({ photos }) {
   return (
-    <Layout>
+    <Layout canonicalPath="/cards">
       <Head>
         <title>{`Cards | ${siteTitle}`}</title>
         <meta name="description" content="Eric Lee in Flesh and Blood TCG — playing, collecting, selling, and judging. FAB L2 judge and JCR for USA South Central." />
