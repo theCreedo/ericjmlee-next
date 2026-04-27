@@ -12,13 +12,13 @@ const PERSONALITY = [
 ]
 
 const HOBBIES = [
-  'Bouldering',
-  'Running',
-  'Worship music (keys)',
-  'Video games',
-  'Anime',
-  'Flesh and Blood TCG',
-  'Watching shows & movies',
+  { label: 'Bouldering' },
+  { label: 'Running' },
+  { label: 'Worship music (keys)' },
+  { label: 'Video games' },
+  { label: 'Anime' },
+  { label: 'Flesh and Blood TCG', url: 'https://fabtcg.com' },
+  { label: 'Watching shows & movies' },
 ]
 
 const RECS = [
@@ -106,7 +106,11 @@ export default function Extras() {
       <section className={styles.section}>
         <h2>Hobbies</h2>
         <ul className={styles.plainList}>
-          {HOBBIES.map((h) => <li key={h}>{h}</li>)}
+          {HOBBIES.map(({ label, url }) => (
+            <li key={label}>
+              {url ? <a href={url} target="_blank" rel="noopener noreferrer">{label}</a> : label}
+            </li>
+          ))}
         </ul>
       </section>
 

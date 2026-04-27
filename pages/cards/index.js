@@ -9,9 +9,9 @@ import JsonLd from '../../components/JsonLd'
 import styles from '../../styles/domain.module.css'
 
 const LOGOS = [
-  { file: 'fab-logo.png',               alt: 'Flesh and Blood TCG' },
-  { file: 'judges-of-rathe-logo.png',   alt: 'Judges of Rathe' },
-  { file: 'tcgplayer-logo.png',          alt: 'TCGplayer' },
+  { file: 'fab-logo.png',             alt: 'Flesh and Blood TCG', url: 'https://fabtcg.com' },
+  { file: 'judges-of-rathe-logo.png', alt: 'Judges of Rathe',    url: 'https://judge.fabtcg.com' },
+  { file: 'tcgplayer-logo.png',       alt: 'TCGplayer',          url: 'https://www.tcgplayer.com' },
 ]
 
 const CARDS_SCHEMA = {
@@ -79,11 +79,11 @@ export default function Cards({ photos }) {
           </div>
           <h1>Cards</h1>
         </div>
-        <p className={styles.lead}>I&apos;ve been in Flesh and Blood since the end of 2021. Started off as a player, then a collector and a seller, and now a judge. For my locals, I try to be involved and connect players with one another in the community, as well as inform about regional and national events. As a judge, I help write content for the judge blog and am involved in the community as JCR for USA South Central.</p>
+        <p className={styles.lead}>I&apos;ve been in <a href="https://fabtcg.com" target="_blank" rel="noopener noreferrer">Flesh and Blood</a> since the end of 2021. Started off as a player, then a collector and a seller, and now a judge. For my locals, I try to be involved and connect players with one another in the community, as well as inform about regional and national events. As a judge, I help write content for the judge blog and am involved in the community as JCR for USA South Central.</p>
 
         <div className={styles.logoStrip}>
           {LOGOS.map((logo) => (
-            <div key={logo.file} className={styles.logoWrapper}>
+            <a key={logo.file} href={logo.url} target="_blank" rel="noopener noreferrer" className={styles.logoWrapper} aria-label={logo.alt}>
               <Image
                 src={`/images/cards/${logo.file}`}
                 alt={logo.alt}
@@ -91,7 +91,7 @@ export default function Cards({ photos }) {
                 className={styles.logoImg}
                 style={{ objectFit: 'contain', objectPosition: 'left center' }}
               />
-            </div>
+            </a>
           ))}
         </div>
 

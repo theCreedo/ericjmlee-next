@@ -187,14 +187,15 @@
   position: relative;
   height: 36px;
   width: 120px;
+  opacity: 0.55;
+  transition: opacity var(--t-fast);
+}
+
+.logoWrapper:hover {
+  opacity: 1;
 }
 
 .logoImg {
-  filter: grayscale(1) opacity(0.45);
-  transition: filter var(--t-fast);
-}
-
-.logoImg:hover {
   filter: none;
 }
 
