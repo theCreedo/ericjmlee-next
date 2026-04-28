@@ -77,6 +77,9 @@ export default function Archive({ posts, years }) {
               >
                 {post.title}
               </a>
+              {post.description && (
+                <p className={styles.postDescription}>{post.description}</p>
+              )}
               <div className={styles.meta}>
                 <span className={styles.postDate}>
                   <Date dateString={post.date} isPost />

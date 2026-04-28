@@ -51,6 +51,14 @@
   color: var(--accent);
 }
 
+.postDescription {
+  margin-top: 0.3rem;
+  font-family: var(--f-body), Georgia, serif;
+  font-size: 0.9rem;
+  color: var(--text);
+  line-height: 1.5;
+}
+
 .meta {
   display: flex;
   align-items: center;
