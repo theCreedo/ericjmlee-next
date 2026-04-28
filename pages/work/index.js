@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -5,6 +6,7 @@ import Layout, { siteTitle, base_url } from '../../components/layout'
 import JsonLd from '../../components/JsonLd'
 import { getSortedExperiencesData } from '../../lib/experiences'
 import styles from '../../styles/domain.module.css'
+import { useDarkMode } from '../_app'
 
 const WORK_SCHEMA = {
   '@context': 'https://schema.org',
@@ -31,6 +33,15 @@ export async function getStaticProps() {
 }
 
 export default function Work({ experiences }) {
+  const { toggleDarkMode } = useDarkMode()
+  const [avatarPop, setAvatarPop] = useState(false)
+
+  function handleAvatarClick() {
+    setAvatarPop(true)
+    setTimeout(() => setAvatarPop(false), 300)
+    toggleDarkMode()
+  }
+
   return (
     <Layout canonicalPath="/work">
       <Head>
@@ -43,7 +54,14 @@ export default function Work({ experiences }) {
       {/* Page: /work | Person: Eric Lee | Topic: Professional background, developer advocacy, software engineering */}
       <div className={styles.page}>
         <div className={styles.domainHeader}>
-          <div className={styles.domainProfile}>
+          <div
+            className={`${styles.domainProfile}${avatarPop ? ' ' + styles.domainProfilePop : ''}`}
+            onClick={handleAvatarClick}
+            role="button"
+            aria-label="Toggle dark mode"
+            tabIndex={0}
+            onKeyDown={(e) => e.key === 'Enter' && handleAvatarClick()}
+          >
             <Image
               src="/images/profile/work-profile.jpg"
               alt="Eric Lee"
@@ -91,6 +109,9 @@ export default function Work({ experiences }) {
                     {exp.location ? ` · ${exp.location}` : ''}
                   </p>
                   <p className={styles.expPeriod}>{formatPeriod(exp.start_date, exp.end_date, exp.current)}</p>
+                  {exp.description && (
+                    <p className={styles.expDescription}>{exp.description}</p>
+                  )}
                 </div>
               </li>
             ))}

@@ -7,6 +7,7 @@ import Image from 'next/image'
 import Layout, { siteTitle, base_url } from '../../components/layout'
 import JsonLd from '../../components/JsonLd'
 import styles from '../../styles/domain.module.css'
+import { useDarkMode } from '../_app'
 
 const LOGOS = [
   { file: 'fab-logo.png',             alt: 'Flesh and Blood TCG', url: 'https://fabtcg.com' },
@@ -40,7 +41,15 @@ export async function getStaticProps() {
 }
 
 export default function Cards({ photos }) {
+  const { toggleDarkMode } = useDarkMode()
+  const [avatarPop, setAvatarPop] = useState(false)
   const [lightboxIndex, setLightboxIndex] = useState(null)
+
+  function handleAvatarClick() {
+    setAvatarPop(true)
+    setTimeout(() => setAvatarPop(false), 300)
+    toggleDarkMode()
+  }
 
   const closeLightbox = useCallback(() => setLightboxIndex(null), [])
   const prev = useCallback(() => setLightboxIndex((i) => (i - 1 + photos.length) % photos.length), [photos.length])
@@ -69,7 +78,14 @@ export default function Cards({ photos }) {
       {/* Page: /cards | Person: Eric Lee | Topic: Flesh and Blood TCG, playing, collecting, selling, judging, community */}
       <div className={styles.page}>
         <div className={styles.domainHeader}>
-          <div className={styles.domainProfile}>
+          <div
+            className={`${styles.domainProfile}${avatarPop ? ' ' + styles.domainProfilePop : ''}`}
+            onClick={handleAvatarClick}
+            role="button"
+            aria-label="Toggle dark mode"
+            tabIndex={0}
+            onKeyDown={(e) => e.key === 'Enter' && handleAvatarClick()}
+          >
             <Image
               src="/images/profile/cards-profile.jpg"
               alt="Eric Lee"

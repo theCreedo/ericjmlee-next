@@ -91,6 +91,14 @@
   margin: 0;
 }
 
+.expDescription {
+  font-family: var(--f-body), Georgia, serif;
+  font-size: 0.875rem;
+  color: var(--text);
+  line-height: 1.5;
+  margin: var(--space-2, 8px) 0 0;
+}
+
 /* Links / credentials section */
 .linkList {
   list-style: none;
@@ -172,6 +180,12 @@
   flex-shrink: 0;
   border: 1px solid var(--border);
   background: var(--bg-alt);
+  cursor: pointer;
+  transition: transform var(--t-base, 180ms ease);
+}
+
+.domainProfilePop {
+  transform: scale(1.08);
 }
 
 /* Logo strip */
