@@ -27,6 +27,11 @@
   border-color: var(--ink);
 }
 
+.filterBtnActive:hover {
+  color: var(--bg);
+  opacity: 0.8;
+}
+
 .list {
   list-style: none;
   padding: 0;
