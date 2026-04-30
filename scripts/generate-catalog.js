@@ -4,11 +4,14 @@
  * Reads all posts in /posts/*.md, extracts frontmatter metadata,
  * and outputs catalog/post-inventory.json sorted by date descending.
  *
- * Topic taxonomy (7 topics):
- *   faith, leadership, reflection, practice, relationships, purpose, craft
+ * Topic taxonomy (10 topics):
+ *   faith, leadership, reflection, practice, relationships, purpose, craft,
+ *   college, career, health
  *
  * Topics are merged from explicit frontmatter `topics` field + keyword inference.
+ * Posts with era: 'early' always receive the 'college' topic.
  * Canonical keyword definitions live in lib/topics.js (ESM); mirrored here for CJS compat.
+ * If keywords change, update BOTH files.
  *
  * Usage: node scripts/generate-catalog.js
  */
@@ -40,28 +43,44 @@ const TOPIC_KEYWORDS = {
     'reflection', 'reflect', 'memory', 'memories', 'story', 'looking back',
     'journal', 'hindsight', 'experience', 'perceived', 'shooting', 'zoom',
     'tennis', 'youtube', 'family', 'grew up', 'insecur', 'self-regard',
-    'low regard', 'perceived lie',
+    'low regard', 'perceived lie', 'breaking out', 'fashion', 'journey',
   ],
   practice: [
     'habit', 'routine', 'practice', 'process', 'skill', 'simple', 'reps',
     'productivity', 'decision', 'time management', 'know your time', 'mapping',
     'tool', 'tools', 'system', 'busy', 'quantify', 'results',
+    'batch', 'batching', 'root cause', 'time block', 'capacity',
   ],
   relationships: [
     'relationship', 'friend', 'community', 'people', 'connection', 'helping',
     'give', 'giver', 'kindness', 'family', 'communication', 'social',
     'loneliness', 'lonely', 'vulnerability', 'humility', 'asking for help',
-    'speak', 'isolated', 'alone',
+    'speak', 'isolated', 'alone', 'unity', 'enneagram',
   ],
   purpose: [
     'purpose', 'calling', 'meaning', 'direction', 'design your life', 'dream',
     'vision', 'aspiration', 'infinite', 'mindset', 'end in mind', 'values',
     'priorities', 'rest', 'advantage', 'dip', 'talent', 'heart is',
-    'world seems to go', 'unfinished',
+    'world seems to go', 'unfinished', 'the power of why', 'freedom to learn', '3920',
   ],
   craft: [
     'write', 'writing', 'writer', "writer's block", 'build', 'create',
     'creative', 'code', 'coding', 'website', 'hackathon', 'blog', 'project',
+    'work in progress',
+  ],
+  college: [
+    'sophomore', 'junior', 'senior year', 'cs371', 'cs373', 'professor downing',
+    'utcs', 'hackutd', 'hack texas',
+  ],
+  career: [
+    'career', 'internship', 'intern', 'hiring', 'interview', 'resume',
+    'job search', 'developer advocate', 'advocacy', 'startup',
+    'entrepreneur', 'entrepreneurship', 'venture',
+  ],
+  health: [
+    'health', 'fitness', 'running', 'bouldering', 'exercise', 'workout',
+    'physical', 'climb', 'climbing', 'marathon', 'sport', 'athletic',
+    'mental health', 'burnout',
   ],
 };
 
@@ -103,7 +122,8 @@ const inventory = files
 
     const explicit = Array.isArray(data.topics) ? data.topics : [];
     const inferred = suggestTopics(title, description);
-    const topics = [...new Set([...explicit, ...inferred])];
+    const era = data.era === 'early' ? ['college'] : [];
+    const topics = [...new Set([...explicit, ...inferred, ...era])];
 
     return {
       slug,
