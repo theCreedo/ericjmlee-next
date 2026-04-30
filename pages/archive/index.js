@@ -54,6 +54,7 @@ export default function Archive({ posts, years }) {
             <Link
               key={y}
               href={filterHref('year', y)}
+              scroll={false}
               className={`${styles.filterBtn} ${year === y ? styles.filterBtnActive : ''}`}
             >
               {y}
