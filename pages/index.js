@@ -41,8 +41,8 @@ export default function Home() {
             <Image
               src="/images/profile/transparent-profile.png"
               alt="Eric Lee"
-              width={68}
-              height={68}
+              width={80}
+              height={80}
             />
           </div>
           <div className={styles.heroText}>
