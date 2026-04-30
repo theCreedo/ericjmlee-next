@@ -1,10 +1,15 @@
 ---
-title: "Week Eight - Eat, Work, Blog, Sleep"
+title: 'Week Eight - Eat, Work, Blog, Sleep'
 date: '2016-10-16'
 era: early
-
 reading_time: 3
-description: "Landing a UTCS blogger job, a 3-day OS bug hiding in a single line of C type declaration, and a rough week shadowed by a friend's passing."
+description: >-
+  Landing a UTCS blogger job, a 3-day OS bug hiding in a single line of C type
+  declaration, and a rough week shadowed by a friend's passing.
+topics:
+  - college
+  - craft
+  - relationships
 ---
 
 > CS371p — Object-Oriented Programming in C++ (Fall 2016), UT Austin, taught by Professor Downing. First published at [thecreedo.github.io](https://thecreedo.github.io/Week-Eight/).

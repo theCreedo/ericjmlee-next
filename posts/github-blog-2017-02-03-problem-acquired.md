@@ -1,10 +1,15 @@
 ---
-title: "Problem Acquired"
+title: Problem Acquired
 date: '2017-02-03'
 era: early
-
 reading_time: 2
-description: "Liquids week of the One-Desire fast, IM basketball while running on empty, and learning to treat spec changes like real industry pressure."
+description: >-
+  Liquids week of the One-Desire fast, IM basketball while running on empty, and
+  learning to treat spec changes like real industry pressure.
+topics:
+  - college
+  - faith
+  - health
 ---
 
 > CS373 — Software Engineering in Python (Spring 2017), UT Austin, taught by Professor Downing. First published at [thecreedo.github.io](https://thecreedo.github.io/Problem-Acquired/).

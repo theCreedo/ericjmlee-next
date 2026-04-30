@@ -1,10 +1,16 @@
 ---
-title: "Sound of my Heart"
+title: Sound of my Heart
 date: '2017-02-10'
 era: early
-
 reading_time: 2
-description: "Church retreat debt, tedious Algo proofs, interviewing a UTCS professor on OS research, and changing a fiction story from zombies to tribal artists."
+description: >-
+  Church retreat debt, tedious Algo proofs, interviewing a UTCS professor on OS
+  research, and changing a fiction story from zombies to tribal artists.
+topics:
+  - career
+  - college
+  - faith
+  - reflection
 ---
 
 > CS373 — Software Engineering in Python (Spring 2017), UT Austin, taught by Professor Downing. First published at [thecreedo.github.io](https://thecreedo.github.io/Sound-Of-My-Heart/).

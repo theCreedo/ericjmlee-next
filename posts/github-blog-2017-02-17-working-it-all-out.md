@@ -1,10 +1,16 @@
 ---
-title: "Working It All Out"
+title: Working It All Out
 date: '2017-02-17'
 era: early
-
 reading_time: 2
-description: "Algo problem-sets, Netflix finished early, SWE group coordination for Spring Break, and the decision to do missions instead of internships this summer."
+description: >-
+  Algo problem-sets, Netflix finished early, SWE group coordination for Spring
+  Break, and the decision to do missions instead of internships this summer.
+topics:
+  - career
+  - college
+  - faith
+  - practice
 ---
 
 > CS373 — Software Engineering in Python (Spring 2017), UT Austin, taught by Professor Downing. First published at [thecreedo.github.io](https://thecreedo.github.io/Working-It-All-Out/).

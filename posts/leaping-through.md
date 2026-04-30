@@ -1,11 +1,17 @@
 ---
-title: "Leaping Through the Closed Door"
+title: Leaping Through the Closed Door
 original_link: 'https://thecreedo.medium.com/leaping-through-the-closed-door-59b5a915ed70'
 date: '2017-04-26'
 image_link: 'https://miro.medium.com/max/1400/1*HRynE28QQ12T_qeqp-dUhQ.jpeg'
-image_alt: 'door with light behind it'
+image_alt: door with light behind it
 reading_time: 4
-description: "I found that my lack of experience and knowledge when initially working in JavaScript had stopped me from wanting to work with it. I realized that if I hadn’t been forced to program in JavaScript, though, I never would’ve opened myself up to working on the language in the future, if ever."
+description: >-
+  I found that my lack of experience and knowledge when initially working in
+  JavaScript had stopped me from wanting to work with it. I realized that if I
+  hadn’t been forced to program in JavaScript, though, I never would’ve opened
+  myself up to working on the language in the future, if ever.
+topics:
+  - reflection
 ---
 When an opportunity opened for me to work in [JavaScript](https://www.javascript.com/) at a hackathon, I found that I didn’t know where to start. I ended up struggling to work with it, wasted 24 hours of my time, and immediately hated JavaScript.
 

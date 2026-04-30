@@ -57,3 +57,10 @@
   padding-top: var(--space-6, 24px);
   border-top: 1px solid var(--border);
 }
+
+@media (max-width: 480px) {
+  .columns {
+    flex-direction: column;
+    gap: var(--space-8, 32px);
+  }
+}

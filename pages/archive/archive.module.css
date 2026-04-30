@@ -27,6 +27,11 @@
   border-color: var(--ink);
 }
 
+.filterBtnActive:hover {
+  color: var(--bg);
+  opacity: 0.8;
+}
+
 .list {
   list-style: none;
   padding: 0;
@@ -49,6 +54,14 @@
 
 .postTitle:hover {
   color: var(--accent);
+}
+
+.postDescription {
+  margin-top: 0.3rem;
+  font-family: var(--f-body), Georgia, serif;
+  font-size: 0.9rem;
+  color: var(--text);
+  line-height: 1.5;
 }
 
 .meta {

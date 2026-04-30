@@ -1,10 +1,14 @@
 ---
-title: "Back From Break"
+title: Back From Break
 date: '2017-03-24'
 era: early
-
 reading_time: 2
-description: "Catching up after Spring Break, shipping the SWE website, and navigating a paranoid game of Assassins with Freetail Hackers."
+description: >-
+  Catching up after Spring Break, shipping the SWE website, and navigating a
+  paranoid game of Assassins with Freetail Hackers.
+topics:
+  - college
+  - craft
 ---
 
 > CS373 — Software Engineering in Python (Spring 2017), UT Austin, taught by Professor Downing. First published at [thecreedo.github.io](https://thecreedo.github.io/Back-From-Break/).

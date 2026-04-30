@@ -1,10 +1,15 @@
 ---
-title: "Week Four - Discovering the Lab"
+title: Week Four - Discovering the Lab
 date: '2016-09-17'
 era: early
-
 reading_time: 3
-description: "Finding the tight-knit CS lab community, finishing the first OS shell project, and starting a Netflix cache project with a partner."
+description: >-
+  Finding the tight-knit CS lab community, finishing the first OS shell project,
+  and starting a Netflix cache project with a partner.
+topics:
+  - college
+  - craft
+  - relationships
 ---
 
 > CS371p — Object-Oriented Programming in C++ (Fall 2016), UT Austin, taught by Professor Downing. First published at [thecreedo.github.io](https://thecreedo.github.io/Week-Four/).

@@ -1,11 +1,16 @@
 ---
-title: "Aim to Trend Upwards"
+title: Aim to Trend Upwards
 date: '2021-04-17'
-image_link: "https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F5fdd3509-57c9-4c47-b96d-4800539c7899_3888x2592.jpeg"
-image_alt: "Stone statue of a bull"
+image_link: >-
+  https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F5fdd3509-57c9-4c47-b96d-4800539c7899_3888x2592.jpeg
+image_alt: Stone statue of a bull
 reading_time: 2
-description: "I’ve been learning that the hardest process in life is trying to maintain balance and equilibrium in everything."
+description: >-
+  I’ve been learning that the hardest process in life is trying to maintain
+  balance and equilibrium in everything.
 original_link: 'https://ericlee.substack.com/p/aim-to-trend-upwards'
+topics:
+  - practice
 ---
 I’ve been learning that the hardest process in life is trying to maintain balance and equilibrium in everything.
 

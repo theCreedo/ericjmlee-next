@@ -1,10 +1,14 @@
 ---
-title: "Week Fourteen – Thanksgivings"
+title: Week Fourteen – Thanksgivings
 date: '2016-11-25'
 era: early
-
 reading_time: 2
-description: "Thanksgiving break: real sleep, teahouse visits, a new bike, and the OS project hovering in the background the whole time."
+description: >-
+  Thanksgiving break: real sleep, teahouse visits, a new bike, and the OS
+  project hovering in the background the whole time.
+topics:
+  - college
+  - craft
 ---
 
 > CS371p — Object-Oriented Programming in C++ (Fall 2016), UT Austin, taught by Professor Downing. First published at [thecreedo.github.io](https://thecreedo.github.io/Thanks-For-Givings/).

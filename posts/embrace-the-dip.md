@@ -1,11 +1,17 @@
 ---
-title: "Embrace The Dip"
+title: Embrace The Dip
 date: '2021-03-06'
-image_link: "https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ffef30e86-4b16-4eb6-90a4-ac86c82b5a5a_953x638.png"
-image_alt: "graph with x-axis for effort and y axis with results, containing a dip"
+image_link: >-
+  https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ffef30e86-4b16-4eb6-90a4-ac86c82b5a5a_953x638.png
+image_alt: 'graph with x-axis for effort and y axis with results, containing a dip'
 reading_time: 2
-description: "Have you ever felt uncertain whether to start a venture, or in too deep with a venture to be able to quit? The Dip help's to work through that!"
+description: >-
+  Have you ever felt uncertain whether to start a venture, or in too deep with a
+  venture to be able to quit? The Dip help's to work through that!
 original_link: 'https://ericlee.substack.com/p/embrace-the-dip'
+topics:
+  - career
+  - purpose
 ---
 Have you ever felt uncertain whether to start a venture?
 

@@ -1,11 +1,16 @@
 ---
-title: "Show, Don't Tell"
+title: 'Show, Don''t Tell'
 date: '2020-11-21'
-image_link: 'https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F123cd996-9690-4580-a21b-e3e7666c8e1f_6862x4657.jpeg'
-image_alt: 'hand with index finger pointing upward in front of orange background'
+image_link: >-
+  https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F123cd996-9690-4580-a21b-e3e7666c8e1f_6862x4657.jpeg
+image_alt: hand with index finger pointing upward in front of orange background
 reading_time: 2
-description: 'It’s important to look at where our time, money, and talents are going, that way we know where our heart is truly at.'
+description: >-
+  It’s important to look at where our time, money, and talents are going, that
+  way we know where our heart is truly at.
 original_link: 'https://ericlee.substack.com/p/show-dont-tell'
+topics:
+  - purpose
 ---
 Words have power. 💪
 

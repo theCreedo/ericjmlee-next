@@ -1,9 +1,23 @@
 import { useState } from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
-import Layout, { siteTitle } from '../components/layout'
+import Layout, { siteTitle, base_url } from '../components/layout'
+import JsonLd from '../components/JsonLd'
 import styles from './index.module.css'
 import { useDarkMode } from './_app'
+
+const WEBSITE_SCHEMA = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Eric Lee',
+  url: base_url,
+  description: 'Developer advocate, L2 TCG judge, church leader, and writer based in Austin, TX.',
+  author: {
+    '@type': 'Person',
+    name: 'Eric Lee',
+    url: base_url,
+  },
+}
 
 const domains = [
   { label: 'Work',   href: '/work',   description: 'Developer Advocate @ Global Payments — helping developers integrate, build, and ship.' },
@@ -23,10 +37,11 @@ export default function Home() {
   }
 
   return (
-    <Layout home>
+    <Layout home canonicalPath="/">
       <Head>
         <title>{siteTitle}</title>
         <meta name="description" content="Developer advocate, L2 TCG judge, church leader, and writer based in Austin, TX." />
+        <JsonLd data={WEBSITE_SCHEMA} />
       </Head>
       <section>
         <div className={styles.heroRow}>
@@ -41,8 +56,8 @@ export default function Home() {
             <Image
               src="/images/profile/transparent-profile.png"
               alt="Eric Lee"
-              width={68}
-              height={68}
+              width={80}
+              height={80}
             />
           </div>
           <div className={styles.heroText}>

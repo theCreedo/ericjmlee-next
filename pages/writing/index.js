@@ -6,7 +6,7 @@ import styles from './writing.module.css'
 
 export default function Writing({ posts }) {
   return (
-    <Layout>
+    <Layout canonicalPath="/writing">
       <Head>
         <title>{`Writing | ${siteTitle}`}</title>
         <meta name="description" content="Evergreen pieces by Eric Lee worth returning to." />

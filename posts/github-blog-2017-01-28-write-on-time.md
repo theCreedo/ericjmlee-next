@@ -1,10 +1,15 @@
 ---
-title: "Write On Time"
+title: Write On Time
 date: '2017-01-28'
 era: early
-
 reading_time: 2
-description: "Week one of a One-Desire meat fast, finishing Collatz after 15 hours of wrong optimization, and writing four simultaneous blogs at once."
+description: >-
+  Week one of a One-Desire meat fast, finishing Collatz after 15 hours of wrong
+  optimization, and writing four simultaneous blogs at once.
+topics:
+  - college
+  - craft
+  - faith
 ---
 
 > CS373 — Software Engineering in Python (Spring 2017), UT Austin, taught by Professor Downing. First published at [thecreedo.github.io](https://thecreedo.github.io/Write-On-Time/).

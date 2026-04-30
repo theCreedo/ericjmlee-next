@@ -1,11 +1,21 @@
 ---
-title: "A Rant to Stir Up a Dead Heart For God"
-original_link: 'https://thecreedo.medium.com/a-rant-to-stir-up-a-dead-heart-for-god-e7af6af29a1'
+title: A Rant to Stir Up a Dead Heart For God
+original_link: >-
+  https://thecreedo.medium.com/a-rant-to-stir-up-a-dead-heart-for-god-e7af6af29a1
 date: '2019-05-06'
 image_link: 'https://miro.medium.com/max/1400/1*H6YEd1tNSZCs0IVatuAsoA.jpeg'
-image_alt: 'zoom in wooden bench with a white chalked heart etched onto a board'
+image_alt: zoom in wooden bench with a white chalked heart etched onto a board
 reading_time: 5
-description: 'How can we chase after pointless and empty dreams that lead to despair? Why do we mindlessly pursue after the many broken pieces in life that are insignificant — like grains of sand that struggle to fill the gaping hole of desire in our hearts — when there is a spring that brings about the living water of life which desires to completely engulf the darkness and fill us with peace, joy, hope, and love?'
+description: >-
+  How can we chase after pointless and empty dreams that lead to despair? Why do
+  we mindlessly pursue after the many broken pieces in life that are
+  insignificant — like grains of sand that struggle to fill the gaping hole of
+  desire in our hearts — when there is a spring that brings about the living
+  water of life which desires to completely engulf the darkness and fill us with
+  peace, joy, hope, and love?
+topics:
+  - faith
+  - purpose
 ---
 _Isn’t the God of the Universe so amazing and magnificent?_
 

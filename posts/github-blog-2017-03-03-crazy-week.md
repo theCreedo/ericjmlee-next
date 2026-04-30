@@ -1,10 +1,13 @@
 ---
-title: "Crazy Week"
+title: Crazy Week
 date: '2017-03-03'
 era: early
-
 reading_time: 3
-description: "SWE Test 1 prep, joining FreeTail Hackers Tech Team, cooking Gordon Ramsay sliders, and studying Algo as a dynamic programming cache."
+description: >-
+  SWE Test 1 prep, joining FreeTail Hackers Tech Team, cooking Gordon Ramsay
+  sliders, and studying Algo as a dynamic programming cache.
+topics:
+  - college
 ---
 
 > CS373 — Software Engineering in Python (Spring 2017), UT Austin, taught by Professor Downing. First published at [thecreedo.github.io](https://thecreedo.github.io/Crazy-Week/).

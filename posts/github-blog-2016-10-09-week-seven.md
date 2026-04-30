@@ -1,10 +1,14 @@
 ---
-title: "Week Seven - Balance to an Extension"
+title: Week Seven - Balance to an Extension
 date: '2016-10-09'
 era: early
-
 reading_time: 3
-description: "Balancing the OOP exam on Canvas, an OS Stack assignment full of memcpy surprises, and a constant tug-of-war between requirements and what matters more."
+description: >-
+  Balancing the OOP exam on Canvas, an OS Stack assignment full of memcpy
+  surprises, and a constant tug-of-war between requirements and what matters
+  more.
+topics:
+  - college
 ---
 
 > CS371p — Object-Oriented Programming in C++ (Fall 2016), UT Austin, taught by Professor Downing. First published at [thecreedo.github.io](https://thecreedo.github.io/Week-Seven/).

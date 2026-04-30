@@ -61,7 +61,7 @@ const nav = [
   { label: 'Archive', href: '/archive' },
 ]
 
-export default function Layout({ children, home, project, experience, blog, newsletter, postData }) {
+export default function Layout({ children, home, project, experience, blog, newsletter, postData, canonicalPath, ogType }) {
   const [navOpen, setNavOpen] = useState(false)
   const { darkMode, toggleDarkMode } = useDarkMode()
 
@@ -76,6 +76,10 @@ export default function Layout({ children, home, project, experience, blog, news
         <meta key="og:image" property="og:image" content={DEFAULT_OG_IMAGE} />
         <meta key="og:description" property="og:description" content={DEFAULT_DESCRIPTION} />
         <meta property="twitter:card" content="summary_large_image" />
+        {canonicalPath && <link rel="canonical" href={`${base_url}${canonicalPath}`} />}
+        {canonicalPath && <meta property="og:url" content={`${base_url}${canonicalPath}`} />}
+        <meta property="og:type" content={ogType || 'website'} />
+        <meta property="og:locale" content="en_US" />
         {home      && <meta key="og:title" property="og:title" content={siteTitle} />}
         {project   && <meta key="og:title" property="og:title" content={`Projects | ${siteTitle}`} />}
         {experience && <meta key="og:title" property="og:title" content={`Experience | ${siteTitle}`} />}

@@ -1,10 +1,15 @@
 ---
-title: "Is This The Real Life"
+title: Is This The Real Life
 date: '2017-03-10'
 era: early
-
 reading_time: 3
-description: "Winning Mobile Track at HackUTD with SensorStrike, planning the SWE website project team, and previewing a second short story."
+description: >-
+  Winning Mobile Track at HackUTD with SensorStrike, planning the SWE website
+  project team, and previewing a second short story.
+topics:
+  - college
+  - craft
+  - reflection
 ---
 
 > CS373 — Software Engineering in Python (Spring 2017), UT Austin, taught by Professor Downing. First published at [thecreedo.github.io](https://thecreedo.github.io/Is-This-The-Real-Life/).

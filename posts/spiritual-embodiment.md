@@ -1,12 +1,19 @@
 ---
-title: 'Spiritual Embodiment'
+title: Spiritual Embodiment
 date: '2020-09-19'
-image_link: 'https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc257ad31-6d9d-42f6-b6db-98eea7a2690f_3122x2081.jpeg'
-image_alt: 'Moon in the night'
+image_link: >-
+  https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc257ad31-6d9d-42f6-b6db-98eea7a2690f_3122x2081.jpeg
+image_alt: Moon in the night
 reading_time: 2
 unpublished: false
-description: 'Our spiritual lives are heavily influenced by our physical and emotional well-being.'
+description: >-
+  Our spiritual lives are heavily influenced by our physical and emotional
+  well-being.
 original_link: 'https://ericlee.substack.com/p/spiritual-embodiment'
+topics:
+  - faith
+  - health
+  - leadership
 ---
 
 Recently, I listened to my hometown church's sermon on “Burnout & Loneliness” by Pastor Josh, and there was a lot of life-changing insight I took away from it. 🧐

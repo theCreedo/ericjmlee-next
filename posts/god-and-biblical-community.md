@@ -1,11 +1,16 @@
 ---
-title: 'Cling to God and Biblical Community'
+title: Cling to God and Biblical Community
 original_link: 'https://thecreedo.medium.com/cling-to-god-and-biblical-community-84b480b83a2a'
 date: '2018-01-20'
 image_link: 'https://miro.medium.com/max/1400/1*VcmAjXd1zp_LZCbJXMXhdQ.jpeg'
-image_alt: 'pasty fern leaves in front of sunlight a blurry sunrise'
+image_alt: pasty fern leaves in front of sunlight a blurry sunrise
 reading_time: 5
-description: 'What is the connection between personal relationship with God, vulnerability, and biblical community?'
+description: >-
+  What is the connection between personal relationship with God, vulnerability,
+  and biblical community?
+topics:
+  - faith
+  - relationships
 ---
 One of the greatest conundrums I have faced in Fall semester of 2017 is the connection between personal relationship with God, vulnerability, and biblical community.
 

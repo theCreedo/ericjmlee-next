@@ -1,9 +1,11 @@
+import { useState } from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import Layout, { siteTitle, base_url } from '../../components/layout'
 import JsonLd from '../../components/JsonLd'
 import styles from '../../styles/domain.module.css'
+import { useDarkMode } from '../_app'
 
 const FAITH_SCHEMA = {
   '@context': 'https://schema.org',
@@ -14,8 +16,17 @@ const FAITH_SCHEMA = {
 }
 
 export default function Faith() {
+  const { toggleDarkMode } = useDarkMode()
+  const [avatarPop, setAvatarPop] = useState(false)
+
+  function handleAvatarClick() {
+    setAvatarPop(true)
+    setTimeout(() => setAvatarPop(false), 300)
+    toggleDarkMode()
+  }
+
   return (
-    <Layout>
+    <Layout canonicalPath="/faith">
       <Head>
         <title>{`Faith | ${siteTitle}`}</title>
         <meta name="description" content="Eric Lee's faith — what it means to how he lives." />
@@ -26,7 +37,14 @@ export default function Faith() {
       {/* Page: /faith | Person: Eric Lee | Topic: Faith, HMCC Austin, church leadership, worship, missions */}
       <div className={styles.page}>
         <div className={styles.domainHeader}>
-          <div className={styles.domainProfile}>
+          <div
+            className={`${styles.domainProfile}${avatarPop ? ' ' + styles.domainProfilePop : ''}`}
+            onClick={handleAvatarClick}
+            role="button"
+            aria-label="Toggle dark mode"
+            tabIndex={0}
+            onKeyDown={(e) => e.key === 'Enter' && handleAvatarClick()}
+          >
             <Image
               src="/images/profile/faith-profile.jpg"
               alt="Eric Lee"
@@ -62,7 +80,7 @@ export default function Faith() {
             <li className={styles.linkItem}>
               <span className={styles.linkLabel}>Church</span>
               <span className={styles.linkValue}>
-                <a href="https://austin.hmcc.net" target="_blank" rel="noopener noreferrer">
+                <a href="https://atx.hmccglobal.org/" target="_blank" rel="noopener noreferrer">
                   HMCC Austin
                 </a>
               </span>

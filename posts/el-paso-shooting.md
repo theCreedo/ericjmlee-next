@@ -1,11 +1,15 @@
 ---
-title: "Reflection of the El Paso Shooting"
+title: Reflection of the El Paso Shooting
 original_link: 'https://thecreedo.medium.com/reflection-of-the-el-paso-shooting-ceacbff77256'
 date: '2019-08-04'
 image_link: 'https://miro.medium.com/max/1400/1*tEPpasOBHWRp44FUSsQFUQ.jpeg'
-image_alt: 'string with a pink torn paper heart hanging from it'
+image_alt: string with a pink torn paper heart hanging from it
 reading_time: 5
-description: 'The news didn’t register quick enough and before I knew it, it slid swiftly by.'
+description: >-
+  The news didn’t register quick enough and before I knew it, it slid swiftly
+  by.
+topics:
+  - reflection
 ---
 _Disclaimer: This is a personal reflection of my own thoughts from the event with the intention to raise awareness of injustice, to incite reflection, and to ultimately encourage towards love._
 

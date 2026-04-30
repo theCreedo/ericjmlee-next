@@ -1,10 +1,16 @@
 ---
-title: "Week One - Starting the Sophomore Semester (Not Slump)"
+title: Week One - Starting the Sophomore Semester (Not Slump)
 date: '2016-08-28'
 era: early
-
 reading_time: 3
-description: "First week of sophomore year at UT Austin: installing Docker, writing C linked lists, revamping a resume, and teaching social dance."
+description: >-
+  First week of sophomore year at UT Austin: installing Docker, writing C linked
+  lists, revamping a resume, and teaching social dance.
+topics:
+  - career
+  - college
+  - craft
+  - relationships
 ---
 
 > CS371p — Object-Oriented Programming in C++ (Fall 2016), UT Austin, taught by Professor Downing. First published at [thecreedo.github.io](https://thecreedo.github.io/Week-One/).

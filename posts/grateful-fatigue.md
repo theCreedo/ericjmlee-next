@@ -1,10 +1,18 @@
 ---
-title: 'Grateful Fatigue'
+title: Grateful Fatigue
 date: '2020-08-19'
-image_link: 'https://images.unsplash.com/photo-1521805103424-d8f8430e8933?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60'
-image_alt: 'bar and weights'
+image_link: >-
+  https://images.unsplash.com/photo-1521805103424-d8f8430e8933?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60
+image_alt: bar and weights
 reading_time: 2
-description: 'After the workout, and a chill nights rest, I woke up feeling stiff and uncomfortable. I tried to lift my arms up to stretch, and felt the sharp sting of pain enter my right elbow. I looked down and tried to bend it, but it wouldn’t budge.'
+description: >-
+  After the workout, and a chill nights rest, I woke up feeling stiff and
+  uncomfortable. I tried to lift my arms up to stretch, and felt the sharp sting
+  of pain enter my right elbow. I looked down and tried to bend it, but it
+  wouldn’t budge.
+topics:
+  - health
+  - purpose
 ---
 Recently I moved into a new apartment.
 

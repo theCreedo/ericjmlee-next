@@ -1,10 +1,14 @@
 ---
-title: "Writer's Unblock Week"
+title: Writer's Unblock Week
 date: '2017-04-22'
 era: early
-
 reading_time: 4
-description: "Organizing Music Hacks, publishing a UTCS faculty profile, completing SWE Phase 3, and registering for fall classes including Korean."
+description: >-
+  Organizing Music Hacks, publishing a UTCS faculty profile, completing SWE
+  Phase 3, and registering for fall classes including Korean.
+topics:
+  - college
+  - craft
 ---
 
 > CS373 — Software Engineering in Python (Spring 2017), UT Austin, taught by Professor Downing. First published at [thecreedo.github.io](https://thecreedo.github.io/Writer-Unblocks-Week/).

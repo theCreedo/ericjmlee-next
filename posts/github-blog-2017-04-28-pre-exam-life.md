@@ -1,10 +1,16 @@
 ---
-title: "Pre-Exam Life"
+title: Pre-Exam Life
 date: '2017-04-28'
 era: early
-
 reading_time: 3
-description: "EarthHack's Pick It Up project using computer vision, coding a Gmail API script for a church grad night video, and prepping for SWE and Gov exams."
+description: >-
+  EarthHack's Pick It Up project using computer vision, coding a Gmail API
+  script for a church grad night video, and prepping for SWE and Gov exams.
+topics:
+  - college
+  - craft
+  - faith
+  - purpose
 ---
 
 > CS373 — Software Engineering in Python (Spring 2017), UT Austin, taught by Professor Downing. First published at [thecreedo.github.io](https://thecreedo.github.io/Pre-Exam-Life/).

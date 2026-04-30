@@ -1,16 +1,18 @@
 import fs from 'fs'
 import path from 'path'
+import { useState, useEffect, useCallback } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 import Layout, { siteTitle, base_url } from '../../components/layout'
 import JsonLd from '../../components/JsonLd'
 import styles from '../../styles/domain.module.css'
+import { useDarkMode } from '../_app'
 
 const LOGOS = [
-  { file: 'fab-logo.png',               alt: 'Flesh and Blood TCG' },
-  { file: 'judges-of-rathe-logo.png',   alt: 'Judges of Rathe' },
-  { file: 'tcgplayer-logo.png',          alt: 'TCGplayer' },
+  { file: 'fab-logo.png',             alt: 'Flesh and Blood TCG', url: 'https://fabtcg.com' },
+  { file: 'judges-of-rathe-logo.png', alt: 'Judges of Rathe',    url: 'https://fabtcg.com/judges/ericjmlee/' },
+  { file: 'tcgplayer-logo.png',       alt: 'TCGplayer',          url: 'https://www.tcgplayer.com/search/all/product?seller=c32f5ae7&view=grid' },
 ]
 
 const CARDS_SCHEMA = {
@@ -39,8 +41,33 @@ export async function getStaticProps() {
 }
 
 export default function Cards({ photos }) {
+  const { toggleDarkMode } = useDarkMode()
+  const [avatarPop, setAvatarPop] = useState(false)
+  const [lightboxIndex, setLightboxIndex] = useState(null)
+
+  function handleAvatarClick() {
+    setAvatarPop(true)
+    setTimeout(() => setAvatarPop(false), 300)
+    toggleDarkMode()
+  }
+
+  const closeLightbox = useCallback(() => setLightboxIndex(null), [])
+  const prev = useCallback(() => setLightboxIndex((i) => (i - 1 + photos.length) % photos.length), [photos.length])
+  const next = useCallback(() => setLightboxIndex((i) => (i + 1) % photos.length), [photos.length])
+
+  useEffect(() => {
+    if (lightboxIndex === null) return
+    function onKey(e) {
+      if (e.key === 'Escape')     closeLightbox()
+      if (e.key === 'ArrowLeft')  prev()
+      if (e.key === 'ArrowRight') next()
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [lightboxIndex, closeLightbox, prev, next])
+
   return (
-    <Layout>
+    <Layout canonicalPath="/cards">
       <Head>
         <title>{`Cards | ${siteTitle}`}</title>
         <meta name="description" content="Eric Lee in Flesh and Blood TCG — playing, collecting, selling, and judging. FAB L2 judge and JCR for USA South Central." />
@@ -51,7 +78,14 @@ export default function Cards({ photos }) {
       {/* Page: /cards | Person: Eric Lee | Topic: Flesh and Blood TCG, playing, collecting, selling, judging, community */}
       <div className={styles.page}>
         <div className={styles.domainHeader}>
-          <div className={styles.domainProfile}>
+          <div
+            className={`${styles.domainProfile}${avatarPop ? ' ' + styles.domainProfilePop : ''}`}
+            onClick={handleAvatarClick}
+            role="button"
+            aria-label="Toggle dark mode"
+            tabIndex={0}
+            onKeyDown={(e) => e.key === 'Enter' && handleAvatarClick()}
+          >
             <Image
               src="/images/profile/cards-profile.jpg"
               alt="Eric Lee"
@@ -61,11 +95,11 @@ export default function Cards({ photos }) {
           </div>
           <h1>Cards</h1>
         </div>
-        <p className={styles.lead}>I&apos;ve been in Flesh and Blood since the end of 2021. Started off as a player, then a collector and a seller, and now a judge. For my locals, I try to be involved and connect players with one another in the community, as well as inform about regional and national events. As a judge, I help write content for the judge blog and am involved in the community as JCR for USA South Central.</p>
+        <p className={styles.lead}>I&apos;ve been in <a href="https://fabtcg.com" target="_blank" rel="noopener noreferrer">Flesh and Blood</a> since the end of 2021. Started off as a player, then a collector and a seller, and now a judge. For my locals, I try to be involved and connect players with one another in the community, as well as inform about regional and national events. As a judge, I help write content for the judge blog and am involved in the community as JCR for USA South Central.</p>
 
         <div className={styles.logoStrip}>
           {LOGOS.map((logo) => (
-            <div key={logo.file} className={styles.logoWrapper}>
+            <a key={logo.file} href={logo.url} target="_blank" rel="noopener noreferrer" className={styles.logoWrapper} aria-label={logo.alt}>
               <Image
                 src={`/images/cards/${logo.file}`}
                 alt={logo.alt}
@@ -73,7 +107,7 @@ export default function Cards({ photos }) {
                 className={styles.logoImg}
                 style={{ objectFit: 'contain', objectPosition: 'left center' }}
               />
-            </div>
+            </a>
           ))}
         </div>
 
@@ -116,8 +150,13 @@ export default function Cards({ photos }) {
           <section className={styles.section}>
             <p className={styles.sectionLabel}>Community</p>
             <div className={styles.photoGrid}>
-              {photos.map((photo) => (
-                <div key={photo} className={styles.photoItem}>
+              {photos.map((photo, i) => (
+                <button
+                  key={photo}
+                  className={styles.photoItem}
+                  onClick={() => setLightboxIndex(i)}
+                  aria-label={`Open photo ${i + 1} of ${photos.length}`}
+                >
                   <Image
                     src={`/images/cards/photos/${photo}`}
                     alt="Flesh and Blood community"
@@ -125,7 +164,7 @@ export default function Cards({ photos }) {
                     sizes="(max-width: 480px) 100vw, (max-width: 720px) 50vw, 33vw"
                     style={{ objectFit: 'cover' }}
                   />
-                </div>
+                </button>
               ))}
             </div>
             <p style={{ marginTop: '12px', fontFamily: 'var(--f-ui)', fontSize: '13px' }}>
@@ -134,6 +173,28 @@ export default function Cards({ photos }) {
               </a>
             </p>
           </section>
+        )}
+
+        {lightboxIndex !== null && (
+          <div className={styles.lightbox} onClick={closeLightbox} role="dialog" aria-modal="true" aria-label="Photo lightbox">
+            <button className={styles.lightboxClose} onClick={closeLightbox} aria-label="Close">✕</button>
+            {photos.length > 1 && (
+              <button className={`${styles.lightboxNav} ${styles.lightboxPrev}`} onClick={(e) => { e.stopPropagation(); prev() }} aria-label="Previous photo">‹</button>
+            )}
+            <Image
+              src={`/images/cards/photos/${photos[lightboxIndex]}`}
+              alt={`Flesh and Blood community photo ${lightboxIndex + 1}`}
+              className={styles.lightboxImg}
+              width={1200}
+              height={800}
+              style={{ objectFit: 'contain' }}
+              onClick={(e) => e.stopPropagation()}
+            />
+            {photos.length > 1 && (
+              <button className={`${styles.lightboxNav} ${styles.lightboxNext}`} onClick={(e) => { e.stopPropagation(); next() }} aria-label="Next photo">›</button>
+            )}
+            <p className={styles.lightboxCounter}>{lightboxIndex + 1} / {photos.length}</p>
+          </div>
         )}
 
         <section className={styles.section}>

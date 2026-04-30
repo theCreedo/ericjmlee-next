@@ -1,10 +1,13 @@
 ---
-title: "Week Sixteen – Dis is Finals"
+title: Week Sixteen – Dis is Finals
 date: '2016-12-04'
 era: early
-
 reading_time: 3
-description: "The hardest week of semester: an ER visit from stress and anxiety, the toughest OOP exam yet, and finishing everything just barely."
+description: >-
+  The hardest week of semester: an ER visit from stress and anxiety, the
+  toughest OOP exam yet, and finishing everything just barely.
+topics:
+  - college
 ---
 
 > CS371p — Object-Oriented Programming in C++ (Fall 2016), UT Austin, taught by Professor Downing. First published at [thecreedo.github.io](https://thecreedo.github.io/Dis-is-Finals/).

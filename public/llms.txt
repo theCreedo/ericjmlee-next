@@ -46,7 +46,7 @@ Links:
 
 ## Faith
 
-Community: HMCC Austin (https://austin.hmcc.net)
+Community: HMCC Austin (https://atx.hmccglobal.org/)
 Roles: Worship (keys), small group leadership for working adults
 Missions: Short-term missions in the US, Latin America, and Asia
 
@@ -66,6 +66,30 @@ Also published on: WordPress, Medium, UT CS blog, Substack (Savvy Saturdays news
 ## Contact
 
 See https://ericjmlee.com/about for contact information.
+
+---
+
+## Best Posts
+
+Curated representative writing — available as plain Markdown at /blog/[id].md
+
+### Craft & Productivity
+- Decision Making with the Eisenhower Box: https://ericjmlee.com/blog/decision-making-with-the-eisenhower-box.md
+- Batching to Completion: https://ericjmlee.com/blog/batching-to-completion.md
+- Busy is a Decision: https://ericjmlee.com/blog/busy-is-a-decision.md
+- Delegate, Don't Tinker: https://ericjmlee.com/blog/delegate-dont-tinker.md
+- Close the Loop: https://ericjmlee.com/blog/close-the-loop.md
+
+### Reflection & Purpose
+- What Keeps You Up at Night?: https://ericjmlee.com/blog/what-keeps-you-up-at-night.md
+- Defining Success: https://ericjmlee.com/blog/defining-success.md
+- Work in Progress: https://ericjmlee.com/blog/work-in-progress.md
+
+### Faith & Leadership
+- Calling, Identity, and Stewardship: https://ericjmlee.com/blog/calling-identity-and-stewardship.md
+- Balance Macro & Micro: https://ericjmlee.com/blog/balance-macro-and-micro.md
+
+All 70+ posts: https://ericjmlee.com/archive
 
 ---
 

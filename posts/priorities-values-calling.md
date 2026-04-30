@@ -1,11 +1,18 @@
 ---
 title: 'Priorities, Values, & Calling'
 date: '2020-11-07'
-image_link: 'https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb668d99b-9e94-4460-bfee-7d63b5aca766_5649x3701.jpeg'
-image_alt: 'hand holding compass'
+image_link: >-
+  https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb668d99b-9e94-4460-bfee-7d63b5aca766_5649x3701.jpeg
+image_alt: hand holding compass
 reading_time: 1
-description: 'Each season brings a new set of priorities. Recently, I started to shift my attention from my priorities to understanding my faith calling (a.k.a. values).'
+description: >-
+  Each season brings a new set of priorities. Recently, I started to shift my
+  attention from my priorities to understanding my faith calling (a.k.a.
+  values).
 original_link: 'https://ericlee.substack.com/p/priorities-values-and-calling'
+topics:
+  - faith
+  - purpose
 ---
 Every season in life, I find myself needing to refocus on the priorities I have.
 

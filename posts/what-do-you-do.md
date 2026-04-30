@@ -1,11 +1,13 @@
 ---
-title: "What Do You Do?"
+title: What Do You Do?
 original_link: 'https://thecreedo.medium.com/what-do-you-do-ee9102f16472'
 date: '2018-10-25'
 image_link: 'https://miro.medium.com/max/1400/1*MVBXzyde_pWZqZRL9fQWsg.jpeg'
-image_alt: 'unlit lightbulb with blurred yellow sunset background'
+image_alt: unlit lightbulb with blurred yellow sunset background
 reading_time: 4
-description: 'What do you do when the world seems to go against you?'
+description: What do you do when the world seems to go against you?
+topics:
+  - purpose
 ---
 _What do you do when the world seems to go against you?_
 

@@ -41,7 +41,7 @@ export default function Archive({ posts, years }) {
   }
 
   return (
-    <Layout>
+    <Layout canonicalPath="/archive">
       <Head>
         <title>{`Archive | ${siteTitle}`}</title>
         <meta name="description" content="All writing by Eric Lee — blog posts, essays, and published pieces." />
@@ -54,6 +54,7 @@ export default function Archive({ posts, years }) {
             <Link
               key={y}
               href={filterHref('year', y)}
+              scroll={false}
               className={`${styles.filterBtn} ${year === y ? styles.filterBtnActive : ''}`}
             >
               {y}
@@ -77,6 +78,9 @@ export default function Archive({ posts, years }) {
               >
                 {post.title}
               </a>
+              {post.description && (
+                <p className={styles.postDescription}>{post.description}</p>
+              )}
               <div className={styles.meta}>
                 <span className={styles.postDate}>
                   <Date dateString={post.date} isPost />

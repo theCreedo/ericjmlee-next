@@ -1,11 +1,19 @@
 ---
-title: 'Make Decisions Easily'
+title: Make Decisions Easily
 date: '2021-01-09'
-image_link: 'https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7500ccd4-8147-42cc-96f1-503df71d9c03_5434x3623.jpeg'
-image_alt: 'Post with directions in front of sunset'
+image_link: >-
+  https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7500ccd4-8147-42cc-96f1-503df71d9c03_5434x3623.jpeg
+image_alt: Post with directions in front of sunset
 reading_time: 2
-description: 'We are making decisions every single moment of our life; what food to order at a restaurant, which YouTube recommended video to watch, or what color mask (if any) to wear before heading out.'
+description: >-
+  We are making decisions every single moment of our life; what food to order at
+  a restaurant, which YouTube recommended video to watch, or what color mask (if
+  any) to wear before heading out.
 original_link: 'https://ericlee.substack.com/p/make-decisions-easily'
+topics:
+  - practice
+  - purpose
+  - reflection
 ---
 We are making decisions every single moment of our life; what food to order at a restaurant, which YouTube recommended video to watch, or what color mask (if any) to wear before heading out.
 

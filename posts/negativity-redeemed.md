@@ -1,11 +1,16 @@
 ---
-title: "Negativity Redeemed"
+title: Negativity Redeemed
 original_link: 'https://thecreedo.medium.com/negativity-redeemed-a8351bf4e877'
 date: '2019-05-13'
 image_link: 'https://miro.medium.com/max/1400/1*bISc6YNM6cR11EzkfvwxwA.jpeg'
-image_alt: 'three seeds on a leaf on a semi-blurred wooden board'
+image_alt: three seeds on a leaf on a semi-blurred wooden board
 reading_time: 4
-description: "I tend to look at myself with a low regard, and expectations that seem almost disgusting. What is it about this juxtaposition? Why do I do this to myself Something is wrong with how I approach this insecurity."
+description: >-
+  I tend to look at myself with a low regard, and expectations that seem almost
+  disgusting. What is it about this juxtaposition? Why do I do this to myself
+  Something is wrong with how I approach this insecurity.
+topics:
+  - reflection
 ---
 _You’re stupid._
 

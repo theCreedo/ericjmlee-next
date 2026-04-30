@@ -1,11 +1,13 @@
 ---
-title: 'Helpless Prayer'
+title: Helpless Prayer
 original_link: 'https://thecreedo.medium.com/helpless-prayer-d937acb16df3f'
 date: '2017-11-27'
 image_link: 'https://miro.medium.com/max/1400/1*mOwSj22vvcxRZ5ZjEUTBlQ.jpeg'
-image_alt: 'blue shading of a person kneeling before a shadowy cross'
+image_alt: blue shading of a person kneeling before a shadowy cross
 reading_time: 4
-description: 'Do you ever feel selfish whenever you ask someone else to pray for you?'
+description: Do you ever feel selfish whenever you ask someone else to pray for you?
+topics:
+  - faith
 ---
 Do you ever feel selfish whenever you ask someone else to pray for you?
 

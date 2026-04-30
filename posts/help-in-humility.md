@@ -1,11 +1,19 @@
 ---
-title: 'Help in Humility'
+title: Help in Humility
 date: '2020-10-24'
-image_link: 'https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3e702265-e95f-42d5-9c4e-ed149c7b9f31_2746x1819.jpeg'
-image_alt: 'arm reaching out in darkness'
+image_link: >-
+  https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3e702265-e95f-42d5-9c4e-ed149c7b9f31_2746x1819.jpeg
+image_alt: arm reaching out in darkness
 reading_time: 1
-description: 'I found myself forced to do one of the things I disliked most: asking for help. When it comes to sending a message to ask for help, I struggle with formulating the right words to ask a question. Overanalysis, overthinking, and obsession over the intention of what I send stops me from moving past my discomfort of sending the question.'
+description: >-
+  I found myself forced to do one of the things I disliked most: asking for
+  help. When it comes to sending a message to ask for help, I struggle with
+  formulating the right words to ask a question. Overanalysis, overthinking, and
+  obsession over the intention of what I send stops me from moving past my
+  discomfort of sending the question.
 original_link: 'https://ericlee.substack.com/p/help-in-humility'
+topics:
+  - relationships
 ---
 A couple of weeks ago, I missed a work deadline on Friday.
 

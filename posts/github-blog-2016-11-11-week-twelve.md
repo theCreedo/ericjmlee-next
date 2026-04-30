@@ -1,10 +1,14 @@
 ---
-title: "Week Twelve – Moodify Hack"
+title: Week Twelve – Moodify Hack
 date: '2016-11-11'
 era: early
-
 reading_time: 4
-description: "Winning People's Choice and Best Technical at Indigitous #Hack with a music sentiment analysis app, then getting nominated to compete globally."
+description: >-
+  Winning People's Choice and Best Technical at Indigitous #Hack with a music
+  sentiment analysis app, then getting nominated to compete globally.
+topics:
+  - college
+  - relationships
 ---
 
 > CS371p — Object-Oriented Programming in C++ (Fall 2016), UT Austin, taught by Professor Downing. First published at [thecreedo.github.io](https://thecreedo.github.io/Moodify/).

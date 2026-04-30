@@ -1,11 +1,15 @@
 ---
-title: "Be a Healthy Net Giver"
+title: Be a Healthy Net Giver
 date: '2021-03-20'
-image_link: "https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6be3f520-1e21-4478-be7d-5467f0cbda1e_6016x4016.jpeg"
-image_alt: "Palm facing upward holding a yellow flower"
+image_link: >-
+  https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6be3f520-1e21-4478-be7d-5467f0cbda1e_6016x4016.jpeg
+image_alt: Palm facing upward holding a yellow flower
 reading_time: 1
-description: "Find balance in net giving so you have enough to pour out."
+description: Find balance in net giving so you have enough to pour out.
 original_link: 'https://ericlee.substack.com/p/be-a-healthy-net-giver'
+topics:
+  - health
+  - relationships
 ---
 In life, there are many types of people you meet.
 

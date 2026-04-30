@@ -1,10 +1,14 @@
 ---
-title: "Arms Are Heavy"
+title: Arms Are Heavy
 date: '2017-03-31'
 era: early
-
 reading_time: 3
-description: "Algo and Gov exams, meeting Palantir, drafting a UTCS faculty article, and realizing how little code I was actually writing."
+description: >-
+  Algo and Gov exams, meeting Palantir, drafting a UTCS faculty article, and
+  realizing how little code I was actually writing.
+topics:
+  - college
+  - craft
 ---
 
 > CS373 — Software Engineering in Python (Spring 2017), UT Austin, taught by Professor Downing. First published at [thecreedo.github.io](https://thecreedo.github.io/Arms-Are-Heavy/).

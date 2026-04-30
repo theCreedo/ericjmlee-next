@@ -1,11 +1,15 @@
 ---
-title: "Measurable and Immeasurable Value"
+title: Measurable and Immeasurable Value
 date: '2021-03-27'
-image_link: "https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F44047985-ea0f-4cc9-985c-a8ad0703d5e9_5184x3456.jpeg"
-image_alt: "spread out gold coins on a table"
+image_link: >-
+  https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F44047985-ea0f-4cc9-985c-a8ad0703d5e9_5184x3456.jpeg
+image_alt: spread out gold coins on a table
 reading_time: 2
-description: "What is the best way to quantify the results that you achieve?"
+description: What is the best way to quantify the results that you achieve?
 original_link: 'https://ericlee.substack.com/p/measurable-and-immeasurable-value'
+topics:
+  - leadership
+  - practice
 ---
 _Every problem is an interpersonal problem_
 

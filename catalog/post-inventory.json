@@ -1,12 +1,51 @@
 [
   {
+    "slug": "flashing-raccoons",
+    "title": "Flashing Raccoons",
+    "date": "2024-11-18",
+    "source": "external",
+    "original_link": "https://outsidethe9to5life.wordpress.com/2024/11/18/flashing-raccoons/",
+    "description": "A perspective on bouldering — terms to know, moves to learn, and how to not be a hater.",
+    "topics": [
+      "health"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "fashion-journey",
+    "title": "Fashion Journey",
+    "date": "2024-07-15",
+    "source": "external",
+    "original_link": "https://outsidethe9to5life.wordpress.com/2024/07/15/fashion-journey/",
+    "description": "An indulgent, insightful look at a fashion journey — how it started, what it means, and where it's going.",
+    "topics": [
+      "reflection"
+    ],
+    "evergreen": false
+  },
+  {
+    "slug": "the-other-3920-hours",
+    "title": "The Other 3920 Hours",
+    "date": "2024-06-07",
+    "source": "external",
+    "original_link": "https://outsidethe9to5life.wordpress.com/2024/06/07/the-other-3920-hours/",
+    "description": "There are 8760 hours in a year. 1,920 at work. 2,920 asleep. What do you do with the other 3,920?",
+    "topics": [
+      "purpose"
+    ],
+    "evergreen": false
+  },
+  {
     "slug": "look-at-the-big-picture",
     "title": "Look at the Big Picture",
     "date": "2021-11-27",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/look-at-the-big-picture-announcement",
-    "description": "",
-    "topics": [],
+    "description": "Laying every goal and venture out on a whiteboard at once reveals the connections that stay hidden when strategy is built one isolated section at a time.",
+    "topics": [
+      "career",
+      "relationships"
+    ],
     "evergreen": false
   },
   {
@@ -15,8 +54,11 @@
     "date": "2021-11-20",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/know-your-audience-hades-riddle-55",
-    "description": "",
-    "topics": [],
+    "description": "Writing without a specific person in mind is writing into a void — picturing one real reader shapes every word and multiplies the impact of whatever you are trying to say.",
+    "topics": [
+      "craft",
+      "leadership"
+    ],
     "evergreen": false
   },
   {
@@ -25,8 +67,10 @@
     "date": "2021-11-13",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/batching-to-completion-dance-party",
-    "description": "",
-    "topics": [],
+    "description": "Switching constantly between different types of tasks taxes your brain more than the tasks themselves; grouping similar work into dedicated time blocks cuts that cost and keeps you moving forward instead of spinning in place.",
+    "topics": [
+      "practice"
+    ],
     "evergreen": false
   },
   {
@@ -35,8 +79,12 @@
     "date": "2021-11-06",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/high-and-lows-dongles-riddle-55-habits",
-    "description": "",
-    "topics": [],
+    "description": "Without pausing to assess your highs and lows, it is impossible to celebrate what is working or honestly reckon with what needs to change. A case for building regular reflection into work, faith, and life.",
+    "topics": [
+      "craft",
+      "faith",
+      "reflection"
+    ],
     "evergreen": false
   },
   {
@@ -45,8 +93,10 @@
     "date": "2021-10-30",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/weekly-one-thing-cheating-royal-riddle",
-    "description": "",
-    "topics": [],
+    "description": "Identifying the single priority that would make a week feel like a success cuts through the noise of endless to-do lists and puts your energy where it actually matters.",
+    "topics": [
+      "leadership"
+    ],
     "evergreen": false
   },
   {
@@ -55,8 +105,9 @@
     "date": "2021-10-23",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/schedule-rest-monster-duel-riddle",
-    "description": "",
+    "description": "Busyness is easy to wear as a badge, but an unbroken work rhythm quietly erodes the energy needed to do the important things well. Blocking time to rest on purpose is what keeps you from having your body force the rest on you.",
     "topics": [
+      "practice",
       "purpose"
     ],
     "evergreen": false
@@ -67,7 +118,7 @@
     "date": "2021-10-16",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/enjoy-the-imperfect-process-sorting",
-    "description": "",
+    "description": "Holding your work to a standard higher than your current ability leads to disappointment — but learning to savor the small wins along the way makes the pursuit of mastery both sustainable and worth it.",
     "topics": [
       "practice"
     ],
@@ -79,8 +130,10 @@
     "date": "2021-10-09",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/say-yes-by-saying-no-scaling-yourself",
-    "description": "",
-    "topics": [],
+    "description": "Every yes is a hidden no to something else, which means indiscriminate agreement quietly drains focus from the things that matter most. Learning to say no is the clearest path to protecting what you actually want to say yes to.",
+    "topics": [
+      "purpose"
+    ],
     "evergreen": false
   },
   {
@@ -89,8 +142,11 @@
     "date": "2021-10-02",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/choose-to-listen-why-spotify-is-successful",
-    "description": "",
-    "topics": [],
+    "description": "The urge to give advice is often strongest exactly when the other person needs you to ask a question and stay quiet instead — a reflection on why listening takes more courage than speaking.",
+    "topics": [
+      "reflection",
+      "relationships"
+    ],
     "evergreen": false
   },
   {
@@ -99,8 +155,9 @@
     "date": "2021-09-25",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/defining-success-reason-to-step-into",
-    "description": "",
+    "description": "Skipping the step of defining success clearly means testing the wrong things and discovering too late that you missed the goal; this post makes the case for setting precise outcomes before any project begins.",
     "topics": [
+      "craft",
       "leadership"
     ],
     "evergreen": false
@@ -111,8 +168,11 @@
     "date": "2021-09-18",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/close-the-loop-crucial-leadership",
-    "description": "",
-    "topics": [],
+    "description": "Unfinished projects do not sit idle — they accumulate as mental overhead that slowly drains your focus; formally closing them out by capturing what you learned is the only way to actually set them down.",
+    "topics": [
+      "craft",
+      "purpose"
+    ],
     "evergreen": false
   },
   {
@@ -121,8 +181,13 @@
     "date": "2021-09-11",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/poured-in-to-pour-out-typing-attack",
-    "description": "",
-    "topics": [],
+    "description": "You cannot keep giving to others from a cup that is empty — without intentional rest, mentorship, and genuine friendship, the capacity to serve anyone eventually runs dry.",
+    "topics": [
+      "leadership",
+      "practice",
+      "purpose",
+      "relationships"
+    ],
     "evergreen": false
   },
   {
@@ -131,8 +196,11 @@
     "date": "2021-09-04",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/selling-a-feeling-not-a-product",
-    "description": "",
-    "topics": [],
+    "description": "Customers do not remember the logic of what they bought — they remember how it made them feel. Building something that lasts means designing for the emotional experience, not just the product itself.",
+    "topics": [
+      "craft",
+      "reflection"
+    ],
     "evergreen": false
   },
   {
@@ -141,8 +209,11 @@
     "date": "2021-08-28",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/work-it-out-or-burnout-barter-your",
-    "description": "",
-    "topics": [],
+    "description": "Burnout rarely arrives without warning — it builds quietly in the gap between what you need, what you have committed to, and what you actually want to do with your time.",
+    "topics": [
+      "craft",
+      "health"
+    ],
     "evergreen": false
   },
   {
@@ -151,8 +222,10 @@
     "date": "2021-08-21",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/delegate-dont-tinker",
-    "description": "",
-    "topics": [],
+    "description": "Podcasting revealed how easily distractions can masquerade as productivity; the real lever is identifying which tasks to hand off so you can stay focused on what only you can do.",
+    "topics": [
+      "practice"
+    ],
     "evergreen": false
   },
   {
@@ -161,8 +234,11 @@
     "date": "2021-08-14",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/stand-on-the-shoulder-of-giants-zoom",
-    "description": "",
-    "topics": [],
+    "description": "Life is too short to reinvent every wheel, and learning from people who have already walked your path is a strategic advantage hiding in plain sight. Asking for guidance takes humility, but it accelerates growth in ways that going it alone never will.",
+    "topics": [
+      "purpose",
+      "relationships"
+    ],
     "evergreen": false
   },
   {
@@ -171,8 +247,10 @@
     "date": "2021-08-07",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/work-in-progress-public-creativity",
-    "description": "",
-    "topics": [],
+    "description": "Accepting that you are still being shaped — strengths, flaws, and everything in between — is not an excuse for complacency, it is the foundation for genuine peace.",
+    "topics": [
+      "craft"
+    ],
     "evergreen": false
   },
   {
@@ -181,8 +259,10 @@
     "date": "2021-07-31",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/take-small-wins-bonus-topics-guide",
-    "description": "",
-    "topics": [],
+    "description": "Breaking a large, overwhelming project into smaller pieces is not a shortcut — it is the strategy that builds momentum and gets you to the finish line.",
+    "topics": [
+      "craft"
+    ],
     "evergreen": false
   },
   {
@@ -191,9 +271,11 @@
     "date": "2021-07-24",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/dreams-and-reality-bonus-topics-idoarrt",
-    "description": "",
+    "description": "Dreams provide direction and motivation, but without an honest look at reality, they stay out of reach. A healthy dose of realism does not kill your aspirations — it gives them a path forward.",
     "topics": [
-      "purpose"
+      "health",
+      "purpose",
+      "relationships"
     ],
     "evergreen": false
   },
@@ -203,8 +285,10 @@
     "date": "2021-07-17",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/what-keeps-you-up-at-night-bonus",
-    "description": "",
-    "topics": [],
+    "description": "The thoughts that refuse to let you sleep at night are often pointing directly at your deepest purpose — and paying attention to them can clarify what you are actually working toward.",
+    "topics": [
+      "purpose"
+    ],
     "evergreen": false
   },
   {
@@ -213,8 +297,10 @@
     "date": "2021-07-10",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/pull-out-the-root-cause-bonus-topics",
-    "description": "",
-    "topics": [],
+    "description": "Fixing surface-level problems without addressing the underlying cause is like pulling a weed without its roots — it will grow back stronger. Learning to distinguish symptoms from root causes is the only path to solutions that actually last.",
+    "topics": [
+      "practice"
+    ],
     "evergreen": false
   },
   {
@@ -223,8 +309,12 @@
     "date": "2021-07-03",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/integrating-change-bonus-topics-learning",
-    "description": "",
-    "topics": [],
+    "description": "Sustainable change — whether building a 5:30 AM workout habit or shipping a software integration — does not happen overnight; it happens through small, deliberate steps that slowly reshape the whole system.",
+    "topics": [
+      "craft",
+      "health",
+      "practice"
+    ],
     "evergreen": false
   },
   {
@@ -233,8 +323,11 @@
     "date": "2021-06-26",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/reduce-friction",
-    "description": "",
-    "topics": [],
+    "description": "Every domain of life — business, relationships, knowledge — moves faster when unnecessary resistance is removed. Identifying and eliminating friction is one of the highest-leverage moves toward greater effectiveness.",
+    "topics": [
+      "faith",
+      "relationships"
+    ],
     "evergreen": false
   },
   {
@@ -243,8 +336,9 @@
     "date": "2021-06-19",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/experience-knowledge-wisdom-bonus",
-    "description": "",
+    "description": "Knowledge without experience is a map you do not know how to use, and experience without knowledge is terrain you are wandering without a map. Wisdom comes from intentionally building both.",
     "topics": [
+      "craft",
       "reflection"
     ],
     "evergreen": false
@@ -255,8 +349,11 @@
     "date": "2021-06-12",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/prioritize-your-jar-of-tasks-bonus",
-    "description": "",
-    "topics": [],
+    "description": "Drew Houston frames time management as filling a jar: rocks for high-impact work, pebbles for medium commitments, and sand for email — and the order in which you add them changes everything.",
+    "topics": [
+      "leadership",
+      "practice"
+    ],
     "evergreen": false
   },
   {
@@ -265,7 +362,7 @@
     "date": "2021-06-05",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/eisenhower-box",
-    "description": "",
+    "description": "The Eisenhower Box sorts every task into four quadrants — urgent vs. important — giving you a clear framework for what to act on now, what to schedule, what to hand off, and what to cut entirely.",
     "topics": [
       "practice"
     ],
@@ -277,8 +374,9 @@
     "date": "2021-05-29",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/purpose-like-a-hedgehog-bonus-topics",
-    "description": "",
+    "description": "The hedgehog concept reveals that lasting purpose lives at the intersection of what you are passionate about, what you are naturally gifted at, and what creates real value for others. Missing any one of the three means trading fulfillment for frustration.",
     "topics": [
+      "craft",
       "purpose"
     ],
     "evergreen": false
@@ -289,8 +387,13 @@
     "date": "2021-05-22",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/compass-not-map",
-    "description": "",
-    "topics": [],
+    "description": "Maps go obsolete the moment circumstances shift; a compass grounded in core values keeps you oriented through career changes, family transitions, and every season of life that did not appear in the original plan.",
+    "topics": [
+      "career",
+      "purpose",
+      "reflection",
+      "relationships"
+    ],
     "evergreen": false
   },
   {
@@ -299,8 +402,11 @@
     "date": "2021-05-15",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/your-three-business-personalities",
-    "description": "",
-    "topics": [],
+    "description": "Every person running a business is playing three roles at once — the visionary, the operator, and the executor — and neglecting any one of them is how things fall apart.",
+    "topics": [
+      "health",
+      "purpose"
+    ],
     "evergreen": false
   },
   {
@@ -309,8 +415,10 @@
     "date": "2021-05-08",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/platinum-rule-golden-rule",
-    "description": "",
-    "topics": [],
+    "description": "The Golden Rule assumes everyone wants what you want — the Platinum Rule asks you to set that assumption aside and treat people according to what they actually need.",
+    "topics": [
+      "relationships"
+    ],
     "evergreen": false
   },
   {
@@ -319,8 +427,12 @@
     "date": "2021-05-01",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/who-is-your-personal-board-of-directors",
-    "description": "",
-    "topics": [],
+    "description": "The most important decisions in life benefit from a diverse group of trusted advisors — people who bring experience, honesty, and perspective to areas where you need it most.",
+    "topics": [
+      "practice",
+      "reflection",
+      "relationships"
+    ],
     "evergreen": false
   },
   {
@@ -329,8 +441,11 @@
     "date": "2021-04-24",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/go-for-the-greenlight",
-    "description": "",
-    "topics": [],
+    "description": "Matthew McConaughey's memoir frames obstacles as yellow lights waiting to turn green — a mindset that transforms apparent dead ends into openings for the bold and patient.",
+    "topics": [
+      "leadership",
+      "purpose"
+    ],
     "evergreen": false
   },
   {
@@ -390,6 +505,7 @@
     "original_link": "https://ericlee.substack.com/p/be-a-healthy-net-giver",
     "description": "Find balance in net giving so you have enough to pour out.",
     "topics": [
+      "health",
       "relationships"
     ],
     "evergreen": false
@@ -402,8 +518,8 @@
     "original_link": "https://ericlee.substack.com/p/the-power-of-limits-care-and-mojo",
     "description": "Growing up, I always believed that in order to inspire & create impact, you had to be big or have a position of great power. But that's not true.",
     "topics": [
-      "leadership",
-      "craft"
+      "craft",
+      "leadership"
     ],
     "evergreen": false
   },
@@ -415,6 +531,7 @@
     "original_link": "https://ericlee.substack.com/p/embrace-the-dip",
     "description": "Have you ever felt uncertain whether to start a venture, or in too deep with a venture to be able to quit? The Dip help's to work through that!",
     "topics": [
+      "career",
       "purpose"
     ],
     "evergreen": false
@@ -428,8 +545,8 @@
     "description": "Going back and forth, finding balance seemed impossible to achieve, and it never seemed to end. But there were moments when I achieved serendipity. When I experienced balance while facing the two opposing views.",
     "topics": [
       "leadership",
-      "reflection",
-      "purpose"
+      "purpose",
+      "reflection"
     ],
     "evergreen": false
   },
@@ -480,9 +597,9 @@
     "original_link": "https://ericlee.substack.com/p/courage-over-confidence",
     "description": "The impact that changes lives and captures souls requires a willingness to do what isn’t easy and to do what’s right. For me, even as I write this, I can’t help but know that talking the talk is so much easier than walking the walk.",
     "topics": [
+      "craft",
       "leadership",
-      "relationships",
-      "craft"
+      "relationships"
     ],
     "evergreen": false
   },
@@ -495,8 +612,8 @@
     "description": "An “Unfair Advantage” is anything that cannot be easily copied or bought by other stakeholders. This can be technical knowledge, unique skills, connections, patents, or a large sum donation from a distant uncle.",
     "topics": [
       "practice",
-      "relationships",
-      "purpose"
+      "purpose",
+      "relationships"
     ],
     "evergreen": false
   },
@@ -522,9 +639,9 @@
     "original_link": "https://ericlee.substack.com/p/make-decisions-easily",
     "description": "We are making decisions every single moment of our life; what food to order at a restaurant, which YouTube recommended video to watch, or what color mask (if any) to wear before heading out.",
     "topics": [
-      "reflection",
       "practice",
-      "purpose"
+      "purpose",
+      "reflection"
     ],
     "evergreen": false
   },
@@ -560,10 +677,10 @@
     "original_link": "https://ericlee.substack.com/p/know-your-time",
     "description": "Whether it’s spent working on a project, exercising, leisurely watching some shows, or reflecting on the purpose of life (a timely activity I partake in), being able to know where your time goes allows you to know how you’re using your time.",
     "topics": [
-      "reflection",
+      "craft",
       "practice",
       "purpose",
-      "craft"
+      "reflection"
     ],
     "evergreen": false
   },
@@ -575,8 +692,8 @@
     "original_link": "https://ericlee.substack.com/p/less-is-more",
     "description": "I’ve always believed that more is better. The more resources, experience, or time you have, the better you’re able to do things. That extra dollar, extra skill, and extra hour can go a long way. But sometimes, having more can be a hindrance.",
     "topics": [
-      "reflection",
-      "practice"
+      "practice",
+      "reflection"
     ],
     "evergreen": false
   },
@@ -625,9 +742,9 @@
     "original_link": "https://ericlee.substack.com/p/dream-big-start-small-scale-up",
     "description": "Through what we build, what we say, and how we live, I believe each of us has the ability to inspire and change the world.",
     "topics": [
+      "craft",
       "leadership",
-      "purpose",
-      "craft"
+      "purpose"
     ],
     "evergreen": false
   },
@@ -676,8 +793,8 @@
     "original_link": "https://ericlee.substack.com/p/rest-amidst-unfinished-work",
     "description": "Have you ever thought about how when we die, how many unfinished things we’ll have? 🤔 Whether it’s small things like organizing the closet, or big things like finishing a side project or hobby, in the end, we will have much-unfinished work.",
     "topics": [
-      "purpose",
-      "craft"
+      "craft",
+      "purpose"
     ],
     "evergreen": false
   },
@@ -714,6 +831,7 @@
     "original_link": "https://ericlee.substack.com/p/keep-the-end-in-mind",
     "description": "As someone who personally struggles with leadership, whether it’s leading a bible study or making decisions in a startup, I’ve been inspired to keep the end in mind.",
     "topics": [
+      "career",
       "faith",
       "leadership",
       "practice",
@@ -730,6 +848,7 @@
     "description": "Our spiritual lives are heavily influenced by our physical and emotional well-being.",
     "topics": [
       "faith",
+      "health",
       "leadership"
     ],
     "evergreen": false
@@ -742,10 +861,11 @@
     "original_link": "https://ericlee.substack.com/p/unconcious-inspiration",
     "description": "There have been many people who have inspired me through their words of encouragement. Words that motivated me to pursue coding, enter into entrepreneurship, and serve as a leader in my church.",
     "topics": [
+      "career",
+      "craft",
       "faith",
       "leadership",
-      "relationships",
-      "craft"
+      "relationships"
     ],
     "evergreen": false
   },
@@ -770,8 +890,8 @@
     "description": "I grew up with a lot of different dreams. Each of these dreams was inspired based on the season I was going through.",
     "topics": [
       "leadership",
-      "reflection",
-      "purpose"
+      "purpose",
+      "reflection"
     ],
     "evergreen": false
   },
@@ -794,8 +914,11 @@
     "date": "2020-08-29",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/practical-intentionality",
-    "description": "",
-    "topics": [],
+    "description": "When productivity becomes pure autopilot, the question shifts from why to how — and recovering intentionality means slowing down enough to reconnect task execution with actual purpose and conviction.",
+    "topics": [
+      "practice",
+      "purpose"
+    ],
     "evergreen": false
   },
   {
@@ -816,8 +939,10 @@
     "date": "2020-08-23",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/stretched-thin",
-    "description": "",
-    "topics": [],
+    "description": "An all-nighter, a storm of deadlines and ministry demands, and the quiet discovery that running on your own resolve only gets you so far. The moments of being stretched to the limit are the ones that point most clearly to where real strength comes from.",
+    "topics": [
+      "health"
+    ],
     "evergreen": false
   },
   {
@@ -840,6 +965,7 @@
     "original_link": "",
     "description": "After the workout, and a chill nights rest, I woke up feeling stiff and uncomfortable. I tried to lift my arms up to stretch, and felt the sharp sting of pain enter my right elbow. I looked down and tried to bend it, but it wouldn’t budge.",
     "topics": [
+      "health",
       "purpose"
     ],
     "evergreen": false
@@ -850,9 +976,13 @@
     "date": "2020-08-16",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/blessed-mentorship",
-    "description": "",
+    "description": "Playing both mentor and mentee across work, church, and entrepreneurship, Eric reflects on why intentional investment in someone else changes both people in ways that only become visible in hindsight.",
     "topics": [
-      "leadership"
+      "career",
+      "faith",
+      "leadership",
+      "reflection",
+      "relationships"
     ],
     "evergreen": false
   },
@@ -877,8 +1007,9 @@
     "original_link": "",
     "description": "I learned a lot about tennis rating systems from my friend, as well as the competitiveness of tennis. Essentially you’re ranked against the world, and most people who try to get into the field start as early as their teen years, skip college to compete, and only the top 100+ people can maintain a tennis career as a salary.",
     "topics": [
-      "reflection",
+      "career",
       "practice",
+      "reflection",
       "relationships"
     ],
     "evergreen": false
@@ -889,8 +1020,10 @@
     "date": "2020-08-08",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/gracious-hospitality",
-    "description": "",
-    "topics": [],
+    "description": "Two weeks between apartments, crashing with friends, becomes a front-row view of what generous hospitality actually looks like — and a challenge to give that same welcome to others.",
+    "topics": [
+      "relationships"
+    ],
     "evergreen": false
   },
   {
@@ -911,8 +1044,10 @@
     "date": "2020-08-01",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/closing-a-chapter",
-    "description": "",
-    "topics": [],
+    "description": "After an exhausting all-night move-out, packing four years of memories from his first apartment, Eric reflects on what it means to close one chapter and carry what matters forward into the next.",
+    "topics": [
+      "reflection"
+    ],
     "evergreen": false
   },
   {
@@ -921,8 +1056,11 @@
     "date": "2020-07-25",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/freedom-to-learn",
-    "description": "",
-    "topics": [],
+    "description": "Freed from syllabi and tests, learning becomes an adventure rather than an obligation. A reminder to follow your curiosity and explore topics well outside your primary field.",
+    "topics": [
+      "career",
+      "purpose"
+    ],
     "evergreen": false
   },
   {
@@ -931,8 +1069,10 @@
     "date": "2020-07-19",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/learning-limits",
-    "description": "",
-    "topics": [],
+    "description": "Saying yes to everything is really saying no to something else — learning to recognize personal limits and push back on overcommitment is how burnout gets stopped before it starts.",
+    "topics": [
+      "health"
+    ],
     "evergreen": false
   },
   {
@@ -941,8 +1081,11 @@
     "date": "2020-07-11",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/lifelong-commitment",
-    "description": "",
-    "topics": [],
+    "description": "Marriage is not a contract or a romantic endpoint — it is a covenant, an imitation of the unconditional love God extended to His people even when they failed Him.",
+    "topics": [
+      "faith",
+      "relationships"
+    ],
     "evergreen": false
   },
   {
@@ -951,8 +1094,10 @@
     "date": "2020-07-05",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/accepting-imperfection",
-    "description": "",
-    "topics": [],
+    "description": "Binge-reading a webtoon revealed how chasing perfection is really a form of self-focus, and that accepting your own limits — asking for help, learning from mistakes — is where genuine growth actually starts.",
+    "topics": [
+      "relationships"
+    ],
     "evergreen": false
   },
   {
@@ -961,9 +1106,10 @@
     "date": "2020-06-27",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/faithfulness",
-    "description": "",
+    "description": "Growing out a man bun during quarantine became an unexpected lesson in faithfulness — the same small daily disciplines that keep hair healthy are what it takes to show up well at work and in life.",
     "topics": [
-      "faith"
+      "faith",
+      "health"
     ],
     "evergreen": false
   },
@@ -973,8 +1119,11 @@
     "date": "2020-06-20",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/relieving-unrelieved-stress",
-    "description": "",
-    "topics": [],
+    "description": "The problem is rarely the amount of stress itself — it is the stress that never gets released. Finding consistent, healthy outlets makes the difference between tension that accumulates and tension that gets processed.",
+    "topics": [
+      "health",
+      "practice"
+    ],
     "evergreen": false
   },
   {
@@ -983,8 +1132,10 @@
     "date": "2020-06-13",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/the-power-of-why",
-    "description": "",
-    "topics": [],
+    "description": "When metrics and comparison creep in, it is easy to lose the original reason you started something — which is why returning to your why is not optional, it is the work.",
+    "topics": [
+      "purpose"
+    ],
     "evergreen": false
   },
   {
@@ -993,9 +1144,10 @@
     "date": "2020-06-07",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/stepping-out-of-privilege-out-of",
-    "description": "",
+    "description": "A bike ride past police officers became a window into the daily reality that Black friends carry, and it challenged a comfortable silence. Examining privilege and choosing to step toward justice and grace is a responsibility that does not stop at awareness.",
     "topics": [
-      "faith"
+      "faith",
+      "relationships"
     ],
     "evergreen": false
   },
@@ -1005,7 +1157,7 @@
     "date": "2020-05-30",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/how-god-views-us",
-    "description": "",
+    "description": "Baking from scratch — cookies, pizza dough, homemade tortillas — becomes a window into how God views His creation: with the same pride and joy a maker feels for something poured into with care.",
     "topics": [
       "faith"
     ],
@@ -1017,8 +1169,10 @@
     "date": "2020-05-24",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/peace-amidst-transition",
-    "description": "",
-    "topics": [],
+    "description": "From surgery and job loss to quarantine and roommates moving out, a year of back-to-back transitions revealed one consistent source of peace: letting go of the need for control and trusting that God holds what you cannot.",
+    "topics": [
+      "faith"
+    ],
     "evergreen": false
   },
   {
@@ -1027,8 +1181,10 @@
     "date": "2020-05-17",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/teaching-is-learning-twice",
-    "description": "",
-    "topics": [],
+    "description": "Teaching is one of the fastest ways to move from knowing something in theory to truly understanding it — including the gaps you did not know you had.",
+    "topics": [
+      "faith"
+    ],
     "evergreen": false
   },
   {
@@ -1037,8 +1193,10 @@
     "date": "2020-05-09",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/true-expression",
-    "description": "",
-    "topics": [],
+    "description": "Learning to express yourself authentically means shedding the image of who you think you should be and returning to the foundation of who God made you to be.",
+    "topics": [
+      "faith"
+    ],
     "evergreen": false
   },
   {
@@ -1047,9 +1205,10 @@
     "date": "2020-05-02",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/powerful-prayer",
-    "description": "",
+    "description": "A prayer for lonely people — forgotten by the time the next day arrived — was answered anyway, a reminder that the power of prayer lives entirely in the One who hears it, not the one who says it.",
     "topics": [
-      "faith"
+      "faith",
+      "relationships"
     ],
     "evergreen": false
   },
@@ -1059,8 +1218,11 @@
     "date": "2020-04-26",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/serious-silly-love",
-    "description": "",
-    "topics": [],
+    "description": "A season of chasing effectiveness and leadership stripped away a core part of personality: the ability to simply enjoy people without an agenda. Relearning how to be silly and present is what it actually looks like to love well.",
+    "topics": [
+      "leadership",
+      "relationships"
+    ],
     "evergreen": false
   },
   {
@@ -1069,8 +1231,11 @@
     "date": "2020-04-19",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/submit-and-simply-trust",
-    "description": "",
-    "topics": [],
+    "description": "Quarantine became an unexpected space for reckoning with years of slowly distancing from God by demanding explanations before trust. Relearning childlike faith — submitting what cannot be controlled — opened the door to a relationship that had grown too complicated to feel real.",
+    "topics": [
+      "faith",
+      "relationships"
+    ],
     "evergreen": false
   },
   {
@@ -1079,8 +1244,10 @@
     "date": "2020-04-12",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/breaking-out-of-the-shell",
-    "description": "",
-    "topics": [],
+    "description": "Quarantine gave Eric a clearer picture of his limits but also made him passive; this is his honest account of trying to break out of that comfort zone, starting with small acts of care toward others.",
+    "topics": [
+      "reflection"
+    ],
     "evergreen": false
   },
   {
@@ -1089,7 +1256,7 @@
     "date": "2020-04-04",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/grace-and-sovereignty",
-    "description": "",
+    "description": "Three weeks into quarantine, the pressure of uncontrollable change becomes a lesson in two things: receiving grace instead of measuring yourself against who you were before, and trusting that God is sovereign even when the season makes no sense.",
     "topics": [
       "faith"
     ],
@@ -1101,8 +1268,9 @@
     "date": "2020-03-28",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/the-new-norm-and-rest",
-    "description": "",
+    "description": "When quarantine stripped away the busyness, a new kind of stillness settled in — one that turned out to be less of a disruption and more of an invitation to rest.",
     "topics": [
+      "practice",
       "purpose"
     ],
     "evergreen": false
@@ -1113,8 +1281,10 @@
     "date": "2020-03-21",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/unity-and-learning",
-    "description": "",
-    "topics": [],
+    "description": "A global crisis revealed an unexpected kind of unity — and forced the kind of stillness that makes real learning possible, if you are willing to sit with the questions it raises.",
+    "topics": [
+      "relationships"
+    ],
     "evergreen": false
   },
   {
@@ -1123,9 +1293,10 @@
     "date": "2020-03-14",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/sensible-saturdays-20-03-15",
-    "description": "",
+    "description": "When life spirals into chaos and relief feels out of reach, the practice of worship is not an escape from the storm — it is the anchor that holds you steady inside it.",
     "topics": [
-      "faith"
+      "faith",
+      "practice"
     ],
     "evergreen": false
   },
@@ -1135,8 +1306,10 @@
     "date": "2020-03-07",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/sensible-saturdays-20-03-07",
-    "description": "",
-    "topics": [],
+    "description": "Juggling the demands of early working life means learning what drains you, protecting the time you need to recharge, and trusting that God holds the season ahead even when it feels uncertain.",
+    "topics": [
+      "faith"
+    ],
     "evergreen": false
   },
   {
@@ -1145,8 +1318,11 @@
     "date": "2020-02-28",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/sensible-saturdays-20-02-29",
-    "description": "",
-    "topics": [],
+    "description": "Daily devotions require a deliberate choice to block off time with God's Word — a practice that is easy to deprioritize but, when kept faithfully, produces fruit both inwardly and in how you love others.",
+    "topics": [
+      "faith",
+      "practice"
+    ],
     "evergreen": false
   },
   {
@@ -1155,9 +1331,11 @@
     "date": "2020-02-21",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/sensible-saturdays-20-02-22",
-    "description": "",
+    "description": "Believing in God is one thing — actually living in freedom from the identity He gives you is another. A reflection on what it means to move truth from the head down into the heart.",
     "topics": [
-      "faith"
+      "faith",
+      "reflection",
+      "relationships"
     ],
     "evergreen": false
   },
@@ -1167,8 +1345,9 @@
     "date": "2020-02-15",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/sensible-saturdays-20-02-15",
-    "description": "",
+    "description": "A church retreat on calling clarified a core truth: each person is a finite expression of an infinite God, and faithfully stewarding the gifts, hardships, and passions He provides is how we prepare for greater responsibility.",
     "topics": [
+      "faith",
       "purpose"
     ],
     "evergreen": false
@@ -1179,8 +1358,10 @@
     "date": "2020-02-07",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/sensible-saturdays-20-02-08",
-    "description": "",
-    "topics": [],
+    "description": "Learning your Enneagram type deepens self-awareness, but it also exposes a surprising tension: the better you know yourself, the harder it becomes to choose sacrifice for others.",
+    "topics": [
+      "relationships"
+    ],
     "evergreen": false
   },
   {
@@ -1189,9 +1370,10 @@
     "date": "2020-02-01",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/sensible-saturdays-20-02-02",
-    "description": "",
+    "description": "A church fast becomes an unexpected catalyst for openness — turning a moment of hunger into a conviction to share faith with coworkers and head into a weekend retreat asking bigger questions about calling.",
     "topics": [
-      "faith"
+      "faith",
+      "purpose"
     ],
     "evergreen": false
   },
@@ -1201,8 +1383,13 @@
     "date": "2020-01-25",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/sensible-saturdays-20-01-25",
-    "description": "",
-    "topics": [],
+    "description": "Eric sets his 2020 aspirations — 12 books, 12 posts, 4 ventures, and 2 speaking events — while anchoring the year in a theme of Focus and Rest, prioritizing faith over accomplishment.",
+    "topics": [
+      "career",
+      "faith",
+      "purpose",
+      "relationships"
+    ],
     "evergreen": false
   },
   {
@@ -1211,8 +1398,10 @@
     "date": "2020-01-18",
     "source": "substack",
     "original_link": "https://ericlee.substack.com/p/sensible-saturdays-20-01-18",
-    "description": "",
+    "description": "A look back at the wins and hard lessons of 2019 that shaped a two-word theme to carry into the new year: Focus and Rest. Setting a guiding theme is one of the simplest and most underrated ways to direct how you live.",
     "topics": [
+      "practice",
+      "purpose",
       "reflection"
     ],
     "evergreen": false
@@ -1288,6 +1477,7 @@
     "original_link": "https://thecreedo.medium.com/misplaced-affections-34506e60d35b",
     "description": "Have you ever felt those moments where you don’t want to exert energy to be noticed by people? To be isolated and alone. At the same time, the embracing feeling of loneliness sparks a desire to be reached out to, even with the paradox of running away?",
     "topics": [
+      "health",
       "relationships"
     ],
     "evergreen": false
@@ -1312,6 +1502,7 @@
     "original_link": "https://thecreedo.medium.com/do-they-care-e7cd9822a05a",
     "description": "Have you ever felt those moments where you don’t want to exert energy to be noticed by people? To be isolated and alone. At the same time, the embracing feeling of loneliness sparks a desire to be reached out to, even with the paradox of running away?",
     "topics": [
+      "health",
       "relationships"
     ],
     "evergreen": false
@@ -1376,13 +1567,12 @@
     "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/final-lessons-thoughts",
     "description": "My last UTCS blog post—seven life lessons from college on journaling, saying no, building habits, community, and learning to be imperfect.",
     "topics": [
-      "faith",
-      "reflection",
       "college",
-      "community",
+      "craft",
+      "faith",
       "practice",
-      "relationships",
-      "craft"
+      "reflection",
+      "relationships"
     ],
     "evergreen": false
   },
@@ -1408,8 +1598,9 @@
     "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/exercise-it-out",
     "description": "After too many GDC all-nighters and hunchbacked computer sessions, a realization: physical health is foundational to succeeding in everything else.",
     "topics": [
-      "practice",
       "college",
+      "health",
+      "practice",
       "reflection"
     ],
     "evergreen": false
@@ -1422,8 +1613,9 @@
     "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/wholesome-hacks",
     "description": "A roundup of small but meaningful life practices — wholesome hacks for staying physically and mentally well-rounded in the middle of a demanding college schedule.",
     "topics": [
-      "practice",
       "college",
+      "health",
+      "practice",
       "purpose"
     ],
     "evergreen": false
@@ -1450,11 +1642,12 @@
     "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/farewell-now-break-entrepreneurship",
     "description": "A deliberate decision to step out of the entrepreneurship season — reflecting on what prompted the choice and what comes next after leaving it behind.",
     "topics": [
-      "entrepreneurship",
-      "reflection",
-      "purpose",
+      "career",
+      "college",
       "leadership",
-      "practice"
+      "practice",
+      "purpose",
+      "reflection"
     ],
     "evergreen": false
   },
@@ -1508,10 +1701,11 @@
     "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/new-year-reflection",
     "description": "After a nonstop semester packed with meetings, projects, and entrepreneurial events — taking a breath, looking back at what mattered, and setting intentions for a more deliberate year.",
     "topics": [
-      "reflection",
+      "career",
       "college",
+      "craft",
       "purpose",
-      "craft"
+      "reflection"
     ],
     "evergreen": false
   },
@@ -1549,9 +1743,8 @@
     "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/entrepreneurship-life-update",
     "description": "A semester recap of my winding path through Austin's startup scene—joining and leaving two startups, sitting in the in-between, and finally finding Crash Cook Off at 3 Day Startup.",
     "topics": [
-      "entrepreneurship",
-      "college",
-      "startups"
+      "career",
+      "college"
     ],
     "evergreen": false
   },
@@ -1564,8 +1757,9 @@
     "description": "Coming back from Thanksgiving break with nothing done and no regrets—choosing rest over grinding, then gearing up to finish the semester like a marathon.",
     "topics": [
       "college",
-      "reflection",
-      "purpose"
+      "health",
+      "purpose",
+      "reflection"
     ],
     "evergreen": false
   },
@@ -1589,10 +1783,10 @@
     "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/letter-yourself-take-break",
     "description": "A letter written to myself (and anyone else running on empty) making the case for actually resting over Thanksgiving break instead of grinding through it.",
     "topics": [
-      "mental-health",
       "college",
-      "reflection",
-      "purpose"
+      "health",
+      "purpose",
+      "reflection"
     ],
     "evergreen": false
   },
@@ -1605,10 +1799,10 @@
     "description": "Confessing my pattern of saying yes to everything—cramming courses, hackathons, orgs, recruiting—and how a summer mission trip finally taught me to aim before I fire.",
     "topics": [
       "college",
+      "craft",
       "faith",
-      "reflection",
       "practice",
-      "craft"
+      "reflection"
     ],
     "evergreen": false
   },
@@ -1622,8 +1816,8 @@
     "topics": [
       "career",
       "college",
-      "reflection",
-      "craft"
+      "craft",
+      "reflection"
     ],
     "evergreen": false
   },
@@ -1648,8 +1842,6 @@
     "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/learned-teaching",
     "description": "Spending two hours teaching Git at a hackathon and realizing I never truly understood it myself—a case for the Feynman technique and learning through teaching.",
     "topics": [
-      "programming",
-      "hackathons",
       "college",
       "craft"
     ],
@@ -1663,8 +1855,7 @@
     "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/hackathon-transformation",
     "description": "How hackathons became the gateway into entrepreneurship—shifting from 24-hour sprints to building something for the long run.",
     "topics": [
-      "hackathons",
-      "entrepreneurship",
+      "career",
       "college",
       "craft"
     ],
@@ -1692,10 +1883,10 @@
     "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/food-and-swag-matters",
     "description": "A playful reminder to look past the free t-shirts and BBQ at CS events and actually engage with what they offer—mentors, learning, interviews, and real connections.",
     "topics": [
-      "college",
       "career",
-      "reflection",
+      "college",
       "leadership",
+      "reflection",
       "relationships"
     ],
     "evergreen": false
@@ -1708,12 +1899,10 @@
     "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/busy-reflection",
     "description": "Processing a season of busyness and the disorientation that comes with it—and why turning toward community instead of clinging to feelings is what reorients me.",
     "topics": [
-      "faith",
-      "community",
-      "mental-health",
       "college",
-      "reflection",
+      "faith",
       "practice",
+      "reflection",
       "relationships"
     ],
     "evergreen": false
@@ -1741,9 +1930,9 @@
     "topics": [
       "career",
       "college",
-      "reflection",
       "faith",
-      "purpose"
+      "purpose",
+      "reflection"
     ],
     "evergreen": false
   },
@@ -1755,10 +1944,10 @@
     "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/whats-your-vision",
     "description": "Coming back from a summer mission trip in Michigan with a new question—why do I do what I do?—and drafting my first lifetime vision statement.",
     "topics": [
-      "faith",
-      "reflection",
       "college",
-      "purpose"
+      "faith",
+      "purpose",
+      "reflection"
     ],
     "evergreen": false
   },
@@ -1822,6 +2011,7 @@
     "original_link": "",
     "description": "Back from two months of missions in Ann Arbor and Detroit, reuniting with Austin, and looking ahead to junior year with a season of investment.",
     "topics": [
+      "college",
       "faith"
     ],
     "evergreen": false
@@ -1846,6 +2036,7 @@
     "original_link": "",
     "description": "A final retrospective on SWE with Prof. Downing: the smooth early projects, the hard group work, the Python learning, and the takeaways.",
     "topics": [
+      "college",
       "craft"
     ],
     "evergreen": false
@@ -1859,8 +2050,9 @@
     "description": "An end-of-sophomore-year recap—cramming Texas history, surviving OS, running 100 miles, organizing hackathons, and looking ahead to junior year.",
     "topics": [
       "college",
-      "reflection",
-      "craft"
+      "craft",
+      "health",
+      "reflection"
     ],
     "evergreen": false
   },
@@ -1872,9 +2064,10 @@
     "original_link": "",
     "description": "EarthHack's Pick It Up project using computer vision, coding a Gmail API script for a church grad night video, and prepping for SWE and Gov exams.",
     "topics": [
+      "college",
+      "craft",
       "faith",
-      "purpose",
-      "craft"
+      "purpose"
     ],
     "evergreen": false
   },
@@ -1899,8 +2092,8 @@
     "description": "Writing a blog post about procrastination while procrastinating on a final project—digging into why I avoid work and what urgency actually looks like when it shows up.",
     "topics": [
       "college",
-      "reflection",
-      "craft"
+      "craft",
+      "reflection"
     ],
     "evergreen": false
   },
@@ -1912,6 +2105,7 @@
     "original_link": "",
     "description": "Organizing Music Hacks, publishing a UTCS faculty profile, completing SWE Phase 3, and registering for fall classes including Korean.",
     "topics": [
+      "college",
       "craft"
     ],
     "evergreen": false
@@ -1938,9 +2132,7 @@
     "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/hack-tech-organizer-life",
     "description": "Behind the scenes of organizing Music Hacks with Freetail Hackers—from API directories and t-shirt iterations to accidentally crashing the site on hackathon day.",
     "topics": [
-      "hackathons",
       "college",
-      "programming",
       "craft"
     ],
     "evergreen": false
@@ -1953,6 +2145,7 @@
     "original_link": "",
     "description": "Implementing Flask-Whooshee for SWE search, organizing Music Hacks, and learning that alone time is sometimes the right destressor.",
     "topics": [
+      "college",
       "relationships"
     ],
     "evergreen": false
@@ -1965,8 +2158,9 @@
     "original_link": "",
     "description": "Building the SWE Flask API, debugging a GCP deployment issue, and reflecting on overcommitment and what actually matters.",
     "topics": [
-      "reflection",
-      "craft"
+      "college",
+      "craft",
+      "reflection"
     ],
     "evergreen": false
   },
@@ -1991,6 +2185,7 @@
     "original_link": "",
     "description": "Algo and Gov exams, meeting Palantir, drafting a UTCS faculty article, and realizing how little code I was actually writing.",
     "topics": [
+      "college",
       "craft"
     ],
     "evergreen": false
@@ -2003,6 +2198,7 @@
     "original_link": "",
     "description": "Catching up after Spring Break, shipping the SWE website, and navigating a paranoid game of Assassins with Freetail Hackers.",
     "topics": [
+      "college",
       "craft"
     ],
     "evergreen": false
@@ -2015,7 +2211,6 @@
     "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/how-hackathon",
     "description": "A practical walkthrough of hackathon strategy—brainstorming under pressure, building a diverse team, and making sure the presentation does justice to a sleepless night of work.",
     "topics": [
-      "hackathons",
       "college",
       "craft"
     ],
@@ -2029,9 +2224,10 @@
     "original_link": "",
     "description": "Spring Break camping in Texas, winning the SXSW hackathon with Credit Writer, and a staycation with church friends.",
     "topics": [
+      "college",
+      "craft",
       "faith",
-      "relationships",
-      "craft"
+      "relationships"
     ],
     "evergreen": false
   },
@@ -2043,8 +2239,9 @@
     "original_link": "",
     "description": "Winning Mobile Track at HackUTD with SensorStrike, planning the SWE website project team, and previewing a second short story.",
     "topics": [
-      "reflection",
-      "craft"
+      "college",
+      "craft",
+      "reflection"
     ],
     "evergreen": false
   },
@@ -2055,7 +2252,9 @@
     "source": "internal",
     "original_link": "",
     "description": "SWE Test 1 prep, joining FreeTail Hackers Tech Team, cooking Gordon Ramsay sliders, and studying Algo as a dynamic programming cache.",
-    "topics": [],
+    "topics": [
+      "college"
+    ],
     "evergreen": false
   },
   {
@@ -2066,10 +2265,9 @@
     "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/hack-life",
     "description": "From hating hackathons to falling in love with them—and joining Freetail Hackers to organize one myself.",
     "topics": [
-      "hackathons",
       "college",
-      "community",
-      "craft"
+      "craft",
+      "relationships"
     ],
     "evergreen": false
   },
@@ -2095,6 +2293,7 @@
     "original_link": "",
     "description": "Algo exam regrets over a wasted 20 minutes on a counterexample, finishing a short story without a conclusion, and wondering if there's room for everything.",
     "topics": [
+      "college",
       "reflection"
     ],
     "evergreen": false
@@ -2122,6 +2321,8 @@
     "original_link": "",
     "description": "Algo problem-sets, Netflix finished early, SWE group coordination for Spring Break, and the decision to do missions instead of internships this summer.",
     "topics": [
+      "career",
+      "college",
       "faith",
       "practice"
     ],
@@ -2135,6 +2336,8 @@
     "original_link": "",
     "description": "Church retreat debt, tedious Algo proofs, interviewing a UTCS professor on OS research, and changing a fiction story from zombies to tribal artists.",
     "topics": [
+      "career",
+      "college",
       "faith",
       "reflection"
     ],
@@ -2149,7 +2352,7 @@
     "description": "Proctoring OOP and getting frustrated by lazy questions—then realizing the frustration is really with my past self, and making the case for owning what you don't know.",
     "topics": [
       "college",
-      "programming",
+      "craft",
       "reflection"
     ],
     "evergreen": false
@@ -2162,7 +2365,9 @@
     "original_link": "",
     "description": "Liquids week of the One-Desire fast, IM basketball while running on empty, and learning to treat spec changes like real industry pressure.",
     "topics": [
-      "faith"
+      "college",
+      "faith",
+      "health"
     ],
     "evergreen": false
   },
@@ -2175,9 +2380,9 @@
     "description": "A pitch for CS majors to take non-CS classes—social dance, fiction writing, interpersonal communication—and how stepping outside the major builds you as a person.",
     "topics": [
       "college",
+      "craft",
       "reflection",
-      "relationships",
-      "craft"
+      "relationships"
     ],
     "evergreen": false
   },
@@ -2189,8 +2394,9 @@
     "original_link": "",
     "description": "Week one of a One-Desire meat fast, finishing Collatz after 15 hours of wrong optimization, and writing four simultaneous blogs at once.",
     "topics": [
-      "faith",
-      "craft"
+      "college",
+      "craft",
+      "faith"
     ],
     "evergreen": false
   },
@@ -2203,9 +2409,8 @@
     "description": "Coming back from winter break after a brutal semester and wrestling with the comparison trap—choosing to step into a new season instead of staying bound by old insecurities.",
     "topics": [
       "college",
-      "mental-health",
-      "reflection",
-      "purpose"
+      "purpose",
+      "reflection"
     ],
     "evergreen": false
   },
@@ -2216,7 +2421,9 @@
     "source": "internal",
     "original_link": "",
     "description": "Back from Taiwan with a reset sleep schedule, starting Algorithms and Software Engineering, and proctoring OOP for the first time.",
-    "topics": [],
+    "topics": [
+      "college"
+    ],
     "evergreen": false
   },
   {
@@ -2227,10 +2434,11 @@
     "original_link": "",
     "description": "Five days of JavaScript30, designing a social dance app with microservices, and a spiritual fast from YouTube and social media.",
     "topics": [
+      "college",
       "faith",
+      "purpose",
       "reflection",
-      "relationships",
-      "purpose"
+      "relationships"
     ],
     "evergreen": false
   },
@@ -2242,6 +2450,7 @@
     "original_link": "",
     "description": "Studying OS with Feynman's method, unboxing a Black Friday Echo Dot, and planning side projects for winter break.",
     "topics": [
+      "college",
       "craft"
     ],
     "evergreen": false
@@ -2255,7 +2464,7 @@
     "description": "Five finals-week survival tips—planned breaks, hot chocolate, honest venting, study groups, and letting it go once the exam is done.",
     "topics": [
       "college",
-      "mental-health"
+      "reflection"
     ],
     "evergreen": false
   },
@@ -2266,7 +2475,9 @@
     "source": "internal",
     "original_link": "",
     "description": "The hardest week of semester: an ER visit from stress and anxiety, the toughest OOP exam yet, and finishing everything just barely.",
-    "topics": [],
+    "topics": [
+      "college"
+    ],
     "evergreen": false
   },
   {
@@ -2291,6 +2502,7 @@
     "original_link": "",
     "description": "Thanksgiving break: real sleep, teahouse visits, a new bike, and the OS project hovering in the background the whole time.",
     "topics": [
+      "college",
       "craft"
     ],
     "evergreen": false
@@ -2303,7 +2515,6 @@
     "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/perfect-language",
     "description": "Spoiler: there isn't one. A walkthrough of languages across classes, hackathons, and jobs to show that the right language depends on what problem you're trying to solve.",
     "topics": [
-      "programming",
       "college",
       "craft"
     ],
@@ -2317,6 +2528,7 @@
     "original_link": "",
     "description": "Wrapping up OS Project 3 and the OOP Life project, narrowly missing a bike at a silent auction, and mixed feelings about the semester ending.",
     "topics": [
+      "college",
       "craft"
     ],
     "evergreen": false
@@ -2329,8 +2541,6 @@
     "original_link": "https://web.archive.org/web/20200812004611/https://www.cs.utexas.edu/blog/whats-doc",
     "description": "A case for code documentation born from a frustrating hackathon with an undocumented game engine—addressing every excuse I used to have for skipping it.",
     "topics": [
-      "programming",
-      "hackathons",
       "college",
       "craft"
     ],
@@ -2344,6 +2554,7 @@
     "original_link": "",
     "description": "Winning People's Choice and Best Technical at Indigitous #Hack with a music sentiment analysis app, then getting nominated to compete globally.",
     "topics": [
+      "college",
       "relationships"
     ],
     "evergreen": false
@@ -2356,12 +2567,9 @@
     "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/3-reasons-why-python-java",
     "description": "A lighthearted case for Python over Java after my first full Python project at the Indigitous #Hack hackathon—covering dynamic typing, the interactive interpreter, and easy library management.",
     "topics": [
-      "python",
-      "java",
-      "programming",
-      "hackathon",
-      "leadership",
-      "craft"
+      "college",
+      "craft",
+      "leadership"
     ],
     "evergreen": false
   },
@@ -2373,6 +2581,7 @@
     "original_link": "",
     "description": "Studying for the OS exam on a whiteboard, setting up VirtualBox out of code withdrawal, and the sophomore slump making itself known.",
     "topics": [
+      "college",
       "craft"
     ],
     "evergreen": false
@@ -2385,6 +2594,7 @@
     "original_link": "",
     "description": "HackTX brainstorming, the Darwin project's big lesson: 60% design makes everything else easier, and the 50th anniversary UTCS celebration.",
     "topics": [
+      "college",
       "craft"
     ],
     "evergreen": false
@@ -2397,10 +2607,9 @@
     "original_link": "https://web.archive.org/web/20190921213508/https://www.cs.utexas.edu/blog/hackathon-craze-0",
     "description": "My very first UTCS blog post—a rundown of why hackathons are worth the sleep deprivation, from free food and swag to learning, building, and making friends at 3 AM.",
     "topics": [
-      "hackathons",
       "college",
-      "relationships",
-      "craft"
+      "craft",
+      "relationships"
     ],
     "evergreen": false
   },
@@ -2412,6 +2621,7 @@
     "original_link": "",
     "description": "Finishing OOP's Allocator project ahead of schedule, dereferencing a pointer I'd already seen and ignored, and Downing's best analogies yet.",
     "topics": [
+      "college",
       "craft"
     ],
     "evergreen": false
@@ -2424,8 +2634,9 @@
     "original_link": "",
     "description": "Landing a UTCS blogger job, a 3-day OS bug hiding in a single line of C type declaration, and a rough week shadowed by a friend's passing.",
     "topics": [
-      "relationships",
-      "craft"
+      "college",
+      "craft",
+      "relationships"
     ],
     "evergreen": false
   },
@@ -2436,7 +2647,9 @@
     "source": "internal",
     "original_link": "",
     "description": "Balancing the OOP exam on Canvas, an OS Stack assignment full of memcpy surprises, and a constant tug-of-war between requirements and what matters more.",
-    "topics": [],
+    "topics": [
+      "college"
+    ],
     "evergreen": false
   },
   {
@@ -2447,6 +2660,7 @@
     "original_link": "",
     "description": "TAMUHack: hardware-hacking our way from an Intel Smart Glove to a virtual air drum set that won People's Choice and Best Technical awards.",
     "topics": [
+      "college",
       "relationships"
     ],
     "evergreen": false
@@ -2459,6 +2673,7 @@
     "original_link": "",
     "description": "A 4AM coding session in the lab and HackGT at Georgia Tech — building Hungry Cats over 36 sleepless hours with an undocumented Android game engine.",
     "topics": [
+      "college",
       "craft"
     ],
     "evergreen": false
@@ -2471,8 +2686,9 @@
     "original_link": "",
     "description": "Finding the tight-knit CS lab community, finishing the first OS shell project, and starting a Netflix cache project with a partner.",
     "topics": [
-      "relationships",
-      "craft"
+      "college",
+      "craft",
+      "relationships"
     ],
     "evergreen": false
   },
@@ -2483,7 +2699,9 @@
     "source": "internal",
     "original_link": "",
     "description": "Debugging Collatz with Docker, Travis CI, and stray merge conflicts — plus dancing scheduling algorithms in front of a 439 lecture hall.",
-    "topics": [],
+    "topics": [
+      "college"
+    ],
     "evergreen": false
   },
   {
@@ -2494,6 +2712,7 @@
     "original_link": "",
     "description": "Learning MATLAB and LaTeX, juggling C++ and OS projects, and discovering a typing-based note-taking method that actually works.",
     "topics": [
+      "college",
       "craft"
     ],
     "evergreen": false
@@ -2506,8 +2725,10 @@
     "original_link": "",
     "description": "First week of sophomore year at UT Austin: installing Docker, writing C linked lists, revamping a resume, and teaching social dance.",
     "topics": [
-      "relationships",
-      "craft"
+      "career",
+      "college",
+      "craft",
+      "relationships"
     ],
     "evergreen": false
   }

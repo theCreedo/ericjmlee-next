@@ -1,11 +1,17 @@
 ---
-title: "Impact Through Mojo"
+title: Impact Through Mojo
 date: '2021-03-13'
-image_link: "https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc8aba422-afb3-487b-a06a-fdf538a0d058_6000x4000.jpeg"
-image_alt: "fall season painting with green background"
+image_link: >-
+  https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc8aba422-afb3-487b-a06a-fdf538a0d058_6000x4000.jpeg
+image_alt: fall season painting with green background
 reading_time: 2
-description: "Growing up, I always believed that in order to inspire & create impact, you had to be big or have a position of great power. But that's not true."
+description: >-
+  Growing up, I always believed that in order to inspire & create impact, you
+  had to be big or have a position of great power. But that's not true.
 original_link: 'https://ericlee.substack.com/p/the-power-of-limits-care-and-mojo'
+topics:
+  - craft
+  - leadership
 ---
 Growing up, I always believed that in order to inspire & create impact, you had to be big or have a position of great power.
 

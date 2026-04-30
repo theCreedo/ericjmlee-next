@@ -1,10 +1,14 @@
 ---
-title: "Week Two - Let the projects begin!"
+title: Week Two - Let the projects begin!
 date: '2016-09-03'
 era: early
-
 reading_time: 3
-description: "Learning MATLAB and LaTeX, juggling C++ and OS projects, and discovering a typing-based note-taking method that actually works."
+description: >-
+  Learning MATLAB and LaTeX, juggling C++ and OS projects, and discovering a
+  typing-based note-taking method that actually works.
+topics:
+  - college
+  - craft
 ---
 
 > CS371p — Object-Oriented Programming in C++ (Fall 2016), UT Austin, taught by Professor Downing. First published at [thecreedo.github.io](https://thecreedo.github.io/Week-Two/).

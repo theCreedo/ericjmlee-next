@@ -1,11 +1,19 @@
 ---
-title: "A story about more than just bunnies and eggs"
-original_link: 'https://thecreedo.medium.com/a-story-about-more-than-just-bunnies-and-eggs-265b92a6606f'
+title: A story about more than just bunnies and eggs
+original_link: >-
+  https://thecreedo.medium.com/a-story-about-more-than-just-bunnies-and-eggs-265b92a6606f
 date: '2017-04-16'
 image_link: 'https://miro.medium.com/max/1400/1*jKteeeE7HTcxs4EhMRcOyw.jpeg'
-image_alt: 'sunset and three crosses'
+image_alt: sunset and three crosses
 reading_time: 5
-description: 'If I, who claim to be a Christian, am timid when it comes to sharing my testimony with people of the same faith, how in the world am I able to share the story God wrote in my life to others?'
+description: >-
+  If I, who claim to be a Christian, am timid when it comes to sharing my
+  testimony with people of the same faith, how in the world am I able to share
+  the story God wrote in my life to others?
+topics:
+  - faith
+  - reflection
+  - relationships
 ---
 On Thursday evening, as I was walking to prayer gathering for my church, Harvest, I was stopped by two people directly in front of the UT tower; the area where graduates gather to take their sentimental senior pics on a stony ground canvas and where the luminescent orange light of victory shines brightest. One of the guys carried a camera while the other had, entangled in his hands, the handles of a black bag that rattled like a hefty maraca when he shook it. Both of them asked if I had time to answer a few questions and be recorded.
 

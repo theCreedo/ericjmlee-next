@@ -68,7 +68,12 @@ export default function App({ Component, pageProps }) {
   }
 
   useEffect(() => {
-    const handleStart = () => document.body.classList.add('page-fading')
+    const handleStart = (url) => {
+      const newPathname = url.split('?')[0]
+      if (newPathname !== router.pathname) {
+        document.body.classList.add('page-fading')
+      }
+    }
     const handleComplete = () => setTimeout(() => document.body.classList.remove('page-fading'), 0)
 
     router.events.on('routeChangeStart', handleStart)
@@ -80,7 +85,7 @@ export default function App({ Component, pageProps }) {
       router.events.off('routeChangeComplete', handleComplete)
       router.events.off('routeChangeError', handleComplete)
     }
-  }, [router.events])
+  }, [router.events, router.pathname])
 
   return (
     <DarkModeContext.Provider value={{ darkMode, toggleDarkMode }}>

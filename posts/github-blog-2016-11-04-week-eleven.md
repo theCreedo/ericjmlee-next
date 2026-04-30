@@ -1,10 +1,14 @@
 ---
-title: "Week Eleven - Code Withdrawal"
+title: Week Eleven - Code Withdrawal
 date: '2016-11-04'
 era: early
-
 reading_time: 3
-description: "Studying for the OS exam on a whiteboard, setting up VirtualBox out of code withdrawal, and the sophomore slump making itself known."
+description: >-
+  Studying for the OS exam on a whiteboard, setting up VirtualBox out of code
+  withdrawal, and the sophomore slump making itself known.
+topics:
+  - college
+  - craft
 ---
 
 > CS371p — Object-Oriented Programming in C++ (Fall 2016), UT Austin, taught by Professor Downing. First published at [thecreedo.github.io](https://thecreedo.github.io/Week-Eleven/).

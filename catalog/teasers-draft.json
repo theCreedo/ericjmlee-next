@@ -1,0 +1,392 @@
+[
+  {
+    "file": "2020-goals.md",
+    "slug": "2020-goals",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "accepting-imperfection.md",
+    "slug": "accepting-imperfection",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "balancing-energy-and-trust.md",
+    "slug": "balancing-energy-and-trust",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "batching-to-completion.md",
+    "slug": "batching-to-completion",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "blessed-mentorship.md",
+    "slug": "blessed-mentorship",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "breaking-out-of-the-shell.md",
+    "slug": "breaking-out-of-the-shell",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "calling-identity-and-stewardship.md",
+    "slug": "calling-identity-and-stewardship",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "choose-to-listen.md",
+    "slug": "choose-to-listen",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "close-the-loop.md",
+    "slug": "close-the-loop",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "closing-a-chapter.md",
+    "slug": "closing-a-chapter",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "decision-making-with-the-eisenhower-box.md",
+    "slug": "decision-making-with-the-eisenhower-box",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "defining-success.md",
+    "slug": "defining-success",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "delegate-dont-tinker.md",
+    "slug": "delegate-dont-tinker",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "devotions.md",
+    "slug": "devotions",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "dreams-and-reality.md",
+    "slug": "dreams-and-reality",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "enjoy-the-imperfect-process.md",
+    "slug": "enjoy-the-imperfect-process",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "enneagrams-knowing-self-and-sacrifice.md",
+    "slug": "enneagrams-knowing-self-and-sacrifice",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "experience-knowledge-wisdom.md",
+    "slug": "experience-knowledge-wisdom",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "faith-and-freedom.md",
+    "slug": "faith-and-freedom",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "faithfulness.md",
+    "slug": "faithfulness",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "fasting-work-and-retreat.md",
+    "slug": "fasting-work-and-retreat",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "freedom-to-learn.md",
+    "slug": "freedom-to-learn",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "go-for-the-greenlight.md",
+    "slug": "go-for-the-greenlight",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "grace-and-sovereignty.md",
+    "slug": "grace-and-sovereignty",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "gracious-hospitality.md",
+    "slug": "gracious-hospitality",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "high-and-lows.md",
+    "slug": "high-and-lows",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "how-god-views-us.md",
+    "slug": "how-god-views-us",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "integrating-change.md",
+    "slug": "integrating-change",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "know-your-audience.md",
+    "slug": "know-your-audience",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "learning-limits.md",
+    "slug": "learning-limits",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "lifelong-commitment.md",
+    "slug": "lifelong-commitment",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "live-by-a-compass-not-by-a-map.md",
+    "slug": "live-by-a-compass-not-by-a-map",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "look-at-the-big-picture.md",
+    "slug": "look-at-the-big-picture",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "peace-amidst-transition.md",
+    "slug": "peace-amidst-transition",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "platinum-rule-golden-rule.md",
+    "slug": "platinum-rule-golden-rule",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "poured-in-to-pour-out.md",
+    "slug": "poured-in-to-pour-out",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "powerful-prayer.md",
+    "slug": "powerful-prayer",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "practical-intentionality.md",
+    "slug": "practical-intentionality",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "prioritize-your-jar-of-tasks.md",
+    "slug": "prioritize-your-jar-of-tasks",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "pull-out-the-root-cause.md",
+    "slug": "pull-out-the-root-cause",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "purpose-like-a-hedgehog.md",
+    "slug": "purpose-like-a-hedgehog",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "reduce-friction.md",
+    "slug": "reduce-friction",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "reflection-of-2019.md",
+    "slug": "reflection-of-2019",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "relieving-unrelieved-stress.md",
+    "slug": "relieving-unrelieved-stress",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "say-yes-by-saying-no.md",
+    "slug": "say-yes-by-saying-no",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "schedule-rest.md",
+    "slug": "schedule-rest",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "selling-a-feeling-not-a-product.md",
+    "slug": "selling-a-feeling-not-a-product",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "serious-silly-love.md",
+    "slug": "serious-silly-love",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "stand-on-the-shoulder-of-giants.md",
+    "slug": "stand-on-the-shoulder-of-giants",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "stepping-out-of-privilege.md",
+    "slug": "stepping-out-of-privilege",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "stretched-thin.md",
+    "slug": "stretched-thin",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "submit-and-simply-trust.md",
+    "slug": "submit-and-simply-trust",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "take-small-wins.md",
+    "slug": "take-small-wins",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "teaching-is-learning-twice.md",
+    "slug": "teaching-is-learning-twice",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "the-new-norm-and-rest.md",
+    "slug": "the-new-norm-and-rest",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "the-power-of-why.md",
+    "slug": "the-power-of-why",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "true-expression.md",
+    "slug": "true-expression",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "unity-and-learning.md",
+    "slug": "unity-and-learning",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "weekly-one-thing.md",
+    "slug": "weekly-one-thing",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "what-keeps-you-up-at-night.md",
+    "slug": "what-keeps-you-up-at-night",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "who-is-your-personal-board-of-directors.md",
+    "slug": "who-is-your-personal-board-of-directors",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "work-in-progress.md",
+    "slug": "work-in-progress",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "work-it-out-or-burnout.md",
+    "slug": "work-it-out-or-burnout",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "worship-in-the-storm.md",
+    "slug": "worship-in-the-storm",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  },
+  {
+    "file": "your-three-business-personalities.md",
+    "slug": "your-three-business-personalities",
+    "teaser": "",
+    "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+  }
+]

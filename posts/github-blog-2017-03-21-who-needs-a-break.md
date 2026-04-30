@@ -1,10 +1,16 @@
 ---
-title: "Who Needs A Break"
+title: Who Needs A Break
 date: '2017-03-21'
 era: early
-
 reading_time: 4
-description: "Spring Break camping in Texas, winning the SXSW hackathon with Credit Writer, and a staycation with church friends."
+description: >-
+  Spring Break camping in Texas, winning the SXSW hackathon with Credit Writer,
+  and a staycation with church friends.
+topics:
+  - college
+  - craft
+  - faith
+  - relationships
 ---
 
 > CS373 — Software Engineering in Python (Spring 2017), UT Austin, taught by Professor Downing. First published at [thecreedo.github.io](https://thecreedo.github.io/Who-Needs-A-Break/).
