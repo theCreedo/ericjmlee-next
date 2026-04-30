@@ -1,11 +1,19 @@
 ---
-title: "All about God’s Grace"
+title: All about God’s Grace
 original_link: 'https://thecreedo.medium.com/all-about-gods-grace-baf928bf4129'
 date: '2018-06-14'
 image_link: 'https://miro.medium.com/max/1400/1*nJWfdcobO-nI4svmD9DTBA.jpeg'
-image_alt: 'solo pinkish purple dandelion in a bed of grass under the sun'
+image_alt: solo pinkish purple dandelion in a bed of grass under the sun
 reading_time: 3
-description: 'I see my imperfection so clearly. Whether it’s maintaining friendships, finishing my work, cleaning my apartment, cooking meals for myself, following after God, or living life day by day, I see so many ways I couldn’t meet a certain standard. Things I should’ve improved on, but became after-thoughts that were never acted upon.'
+description: >-
+  I see my imperfection so clearly. Whether it’s maintaining friendships,
+  finishing my work, cleaning my apartment, cooking meals for myself, following
+  after God, or living life day by day, I see so many ways I couldn’t meet a
+  certain standard. Things I should’ve improved on, but became after-thoughts
+  that were never acted upon.
+topics:
+  - faith
+  - relationships
 ---
 God’s grace.
 

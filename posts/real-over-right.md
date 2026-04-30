@@ -1,12 +1,20 @@
 ---
-title: 'Real Over Right'
+title: Real Over Right
 date: '2020-10-03'
-image_link: 'https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F8e3e06ba-2fed-40bb-acf9-45d330e9f95f_5616x3744.jpeg'
-image_alt: 'Imperfect Fern Leaf'
+image_link: >-
+  https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F8e3e06ba-2fed-40bb-acf9-45d330e9f95f_5616x3744.jpeg
+image_alt: Imperfect Fern Leaf
 reading_time: 1
 unpublished: false
-description: 'Leadership is hard. As someone who is obsessed with leadership topics, I find myself burdened by the never-ending list of expectations that I feel are implicitly expected of leaders. But people would rather follow a leader that’s real, than a leader that’s right.'
+description: >-
+  Leadership is hard. As someone who is obsessed with leadership topics, I find
+  myself burdened by the never-ending list of expectations that I feel are
+  implicitly expected of leaders. But people would rather follow a leader that’s
+  real, than a leader that’s right.
 original_link: 'https://ericlee.substack.com/p/real-over-right'
+topics:
+  - leadership
+  - relationships
 ---
 Leadership is hard.
 

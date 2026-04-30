@@ -1,11 +1,17 @@
 ---
-title: "God Works Without You"
+title: God Works Without You
 original_link: 'https://thecreedo.medium.com/god-works-without-you-abba662a0b0d'
 date: '2017-08-16'
 image_link: 'https://miro.medium.com/max/1400/1*oCbEkSKSIRPiBLpx9zRZ2w.jpeg'
-image_alt: 'blue cross in an empty sanctuary'
+image_alt: blue cross in an empty sanctuary
 reading_time: 4
-description: 'This past Sunday, I went to a Christian benefits concert, Helping Hands, and I didn’t experience God.'
+description: >-
+  This past Sunday, I went to a Christian benefits concert, Helping Hands, and I
+  didn’t experience God.
+topics:
+  - faith
+  - reflection
+  - relationships
 ---
 _"The thief comes only to steal and kill and destroy; I have come that they may have life, and have it to the full."_
 

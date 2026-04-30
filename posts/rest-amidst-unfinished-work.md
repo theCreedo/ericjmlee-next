@@ -1,12 +1,16 @@
 ---
-title: 'Rest Amidst Unfinished Work'
+title: Rest Amidst Unfinished Work
 date: '2020-10-17'
-image_link: 'https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa71d90eb-6f2d-4665-a8ab-7776fe51df71_3437x2799.jpeg'
-image_alt: 'bench in front of sunset'
+image_link: >-
+  https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa71d90eb-6f2d-4665-a8ab-7776fe51df71_3437x2799.jpeg
+image_alt: bench in front of sunset
 reading_time: 1
 unpublished: false
-description: 'Have you ever thought about how when we die, how many unfinished things we’ll have? 🤔 Whether it’s small things like organizing the closet, or big things like finishing a side project or hobby, in the end, we will have much-unfinished work.'
+description: "Have you ever thought about how when we die, how many unfinished things we’ll have? \U0001F914 Whether it’s small things like organizing the closet, or big things like finishing a side project or hobby, in the end, we will have much-unfinished work."
 original_link: 'https://ericlee.substack.com/p/rest-amidst-unfinished-work'
+topics:
+  - craft
+  - purpose
 ---
 Have you ever thought about how when we die, how many unfinished things we’ll have? 🤔
 

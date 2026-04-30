@@ -1,10 +1,15 @@
 ---
-title: "Fully Booked"
+title: Fully Booked
 date: '2017-02-24'
 era: early
-
 reading_time: 2
-description: "Algo exam regrets over a wasted 20 minutes on a counterexample, finishing a short story without a conclusion, and wondering if there's room for everything."
+description: >-
+  Algo exam regrets over a wasted 20 minutes on a counterexample, finishing a
+  short story without a conclusion, and wondering if there's room for
+  everything.
+topics:
+  - college
+  - reflection
 ---
 
 > CS373 — Software Engineering in Python (Spring 2017), UT Austin, taught by Professor Downing. First published at [thecreedo.github.io](https://thecreedo.github.io/Fully-Booked/).

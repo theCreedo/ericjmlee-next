@@ -1,11 +1,15 @@
 ---
 title: 'Social Media Tools, not Addictions'
 date: '2020-11-28'
-image_link: 'https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff8bc5c2a-ca36-4f68-9590-07d53860e7d1_5760x3840.jpeg'
-image_alt: 'hammer and wrench on a wooden table'
+image_link: >-
+  https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff8bc5c2a-ca36-4f68-9590-07d53860e7d1_5760x3840.jpeg
+image_alt: hammer and wrench on a wooden table
 reading_time: 2
 description: 'What if I could turn my greatest enemy, into my friend?'
 original_link: 'https://ericlee.substack.com/p/social-media-tools-not-addictions'
+topics:
+  - practice
+  - relationships
 ---
 Some of the biggest time wasters in my life are several circular icons on my phone.
 

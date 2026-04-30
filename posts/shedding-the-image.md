@@ -1,12 +1,19 @@
 ---
-title: 'Shedding the Image'
+title: Shedding the Image
 date: '2020-10-10'
-image_link: 'https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F316959e6-0265-4247-97e8-058a59f414f2_6000x4000.jpeg'
-image_alt: 'A marble bust head'
+image_link: >-
+  https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F316959e6-0265-4247-97e8-058a59f414f2_6000x4000.jpeg
+image_alt: A marble bust head
 reading_time: 1
 unpublished: false
-description: 'When I lead, many times I feel like I need to uphold an image. Though it is fun playing around with the idea of becoming like these leaders, the problem with chasing after so many different ideals was that I easily lose myself and forget who I am.'
+description: >-
+  When I lead, many times I feel like I need to uphold an image. Though it is
+  fun playing around with the idea of becoming like these leaders, the problem
+  with chasing after so many different ideals was that I easily lose myself and
+  forget who I am.
 original_link: 'https://ericlee.substack.com/p/shedding-the-image'
+topics:
+  - leadership
 ---
 When I lead, many times I feel like I need to uphold an image.
 

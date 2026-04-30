@@ -1,10 +1,14 @@
 ---
-title: "Week Ten - Week for the Weak"
+title: Week Ten - Week for the Weak
 date: '2016-10-29'
 era: early
-
 reading_time: 3
-description: "HackTX brainstorming, the Darwin project's big lesson: 60% design makes everything else easier, and the 50th anniversary UTCS celebration."
+description: >-
+  HackTX brainstorming, the Darwin project's big lesson: 60% design makes
+  everything else easier, and the 50th anniversary UTCS celebration.
+topics:
+  - college
+  - craft
 ---
 
 > CS371p — Object-Oriented Programming in C++ (Fall 2016), UT Austin, taught by Professor Downing. First published at [thecreedo.github.io](https://thecreedo.github.io/Week-Ten/).

@@ -1,10 +1,14 @@
 ---
-title: "The End?"
+title: The End?
 date: '2017-05-06'
 era: early
-
 reading_time: 3
-description: "A final retrospective on SWE with Prof. Downing: the smooth early projects, the hard group work, the Python learning, and the takeaways."
+description: >-
+  A final retrospective on SWE with Prof. Downing: the smooth early projects,
+  the hard group work, the Python learning, and the takeaways.
+topics:
+  - college
+  - craft
 ---
 
 > CS373 — Software Engineering in Python (Spring 2017), UT Austin, taught by Professor Downing. First published at [thecreedo.github.io](https://thecreedo.github.io/The-End/).

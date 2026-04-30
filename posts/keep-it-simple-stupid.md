@@ -1,11 +1,14 @@
 ---
 title: 'Keep It Simple, Stupid'
 date: '2020-12-05'
-image_link: 'https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F23b091f7-e938-40b6-a855-cb2f4c36a8f0_8040x6024.jpeg'
-image_alt: 'Half cut avocado with a pink background'
+image_link: >-
+  https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F23b091f7-e938-40b6-a855-cb2f4c36a8f0_8040x6024.jpeg
+image_alt: Half cut avocado with a pink background
 reading_time: 2
 description: 'When faced with a problem, how would you solve it in the simplest manner?'
 original_link: 'https://ericlee.substack.com/p/keep-it-simple-stupid'
+topics:
+  - practice
 ---
 Tim Ferris, an American entrepreneur, shares a question in an [interview](https://www.youtube.com/watch?time_continue=189&v=ZTyO15qoSp4&feature=emb_title) that he uses to help analyze situations and organize his thoughts:
 

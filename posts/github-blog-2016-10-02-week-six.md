@@ -1,10 +1,14 @@
 ---
-title: "Week Six - Hard-Aware Hack"
+title: Week Six - Hard-Aware Hack
 date: '2016-10-02'
 era: early
-
 reading_time: 6
-description: "TAMUHack: hardware-hacking our way from an Intel Smart Glove to a virtual air drum set that won People's Choice and Best Technical awards."
+description: >-
+  TAMUHack: hardware-hacking our way from an Intel Smart Glove to a virtual air
+  drum set that won People's Choice and Best Technical awards.
+topics:
+  - college
+  - relationships
 ---
 
 > CS371p — Object-Oriented Programming in C++ (Fall 2016), UT Austin, taught by Professor Downing. First published at [thecreedo.github.io](https://thecreedo.github.io/Week-Six/).

@@ -1,11 +1,16 @@
 ---
-title: "Kill Writer's Block"
+title: Kill Writer's Block
 date: '2021-04-03'
-image_link: "https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F8179b1d0-40dc-4443-9881-55d40803d5d4_4608x3072.jpeg"
-image_alt: "Crumbled up pieces of paper in a trash can"
+image_link: >-
+  https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F8179b1d0-40dc-4443-9881-55d40803d5d4_4608x3072.jpeg
+image_alt: Crumbled up pieces of paper in a trash can
 reading_time: 2
-description: "One of the most difficult things to do as a writer is to get over the hump of writing—the slumps that arise every so often."
+description: >-
+  One of the most difficult things to do as a writer is to get over the hump of
+  writing—the slumps that arise every so often.
 original_link: 'https://ericlee.substack.com/p/kill-writers-block'
+topics:
+  - craft
 ---
 One of the most difficult things to do as a writer is to get over the hump of writing—the slumps that arise every so often.
 

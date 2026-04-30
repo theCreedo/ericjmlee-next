@@ -1,11 +1,18 @@
 ---
-title: "Speak Now"
+title: Speak Now
 original_link: 'https://thecreedo.medium.com/speak-now-ace4389eafd2'
 date: '2017-10-26'
 image_link: 'https://miro.medium.com/max/1400/1*CnL-mUwNHAoOliWTZCBolA.jpeg'
-image_alt: 'close up mic'
+image_alt: close up mic
 reading_time: 5
-description: 'Honestly, standing in front of a group of people and being able to relay ideas, thoughts, or concepts is so difficult, especially when there are so many distracting factors that come into play. Here are 7 insights that inspire me to speak publicly.'
+description: >-
+  Honestly, standing in front of a group of people and being able to relay
+  ideas, thoughts, or concepts is so difficult, especially when there are so
+  many distracting factors that come into play. Here are 7 insights that inspire
+  me to speak publicly.
+topics:
+  - leadership
+  - relationships
 ---
 Public speaking is hard.
 

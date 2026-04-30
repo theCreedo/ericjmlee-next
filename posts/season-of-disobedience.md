@@ -1,11 +1,14 @@
 ---
-title: "Season of Disobedience"
+title: Season of Disobedience
 original_link: 'https://thecreedo.medium.com/season-of-disobedience-18cd3b196fce'
 date: '2019-12-31'
 image_link: 'https://miro.medium.com/max/1400/1*kxCao4v89siPVk80zd3T0w.jpeg'
-image_alt: 'string with multi-colored leaves transitioning colors from spring to fall'
+image_alt: string with multi-colored leaves transitioning colors from spring to fall
 reading_time: 4
-description: 'How can a leader lead if their heart is not for what they follow?'
+description: How can a leader lead if their heart is not for what they follow?
+topics:
+  - leadership
+  - purpose
 ---
 I’ve been reflecting over an interesting conundrum for the past few months.
 

@@ -1,12 +1,19 @@
 ---
 title: 'Dream Big, Start Small, Scale Up'
 date: '2020-11-14'
-image_link: 'https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc0fc2c78-b6e1-4c07-b4e1-a30adcb0ffd8_3600x2025.jpeg'
-image_alt: 'A small kid staring at steps'
+image_link: >-
+  https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc0fc2c78-b6e1-4c07-b4e1-a30adcb0ffd8_3600x2025.jpeg
+image_alt: A small kid staring at steps
 reading_time: 1
 unpublished: false
-description: 'Through what we build, what we say, and how we live, I believe each of us has the ability to inspire and change the world.'
+description: >-
+  Through what we build, what we say, and how we live, I believe each of us has
+  the ability to inspire and change the world.
 original_link: 'https://ericlee.substack.com/p/dream-big-start-small-scale-up'
+topics:
+  - craft
+  - leadership
+  - purpose
 ---
 One of my favorite things to do, whenever I get the chance, is to listen and analyze leaders who share their stories or life experiences. There is usually insight to learn how they got to the position they’re in.
 

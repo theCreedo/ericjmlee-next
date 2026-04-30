@@ -1,11 +1,15 @@
 ---
-title: 'Guilty but Guiltless'
+title: Guilty but Guiltless
 original_link: 'https://thecreedo.medium.com/guilty-but-guiltless-7d29843fdc9c'
 date: '2018-05-24'
 image_link: 'https://miro.medium.com/max/1400/1*BtuHZ2Yj1wnUiNZ2KS-G7Q.jpeg'
-image_alt: 'single hand lifted up amidst wheat with a blurry purple and pinkish sunset in the background'
+image_alt: >-
+  single hand lifted up amidst wheat with a blurry purple and pinkish sunset in
+  the background
 reading_time: 3
-description: 'Free from guilt and experiencing freedom from guilt are two different things.'
+description: Free from guilt and experiencing freedom from guilt are two different things.
+topics:
+  - faith
 ---
 Saying that I am free from guilt, and experiencing freedom from guilt, are two different things.
 

@@ -1,10 +1,15 @@
 ---
-title: "Molded Into Life"
+title: Molded Into Life
 date: '2017-04-08'
 era: early
-
 reading_time: 4
-description: "Building the SWE Flask API, debugging a GCP deployment issue, and reflecting on overcommitment and what actually matters."
+description: >-
+  Building the SWE Flask API, debugging a GCP deployment issue, and reflecting
+  on overcommitment and what actually matters.
+topics:
+  - college
+  - craft
+  - reflection
 ---
 
 > CS373 — Software Engineering in Python (Spring 2017), UT Austin, taught by Professor Downing. First published at [thecreedo.github.io](https://thecreedo.github.io/Molded-Into-Life/).

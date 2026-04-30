@@ -1,10 +1,17 @@
 ---
-title: "Rest and JavaScript"
+title: Rest and JavaScript
 date: '2016-12-17'
 era: early
-
 reading_time: 2
-description: "Five days of JavaScript30, designing a social dance app with microservices, and a spiritual fast from YouTube and social media."
+description: >-
+  Five days of JavaScript30, designing a social dance app with microservices,
+  and a spiritual fast from YouTube and social media.
+topics:
+  - college
+  - faith
+  - purpose
+  - reflection
+  - relationships
 ---
 
 > CS371p — Object-Oriented Programming in C++ (Fall 2016), UT Austin, taught by Professor Downing. First published at [thecreedo.github.io](https://thecreedo.github.io/Rest-and-Javascript/).

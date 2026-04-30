@@ -1,11 +1,18 @@
 ---
-title: 'Infinite Mindset'
+title: Infinite Mindset
 date: '2020-12-26'
-image_link: 'https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F8988ca90-cd31-4873-8898-fc46d6ae9b2a_3264x2448.jpeg'
-image_alt: 'foggy concrete area with tubes'
+image_link: >-
+  https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F8988ca90-cd31-4873-8898-fc46d6ae9b2a_3264x2448.jpeg
+image_alt: foggy concrete area with tubes
 reading_time: 2
-description: 'Life is not a finite game, where a loss in a year means a loss for the rest of our life (though sometimes, it may feel that way). Rather, it is an infinite game where we are not be tied down by a single outcome in our lives and can continue to learn & grow.'
+description: >-
+  Life is not a finite game, where a loss in a year means a loss for the rest of
+  our life (though sometimes, it may feel that way). Rather, it is an infinite
+  game where we are not be tied down by a single outcome in our lives and can
+  continue to learn & grow.
 original_link: 'https://ericlee.substack.com/p/infinite-mindset-closing-out-2020'
+topics:
+  - purpose
 ---
 2020 was a year.
 

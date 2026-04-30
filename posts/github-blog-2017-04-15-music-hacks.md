@@ -1,10 +1,14 @@
 ---
-title: "Music Hacks"
+title: Music Hacks
 date: '2017-04-15'
 era: early
-
 reading_time: 2
-description: "Implementing Flask-Whooshee for SWE search, organizing Music Hacks, and learning that alone time is sometimes the right destressor."
+description: >-
+  Implementing Flask-Whooshee for SWE search, organizing Music Hacks, and
+  learning that alone time is sometimes the right destressor.
+topics:
+  - college
+  - relationships
 ---
 
 > CS373 — Software Engineering in Python (Spring 2017), UT Austin, taught by Professor Downing. First published at [thecreedo.github.io](https://thecreedo.github.io/Music-Hacks/).

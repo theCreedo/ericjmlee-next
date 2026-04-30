@@ -1,11 +1,13 @@
 ---
-title: 'What’s Your Story?'
+title: What’s Your Story?
 original_link: 'https://thecreedo.medium.com/whats-your-story-74175b68a551'
 date: '2017-08-26'
 image_link: 'https://miro.medium.com/max/1400/1*r0Z0UHSHjxk9f-uCaYnvlw.jpeg'
-image_alt: 'several people wearing pink shirts for outreach'
+image_alt: several people wearing pink shirts for outreach
 reading_time: 2
-description: 'Who are you? How did you come to be here? What drives you to be you?'
+description: Who are you? How did you come to be here? What drives you to be you?
+topics:
+  - reflection
 ---
 This past summer, as I was doing my missions trip up in Michigan, I got to meet a lot of unique people up there (cause I come from Texas, which is below Michigan :P). Whether it was people in my missions team, at my church, on the Michigan campus, or at the high school I worked at, I found that I had to interact and converse with others a lot.
 

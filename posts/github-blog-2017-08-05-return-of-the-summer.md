@@ -1,10 +1,14 @@
 ---
-title: "Return of the Summer"
+title: Return of the Summer
 date: '2017-08-05'
 era: early
-
 reading_time: 3
-description: "Back from two months of missions in Ann Arbor and Detroit, reuniting with Austin, and looking ahead to junior year with a season of investment."
+description: >-
+  Back from two months of missions in Ann Arbor and Detroit, reuniting with
+  Austin, and looking ahead to junior year with a season of investment.
+topics:
+  - college
+  - faith
 ---
 
 > Continuation of the CS371p/CS373 class blog, UT Austin. First published at [thecreedo.github.io](https://thecreedo.github.io/Return-of-the-Summer/).

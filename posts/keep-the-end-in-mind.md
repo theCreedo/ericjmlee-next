@@ -1,12 +1,22 @@
 ---
-title: 'Keep the End in Mind'
+title: Keep the End in Mind
 date: '2020-09-26'
-image_link: 'https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F03b314c0-a7b3-4075-b492-51f01d2850b2_3656x1928.jpeg'
-image_alt: 'Race track with runners'
+image_link: >-
+  https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F03b314c0-a7b3-4075-b492-51f01d2850b2_3656x1928.jpeg
+image_alt: Race track with runners
 reading_time: 1
 unpublished: false
-description: 'As someone who personally struggles with leadership, whether it’s leading a bible study or making decisions in a startup, I’ve been inspired to keep the end in mind.'
+description: >-
+  As someone who personally struggles with leadership, whether it’s leading a
+  bible study or making decisions in a startup, I’ve been inspired to keep the
+  end in mind.
 original_link: 'https://ericlee.substack.com/p/keep-the-end-in-mind'
+topics:
+  - career
+  - faith
+  - leadership
+  - practice
+  - purpose
 ---
 I’ve been listening to a [leadership podcast](https://www.youtube.com/c/craiggroeschel/) recently by [Craig Groeschel](https://twitter.com/craiggroeschel), and it’s been a blessing to find this golden nugget in the vast mine of the internet. (shoutout to my pastor in Austin for finding & sharing it 💪)
 

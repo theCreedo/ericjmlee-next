@@ -1,11 +1,16 @@
 ---
-title: "Grace-Filled Communication"
+title: Grace-Filled Communication
 original_link: 'https://thecreedo.medium.com/grace-filled-communication-fb93e3e8a3b9'
 date: '2018-08-16'
 image_link: 'https://miro.medium.com/max/1400/1*4_Xrg6sQ558FdiqMeNSF-Q.jpeg'
-image_alt: 'bouquet of flowers next to a straw basket'
+image_alt: bouquet of flowers next to a straw basket
 reading_time: 4
-description: 'I’ve always approached listening to people to understand where they’re coming from.'
+description: >-
+  I’ve always approached listening to people to understand where they’re coming
+  from.
+topics:
+  - faith
+  - relationships
 ---
 I want to be on everyone’s good side.
 

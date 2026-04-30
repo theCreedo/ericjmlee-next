@@ -1,10 +1,14 @@
 ---
-title: "Winter with Code"
+title: Winter with Code
 date: '2016-12-10'
 era: early
-
 reading_time: 2
-description: "Studying OS with Feynman's method, unboxing a Black Friday Echo Dot, and planning side projects for winter break."
+description: >-
+  Studying OS with Feynman's method, unboxing a Black Friday Echo Dot, and
+  planning side projects for winter break.
+topics:
+  - college
+  - craft
 ---
 
 > CS371p — Object-Oriented Programming in C++ (Fall 2016), UT Austin, taught by Professor Downing. First published at [thecreedo.github.io](https://thecreedo.github.io/Winter-with-Code/).

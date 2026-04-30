@@ -1,10 +1,14 @@
 ---
-title: "Week Nine - Garbage Point"
+title: Week Nine - Garbage Point
 date: '2016-10-21'
 era: early
-
 reading_time: 3
-description: "Finishing OOP's Allocator project ahead of schedule, dereferencing a pointer I'd already seen and ignored, and Downing's best analogies yet."
+description: >-
+  Finishing OOP's Allocator project ahead of schedule, dereferencing a pointer
+  I'd already seen and ignored, and Downing's best analogies yet.
+topics:
+  - college
+  - craft
 ---
 
 > CS371p — Object-Oriented Programming in C++ (Fall 2016), UT Austin, taught by Professor Downing. First published at [thecreedo.github.io](https://thecreedo.github.io/Week-Nine/).

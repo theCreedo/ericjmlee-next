@@ -1,10 +1,13 @@
 ---
-title: "Back At It Again"
+title: Back At It Again
 date: '2017-01-20'
 era: early
-
 reading_time: 3
-description: "Back from Taiwan with a reset sleep schedule, starting Algorithms and Software Engineering, and proctoring OOP for the first time."
+description: >-
+  Back from Taiwan with a reset sleep schedule, starting Algorithms and Software
+  Engineering, and proctoring OOP for the first time.
+topics:
+  - college
 ---
 
 > CS373 — Software Engineering in Python (Spring 2017), UT Austin, taught by Professor Downing. First published at [thecreedo.github.io](https://thecreedo.github.io/Back-At-It-Again/).
