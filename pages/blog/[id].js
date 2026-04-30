@@ -47,6 +47,29 @@ export default function Post({ postData, adjacentPostsData }) {
         ...(postData.image_link && { image: postData.image_link }),
     }
 
+    const breadcrumbSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Home', item: base_url },
+            { '@type': 'ListItem', position: 2, name: 'Archive', item: `${base_url}/archive` },
+            { '@type': 'ListItem', position: 3, name: postData.title, item: `${base_url}/blog/${postData.id}` },
+        ],
+    }
+
+    const faqSchema = postData.faq && postData.faq.length > 0 ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: postData.faq.map(({ q, a }) => ({
+            '@type': 'Question',
+            name: q,
+            acceptedAnswer: {
+                '@type': 'Answer',
+                text: a,
+            },
+        })),
+    } : null
+
     return (
         <Layout postData={postData} canonicalPath={`/blog/${postData.id}`} ogType="article">
             <Head>
@@ -59,6 +82,8 @@ export default function Post({ postData, adjacentPostsData }) {
                     content={postData.image_link || `${base_url}/images/profile/blue-profile-191x100.jpg`}
                 />
                 <JsonLd data={postSchema} />
+                <JsonLd data={breadcrumbSchema} />
+                {faqSchema && <JsonLd data={faqSchema} />}
             </Head>
             <article className={utilStyles.divContainer}>
                 {postData.image_link && (

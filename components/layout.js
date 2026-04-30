@@ -79,6 +79,7 @@ export default function Layout({ children, home, project, experience, blog, news
         {canonicalPath && <link rel="canonical" href={`${base_url}${canonicalPath}`} />}
         {canonicalPath && <meta property="og:url" content={`${base_url}${canonicalPath}`} />}
         <meta property="og:type" content={ogType || 'website'} />
+        <meta property="og:locale" content="en_US" />
         {home      && <meta key="og:title" property="og:title" content={siteTitle} />}
         {project   && <meta key="og:title" property="og:title" content={`Projects | ${siteTitle}`} />}
         {experience && <meta key="og:title" property="og:title" content={`Experience | ${siteTitle}`} />}

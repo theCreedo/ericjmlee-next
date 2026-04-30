@@ -181,10 +181,13 @@ export default function Cards({ photos }) {
             {photos.length > 1 && (
               <button className={`${styles.lightboxNav} ${styles.lightboxPrev}`} onClick={(e) => { e.stopPropagation(); prev() }} aria-label="Previous photo">‹</button>
             )}
-            <img
+            <Image
               src={`/images/cards/photos/${photos[lightboxIndex]}`}
               alt={`Flesh and Blood community photo ${lightboxIndex + 1}`}
               className={styles.lightboxImg}
+              width={1200}
+              height={800}
+              style={{ objectFit: 'contain' }}
               onClick={(e) => e.stopPropagation()}
             />
             {photos.length > 1 && (
