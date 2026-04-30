@@ -5,6 +5,9 @@
  * calls Claude API to generate a 1-2 sentence teaser per post, and writes
  * results to catalog/teasers-draft.json for manual review.
  *
+ * For stub posts (no body content), the script fetches the original_link URL
+ * and uses the live content to generate an accurate, content-grounded teaser.
+ *
  * Phase 2 (--apply): Reads catalog/teasers-draft.json and writes approved
  * teasers back into each post's frontmatter. Only touches posts whose
  * description is still empty — never overwrites a description you've set.
@@ -38,6 +41,26 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+async function fetchBodyFromUrl(url) {
+  try {
+    const res = await fetch(url, {
+      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; teaser-generator/1.0)' },
+      signal: AbortSignal.timeout(10000),
+    });
+    if (!res.ok) return '';
+    const html = await res.text();
+    return html
+      .replace(/<script[^>]*>[\s\S]*?<\/script>/gi, '')
+      .replace(/<style[^>]*>[\s\S]*?<\/style>/gi, '')
+      .replace(/<[^>]+>/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim()
+      .slice(0, 3000);
+  } catch {
+    return '';
+  }
+}
+
 function readPosts() {
   return fs
     .readdirSync(POSTS_DIR)
@@ -55,9 +78,9 @@ function needsTeaser(post) {
   return desc === '' || desc === undefined || desc === null;
 }
 
-function buildPrompt(post) {
+function buildPrompt(post, overrideBody = null) {
   const { title, original_link, topics } = post.data;
-  const body = post.content.trim();
+  const body = overrideBody !== null ? overrideBody : post.content.trim();
   const topicLine = topics && topics.length ? `Topics: ${topics.join(', ')}` : '';
 
   if (body.length > 100) {
@@ -121,10 +144,17 @@ async function generateTeasers() {
     }
 
     try {
+      let fetchedBody = null;
+      if (post.content.trim().length < 100 && post.data.original_link) {
+        process.stdout.write('(fetching) ');
+        fetchedBody = await fetchBodyFromUrl(post.data.original_link);
+        await sleep(200);
+      }
+
       const response = await client.messages.create({
         model: 'claude-haiku-4-5',
         max_tokens: 150,
-        messages: [{ role: 'user', content: buildPrompt(post) }],
+        messages: [{ role: 'user', content: buildPrompt(post, fetchedBody) }],
       });
 
       const teaser = response.content[0].text.trim();
