@@ -1,0 +1,19 @@
+{
+  "updated_at": "2026-05-01",
+  "work": [
+    { "label": "Role", "value": "Developer Advocate, Global Payments" }
+  ],
+  "faith": [
+    { "label": "Small group", "value": "Leading Working Adults Ministry, HMCC Austin" },
+    { "label": "Worship", "value": "Keys" },
+    { "label": "Missions", "value": "Japan trip — February 2026" },
+    { "label": "Man Year", "value": "Forming Men (Jeff Bethke & John Tyson) — Mental module" },
+    { "label": "Bible", "value": "Studying Numbers — prioritizing depth over speed" }
+  ],
+  "cards": [
+    { "label": "JCR", "value": "Judge Community Representative, USA South Central" },
+    { "label": "Upcoming", "value": "US Nats Minneapolis (June) · Pro Tour Las Vegas (July)" },
+    { "label": "Playing", "value": "Oscilio built · building toward Katsu — Wizard and Ninja heroes" },
+    { "label": "Selling", "value": "Creedo's Emporio — buying collections, open to inquiries" }
+  ]
+}
