@@ -5,8 +5,8 @@ import Link from 'next/link'
 import Layout, { siteTitle, base_url } from '../../components/layout'
 import JsonLd from '../../components/JsonLd'
 import { getSortedExperiencesData } from '../../lib/experiences'
-import styles from '../../styles/domain.module.css'
 import { useDarkMode } from '../_app'
+import styles from '../../styles/domain.module.css'
 
 const WORK_SCHEMA = {
   '@context': 'https://schema.org',
@@ -32,9 +32,40 @@ export async function getStaticProps() {
   return { props: { experiences } }
 }
 
+function ExpItem({ exp, styles }) {
+  return (
+    <li className={styles.expItem}>
+      <Image
+        src={exp.logo_url}
+        alt={exp.company}
+        width={44}
+        height={44}
+        className={styles.expLogo}
+      />
+      <div className={styles.expMeta}>
+        <p className={styles.expRole}>{exp.job_title}</p>
+        <p className={styles.expCompany}>
+          <a href={exp.company_url} target="_blank" rel="noopener noreferrer">
+            {exp.company}
+          </a>
+          {exp.location ? ` · ${exp.location}` : ''}
+        </p>
+        <p className={styles.expPeriod}>{formatPeriod(exp.start_date, exp.end_date, exp.current)}</p>
+        {exp.bullets && exp.bullets.length > 0 && (
+          <ul className={styles.expBullets}>
+            {exp.bullets.map((b, i) => <li key={i}>{b}</li>)}
+          </ul>
+        )}
+      </div>
+    </li>
+  )
+}
+
 export default function Work({ experiences }) {
   const { toggleDarkMode } = useDarkMode()
   const [avatarPop, setAvatarPop] = useState(false)
+  const currentExp = experiences.filter((e) => e.current)
+  const previousExp = experiences.filter((e) => !e.current)
 
   function handleAvatarClick() {
     setAvatarPop(true)
@@ -43,7 +74,7 @@ export default function Work({ experiences }) {
   }
 
   return (
-    <Layout canonicalPath="/work">
+    <Layout>
       <Head>
         <title>{`Work | ${siteTitle}`}</title>
         <meta name="description" content="Eric Lee's work in developer advocacy, software engineering, and technical community building." />
@@ -88,35 +119,23 @@ export default function Work({ experiences }) {
           </ul>
         </section>
 
-        <section className={styles.section}>
-          <p className={styles.sectionLabel}>Experience</p>
-          <ul className={styles.expList}>
-            {experiences.map((exp) => (
-              <li key={exp.id} className={styles.expItem}>
-                <Image
-                  src={exp.logo_url}
-                  alt={exp.company}
-                  width={44}
-                  height={44}
-                  className={styles.expLogo}
-                />
-                <div className={styles.expMeta}>
-                  <p className={styles.expRole}>{exp.job_title}</p>
-                  <p className={styles.expCompany}>
-                    <a href={exp.company_url} target="_blank" rel="noopener noreferrer">
-                      {exp.company}
-                    </a>
-                    {exp.location ? ` · ${exp.location}` : ''}
-                  </p>
-                  <p className={styles.expPeriod}>{formatPeriod(exp.start_date, exp.end_date, exp.current)}</p>
-                  {exp.description && (
-                    <p className={styles.expDescription}>{exp.description}</p>
-                  )}
-                </div>
-              </li>
-            ))}
-          </ul>
-        </section>
+        {currentExp.length > 0 && (
+          <section className={styles.section}>
+            <p className={styles.sectionLabel}>Current Experience</p>
+            <ul className={styles.expList}>
+              {currentExp.map((exp) => <ExpItem key={exp.id} exp={exp} styles={styles} />)}
+            </ul>
+          </section>
+        )}
+
+        {previousExp.length > 0 && (
+          <section className={styles.section}>
+            <p className={styles.sectionLabel}>Past Experience</p>
+            <ul className={styles.expList}>
+              {previousExp.map((exp) => <ExpItem key={exp.id} exp={exp} styles={styles} />)}
+            </ul>
+          </section>
+        )}
 
         <div className={styles.crossLinks}>
           <p className={styles.sectionLabel}>Elsewhere in this site</p>
