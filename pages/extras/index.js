@@ -1,7 +1,12 @@
+import fs from 'fs'
+import path from 'path'
+import { useState, useEffect, useCallback } from 'react'
 import Head from 'next/head'
+import Image from 'next/image'
 import Link from 'next/link'
 import Layout, { siteTitle } from '../../components/layout'
 import styles from './extras.module.css'
+import photoStyles from '../../styles/domain.module.css'
 
 const PERSONALITY = [
   { label: 'MBTI', value: 'ENFP' },
@@ -12,13 +17,13 @@ const PERSONALITY = [
 ]
 
 const HOBBIES = [
-  { label: 'Bouldering' },
-  { label: 'Running' },
-  { label: 'Worship music (keys)' },
-  { label: 'Video games' },
-  { label: 'Anime' },
-  { label: 'Flesh and Blood TCG', url: 'https://fabtcg.com' },
-  { label: 'Watching shows & movies' },
+  'Bouldering',
+  'Running',
+  'Worship music (keys)',
+  'Video games',
+  'Anime',
+  'Flesh and Blood TCG',
+  'Watching shows & movies',
 ]
 
 const RECS = [
@@ -68,6 +73,19 @@ const QUOTES = [
     text: 'Murder your darlings.',
     source: 'Anonymous',
   },
+  {
+    text: 'For I am sure that neither death nor life, nor angels nor rulers, nor things present nor things to come, nor powers, nor height nor depth, nor anything else in all creation, will be able to separate us from the love of God in Christ Jesus our Lord.',
+    source: 'Romans 8:38-39',
+  },
+]
+
+const PRINCIPLES = [
+  { text: 'Joy in all things. In every moment. Every morning.', source: '1 Thessalonians 5:16-18' },
+  { text: 'Love in all you do, even when hard.', source: '1 Corinthians 13' },
+  { text: 'Glorify God in everything you do.', source: '' },
+  { text: 'Testimony of Grace.', source: 'Matthew 5:14-16' },
+  { text: 'Each day is not guaranteed, so live for the day.', source: '' },
+  { text: "Learn to think for yourself — don't blindly follow.", source: '' },
 ]
 
 const SITE_HISTORY = [
@@ -78,9 +96,37 @@ const SITE_HISTORY = [
   { year: 'Now', url: 'https://ericjmlee.com', label: 'ericjmlee.com' },
 ]
 
-export default function Extras() {
+export async function getStaticProps() {
+  const photosDir = path.join(process.cwd(), 'public/images/extras/photos')
+  const metaPath = path.join(photosDir, 'photos.json')
+  const meta = fs.existsSync(metaPath) ? JSON.parse(fs.readFileSync(metaPath, 'utf-8')) : {}
+  const photos = fs.readdirSync(photosDir)
+    .filter((f) => /\.(jpg|jpeg|png|webp)$/i.test(f))
+    .sort()
+    .map((f) => ({ file: f, caption: meta[f] || null }))
+  return { props: { photos } }
+}
+
+export default function Extras({ photos }) {
+  const [lightboxIndex, setLightboxIndex] = useState(null)
+
+  const closeLightbox = useCallback(() => setLightboxIndex(null), [])
+  const prev = useCallback(() => setLightboxIndex((i) => (i - 1 + photos.length) % photos.length), [photos.length])
+  const next = useCallback(() => setLightboxIndex((i) => (i + 1) % photos.length), [photos.length])
+
+  useEffect(() => {
+    if (lightboxIndex === null) return
+    function onKey(e) {
+      if (e.key === 'Escape')     closeLightbox()
+      if (e.key === 'ArrowLeft')  prev()
+      if (e.key === 'ArrowRight') next()
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [lightboxIndex, closeLightbox, prev, next])
+
   return (
-    <Layout canonicalPath="/extras">
+    <Layout>
       <Head>
         <title>{`Extras | ${siteTitle}`}</title>
         <meta name="description" content="The extras — personality, hobbies, recommendations, and site history." />
@@ -106,13 +152,34 @@ export default function Extras() {
       <section className={styles.section}>
         <h2>Hobbies</h2>
         <ul className={styles.plainList}>
-          {HOBBIES.map(({ label, url }) => (
-            <li key={label}>
-              {url ? <a href={url} target="_blank" rel="noopener noreferrer">{label}</a> : label}
-            </li>
-          ))}
+          {HOBBIES.map((h) => <li key={h}>{h}</li>)}
         </ul>
       </section>
+
+      {photos.length > 0 && (
+        <section className={styles.section}>
+          <h2>Activity</h2>
+          <div className={photoStyles.photoGrid}>
+            {photos.map(({ file, caption }, i) => (
+              <button
+                key={file}
+                className={photoStyles.photoItem}
+                style={{ aspectRatio: '3 / 4' }}
+                onClick={() => setLightboxIndex(i)}
+                aria-label={caption || `Open photo ${i + 1} of ${photos.length}`}
+              >
+                <Image
+                  src={`/images/extras/photos/${file}`}
+                  alt={caption || 'Eric Lee — activity'}
+                  fill
+                  sizes="(max-width: 480px) 100vw, (max-width: 720px) 50vw, 33vw"
+                  style={{ objectFit: 'cover' }}
+                />
+              </button>
+            ))}
+          </div>
+        </section>
+      )}
 
       <section className={styles.section}>
         <h2>Recommendations</h2>
@@ -146,6 +213,18 @@ export default function Extras() {
       </section>
 
       <section className={styles.section}>
+        <h2>Principles</h2>
+        <ul className={styles.quoteList}>
+          {PRINCIPLES.map(({ text, source }) => (
+            <li key={text} className={styles.quoteItem}>
+              <p className={styles.quoteText}>{text}</p>
+              {source && <p className={styles.quoteSource}>— {source}</p>}
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section className={styles.section}>
         <h2>Site History</h2>
         <p>This site has gone through a few eras.</p>
         <ul className={styles.historyList}>
@@ -161,6 +240,31 @@ export default function Extras() {
       <p className={styles.backLink}>
         <Link href="/about">← Back to About</Link>
       </p>
+
+      {lightboxIndex !== null && (
+        <div className={photoStyles.lightbox} onClick={closeLightbox} role="dialog" aria-modal="true" aria-label="Photo lightbox">
+          <button className={photoStyles.lightboxClose} onClick={closeLightbox} aria-label="Close">✕</button>
+          {photos.length > 1 && (
+            <button className={`${photoStyles.lightboxNav} ${photoStyles.lightboxPrev}`} onClick={(e) => { e.stopPropagation(); prev() }} aria-label="Previous photo">‹</button>
+          )}
+          <Image
+            src={`/images/extras/photos/${photos[lightboxIndex].file}`}
+            alt={photos[lightboxIndex].caption || `Activity photo ${lightboxIndex + 1}`}
+            className={photoStyles.lightboxImg}
+            width={1200}
+            height={800}
+            style={{ objectFit: 'contain' }}
+            onClick={(e) => e.stopPropagation()}
+          />
+          {photos.length > 1 && (
+            <button className={`${photoStyles.lightboxNav} ${photoStyles.lightboxNext}`} onClick={(e) => { e.stopPropagation(); next() }} aria-label="Next photo">›</button>
+          )}
+          <p className={photoStyles.lightboxCounter}>{lightboxIndex + 1} / {photos.length}</p>
+          {photos[lightboxIndex].caption && (
+            <p className={photoStyles.lightboxCaption}>{photos[lightboxIndex].caption}</p>
+          )}
+        </div>
+      )}
     </Layout>
   )
 }
