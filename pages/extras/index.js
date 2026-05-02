@@ -170,7 +170,7 @@ export default function Extras({ photos, recs }) {
   }, [lightboxIndex, closeLightbox, prev, next])
 
   return (
-    <Layout>
+    <Layout canonicalPath="/extras">
       <Head>
         <title>{`Extras | ${siteTitle}`}</title>
         <meta name="description" content="The extras — personality, hobbies, recommendations, and site history." />

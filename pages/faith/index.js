@@ -133,7 +133,7 @@ export default function Faith({ photos }) {
   }, [lightboxIndex, closeLightbox, prev, next])
 
   return (
-    <Layout>
+    <Layout canonicalPath="/faith">
       <Head>
         <title>{`Faith | ${siteTitle}`}</title>
         <meta name="description" content="Eric Lee's faith — what it means to how he lives." />

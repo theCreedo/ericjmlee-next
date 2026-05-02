@@ -62,9 +62,11 @@ const nav = [
   { label: 'Archive', href: '/archive' },
 ]
 
-export default function Layout({ children, home, project, experience, blog, newsletter, postData }) {
+export default function Layout({ children, home, project, experience, blog, newsletter, postData, canonicalPath, ogType }) {
   const [navOpen, setNavOpen] = useState(false)
   const { darkMode, toggleDarkMode } = useDarkMode()
+  const canonicalUrl = canonicalPath ? `${base_url}${canonicalPath}` : null
+  const resolvedOgType = ogType || 'website'
 
   return (
     <div>
@@ -74,6 +76,9 @@ export default function Layout({ children, home, project, experience, blog, news
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="alternate" type="application/rss+xml" title="Eric Lee" href="/rss.xml" />
+        {canonicalUrl && <link key="canonical" rel="canonical" href={canonicalUrl} />}
+        {canonicalUrl && <meta key="og:url" property="og:url" content={canonicalUrl} />}
+        <meta key="og:type" property="og:type" content={resolvedOgType} />
         <meta key="og:image" property="og:image" content={DEFAULT_OG_IMAGE} />
         <meta key="og:description" property="og:description" content={DEFAULT_DESCRIPTION} />
         <meta property="twitter:card" content="summary_large_image" />
