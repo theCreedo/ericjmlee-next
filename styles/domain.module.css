@@ -400,12 +400,12 @@
 }
 
 .logoImg {
-  filter: grayscale(1) opacity(0.45);
+  filter: none;
   transition: filter var(--t-fast);
 }
 
 .logoImg:hover {
-  filter: none;
+  filter: brightness(1.3) saturate(0.7) opacity(0.75);
 }
 
 /* Photo grid */
