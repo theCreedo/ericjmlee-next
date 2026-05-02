@@ -40,7 +40,7 @@ export default function Home() {
     <Layout home canonicalPath="/">
       <Head>
         <title>{siteTitle}</title>
-        <meta name="description" content="Developer advocate, L2 TCG judge, church leader, and writer based in Austin, TX." />
+        <meta name="description" content="Eric Lee — developer advocate, FAB L2 judge, TCG seller, church leader, and writer based in Austin, TX." />
         <JsonLd data={WEBSITE_SCHEMA} />
       </Head>
       <section>
