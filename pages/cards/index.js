@@ -53,9 +53,17 @@ export default function Cards({ photos }) {
     toggleDarkMode()
   }
 
-  const closeLightbox = useCallback(() => setLightboxIndex(null), [])
+  const closeLightbox = useCallback(() => {
+    if (typeof window !== 'undefined' && window.history.state?.lightboxOpen) {
+      window.history.back()
+    } else {
+      setLightboxIndex(null)
+    }
+  }, [])
   const prev = useCallback(() => setLightboxIndex((i) => (i - 1 + photos.length) % photos.length), [photos.length])
   const next = useCallback(() => setLightboxIndex((i) => (i + 1) % photos.length), [photos.length])
+
+  const isLightboxOpen = lightboxIndex !== null
 
   useEffect(() => {
     if (lightboxIndex === null) return
@@ -67,6 +75,14 @@ export default function Cards({ photos }) {
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
   }, [lightboxIndex, closeLightbox, prev, next])
+
+  useEffect(() => {
+    if (!isLightboxOpen) return
+    window.history.pushState({ lightboxOpen: true }, '')
+    function onPop() { setLightboxIndex(null) }
+    window.addEventListener('popstate', onPop)
+    return () => window.removeEventListener('popstate', onPop)
+  }, [isLightboxOpen])
 
   return (
     <Layout canonicalPath="/cards">
