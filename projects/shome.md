@@ -1,7 +1,7 @@
 ---
 title: "Shome"
 name: "Shome"
-link: ""
+link: "https://shome-3oqr.onrender.com/"
 start_date: "2019-05-01"
 one_liner: "Summer Subleasing Platform for Students"
 tech_stack: [
@@ -14,7 +14,7 @@ tech_stack: [
     "backend",
 ]
 tech: "Ruby on Rails"
-header_link: ""
+header_link: "https://shome-3oqr.onrender.com/"
 hackathon:
 github_link: 
 devpost_link: 
