@@ -73,7 +73,19 @@ const nextConfig = {
         hostname: 'outsidethe9to5life.wordpress.com',
         port: '',
         pathname: '/**',
-      }
+      },
+      {
+        protocol: 'https',
+        hostname: 'image.tmdb.org',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn.akamai.steamstatic.com',
+        port: '',
+        pathname: '/**',
+      },
     ],
   },
 }

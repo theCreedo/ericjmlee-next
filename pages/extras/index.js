@@ -17,31 +17,43 @@ const PERSONALITY = [
 ]
 
 const HOBBIES = [
-  'Bouldering',
-  'Running',
-  'Worship music (keys)',
-  'Video games',
-  'Anime',
-  'Flesh and Blood TCG',
-  'Watching shows & movies',
+  { label: 'Bouldering' },
+  { label: 'Running' },
+  { label: 'Worship music (keys)' },
+  { label: 'Video games' },
+  { label: 'Anime' },
+  { label: 'Flesh and Blood TCG', url: 'https://fabtcg.com' },
+  { label: 'Watching shows & movies' },
 ]
 
-const RECS = [
+const RECS_SOURCE = [
   {
     category: 'Shows & movies',
     items: [
-      { label: 'Dandadan',      url: 'https://www.imdb.com/title/tt30217403/' },
-      { label: 'Breaking Bad',  url: 'https://www.imdb.com/title/tt0903747/' },
-      { label: 'The Godfather', url: 'https://www.imdb.com/title/tt0068646/' },
+      { label: 'Breaking Bad',  url: 'https://www.imdb.com/title/tt0903747/', tmdbId: '1396', tmdbType: 'tv' },
+      { label: 'The Godfather', url: 'https://www.imdb.com/title/tt0068646/', tmdbId: '238',  tmdbType: 'movie' },
+      { label: 'Pulp Fiction',  url: 'https://www.imdb.com/title/tt0110912/', tmdbId: '680',  tmdbType: 'movie' },
     ],
   },
   {
     category: 'Video games',
     items: [
-      { label: 'Omori',       url: 'https://www.omori-game.com/en' },
-      { label: 'Undertale',   url: 'https://undertale.com/' },
-      { label: 'Deltarune',   url: 'https://deltarune.com/' },
-      { label: 'Inscryption', url: 'https://www.inscryption.com' },
+      { label: 'Omori',            url: 'https://www.omori-game.com/en',                                  steamAppId: '1150690' },
+      { label: 'Undertale',        url: 'https://undertale.com/',                                         steamAppId: '391540' },
+      { label: 'Deltarune',        url: 'https://deltarune.com/',                                         steamAppId: '1671210' },
+      { label: 'Inscryption',      url: 'https://www.inscryption.com',                                    steamAppId: '1092790' },
+      { label: 'Slay the Spire',   url: 'https://store.steampowered.com/app/646570/Slay_the_Spire/',      steamAppId: '646570' },
+      { label: 'Slay the Spire 2', url: 'https://store.steampowered.com/app/2868840/Slay_the_Spire_2/',  steamAppId: '2868840' },
+    ],
+  },
+  {
+    category: 'Anime',
+    items: [
+      { label: 'Dandadan',              url: 'https://www.imdb.com/title/tt30217403/',  tmdbId: null,     tmdbType: 'tv' },
+      { label: 'One Piece',             url: 'https://www.imdb.com/title/tt0388629/',   tmdbId: '37854',  tmdbType: 'tv' },
+      { label: 'Apothecary Diaries',    url: 'https://www.imdb.com/title/tt26743760/',  tmdbId: '220542', tmdbType: 'tv' },
+      { label: "Howl's Moving Castle",  url: 'https://www.themoviedb.org/movie/4935',   tmdbId: '4935',   tmdbType: 'movie' },
+      { label: 'The Wind Rises',        url: 'https://www.themoviedb.org/movie/149870', tmdbId: '149870', tmdbType: 'movie' },
     ],
   },
   {
@@ -104,10 +116,42 @@ export async function getStaticProps() {
     .filter((f) => /\.(jpg|jpeg|png|webp)$/i.test(f))
     .sort()
     .map((f) => ({ file: f, caption: meta[f] || null }))
-  return { props: { photos } }
+
+  const TMDB_KEY = process.env.TMDB_API_KEY
+
+  async function fetchTmdbPoster(tmdbId, tmdbType) {
+    if (!TMDB_KEY || !tmdbId) return null
+    try {
+      const res = await fetch(`https://api.themoviedb.org/3/${tmdbType}/${tmdbId}?api_key=${TMDB_KEY}`)
+      if (!res.ok) return null
+      const data = await res.json()
+      return data.poster_path ? `https://image.tmdb.org/t/p/w300${data.poster_path}` : null
+    } catch {
+      return null
+    }
+  }
+
+  const recs = await Promise.all(
+    RECS_SOURCE.map(async (cat) => ({
+      ...cat,
+      items: await Promise.all(
+        cat.items.map(async (item) => {
+          let image = null
+          if (item.tmdbId) {
+            image = await fetchTmdbPoster(item.tmdbId, item.tmdbType)
+          } else if (item.steamAppId) {
+            image = `https://cdn.akamai.steamstatic.com/steam/apps/${item.steamAppId}/library_600x900.jpg`
+          }
+          return { label: item.label, url: item.url || null, image }
+        })
+      ),
+    }))
+  )
+
+  return { props: { photos, recs } }
 }
 
-export default function Extras({ photos }) {
+export default function Extras({ photos, recs }) {
   const [lightboxIndex, setLightboxIndex] = useState(null)
 
   const closeLightbox = useCallback(() => setLightboxIndex(null), [])
@@ -152,8 +196,71 @@ export default function Extras({ photos }) {
       <section className={styles.section}>
         <h2>Hobbies</h2>
         <ul className={styles.plainList}>
-          {HOBBIES.map((h) => <li key={h}>{h}</li>)}
+          {HOBBIES.map((h) => (
+            <li key={h.label}>
+              {h.url
+                ? <a href={h.url} target="_blank" rel="noopener noreferrer">{h.label}</a>
+                : h.label}
+            </li>
+          ))}
         </ul>
+      </section>
+
+      <section className={styles.section}>
+        <h2>Recommendations</h2>
+        <dl className={styles.dl}>
+          {recs.map(({ category, items }) => {
+            const hasImages = items.some((item) => item.image)
+            return (
+              <div key={category} className={styles.dlRow}>
+                <dt className={styles.dt}>{category}</dt>
+                <dd className={styles.dd}>
+                  {hasImages ? (
+                    <div className={styles.recsGrid}>
+                      {items.map((item) =>
+                        item.image ? (
+                          <a
+                            key={item.label}
+                            href={item.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={styles.recsCard}
+                          >
+                            <Image
+                              src={item.image}
+                              alt={item.label}
+                              fill
+                              sizes="(max-width: 480px) 33vw, 150px"
+                              style={{ objectFit: 'cover' }}
+                            />
+                            <span className={styles.recsCardTitle}>{item.label}</span>
+                          </a>
+                        ) : (
+                          <a
+                            key={item.label}
+                            href={item.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={`${styles.recsCard} ${styles.recsCardNoImage}`}
+                          >
+                            <span className={styles.recsCardTitle}>{item.label}</span>
+                          </a>
+                        )
+                      )}
+                    </div>
+                  ) : (
+                    items.map((item, i) => (
+                      <span key={item.label}>
+                        <a href={item.url} target="_blank" rel="noopener noreferrer">{item.label}</a>
+                        {i < items.length - 1 && ' · '}
+                      </span>
+                    ))
+                  )}
+                </dd>
+              </div>
+            )
+          })}
+        </dl>
       </section>
 
       {photos.length > 0 && (
@@ -164,7 +271,7 @@ export default function Extras({ photos }) {
               <button
                 key={file}
                 className={photoStyles.photoItem}
-                style={{ aspectRatio: '3 / 4' }}
+                style={{ aspectRatio: '1 / 1' }}
                 onClick={() => setLightboxIndex(i)}
                 aria-label={caption || `Open photo ${i + 1} of ${photos.length}`}
               >
@@ -178,26 +285,24 @@ export default function Extras({ photos }) {
               </button>
             ))}
           </div>
+          <p style={{ marginTop: '12px', fontFamily: 'var(--f-ui)', fontSize: '13px' }}>
+            <a href="https://www.instagram.com/solothecreedo/" target="_blank" rel="noopener noreferrer">
+              Follow @solothecreedo →
+            </a>
+          </p>
         </section>
       )}
 
       <section className={styles.section}>
-        <h2>Recommendations</h2>
-        <dl className={styles.dl}>
-          {RECS.map(({ category, items }) => (
-            <div key={category} className={styles.dlRow}>
-              <dt className={styles.dt}>{category}</dt>
-              <dd className={styles.dd}>
-                {items.map((item, i) => (
-                  <span key={item.label}>
-                    <a href={item.url} target="_blank" rel="noopener noreferrer">{item.label}</a>
-                    {i < items.length - 1 && ' · '}
-                  </span>
-                ))}
-              </dd>
-            </div>
+        <h2>Principles</h2>
+        <ul className={styles.quoteList}>
+          {PRINCIPLES.map(({ text, source }) => (
+            <li key={text} className={styles.quoteItem}>
+              <p className={styles.quoteText}>{text}</p>
+              {source && <p className={styles.quoteSource}>— {source}</p>}
+            </li>
           ))}
-        </dl>
+        </ul>
       </section>
 
       <section className={styles.section}>
@@ -207,18 +312,6 @@ export default function Extras({ photos }) {
             <li key={source} className={styles.quoteItem}>
               <p className={styles.quoteText}>&ldquo;{text}&rdquo;</p>
               <p className={styles.quoteSource}>— {source}</p>
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      <section className={styles.section}>
-        <h2>Principles</h2>
-        <ul className={styles.quoteList}>
-          {PRINCIPLES.map(({ text, source }) => (
-            <li key={text} className={styles.quoteItem}>
-              <p className={styles.quoteText}>{text}</p>
-              {source && <p className={styles.quoteSource}>— {source}</p>}
             </li>
           ))}
         </ul>
@@ -237,9 +330,12 @@ export default function Extras({ photos }) {
         </ul>
       </section>
 
-      <p className={styles.backLink}>
-        <Link href="/about">← Back to About</Link>
-      </p>
+      <div className={photoStyles.crossLinks}>
+        <p className={photoStyles.sectionLabel}>Elsewhere in this site</p>
+        <nav className={photoStyles.crossLinkNav}>
+          <Link href="/about">About →</Link>
+        </nav>
+      </div>
 
       {lightboxIndex !== null && (
         <div className={photoStyles.lightbox} onClick={closeLightbox} role="dialog" aria-modal="true" aria-label="Photo lightbox">
