@@ -102,7 +102,7 @@ export default function Work({ experiences }) {
           </div>
           <h1>Work</h1>
         </div>
-        <p className={styles.lead}>I work at the intersection of software and community — helping developers understand tools, build integrations, and ship. As a Developer Advocate @ Global Payments, that means getting close to the SDKs, writing samples and guides, and showing up where developers are. I&apos;m interested in how AI is changing that work: how it accelerates integration, reshapes what documentation looks like, and shifts what &ldquo;enablement&rdquo; actually means.</p>
+        <p className={styles.lead}>I work at the intersection of software and community — helping developers understand tools, build integrations, and ship. As a Developer Advocate @ <a href="https://www.globalpayments.com" target="_blank" rel="noopener noreferrer">Global Payments</a>, that means getting close to the SDKs, writing samples and guides, and showing up where developers are. I&apos;m interested in how AI is changing that work: how it accelerates integration, reshapes what documentation looks like, and shifts what &ldquo;enablement&rdquo; actually means.</p>
 
         <section className={styles.section}>
           <p className={styles.sectionLabel}>Content</p>
