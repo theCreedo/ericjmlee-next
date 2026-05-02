@@ -6,12 +6,12 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Layout, { siteTitle, base_url } from '../../components/layout'
 import JsonLd from '../../components/JsonLd'
-import styles from '../../styles/domain.module.css'
 import { useDarkMode } from '../_app'
+import styles from '../../styles/domain.module.css'
 
 const LOGOS = [
   { file: 'fab-logo.png',             alt: 'Flesh and Blood TCG', url: 'https://fabtcg.com' },
-  { file: 'judges-of-rathe-logo.png', alt: 'Judges of Rathe',    url: 'https://fabtcg.com/judges/ericjmlee/' },
+  { file: 'judges-of-rathe-logo.png', alt: 'Judges of Rathe',    url: 'https://judge.fabtcg.com/judges/ericjmlee' },
   { file: 'tcgplayer-logo.png',       alt: 'TCGplayer',          url: 'https://www.tcgplayer.com/search/all/product?seller=c32f5ae7&view=grid' },
 ]
 
@@ -33,10 +33,12 @@ const CARDS_SCHEMA = {
 
 export async function getStaticProps() {
   const photosDir = path.join(process.cwd(), 'public/images/cards/photos')
+  const metaPath = path.join(photosDir, 'photos.json')
+  const meta = fs.existsSync(metaPath) ? JSON.parse(fs.readFileSync(metaPath, 'utf-8')) : {}
   const photos = fs.readdirSync(photosDir)
     .filter((f) => /\.(jpg|jpeg|png|webp)$/i.test(f))
     .sort()
-
+    .map((f) => ({ file: f, caption: meta[f] || null }))
   return { props: { photos } }
 }
 
@@ -67,7 +69,7 @@ export default function Cards({ photos }) {
   }, [lightboxIndex, closeLightbox, prev, next])
 
   return (
-    <Layout canonicalPath="/cards">
+    <Layout>
       <Head>
         <title>{`Cards | ${siteTitle}`}</title>
         <meta name="description" content="Eric Lee in Flesh and Blood TCG — playing, collecting, selling, and judging. FAB L2 judge and JCR for USA South Central." />
@@ -95,11 +97,18 @@ export default function Cards({ photos }) {
           </div>
           <h1>Cards</h1>
         </div>
-        <p className={styles.lead}>I&apos;ve been in <a href="https://fabtcg.com" target="_blank" rel="noopener noreferrer">Flesh and Blood</a> since the end of 2021. Started off as a player, then a collector and a seller, and now a judge. For my locals, I try to be involved and connect players with one another in the community, as well as inform about regional and national events. As a judge, I help write content for the judge blog and am involved in the community as JCR for USA South Central.</p>
+        <p className={styles.lead}>I&apos;ve been in <a href="https://fabtcg.com" target="_blank" rel="noopener noreferrer">Flesh and Blood</a> since the end of 2021. Started off as a player, then a collector and a seller, and now a judge. For my locals, I try to be involved and connect players with one another in the community, as well as inform about regional and national events. As a judge, I help write content for the judge blog and am involved in the community as JCR (Judge Community Representative) for USA South Central.</p>
 
         <div className={styles.logoStrip}>
           {LOGOS.map((logo) => (
-            <a key={logo.file} href={logo.url} target="_blank" rel="noopener noreferrer" className={styles.logoWrapper} aria-label={logo.alt}>
+            <a
+              key={logo.file}
+              href={logo.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.logoWrapper}
+              aria-label={logo.alt}
+            >
               <Image
                 src={`/images/cards/${logo.file}`}
                 alt={logo.alt}
@@ -140,6 +149,7 @@ export default function Cards({ photos }) {
             </li>
           </ul>
           <p style={{ marginTop: '12px', fontFamily: 'var(--f-ui)', fontSize: '13px' }}>
+            Topics span policy and rules, personal stories from events, and interviews with judges on their experiences.{' '}
             <a href="https://blog.judge.fabtcg.com/blog/author/eric-lee/" target="_blank" rel="noopener noreferrer">
               All judge writing →
             </a>
@@ -150,16 +160,16 @@ export default function Cards({ photos }) {
           <section className={styles.section}>
             <p className={styles.sectionLabel}>Community</p>
             <div className={styles.photoGrid}>
-              {photos.map((photo, i) => (
+              {photos.map(({ file, caption }, i) => (
                 <button
-                  key={photo}
+                  key={file}
                   className={styles.photoItem}
                   onClick={() => setLightboxIndex(i)}
-                  aria-label={`Open photo ${i + 1} of ${photos.length}`}
+                  aria-label={caption || `Open photo ${i + 1} of ${photos.length}`}
                 >
                   <Image
-                    src={`/images/cards/photos/${photo}`}
-                    alt="Flesh and Blood community"
+                    src={`/images/cards/photos/${file}`}
+                    alt={caption || 'Flesh and Blood community'}
                     fill
                     sizes="(max-width: 480px) 100vw, (max-width: 720px) 50vw, 33vw"
                     style={{ objectFit: 'cover' }}
@@ -182,8 +192,8 @@ export default function Cards({ photos }) {
               <button className={`${styles.lightboxNav} ${styles.lightboxPrev}`} onClick={(e) => { e.stopPropagation(); prev() }} aria-label="Previous photo">‹</button>
             )}
             <Image
-              src={`/images/cards/photos/${photos[lightboxIndex]}`}
-              alt={`Flesh and Blood community photo ${lightboxIndex + 1}`}
+              src={`/images/cards/photos/${photos[lightboxIndex].file}`}
+              alt={photos[lightboxIndex].caption || `Flesh and Blood community photo ${lightboxIndex + 1}`}
               className={styles.lightboxImg}
               width={1200}
               height={800}
@@ -194,6 +204,9 @@ export default function Cards({ photos }) {
               <button className={`${styles.lightboxNav} ${styles.lightboxNext}`} onClick={(e) => { e.stopPropagation(); next() }} aria-label="Next photo">›</button>
             )}
             <p className={styles.lightboxCounter}>{lightboxIndex + 1} / {photos.length}</p>
+            {photos[lightboxIndex].caption && (
+              <p className={styles.lightboxCaption}>{photos[lightboxIndex].caption}</p>
+            )}
           </div>
         )}
 

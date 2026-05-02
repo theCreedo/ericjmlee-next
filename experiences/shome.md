@@ -3,7 +3,7 @@ title: "Shome"
 company: "Shome"
 job_title: "Co-Founder · CTO"
 location: "Austin, TX"
-company_url: "https://shome-housing.herokuapp.com/"
+company_url: "https://shome-3oqr.onrender.com"
 logo_url: "/images/experience/shome-logo-725x325.png"
 current: false
 start_date: "2019-05-01"

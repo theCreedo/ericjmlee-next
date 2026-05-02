@@ -11,6 +11,7 @@ const STATIC_PAGES = [
   { loc: '/archive', priority: '0.7', changefreq: 'weekly' },
   { loc: '/extras',  priority: '0.5', changefreq: 'monthly' },
   { loc: '/projects',priority: '0.5', changefreq: 'monthly' },
+  { loc: '/now',     priority: '0.6', changefreq: 'monthly' },
 ]
 
 function buildXml(entries) {

@@ -114,7 +114,7 @@ export default function Studio() {
             </li>
             <li className={styles.linkItem}>
               <span className={styles.linkLabel}>UT CS Blog</span>
-              <span className={styles.linkValue}>University of Texas at Austin, Computer Science</span>
+              <span className={styles.linkValue}><a href="https://www.cs.utexas.edu" target="_blank" rel="noopener noreferrer">University of Texas at Austin, Computer Science</a></span>
             </li>
           </ul>
         </section>

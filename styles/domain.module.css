@@ -49,7 +49,7 @@
   border-radius: var(--radius-md, 6px);
   border: 1px solid var(--border);
   object-fit: contain;
-  background: var(--surface);
+  background: var(--bg);
   flex-shrink: 0;
 }
 
@@ -99,6 +99,22 @@
   margin: var(--space-2, 8px) 0 0;
 }
 
+.expBullets {
+  margin: var(--space-2, 8px) 0 0;
+  padding-left: var(--space-5, 20px);
+  list-style: disc;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1, 4px);
+}
+
+.expBullets li {
+  font-family: var(--f-body), Georgia, serif;
+  font-size: 0.875rem;
+  color: var(--text);
+  line-height: 1.55;
+}
+
 /* Links / credentials section */
 .linkList {
   list-style: none;
@@ -131,11 +147,185 @@
   color: var(--text);
 }
 
+/* Faith — values */
+.valueList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.valueItem {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3, 12px);
+  padding: var(--space-8, 32px) 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.valueItem:first-child {
+  padding-top: 0;
+}
+
+.valueItem:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.valueName {
+  font-family: var(--f-display), Georgia, serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--ink);
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+
+.valueDescription {
+  font-family: var(--f-body), Georgia, serif;
+  font-size: 15px;
+  color: var(--text);
+  margin: 0;
+  line-height: 1.65;
+}
+
+.valueVerse {
+  font-family: var(--f-body), Georgia, serif;
+  font-size: 13px;
+  color: var(--faint);
+  margin: 0;
+  font-style: italic;
+  line-height: 1.55;
+}
+
+.verseRef {
+  font-style: normal;
+  font-size: 11px;
+  letter-spacing: 0.03em;
+}
+
+/* Faith — songs */
+.songList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.songItem {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1, 4px);
+  padding: var(--space-4, 16px) 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.songItem:first-child {
+  padding-top: 0;
+}
+
+.songItem:last-child {
+  border-bottom: none;
+}
+
+.spotifyEmbed {
+  display: block;
+  border-radius: var(--radius-md, 6px);
+  border: none;
+}
+
+.songNote {
+  font-family: var(--f-body), Georgia, serif;
+  font-size: 13px;
+  color: var(--text);
+  margin: 0;
+  line-height: 1.5;
+  font-style: italic;
+}
+
 /* Cross-domain links */
 .crossLinks {
   margin-top: var(--space-12, 48px);
-  padding-top: var(--space-8, 32px);
-  border-top: 1px solid var(--border);
+}
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: rgba(0, 0, 0, 0.88);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightboxImg {
+  max-width: 90vw;
+  max-height: 85vh;
+  object-fit: contain;
+  border-radius: var(--radius-md, 6px);
+}
+
+.lightboxClose {
+  position: absolute;
+  top: var(--space-4, 16px);
+  right: var(--space-4, 16px);
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  line-height: 1;
+  opacity: 0.7;
+  transition: opacity var(--t-fast);
+}
+.lightboxClose:hover { opacity: 1; }
+
+.lightboxNav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 3rem;
+  cursor: pointer;
+  line-height: 1;
+  opacity: 0.6;
+  padding: 0 var(--space-4, 16px);
+  transition: opacity var(--t-fast);
+}
+.lightboxNav:hover { opacity: 1; }
+
+.lightboxPrev { left: 0; }
+.lightboxNext { right: 0; }
+
+.lightboxCounter {
+  position: absolute;
+  bottom: var(--space-4, 16px);
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--f-ui), system-ui, sans-serif;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0;
+}
+
+.lightboxCaption {
+  position: absolute;
+  bottom: var(--space-8, 32px);
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--f-ui), system-ui, sans-serif;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0;
+  white-space: nowrap;
+  max-width: 80vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
 }
 
 .crossLinkNav {
@@ -199,21 +389,23 @@
 
 .logoWrapper {
   position: relative;
+  display: block;
   height: 36px;
   width: 120px;
-  opacity: 0.55;
-  transition: opacity var(--t-fast);
-  color: inherit;
   border-bottom: none;
 }
 
 .logoWrapper:hover {
-  opacity: 1;
   border-bottom: none;
 }
 
 .logoImg {
   filter: none;
+  transition: filter var(--t-fast);
+}
+
+.logoImg:hover {
+  filter: brightness(1.3) saturate(0.7) opacity(0.75);
 }
 
 /* Photo grid */
@@ -253,14 +445,6 @@
   .photoGrid {
     grid-template-columns: repeat(2, 1fr);
   }
-
-  .logoStrip {
-    gap: var(--space-4, 16px);
-  }
-
-  .logoWrapper {
-    width: 100px;
-  }
 }
 
 @media (max-width: 400px) {
@@ -296,74 +480,5 @@
   font-family: var(--f-ui), system-ui, sans-serif;
   font-size: 11px;
   color: var(--faint);
-  margin: 0;
-}
-
-/* Lightbox */
-.lightbox {
-  position: fixed;
-  inset: 0;
-  z-index: 200;
-  background: rgba(0, 0, 0, 0.88);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.lightboxImg {
-  max-width: 90vw;
-  max-height: 85vh;
-  object-fit: contain;
-  border-radius: var(--radius-md, 6px);
-}
-
-.lightboxClose {
-  position: absolute;
-  top: var(--space-4, 16px);
-  right: var(--space-4, 16px);
-  background: none;
-  border: none;
-  color: #fff;
-  font-size: 1.5rem;
-  cursor: pointer;
-  line-height: 1;
-  opacity: 0.7;
-  transition: opacity var(--t-fast);
-}
-
-.lightboxClose:hover {
-  opacity: 1;
-}
-
-.lightboxNav {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: none;
-  border: none;
-  color: #fff;
-  font-size: 3rem;
-  cursor: pointer;
-  line-height: 1;
-  opacity: 0.6;
-  padding: 0 var(--space-4, 16px);
-  transition: opacity var(--t-fast);
-}
-
-.lightboxNav:hover {
-  opacity: 1;
-}
-
-.lightboxPrev { left: 0; }
-.lightboxNext { right: 0; }
-
-.lightboxCounter {
-  position: absolute;
-  bottom: var(--space-4, 16px);
-  left: 50%;
-  transform: translateX(-50%);
-  font-family: var(--f-ui), system-ui, sans-serif;
-  font-size: 12px;
-  color: rgba(255, 255, 255, 0.6);
   margin: 0;
 }

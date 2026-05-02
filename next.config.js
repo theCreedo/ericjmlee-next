@@ -2,7 +2,6 @@
 const nextConfig = {
   async redirects() {
     return [
-      { source: '/now',        destination: '/',        permanent: true },
       { source: '/blog',       destination: '/archive', permanent: true },
       { source: '/experience', destination: '/work',    permanent: true },
     ]
@@ -74,7 +73,19 @@ const nextConfig = {
         hostname: 'outsidethe9to5life.wordpress.com',
         port: '',
         pathname: '/**',
-      }
+      },
+      {
+        protocol: 'https',
+        hostname: 'image.tmdb.org',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn.akamai.steamstatic.com',
+        port: '',
+        pathname: '/**',
+      },
     ],
   },
 }

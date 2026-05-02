@@ -46,10 +46,11 @@ const PERSON_SCHEMA = {
     'Trading Card Game Retail',
   ],
   sameAs: [
-    'http://linkedin.com/in/ericjmlee',
-    'https://fabtcg.com/judges/ericjmlee/',
-    'https://www.instagram.com/fabcreedo/',
+    'https://www.linkedin.com/in/ericjmlee',
     'https://github.com/theCreedo',
+    'https://judge.fabtcg.com/judges/ericjmlee',
+    'https://www.instagram.com/fabcreedo/',
+    'https://www.tcgplayer.com/sellers/Creedo%27s-Emporio/c32f5ae7',
   ],
 }
 
@@ -61,7 +62,7 @@ const nav = [
   { label: 'Archive', href: '/archive' },
 ]
 
-export default function Layout({ children, home, project, experience, blog, newsletter, postData, canonicalPath, ogType }) {
+export default function Layout({ children, home, project, experience, blog, newsletter, postData }) {
   const [navOpen, setNavOpen] = useState(false)
   const { darkMode, toggleDarkMode } = useDarkMode()
 
@@ -76,10 +77,6 @@ export default function Layout({ children, home, project, experience, blog, news
         <meta key="og:image" property="og:image" content={DEFAULT_OG_IMAGE} />
         <meta key="og:description" property="og:description" content={DEFAULT_DESCRIPTION} />
         <meta property="twitter:card" content="summary_large_image" />
-        {canonicalPath && <link rel="canonical" href={`${base_url}${canonicalPath}`} />}
-        {canonicalPath && <meta property="og:url" content={`${base_url}${canonicalPath}`} />}
-        <meta property="og:type" content={ogType || 'website'} />
-        <meta property="og:locale" content="en_US" />
         {home      && <meta key="og:title" property="og:title" content={siteTitle} />}
         {project   && <meta key="og:title" property="og:title" content={`Projects | ${siteTitle}`} />}
         {experience && <meta key="og:title" property="og:title" content={`Experience | ${siteTitle}`} />}
