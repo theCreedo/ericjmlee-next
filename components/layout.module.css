@@ -92,7 +92,40 @@
   color: var(--text);
 }
 
+.mobileThemeToggle {
+  display: none;
+}
+
 @media (max-width: 768px) {
+  .navThemeToggle {
+    display: none;
+  }
+
+  .mobileThemeToggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: var(--space-5, 20px);
+    right: var(--space-5, 20px);
+    z-index: 49;
+    width: 40px;
+    height: 40px;
+    border-radius: var(--radius-full, 9999px);
+    background: var(--bg-alt);
+    border: 1px solid var(--border);
+    box-shadow: 0 2px 8px var(--shadow);
+    cursor: pointer;
+    font-size: 0.85rem;
+    color: var(--faint);
+    transition: color var(--t-fast), box-shadow var(--t-fast);
+  }
+
+  .mobileThemeToggle:hover {
+    color: var(--text);
+    box-shadow: 0 4px 12px var(--shadow);
+  }
+
   .navHamburger {
     display: flex;
     flex-direction: column;
