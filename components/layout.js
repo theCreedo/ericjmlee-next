@@ -134,6 +134,13 @@ export default function Layout({ children, home, project, experience, blog, news
         )}
         <main className={styles.contentContainer}>{children}</main>
         <SiteFooter />
+        <button
+          className={styles.mobileThemeToggle}
+          onClick={toggleDarkMode}
+          aria-label={darkMode ? 'Switch to light mode' : 'Switch to dark mode'}
+        >
+          {darkMode ? '☀️' : '🌙'}
+        </button>
       </div>
     </div>
   )

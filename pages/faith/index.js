@@ -255,7 +255,17 @@ export default function Faith({ photos }) {
                   title={`${title} by ${artist}`}
                   className={styles.spotifyEmbed}
                 />
-                {note && <p className={styles.songNote}>{note}</p>}
+                <div className={styles.songMeta}>
+                  <a
+                    href={`https://open.spotify.com/track/${spotifyId}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.spotifyLink}
+                  >
+                    {title} — {artist} ↗
+                  </a>
+                  {note && <p className={styles.songNote}>{note}</p>}
+                </div>
               </li>
             ))}
           </ul>
