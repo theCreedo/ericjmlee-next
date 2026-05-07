@@ -4,16 +4,20 @@ import Link from "next/link"
 import Head from 'next/head'
 import Image from 'next/image'
 import utilStyles from '../../styles/utils.module.css'
+import styles from './post.module.css'
 import { getAdjacentPosts, getAllPostIds, getPostData } from '../../lib/posts'
+import { getRelatedPosts } from '../../lib/related'
 import JsonLd from '../../components/JsonLd'
 
 export async function getStaticProps({ params }) {
     const postData = await getPostData(params.id)
     const adjacentPostsData = await getAdjacentPosts(params.id)
+    const relatedPosts = getRelatedPosts(params.id)
     return {
         props: {
             postData,
             adjacentPostsData,
+            relatedPosts,
         }
     }
 }
@@ -26,7 +30,7 @@ export async function getStaticPaths() {
     }
 }
 
-export default function Post({ postData, adjacentPostsData }) {
+export default function Post({ postData, adjacentPostsData, relatedPosts }) {
     const postSchema = {
         '@context': 'https://schema.org',
         '@type': postData.evergreen ? 'Article' : 'BlogPosting',
@@ -108,6 +112,44 @@ export default function Post({ postData, adjacentPostsData }) {
                 <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
                 <hr style={{ borderColor: 'var(--border)', margin: 'var(--space-8) 0 0' }} />
             </article>
+            {postData.topics && postData.topics.length > 0 && (
+                <div className={styles.postTopics}>
+                    <span className={styles.postTopicsLabel}>TOPICS</span>
+                    <div className={styles.postTopicChips}>
+                        {postData.topics.map((t) => (
+                            <Link key={t} href={`/topic/${t}`} className={styles.postTopicChip}>
+                                {t}
+                            </Link>
+                        ))}
+                    </div>
+                </div>
+            )}
+            {relatedPosts && relatedPosts.length > 0 && (
+                <div className={styles.relatedSection}>
+                    <span className={styles.relatedLabel}>RELATED</span>
+                    <ul className={styles.relatedList}>
+                        {relatedPosts.map((post) => (
+                            <li key={post.id} className={styles.relatedItem}>
+                                <Link href={`/blog/${post.id}`} className={styles.relatedTitle}>
+                                    {post.title}
+                                </Link>
+                                <div className={styles.relatedMeta}>
+                                    <Date dateString={post.date} isPost />
+                                    {post.topics && post.topics.length > 0 && (
+                                        <span className={styles.relatedTopics}>
+                                            {post.topics.map((t) => (
+                                                <Link key={t} href={`/topic/${t}`} className={styles.relatedTopicChip}>
+                                                    {t}
+                                                </Link>
+                                            ))}
+                                        </span>
+                                    )}
+                                </div>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            )}
             <div className={utilStyles.blogLinkPadding}>
                 {adjacentPostsData.previousPost ? (
                     <div>

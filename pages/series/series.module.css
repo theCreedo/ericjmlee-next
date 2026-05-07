@@ -1,0 +1,89 @@
+.header {
+  margin-bottom: 2rem;
+}
+
+.sectionLabel {
+  font-family: var(--f-ui), system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--faint);
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.seriesName {
+  font-family: var(--f-display), Georgia, serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--ink);
+  margin: 0 0 0.25rem;
+}
+
+.count {
+  font-family: var(--f-ui), system-ui, sans-serif;
+  font-size: 12px;
+  color: var(--faint);
+  margin: 0;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-left: 2px solid var(--accent);
+  padding-left: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.listItem {
+  display: flex;
+  gap: 1rem;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.orderBadge {
+  font-family: var(--f-ui), system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--accent);
+  min-width: 20px;
+  padding-top: 4px;
+}
+
+.content {
+  flex: 1;
+}
+
+.postTitle {
+  font-family: var(--f-display), Georgia, serif;
+  font-size: 1.15rem;
+  font-weight: 400;
+  color: var(--ink);
+  text-decoration: none;
+  transition: color var(--t-fast);
+  display: block;
+}
+
+.postTitle:hover {
+  color: var(--accent);
+}
+
+.postDescription {
+  margin-top: 0.3rem;
+  font-family: var(--f-body), Georgia, serif;
+  font-size: 0.9rem;
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.meta {
+  margin-top: 0.3rem;
+  font-family: var(--f-ui), system-ui, sans-serif;
+  font-size: 11px;
+  color: var(--faint);
+}
