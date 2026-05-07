@@ -1,6 +1,11 @@
-import { getSortedPostsData } from '../lib/posts'
+import { getSortedPostsData, getAllSeries } from '../lib/posts'
 
 const BASE = 'https://ericjmlee.com'
+
+const ALL_TOPICS = [
+  'faith', 'leadership', 'reflection', 'practice', 'relationships',
+  'purpose', 'craft', 'college', 'career', 'health',
+]
 
 const STATIC_PAGES = [
   { loc: '/',        priority: '1.0', changefreq: 'weekly' },
@@ -47,7 +52,20 @@ export async function getServerSideProps({ res }) {
     changefreq: 'never',
   }))
 
-  const xml = buildXml([...staticEntries, ...postEntries])
+  const topicEntries = ALL_TOPICS.map((t) => ({
+    loc: `${BASE}/topic/${t}`,
+    priority: '0.6',
+    changefreq: 'weekly',
+  }))
+
+  const seriesMap = getAllSeries()
+  const seriesEntries = Object.keys(seriesMap).map((slug) => ({
+    loc: `${BASE}/series/${slug}`,
+    priority: '0.6',
+    changefreq: 'weekly',
+  }))
+
+  const xml = buildXml([...staticEntries, ...topicEntries, ...seriesEntries, ...postEntries])
 
   res.setHeader('Content-Type', 'application/xml; charset=utf-8')
   res.setHeader('Cache-Control', 'public, max-age=3600, stale-while-revalidate=86400')

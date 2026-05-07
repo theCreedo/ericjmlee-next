@@ -236,6 +236,24 @@
   border: none;
 }
 
+.songMeta {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1, 4px);
+}
+
+.spotifyLink {
+  display: none;
+  font-family: var(--f-ui), system-ui, sans-serif;
+  font-size: 13px;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.spotifyLink:hover {
+  text-decoration: underline;
+}
+
 .songNote {
   font-family: var(--f-body), Georgia, serif;
   font-size: 13px;
@@ -243,6 +261,16 @@
   margin: 0;
   line-height: 1.5;
   font-style: italic;
+}
+
+@media (max-width: 640px) {
+  .spotifyEmbed {
+    display: none;
+  }
+
+  .spotifyLink {
+    display: block;
+  }
 }
 
 /* Cross-domain links */

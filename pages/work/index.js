@@ -74,7 +74,7 @@ export default function Work({ experiences }) {
   }
 
   return (
-    <Layout>
+    <Layout canonicalPath="/work">
       <Head>
         <title>{`Work | ${siteTitle}`}</title>
         <meta name="description" content="Eric Lee's work in developer advocacy, software engineering, and technical community building." />

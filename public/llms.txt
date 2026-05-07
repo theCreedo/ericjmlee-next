@@ -55,8 +55,8 @@ Missions: Short-term missions in the US, Latin America, and Asia
 ## Writing
 
 Archive: https://ericjmlee.com/archive
-70+ published posts since 2019 spanning 7 topic categories:
-faith · leadership · reflection · practice · relationships · purpose · craft
+200+ posts (newsletter issues, blog entries, reflections) spanning 10 topic categories:
+faith · leadership · reflection · practice · relationships · purpose · craft · college · career · health
 
 Topics are inferred automatically from post content and frontmatter.
 Also published on: WordPress, Medium, UT CS blog, Substack (Savvy Saturdays newsletter, 2020–2021)
@@ -89,7 +89,7 @@ Curated representative writing — available as plain Markdown at /blog/[id].md
 - Calling, Identity, and Stewardship: https://ericjmlee.com/blog/calling-identity-and-stewardship.md
 - Balance Macro & Micro: https://ericjmlee.com/blog/balance-macro-and-micro.md
 
-All 70+ posts: https://ericjmlee.com/archive
+All posts: https://ericjmlee.com/archive
 
 ---
 
@@ -99,6 +99,7 @@ Primary nav (flat): Work · Cards · Faith · Studio · Archive
 
 Secondary pages (accessible but not in nav):
 - /about — bio and contact
+- /now — current focus across work, faith, and cards
 - /extras — personality tests, hobbies, recommendations, quotes, verses, site history
 
 ---
@@ -108,12 +109,13 @@ Secondary pages (accessible but not in nav):
 - / — hero statement, four domain cards, about section
 - /work — career history, developer advocacy, software engineering background, past roles
 - /cards — Playing, collecting, selling, and judging in Flesh & Blood TCG. L2 judge, JCR South Central.
-- /faith — HMCC Austin involvement, worship (keys), small group leadership, missions
+- /faith — HMCC Austin involvement, values, worship songs, community photos, missions
 - /studio — writing archive, early projects, newsletter (Savvy Saturdays 2020–2021), past platforms
 - /archive — all published writing, year-filtered, with display-only topic tags
 - /blog/[id] — individual post canonical pages
 - /projects — hackathon and early projects (linked from /studio)
-- /extras — personality, recommendations, hobbies, quotes, verses, site history
+- /now — current focus by domain (work, faith, cards), not in nav
+- /extras — personality, recommendations, hobbies, principles, quotes, verses, site history
 - /about — bio paragraph and contact (not in nav)
 - /llms.txt — this file (machine-readable identity summary)
 - /sitemap.xml — auto-generated XML sitemap
@@ -132,4 +134,5 @@ Versioned history:
 - 2021.ericjmlee.com — first production version
 - 2022.ericjmlee.com — last change before multi-year freeze
 - 2025.ericjmlee.com — pre-redesign snapshot
+- 2026.ericjmlee.com — post-V3 enrichment snapshot
 - ericjmlee.com — current

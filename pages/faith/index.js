@@ -117,9 +117,17 @@ export default function Faith({ photos }) {
     toggleDarkMode()
   }
 
-  const closeLightbox = useCallback(() => setLightboxIndex(null), [])
+  const closeLightbox = useCallback(() => {
+    if (typeof window !== 'undefined' && window.history.state?.lightboxOpen) {
+      window.history.back()
+    } else {
+      setLightboxIndex(null)
+    }
+  }, [])
   const prev = useCallback(() => setLightboxIndex((i) => (i - 1 + photos.length) % photos.length), [photos.length])
   const next = useCallback(() => setLightboxIndex((i) => (i + 1) % photos.length), [photos.length])
+
+  const isLightboxOpen = lightboxIndex !== null
 
   useEffect(() => {
     if (lightboxIndex === null) return
@@ -132,8 +140,16 @@ export default function Faith({ photos }) {
     return () => window.removeEventListener('keydown', onKey)
   }, [lightboxIndex, closeLightbox, prev, next])
 
+  useEffect(() => {
+    if (!isLightboxOpen) return
+    window.history.pushState({ lightboxOpen: true }, '')
+    function onPop() { setLightboxIndex(null) }
+    window.addEventListener('popstate', onPop)
+    return () => window.removeEventListener('popstate', onPop)
+  }, [isLightboxOpen])
+
   return (
-    <Layout>
+    <Layout canonicalPath="/faith">
       <Head>
         <title>{`Faith | ${siteTitle}`}</title>
         <meta name="description" content="Eric Lee's faith — what it means to how he lives." />
@@ -239,7 +255,17 @@ export default function Faith({ photos }) {
                   title={`${title} by ${artist}`}
                   className={styles.spotifyEmbed}
                 />
-                {note && <p className={styles.songNote}>{note}</p>}
+                <div className={styles.songMeta}>
+                  <a
+                    href={`https://open.spotify.com/track/${spotifyId}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.spotifyLink}
+                  >
+                    {title} — {artist} ↗
+                  </a>
+                  {note && <p className={styles.songNote}>{note}</p>}
+                </div>
               </li>
             ))}
           </ul>

@@ -4,6 +4,7 @@ const nextConfig = {
     return [
       { source: '/blog',       destination: '/archive', permanent: true },
       { source: '/experience', destination: '/work',    permanent: true },
+      { source: '/feed.xml',   destination: '/rss.xml', permanent: true },
     ]
   },
   images: {

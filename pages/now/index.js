@@ -35,14 +35,11 @@ function formatUpdated(iso) {
 
 export default function Now({ nowData }) {
   return (
-    <Layout>
+    <Layout canonicalPath="/now">
       <Head>
         <title>{`Now | ${siteTitle}`}</title>
         <meta name="description" content="What Eric Lee is focused on right now — work, faith, and cards." />
-        <link rel="canonical" href={`${base_url}/now`} />
         <meta property="og:title" content={`Now | ${siteTitle}`} />
-        <meta property="og:url" content={`${base_url}/now`} />
-        <meta property="og:type" content="website" />
         <JsonLd data={NOW_SCHEMA} />
       </Head>
       <div className={styles.page}>

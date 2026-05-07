@@ -10,7 +10,7 @@ export default function About() {
     <Layout canonicalPath="/about">
       <Head>
         <title>{`About | ${siteTitle}`}</title>
-        <meta name="description" content="About Eric Lee — developer advocate, L2 judge, church leader, and writer based in Austin, TX." />
+        <meta name="description" content="About Eric Lee — Developer Advocate at Global Payments, FAB L2 judge, church leader at HMCC Austin, and writer. UT Austin CS '19, based in Austin, TX." />
       </Head>
       <div className={styles.page}>
         <h1>About</h1>
