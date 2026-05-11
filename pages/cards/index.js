@@ -8,6 +8,7 @@ import Layout, { siteTitle, base_url } from '../../components/layout'
 import JsonLd from '../../components/JsonLd'
 import { useDarkMode } from '../_app'
 import styles from '../../styles/domain.module.css'
+import { getDomainPosts } from '../../lib/archive'
 
 const LOGOS = [
   { file: 'fab-logo.png',             alt: 'Flesh and Blood TCG', url: 'https://fabtcg.com' },
@@ -35,14 +36,14 @@ export async function getStaticProps() {
   const photosDir = path.join(process.cwd(), 'public/images/cards/photos')
   const metaPath = path.join(photosDir, 'photos.json')
   const meta = fs.existsSync(metaPath) ? JSON.parse(fs.readFileSync(metaPath, 'utf-8')) : {}
-  const photos = fs.readdirSync(photosDir)
+  const photos = Object.keys(meta)
     .filter((f) => /\.(jpg|jpeg|png|webp)$/i.test(f))
-    .sort()
     .map((f) => ({ file: f, caption: meta[f] || null }))
-  return { props: { photos } }
+  const reports = getDomainPosts('cards')
+  return { props: { photos, reports } }
 }
 
-export default function Cards({ photos }) {
+export default function Cards({ photos, reports }) {
   const { toggleDarkMode } = useDarkMode()
   const [avatarPop, setAvatarPop] = useState(false)
   const [lightboxIndex, setLightboxIndex] = useState(null)
@@ -139,30 +140,18 @@ export default function Cards({ photos }) {
         <section className={styles.section}>
           <p className={styles.sectionLabel}>Writing</p>
           <ul className={styles.linkList}>
-            <li className={styles.linkItem}>
-              <span className={styles.linkLabel}>Apr 2026</span>
-              <span className={styles.linkValue}>
-                <a href="https://blog.judge.fabtcg.com/blog/2026/04/13/judge-projects-policy/" target="_blank" rel="noopener noreferrer">
-                  Behind the Scenes: The Policy Team – Shaping How We Judge Flesh and Blood
-                </a>
-              </span>
-            </li>
-            <li className={styles.linkItem}>
-              <span className={styles.linkLabel}>Nov 2025</span>
-              <span className={styles.linkValue}>
-                <a href="https://blog.judge.fabtcg.com/blog/2025/11/11/what-is-a-wrangler-part-2/" target="_blank" rel="noopener noreferrer">
-                  Wrangling at Gen Con: How Outreach Filled Every Demo Seat in 15 Minutes
-                </a>
-              </span>
-            </li>
-            <li className={styles.linkItem}>
-              <span className={styles.linkLabel}>Nov 2025</span>
-              <span className={styles.linkValue}>
-                <a href="https://blog.judge.fabtcg.com/blog/2025/11/08/what-is-a-wrangler-part-1/" target="_blank" rel="noopener noreferrer">
-                  What is a Wrangler? Understanding the L2P Role (Part 1)
-                </a>
-              </span>
-            </li>
+            {reports.map((r) => (
+              <li key={r.id} className={styles.linkItem}>
+                <span className={styles.linkLabel}>{r.date.slice(0, 7).replace('-', ' ')}</span>
+                <span className={styles.linkValue}>
+                  {r.original_link ? (
+                    <a href={r.original_link} target="_blank" rel="noopener noreferrer">{r.title}</a>
+                  ) : (
+                    <Link href={`/blog/${r.id}`}>{r.title}</Link>
+                  )}
+                </span>
+              </li>
+            ))}
           </ul>
           <p style={{ marginTop: '12px', fontFamily: 'var(--f-ui)', fontSize: '13px' }}>
             Topics span policy and rules, personal stories from events, and interviews with judges on their experiences.{' '}

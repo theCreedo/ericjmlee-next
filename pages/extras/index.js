@@ -101,11 +101,17 @@ const PRINCIPLES = [
 ]
 
 const SITE_HISTORY = [
-  { year: 'Origin', url: 'https://origin.ericjmlee.com', label: 'origin.ericjmlee.com' },
-  { year: '2021', url: 'https://2021.ericjmlee.com', label: '2021.ericjmlee.com' },
-  { year: '2022', url: 'https://2022.ericjmlee.com', label: '2022.ericjmlee.com' },
-  { year: '2025', url: 'https://2025.ericjmlee.com', label: '2025.ericjmlee.com' },
-  { year: 'Now', url: 'https://ericjmlee.com', label: 'ericjmlee.com' },
+  { year: 'Origin', url: 'https://origin.ericjmlee.com', label: 'origin.ericjmlee.com', versions: null },
+  { year: '2021',   url: 'https://2021.ericjmlee.com',   label: '2021.ericjmlee.com',   versions: null },
+  { year: '2022',   url: 'https://2022.ericjmlee.com',   label: '2022.ericjmlee.com',   versions: null },
+  { year: '2025',   url: 'https://2025.ericjmlee.com',   label: '2025.ericjmlee.com',   versions: null },
+  { year: 'Now',    url: 'https://ericjmlee.com',        label: 'ericjmlee.com',         versions: [
+    { label: 'v1', url: 'https://2026v1.ericjmlee.com' },
+    { label: 'v2', url: 'https://2026v2.ericjmlee.com' },
+    { label: 'v3', url: 'https://2026v3.ericjmlee.com' },
+    { label: 'v4', url: 'https://2026v4.ericjmlee.com' },
+    { label: 'v5', url: 'https://ericjmlee.com', current: true },
+  ]},
 ]
 
 export async function getStaticProps() {
@@ -148,10 +154,10 @@ export async function getStaticProps() {
     }))
   )
 
-  return { props: { photos, recs } }
+  return { props: { photos, recs, year: new Date().getFullYear() } }
 }
 
-export default function Extras({ photos, recs }) {
+export default function Extras({ photos, recs, year }) {
   const [lightboxIndex, setLightboxIndex] = useState(null)
 
   const closeLightbox = useCallback(() => {
@@ -194,7 +200,7 @@ export default function Extras({ photos, recs }) {
 
       <h1>Extras</h1>
       <p style={{ fontFamily: 'var(--f-ui)', fontSize: '13px', color: 'var(--faint)', marginTop: 0 }}>
-        The stuff that doesn&apos;t fit neatly anywhere else.
+        The stuff that doesn&apos;t fit neatly anywhere else. · {year}
       </p>
 
       <section className={styles.section}>
@@ -337,10 +343,23 @@ export default function Extras({ photos, recs }) {
         <h2>Site History</h2>
         <p>This site has gone through a few eras.</p>
         <ul className={styles.historyList}>
-          {SITE_HISTORY.map(({ year, url, label }) => (
+          {SITE_HISTORY.map(({ year, url, label, versions }) => (
             <li key={year}>
               <span className={styles.historyYear}>{year}</span>
               <a href={url} target="_blank" rel="noopener noreferrer">{label}</a>
+              {versions && (
+                <span className={styles.historyVersions}>
+                  {versions.map((v, i) => (
+                    <span key={v.label}>
+                      {i > 0 && ' · '}
+                      {v.url
+                        ? <a href={v.url} target="_blank" rel="noopener noreferrer">{v.label}{v.current ? ' ←' : ''}</a>
+                        : <span className={styles.historyVersionUnlinked}>{v.label}</span>
+                      }
+                    </span>
+                  ))}
+                </span>
+              )}
             </li>
           ))}
         </ul>

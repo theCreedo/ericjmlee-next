@@ -67,6 +67,11 @@ export default function Home() {
           </div>
         </div>
 
+        <section id="about" className={styles.about}>
+          <p>Raised in Plano, Taiwanese roots, Texas all my life. I studied CS at <a href="https://www.utexas.edu" target="_blank" rel="noopener noreferrer">UT Austin</a> 🤘 and stayed in Austin afterwards. I work in developer advocacy —
+          currently at <a href="https://www.globalpayments.com" target="_blank" rel="noopener noreferrer">Global Payments</a> — judge and play <a href="https://fabtcg.com" target="_blank" rel="noopener noreferrer">Flesh and Blood TCG</a>, serve at <a href="https://atx.hmccglobal.org/" target="_blank" rel="noopener noreferrer">HMCC Austin</a>, and write &amp; tinker on many projects on the side.</p>
+        </section>
+
         <div className={styles.domainGrid}>
           {domains.map(({ label, href, description }) => (
             <a key={label} href={href} className={styles.domainCard}>
@@ -75,11 +80,6 @@ export default function Home() {
             </a>
           ))}
         </div>
-
-        <section id="about" className={styles.about}>
-          <p>Raised in Plano 🇺🇸, Taiwanese roots 🇹🇼, Texas all my life. I studied CS at <a href="https://www.utexas.edu" target="_blank" rel="noopener noreferrer">UT Austin</a> 🤘 and stayed in Austin afterwards. I work in developer advocacy —
-          currently at <a href="https://www.globalpayments.com" target="_blank" rel="noopener noreferrer">Global Payments</a> — judge and play <a href="https://fabtcg.com" target="_blank" rel="noopener noreferrer">Flesh and Blood TCG</a>, serve at <a href="https://atx.hmccglobal.org/" target="_blank" rel="noopener noreferrer">HMCC Austin</a>, and write &amp; tinker on many projects on the side.</p>
-        </section>
       </section>
     </Layout>
   )

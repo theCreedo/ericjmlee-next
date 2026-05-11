@@ -107,8 +107,8 @@ export default function Studio() {
             <li className={styles.linkItem}>
               <span className={styles.linkLabel}>Medium</span>
               <span className={styles.linkValue}>
-                <a href="https://medium.com/@ericjmlee" target="_blank" rel="noopener noreferrer">
-                  medium.com/@ericjmlee
+                <a href="https://medium.com/@theCreedo" target="_blank" rel="noopener noreferrer">
+                  medium.com/@theCreedo
                 </a>
               </span>
             </li>
