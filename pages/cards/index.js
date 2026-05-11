@@ -36,9 +36,8 @@ export async function getStaticProps() {
   const photosDir = path.join(process.cwd(), 'public/images/cards/photos')
   const metaPath = path.join(photosDir, 'photos.json')
   const meta = fs.existsSync(metaPath) ? JSON.parse(fs.readFileSync(metaPath, 'utf-8')) : {}
-  const photos = fs.readdirSync(photosDir)
+  const photos = Object.keys(meta)
     .filter((f) => /\.(jpg|jpeg|png|webp)$/i.test(f))
-    .sort()
     .map((f) => ({ file: f, caption: meta[f] || null }))
   const reports = getDomainPosts('cards')
   return { props: { photos, reports } }
