@@ -63,6 +63,16 @@
   min-width: 3.5rem;
 }
 
+.historyVersions {
+  font-family: var(--f-mono), monospace;
+  font-size: 11px;
+  color: var(--faint);
+}
+
+.historyVersionUnlinked {
+  opacity: 0.5;
+}
+
 .quoteList {
   list-style: none;
   padding: 0;
