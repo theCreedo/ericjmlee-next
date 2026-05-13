@@ -4,11 +4,6 @@ import { neon } from '@neondatabase/serverless'
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).end()
 
-  const secret = req.headers['x-send-secret'] || req.query.secret
-  if (!secret || secret !== process.env.NEWSLETTER_SEND_SECRET) {
-    return res.status(401).json({ error: 'Unauthorized' })
-  }
-
   const sql = neon(process.env.POSTGRES_URL)
 
   try {
