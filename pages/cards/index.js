@@ -138,6 +138,15 @@ export default function Cards({ photos, reports }) {
         </div>
 
         <section className={styles.section}>
+          <p className={styles.sectionLabel}>Judging</p>
+          <p style={{ fontFamily: 'var(--f-ui)', fontSize: '13px' }}>
+            <a href="https://judge.fabtcg.com/judges/ericjmlee/" target="_blank" rel="noopener noreferrer">
+              Full judge record →
+            </a>
+          </p>
+        </section>
+
+        <section className={styles.section}>
           <p className={styles.sectionLabel}>Writing</p>
           <ul className={styles.linkList}>
             {reports.map((r) => (
