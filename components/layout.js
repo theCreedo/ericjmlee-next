@@ -5,6 +5,7 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import JsonLd from './JsonLd'
 import SiteFooter from './SiteFooter'
+import NewsletterWidget from './NewsletterWidget'
 import { useState } from 'react'
 import { useDarkMode } from '../pages/_app'
 
@@ -134,6 +135,7 @@ export default function Layout({ children, home, project, experience, blog, news
         )}
         <main className={styles.contentContainer}>{children}</main>
         <SiteFooter />
+        <NewsletterWidget />
         <button
           className={styles.mobileThemeToggle}
           onClick={toggleDarkMode}

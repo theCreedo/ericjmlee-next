@@ -7,6 +7,7 @@ import Link from 'next/link'
 import Layout, { siteTitle, base_url } from '../../components/layout'
 import JsonLd from '../../components/JsonLd'
 import { useDarkMode } from '../_app'
+import { getDomainPosts } from '../../lib/archive'
 import styles from '../../styles/domain.module.css'
 
 const VALUES = [
@@ -95,7 +96,8 @@ export async function getStaticProps() {
     .filter((f) => /\.(jpg|jpeg|png|webp)$/i.test(f))
     .sort()
     .map((f) => ({ file: f, caption: meta[f] || null }))
-  return { props: { photos } }
+  const reflections = getDomainPosts('faith')
+  return { props: { photos, reflections } }
 }
 
 const FAITH_SCHEMA = {
@@ -106,7 +108,7 @@ const FAITH_SCHEMA = {
   description: 'Faith, community, and church involvement at HMCC Austin. Worship (keys) and small group leadership for working adults.',
 }
 
-export default function Faith({ photos }) {
+export default function Faith({ photos, reflections }) {
   const { toggleDarkMode } = useDarkMode()
   const [avatarPop, setAvatarPop] = useState(false)
   const [lightboxIndex, setLightboxIndex] = useState(null)
@@ -238,6 +240,22 @@ export default function Faith({ photos }) {
             </div>
           )}
         </section>
+
+        {reflections.length > 0 && (
+          <section className={styles.section}>
+            <p className={styles.sectionLabel}>Reflections</p>
+            <ul className={styles.linkList}>
+              {reflections.map(({ id, title, date }) => (
+                <li key={id} className={styles.linkItem}>
+                  <span className={styles.linkLabel}>{date.slice(0, 7).replace('-', ' ')}</span>
+                  <span className={styles.linkValue}>
+                    <Link href={`/blog/${id}`}>{title}</Link>
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         <section className={styles.section}>
           <p className={styles.sectionLabel}>Songs</p>

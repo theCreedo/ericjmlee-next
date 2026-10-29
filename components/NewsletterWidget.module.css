@@ -1,0 +1,209 @@
+.widget {
+  position: fixed;
+  bottom: var(--space-6, 24px);
+  left: var(--space-6, 24px);
+  z-index: 90;
+  width: 300px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md, 6px);
+  box-shadow: 0 4px 24px var(--shadow);
+  padding: var(--space-5, 20px);
+  transform: translateY(20px);
+  opacity: 0;
+  pointer-events: none;
+  transition: transform 280ms ease, opacity 280ms ease;
+}
+
+.widget.visible {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: var(--space-3, 12px);
+}
+
+.eyebrow {
+  font-family: var(--f-ui), system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0;
+  padding-top: 2px;
+}
+
+.closeBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--faint);
+  font-size: 16px;
+  line-height: 1;
+  padding: 0;
+  transition: color var(--t-fast);
+  flex-shrink: 0;
+}
+
+.closeBtn:hover {
+  color: var(--ink);
+}
+
+.heading {
+  font-family: var(--f-display), Georgia, serif;
+  font-size: 1.15rem;
+  font-weight: 400;
+  color: var(--ink);
+  margin: 0 0 var(--space-3, 12px);
+  line-height: 1.3;
+}
+
+.emailRow {
+  display: flex;
+  gap: var(--space-2, 8px);
+  margin-bottom: var(--space-3, 12px);
+}
+
+.emailInput {
+  flex: 1;
+  min-width: 0;
+  font-family: var(--f-ui), system-ui, sans-serif;
+  font-size: 13px;
+  padding: var(--space-2, 8px) var(--space-3, 12px);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm, 3px);
+  background: var(--bg);
+  color: var(--ink);
+  transition: border-color var(--t-fast);
+  outline: none;
+}
+
+.emailInput::placeholder {
+  color: var(--faint);
+}
+
+.emailInput:focus {
+  border-color: var(--accent);
+}
+
+.submitBtn {
+  font-family: var(--f-ui), system-ui, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  padding: var(--space-2, 8px) var(--space-3, 12px);
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-sm, 3px);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background var(--t-fast), opacity var(--t-fast);
+  flex-shrink: 0;
+}
+
+.submitBtn:hover {
+  background: var(--accent-hover);
+}
+
+.submitBtn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.domainsLabel {
+  font-family: var(--f-ui), system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--faint);
+  margin: 0 0 var(--space-2, 8px);
+}
+
+.domainChips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1, 4px);
+  margin-bottom: var(--space-3, 12px);
+}
+
+.chip {
+  font-family: var(--f-ui), system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full, 9999px);
+  background: none;
+  color: var(--faint);
+  cursor: pointer;
+  transition: background var(--t-fast), border-color var(--t-fast), color var(--t-fast);
+}
+
+.chip:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.chip.chipActive {
+  background: var(--accent-subtle);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.success {
+  text-align: center;
+  padding: var(--space-2, 8px) 0;
+}
+
+.successIcon {
+  font-size: 24px;
+  margin-bottom: var(--space-2, 8px);
+}
+
+.successText {
+  font-family: var(--f-body), Georgia, serif;
+  font-size: 15px;
+  color: var(--text);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.successSub {
+  font-family: var(--f-ui), system-ui, sans-serif;
+  font-size: 11px;
+  color: var(--faint);
+  margin: var(--space-1, 4px) 0 0;
+}
+
+.errorText {
+  font-family: var(--f-ui), system-ui, sans-serif;
+  font-size: 11px;
+  color: #c0392b;
+  margin: var(--space-1, 4px) 0 0;
+}
+
+.hint {
+  font-family: var(--f-ui), system-ui, sans-serif;
+  font-size: 10px;
+  color: var(--faint);
+  margin: 0;
+  line-height: 1.5;
+}
+
+@media (max-width: 480px) {
+  .widget {
+    left: var(--space-4, 16px);
+    right: var(--space-4, 16px);
+    bottom: var(--space-4, 16px);
+    width: auto;
+  }
+}
